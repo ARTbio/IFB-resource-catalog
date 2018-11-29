@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load customtags %}
+
+{% block title %}Service: {{ name }}{% endblock %}
+
+{% block content %}
+
+
+{% for service in service_list %}
+<h1>Details on {{ service.name }}</h1>
+{%if service.is_data is True%}<strong><mark>Data</mark></strong>{%endif%}
+{%if service.is_training is True%}<strong><mark>Training</mark></strong>{%endif%}
+{%if service.is_compute is True%}<strong><mark>Compute</mark></strong>{%endif%}
+{%if service.is_interoperability is True%}<strong><mark>Interoperability</mark></strong>{%endif%}
+
+
+    <p><h4>Name of the Service:</h4>{{ service.name }}</p>
+    <p><h4>Created By</h4>
+        {% for c in service.credit.all %}
+        {{c}}{%if not forloop.last%},{%endif%}
+        {%endfor%}
+    </p>
+    <p><h4>Scope of the service:</h4> {{ service.scope }}</p>
+    <p><h4>Year of creation:</h4>  {{ service.year_created }}</p>
+    <p><h4>Description:</h4>  {{ service.description }}</p>
+    <p><h4>Communities:</h4>  {{ service.communities }} </p>
+    <p><h4>Elixir communities:</h4>
+        {% for c in service.elixir_communities.all %}
+        {{c}}{%if not forloop.last%},{%endif%}
+        {%endfor%}
+    </p>
+    <p><h4>Maturity:</h4>  {{ service.maturity }} </p>
+    <p><h4>Access to the services: :</h4>  {{ service.access }} </p>
+    <p><h4>Quality of the service: </h4>  {{ service.quality }} </p>
+    <p><h4>Overall usage:</h4>  {{ service.usage }} </p>
+    <p><h4>Number of publications citing the resource, acknowledgements, ...:</h4>  {{ service.publication_citations_nb }} </p>
+    <p><h4>Number of publications where the developers of the ressource are co-authors:</h4>  {{ service.publication_coauthor_nb }} </p>
+    <p><h4a>Up to 5 key publications describing the resource:</h4a>
+        {% for c in service.key_pub.all %}
+        doi:{{c}}{%if not forloop.last%},{%endif%}
+        {%endfor%}
+    </p>
+    <p><h4>Scientific Advisory Board, users committee, ...: :</h4>  {{ service.sab_user_comittee }} </p>
+    <p><h4>Term of use:</h4>  {{ service.term_of_use }} </p>
+    <p><h4>Ethics policy:</h4>  {{ service.ethics_policy }} </p>
+    <p><h4>Funding:</h4>  {{ service.funding }} </p>
+
+
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks %}
+
+
+
+{% block content %}
+
+<h1>IFB catalogue: Services</h1>
+  <form method="get">
+    <div class="well">
+      <h4 style="margin-top: 0">Filter Services</h4>
+      <div class="row">
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.name.label_tag }}
+          {% render_field filter.form.name class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.year_created.label_tag }}
+          {% render_field filter.form.year_created class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.maturity.label_tag }}
+          {% render_field filter.form.maturity class="form-control" %}
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </div>
+  </form>
+
+  <table id="table"
+         data-page-length='25'
+         class="table table-striped table-bordered ">
+    <thead class="thead-dark">
+      <tr>
+        <th>Name</th>
+        <th>Credit</th>
+        <th>Year</th>
+        <th>Maturity</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {% for obj in filter.qs %}
+        <tr>
+          <td> <a href="/services/{{ obj.id }}">{{ obj.name }}</a></br></td>
+          <td>{% for credit in obj.credit.all %}{{ credit }}{%if not forloop.last%}</br>{%endif%}{% endfor %}</td>
+          <td>{{ obj.year_created }}</td>
+          <td>{{ obj.maturity }}</td>
+
+          </td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">No data</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

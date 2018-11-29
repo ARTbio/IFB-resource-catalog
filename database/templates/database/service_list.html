@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load customtags %}
+
+{% block title %}Catalogue of French resources in bioinformatics{% endblock %}
+
+{% block content %}
+<h1>IFB catalogue: Services</h1>
+
+
+
+{% for service in service_list %}
+{{ service.year_created }} - <a href="/services/{{ service.id }}">{{ service.name }}</a></br>
+
+{%endfor%}
+
+
+{% endblock %}

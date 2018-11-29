@@ -2,6 +2,8 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 import datetime
 from django.forms import ModelForm
+from django.urls import reverse
+import django_filters
 
 """
 class Dataset(models.Model):
@@ -183,9 +185,16 @@ class Service(models.Model):
     motivation_support_ifb_it = models.BooleanField(default=False)
     motivation_support_ifb_curation = models.BooleanField(default=False)
     motivation_support_ifb_core_resource = models.BooleanField(default=False)
+    biotoolsID = models.CharField(max_length=1000, null=True)
+
+
+
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('service-detail' ,args=[self.pk])
 
 
 
