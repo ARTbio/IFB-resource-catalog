@@ -1,20 +1,49 @@
-h1{
-  color: green
-  font-size: 32px;
-  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
-  font-family:Arial, Helvetica, sans-serif;
-  text-align:center;
-  display:block;
-  margin:16px;
+/*Elements pour la navbar*/
+.navbar li {
+  padding:0px 10px;
+}
+
+/*Elements pour les contenus*/
+.page-content {
+  margin: 0px 20px;
+  color: #0d0d0d;
+  background-color: lightgrey;
+  padding: 10px;
 }
 
 body {
-  padding-left: 15px;
+  background: darkgrey;
 }
 
-h4{
-color: #188de3;
-font-size: 2rem;
-padding: 5px 0;
+h1{
+  font-size: 32px;
+  color: #188de3;
+  /*text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;*/
+  font-weight: bold;
+  text-align:center;
+  margin:15px;
+
 }
+.entete {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  text-align: center;
+  color: #188de3;
+  margin-bottom: 1em;
+}
+
+.servdetail h4 {
+  color: #188de3;
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+.servdetail p {
+  padding-left: 20px;
+  text-align: justify;
 }
