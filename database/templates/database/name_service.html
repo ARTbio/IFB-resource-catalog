@@ -1,49 +1,78 @@
 {% extends "base.html" %}
 
-{% block title %}Service: {{ name }}{% endblock %}
+{% block title %}
+    Details on service: {{ service_list.0.name }}
+{% endblock %}
 
 {% block content %}
+    {% for service in service_list %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-4">{{ service.name }}</h2>
 
+            <div class="row entete">
+                <div class="col-sm">
+                    <ul>
+                        {%if service.is_data %}<li class="badge badge-pill badge-info">DATA</li>{%endif%}
+                        {%if service.is_training %}<li class="badge badge-pill badge-info">TRAINING</li>{%endif%}
+                        {%if service.is_compute %}<li class="badge badge-pill badge-info">COMPUTE</li>{%endif%}
+                        {%if service.is_interoperability %}<li class="badge badge-pill badge-info">INTEROPERABILITY</li>{%endif%}
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <ul>
+                        <li class="badge badge-pill badge-default">{{ service.maturity }}</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <ul>
+                        <li class="badge badge-pill badge-secondary">{{ service.year_created }}</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
 
-{% for service in service_list %}
-<h1>Details on {{ service.name }}</h1>
-{%if service.is_data is True%}<strong><mark>Data</mark></strong>{%endif%}
-{%if service.is_training is True%}<strong><mark>Training</mark></strong>{%endif%}
-{%if service.is_compute is True%}<strong><mark>Compute</mark></strong>{%endif%}
-{%if service.is_interoperability is True%}<strong><mark>Interoperability</mark></strong>{%endif%}
-
-
-    <p><h4>Name of the Service:</h4>{{ service.name }}</p>
-    <p><h4>Created By</h4>
-        {% for c in service.credit.all %}
-        {{c}}{%if not forloop.last%},{%endif%}
-        {%endfor%}
-    </p>
-    <p><h4>Scope of the service:</h4> {{ service.scope }}</p>
-    <p><h4>Year of creation:</h4>  {{ service.year_created }}</p>
-    <p><h4>Description:</h4>  {{ service.description }}</p>
-    <p><h4>Communities:</h4>  {{ service.communities }} </p>
-    <p><h4>Elixir communities:</h4>
-        {% for c in service.elixir_communities.all %}
-        {{c}}{%if not forloop.last%},{%endif%}
-        {%endfor%}
-    </p>
-    <p><h4>Maturity:</h4>  {{ service.maturity }} </p>
-    <p><h4>Access to the services: :</h4>  {{ service.access }} </p>
-    <p><h4>Quality of the service: </h4>  {{ service.quality }} </p>
-    <p><h4>Overall usage:</h4>  {{ service.usage }} </p>
-    <p><h4>Number of publications citing the resource, acknowledgements, ...:</h4>  {{ service.publication_citations_nb }} </p>
-    <p><h4>Number of publications where the developers of the ressource are co-authors:</h4>  {{ service.publication_coauthor_nb }} </p>
-    <p><h4a>Up to 5 key publications describing the resource:</h4a>
-        {% for c in service.key_pub.all %}
-        doi:{{c}}{%if not forloop.last%},{%endif%}
-        {%endfor%}
-    </p>
-    <p><h4>Scientific Advisory Board, users committee, ...: :</h4>  {{ service.sab_user_comittee }} </p>
-    <p><h4>Term of use:</h4>  {{ service.term_of_use }} </p>
-    <p><h4>Ethics policy:</h4>  {{ service.ethics_policy }} </p>
-    <p><h4>Funding:</h4>  {{ service.funding }} </p>
-
-
-{% endfor %}
+        <div class="container">
+            <div class="row servdetail">
+                <div class="col-lg-6">
+                    <h4>Name of the Service:</h4>
+                    <p>{{ service.name.upper }}</p>
+                    <h4>Created By</h4>
+                    <p>
+                        {% for c in service.credit.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                    <h4>Scope of the service:</h4> <p>{{ service.scope }}</p>
+                    <h4>Year of creation:</h4>  <p>{{ service.year_created }}</p>
+                    <h4>Description:</h4>  <p>{{ service.description }}</p>
+                    <h4>Communities:</h4>  <p>{{ service.communities }} </p>
+                    <h4>Elixir communities:</h4>
+                    <p>
+                        {% for c in service.elixir_communities.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Maturity:</h4> <p>{{ service.maturity }}</p>
+                    <h4>Access to the services: :</h4>  <p>{{ service.access }} </p>
+                    <h4>Quality of the service: </h4>  <p>{{ service.quality }} </p>
+                    <h4>Overall usage:</h4>  <p>{{ service.usage }} </p>
+                    <h4>Number of publications citing the resource, acknowledgements, ...:</h4>  <p>{{ service.publication_citations_nb }} </p>
+                    <h4>Number of publications where the developers of the ressource are co-authors:</h4>  <p>{{ service.publication_coauthor_nb }} </p>
+                    <h4>Up to 5 key publications describing the resource:</h4>
+                     <p>   {% for c in service.key_pub.all %}
+                        doi:{{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                    <h4>Scientific Advisory Board, users committee, ...: :</h4>  <p>{{ service.sab_user_comittee }} </p>
+                    <h4>Term of use:</h4>  <p>{{ service.term_of_use }} </p>
+                    <h4>Ethics policy:</h4>  <p>{{ service.ethics_policy }} </p>
+                    <h4>Funding:</h4>  <p>{{ service.funding }} </p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock %}

@@ -4,13 +4,10 @@
 {% block title %}Catalogue of French resources in bioinformatics{% endblock %}
 
 {% block content %}
-<h1>IFB catalogue: Services</h1>
-
-
+    <h1>IFB catalogue: Services</h1>
 
 {% for service in service_list %}
-{{ service.year_created }} - <a href="/services/{{ service.id }}">{{ service.name }}</a></br>
-
+    {{ service.year_created }} - <a href="/services/{{ service.id }}">{{ service.name }}</a></br>
 {%endfor%}
 
 
