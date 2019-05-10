@@ -1,9 +1,9 @@
-from django.db import models
-from django.core.validators import MaxValueValidator, MinValueValidator
 import datetime
-from django.forms import ModelForm
+
+import requests
+from django.core.validators import MaxValueValidator, MinValueValidator
+from django.db import models
 from django.urls import reverse
-import django_filters
 
 """
 class Dataset(models.Model):
@@ -150,6 +150,12 @@ class Publication(models.Model):
     def __str__(self):
         return self.doi
 
+class ToolType(models.Model):
+    name = models.CharField(max_length=10000)
+
+    def __str__(self):
+        return self.name
+
 def current_year():
     return datetime.date.today().year
 
@@ -167,7 +173,7 @@ class Service(models.Model):
     is_interoperability = models.BooleanField(default=False)
     description = models.TextField()
     communities = models.TextField()
-    elixir_communities = models.ManyToManyField(ElixirCommunities)
+    elixir_communities = models.ManyToManyField(ElixirCommunities, blank=True)
     year_created = models.IntegerField(('year'), validators=[MinValueValidator(1984), max_value_current_year],null=True)
     maturity = models.TextField(max_length=8, choices=TITLE_MATURITY)
     access = models.TextField()
@@ -175,7 +181,7 @@ class Service(models.Model):
     usage = models.TextField()
     publication_citations_nb = models.IntegerField()
     publication_coauthor_nb = models.IntegerField()
-    key_pub = models.ManyToManyField(Publication)
+    key_pub = models.ManyToManyField(Publication, blank=True)
     sab_user_comittee = models.TextField()
     term_of_use = models.TextField()
     ethics_policy = models.TextField()
@@ -185,9 +191,20 @@ class Service(models.Model):
     motivation_support_ifb_it = models.BooleanField(default=False)
     motivation_support_ifb_curation = models.BooleanField(default=False)
     motivation_support_ifb_core_resource = models.BooleanField(default=False)
-    biotoolsID = models.CharField(max_length=1000, null=True)
+    biotoolsID = models.CharField(max_length=1000, null=True, blank=True)
+    toolType = models.ManyToManyField(ToolType)
 
-
+    def topics(self):
+        topics=[]
+        i=0
+        if self.biotoolsID:
+            get_data = requests.get("https://bio.tools/api/"+self.biotoolsID+"?format=json")
+            response_data = get_data.json()
+            while i < len(response_data["topic"]):
+                topics.append(response_data["topic"][i]["term"])
+                i=i+1
+                continue
+            return topics
 
 
     def __str__(self):

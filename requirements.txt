@@ -1,0 +1,7 @@
+django>=2.1<2.2
+django-filter
+django-rest-framework
+django-widget-tweaks
+psycopg2
+requests
+django_extensions

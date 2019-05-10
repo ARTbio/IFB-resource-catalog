@@ -24,6 +24,20 @@
                         <li class="badge badge-pill badge-default">{{ service.maturity }}</li>
                     </ul>
                 </div>
+            {% if service.biotoolsID %}
+                <div class="col-sm">
+                    <ul>
+                        <li class="badge badge-pill badge-light"><a href="https://bio.tools/{{ service.biotoolsID }}" target="_blank">{{ service.biotoolsID }}</a></li>
+                    </ul>
+                </div>
+            {% endif %}
+            {% for value in service.topics %}
+                <div class="col-sm">
+                    <ul>
+                        <li class="badge badge-pill badge-dark">{{ value }}</li>
+                    </ul>
+                </div>
+            {% endfor %}
                 <div class="col-sm">
                     <ul>
                         <li class="badge badge-pill badge-secondary">{{ service.year_created }}</li>

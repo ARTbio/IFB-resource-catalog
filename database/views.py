@@ -1,34 +1,12 @@
-from django.utils import timezone
-from django.views.generic.list import ListView
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.views.generic.base import RedirectView
-from collections import OrderedDict
-
-from django.db.models import Max, Min, Count, F
-from django.db.models.functions import Cast
-from django.db.models import FloatField
-from django.urls import reverse
-import json
-import math
-from collections import OrderedDict
-
-from django.db.models import Max, Min, Count, F
-from django.db.models.functions import Cast
-from django.db.models import FloatField
-from django.shortcuts import render
-from django.urls import reverse
-from django.http import HttpResponseRedirect, Http404, JsonResponse
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.list import ListView
-from django.views.generic.base import RedirectView
-from django.shortcuts import render
-from .filters import ServiceFilter
+from rest_framework import viewsets
 
-from .models import Service, Credit, ElixirCommunities, Publication
-
+from database import serializers
 from .filters import ServiceFilter
+from .models import Service
+
 
 def name_service(request, id):
 
@@ -64,3 +42,9 @@ def index(request):
 
 
 
+class ServiceViewSet(viewsets.ModelViewSet):
+     """
+     API endpoint that allows users to be viewed or edited.
+     """
+     queryset = Service.objects.all().order_by('-date_joined')
+     serializer_class = serializers.ServiceSerializer
