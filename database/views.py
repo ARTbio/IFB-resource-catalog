@@ -46,5 +46,5 @@ class ServiceViewSet(viewsets.ModelViewSet):
      """
      API endpoint that allows users to be viewed or edited.
      """
-     queryset = Service.objects.all().order_by('-date_joined')
+     queryset = Service.objects.all().order_by('-name')
      serializer_class = serializers.ServiceSerializer

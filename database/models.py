@@ -128,6 +128,13 @@ TITLE_MATURITY = (
     ('LEGACY', 'Legacy'),
 )
 
+
+TITLE_INFRA = (
+    ('PROPRIETAIRE', 'Propriétaire'),
+    ('HEBERGEE', 'Hébergée'),
+)
+
+
 class Credit(models.Model):
     name = models.CharField(max_length=1000)
     laboratory = models.CharField(max_length=1000)
@@ -140,6 +147,8 @@ class Credit(models.Model):
 
 class ElixirCommunities(models.Model):
     name = models.CharField(max_length=10000)
+    class Meta:
+        verbose_name_plural = "Elixir Communities"
 
     def __str__(self):
         return self.name
@@ -211,11 +220,156 @@ class Service(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse('service-detail' ,args=[self.pk])
+        return reverse('database:service-detail' ,args=[self.pk])
+
+class Keyword(models.Model):
+    name = models.CharField(max_length=10000)
+    def __str__(self):
+        return self.name
+
+class Activityarea(models.Model):
+    name = models.CharField(max_length=10000)
+    def __str__(self):
+        return self.name
+
+class Certificat(models.Model):
+    name = models.CharField(max_length=10000)
+    def __str__(self):
+        return self.name
+
+class People(models.Model):
+    name = models.CharField(max_length=1000)
+    email = models.CharField(max_length=1000)
+    link = models.CharField(max_length=1000)
+    def __str__(self):
+        return self.name
+
+class Platform(models.Model):
+    name = models.CharField(max_length=1000)
+    logo = models.URLField(max_length=200, blank=True, null=True)
+    adress = models.CharField(max_length=1000, blank=True, null=True)
+    affiliation = models.CharField(max_length=1000, blank=True, null=True)
+    website = models.CharField(max_length=1000, blank=True, null=True)
+    scientific_leader = models.ManyToManyField(People, blank=True, related_name="scientific_leader_of")
+    technical_leader = models.ManyToManyField(People, blank=True, related_name="technical_leader_of")
+    certificats = models.ManyToManyField(Certificat, blank=True)
+    structure = models.CharField(max_length=1000, blank=True, null=True)
+    description_expertise = models.TextField(blank=True, null=True)
+    activity_area = models.ManyToManyField(Activityarea, blank=True)
+    keywords = models.ManyToManyField(Keyword, blank=True)
+    infrastructure_type = models.TextField(max_length=13, choices=TITLE_INFRA, blank=True, null=True)
+    useful_storage_capacity = models.CharField(max_length=1000, blank=True, null=True)
+    cpu_number = models.IntegerField( blank=True, null=True)
+    data_collection = models.CharField(max_length=1000, blank=True, null=True)
+    cpu_hour_per_year = models.CharField(max_length=1000, blank=True, null=True)
+    informatics_tools = models.CharField(max_length=1000, blank=True, null=True)
+    users_number = models.IntegerField( blank=True, null=True)
+    support_condition = models.TextField( blank=True, null=True)
+    server_description = models.TextField( blank=True, null=True)
+    title_project_support = models.CharField(max_length=1000, blank=True, null=True)
+    description_projects_help = models.TextField( blank=True, null=True)
+    accompanied_project = models.TextField( blank=True, null=True)
+    hosted_projects = models.TextField( blank=True, null=True)
+    publications = models.CharField(max_length=1000, blank=True, null=True)
+    team = models.ManyToManyField(People, blank=True, related_name="member_of")
+    def __str__(self):
+        return self.name
+
+class Tool(models.Model):
+    name = models.CharField(max_length=1000)
+    citations = models.CharField(max_length=1000, blank=True, null=True)
+    logo = models.URLField(max_length=200, blank=True, null=True)
+    access_condition = models.TextField( blank=True, null=True)
+    contact_support = models.CharField(max_length=1000, blank=True, null=True)
+    description = models.TextField( blank=True, null=True)
+    input_outils = models.CharField(max_length=1000, blank=True, null=True)
+    tool_license = models.CharField(max_length=1000, blank=True, null=True)
+    link = models.CharField(max_length=1000, blank=True, null=True)
+    keywords = models.ManyToManyField(Keyword, blank=True)
+    prerequisites = models.TextField( blank=True, null=True)
+    operating_system = models.CharField(max_length=1000, blank=True, null=True)
+    tool_type = models.ManyToManyField(ToolType, blank=True)
+    downloads = models.IntegerField(blank=True, null=True)
+    software_version = models.IntegerField(blank=True, null=True)
+    annual_visits = models.IntegerField(blank=True, null=True)
+    unique_visits = models.IntegerField(blank=True, null=True)
+    platform = models.ManyToManyField(Platform, blank=True)
+    def __str__(self):
+        return self.name
 
 
+class Database(models.Model):
+    name = models.CharField(max_length=1000, blank=True, null=True)
+    logo = models.URLField(max_length=200, blank=True, null=True)
+    description = models.TextField()
+    access_conditions = models.TextField()
+    citations = models.CharField(max_length=1000, blank=True, null=True)
+    link_data = models.CharField(max_length=1000, blank=True, null=True)
+    keywords = models.ManyToManyField(Keyword, blank=True)
+    annual_visits = models.IntegerField( blank=True, null=True)
+    unique_visits = models.IntegerField( blank=True, null=True)
+    last_update = models.DateTimeField( blank=True, null=True)
+    increase_last_update = models.CharField(max_length=1000, blank=True, null=True)
+    platform = models.ManyToManyField(Platform)
+    def __str__(self):
+        return self.name
 
 
+class Event(models.Model):
+    name = models.CharField(max_length=1000, blank=True, null=True)
+    logo = models.URLField(max_length=200, blank=True, null=True)
+    event_type = models.CharField(max_length=1000, blank=True, null=True)
+    description = models.TextField()
+    start_date = models.DateTimeField( blank=True, null=True)
+    end_date = models.DateTimeField(blank=True, null=True)
+    location = models.CharField(max_length=1000, blank=True, null=True)
+    link = models.CharField(max_length=1000, blank=True, null=True)
+    organizer = models.CharField(max_length=1000, blank=True, null=True)
+    sponsors = models.CharField(max_length=1000, blank=True, null=True)
 
+    def __str__(self):
+        return self.name
+
+class Formation(models.Model):
+    name = models.CharField(max_length=1000, blank=True, null=True)
+    logo = models.URLField(max_length=200, blank=True, null=True)
+    formation_type = models.CharField(max_length=1000, blank=True, null=True)
+    description = models.TextField()
+    keywords = models.ManyToManyField(Keyword, blank=True)
+    start_date = models.DateTimeField( blank=True, null=True)
+    end_date = models.DateTimeField(blank=True, null=True)
+    location = models.CharField(max_length=1000, blank=True, null=True)
+    access_conditions = models.TextField()
+    link = models.CharField(max_length=1000, blank=True, null=True)
+    organizer = models.CharField(max_length=1000, blank=True, null=True)
+    sponsors = models.CharField(max_length=1000, blank=True, null=True)
+    number_people_trained = models.IntegerField( blank=True, null=True)
+    number_of_academic_participants = models.IntegerField( blank=True, null=True)
+    number_of_non_academic_participants = models.IntegerField( blank=True, null=True)
+    training_time = models.DecimalField(decimal_places=2, max_digits=4, blank=True, null=True)
+    participation = models.CharField(max_length=1000, blank=True, null=True)
+    training_level = models.CharField(max_length=1000, blank=True, null=True)
+    training_operator = models.CharField(max_length=1000, blank=True, null=True)
+    number_of_sessions = models.IntegerField( blank=True, null=True)
+    recurrence = models.CharField(max_length=1000, blank=True, null=True)
+    satisfaction_rate = models.CharField(max_length=1000, blank=True, null=True)
+    platform = models.ManyToManyField(Platform)
+
+    def __str__(self):
+        return self.name
+
+class Training_material(models.Model):
+    name = models.CharField(max_length=1000, blank=True, null=True)
+    description = models.TextField()
+    file_name = models.CharField(max_length=1000, blank=True, null=True)
+    keywords = models.ManyToManyField(Keyword, blank=True)
+    licence = models.CharField(max_length=1000, blank=True, null=True)
+    event_link = models.CharField(max_length=1000, blank=True, null=True)
+    publication_date = models.DateTimeField(blank=True)
+    target_audience = models.CharField(max_length=1000, blank=True, null=True)
+    url_file = models.URLField(max_length=200, blank=True, null=True)
+
+    def __str__(self):
+        return self.name
 
 
