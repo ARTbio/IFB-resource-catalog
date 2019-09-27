@@ -1,0 +1,30 @@
+#   A basic travis.yml boilerplate for Django projects
+#
+#   The set-up assumes a postgreSQL database.
+
+
+language: python
+
+python:
+  - 3.6
+
+services: postgresql
+
+env:
+  - DJANGO=2.1
+
+before_install:
+  - export DJANGO_SETTINGS_MODULE=catalogue.settings
+  - export PYTHONPATH=$HOME/builds/lbouri/IFB-resource-catalog
+  - export PIP_USE_MIRRORS=true
+
+install:
+  - pip install -r requirements.txt
+  - pip install django==$DJANGO --quiet
+  - pip install psycopg2 --quiet
+
+before_script:
+  - psql -c "CREATE DATABASE mydb;" -U postgres
+
+script:
+  - python manage.py syncdb --noinput
