@@ -13,6 +13,8 @@ app_name = 'database-api'
 
 router = routers.DefaultRouter()
 router.register(r'service', views.ServiceViewSet)
+router.register(r'tool', views.ToolViewSet)
+router.register(r'database', views.DatabaseViewSet)
 urlpatterns = [
     url(r'^', include(router.urls)),
 ]

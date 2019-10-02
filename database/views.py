@@ -1,11 +1,16 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from django.views.generic.list import ListView
 from rest_framework import viewsets
+from rest_framework.parsers import JSONParser
 
 from database import serializers
 from .filters import ServiceFilter
 from .models import Service
+from .models import Tool
+from .models import ToolType
+from .models import Database
+
 
 
 def name_service(request, id):
@@ -48,3 +53,16 @@ class ServiceViewSet(viewsets.ModelViewSet):
      """
      queryset = Service.objects.all().order_by('-name')
      serializer_class = serializers.ServiceSerializer
+
+
+class ToolViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = Tool.objects.all().order_by('-name')
+    serializer_class = serializers.ToolSerializer
+
+class DatabaseViewSet(viewsets.ModelViewSet):
+    queryset = Database.objects.all().order_by('-name')
+    serializer_class = serializers.DatabaseSerializer
+
