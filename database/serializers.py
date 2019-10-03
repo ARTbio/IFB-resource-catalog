@@ -38,6 +38,7 @@ class PeopleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.People
         fields = ('name',)
+        depth = 2
 
 class PlatformSerializer(serializers.HyperlinkedModelSerializer):
     team = PeopleSerializer(read_only=True, many=True)
@@ -45,6 +46,7 @@ class PlatformSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Platform
         fields = ('name', 'logo', 'address', 'website', 'team')
+        depth = 2
 
 class ServiceSerializer(serializers.HyperlinkedModelSerializer):
     credit = CreditSerializer(read_only=True, many=True)
@@ -82,6 +84,7 @@ class EventSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Event
         fields = ('name', 'event_type', 'description', 'link')
+        depth = 2
 
 class FormationSerializer(serializers.HyperlinkedModelSerializer):
     people = PeopleSerializer(read_only=True, many=True)
@@ -92,8 +95,10 @@ class FormationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Formation
         fields = ('name', 'formation_type', 'description', 'link')
+        depth = 2
 
 class Training_materialSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Training_material
         fields = ('name', 'description', 'file_name')
+        depth = 2
