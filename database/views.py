@@ -10,7 +10,10 @@ from .models import Service
 from .models import Tool
 from .models import ToolType
 from .models import Database
-
+from .models import Event
+from .models import Formation
+from .models import Training_material
+from .models import Platform
 
 
 def name_service(request, id):
@@ -66,3 +69,18 @@ class DatabaseViewSet(viewsets.ModelViewSet):
     queryset = Database.objects.all().order_by('-name')
     serializer_class = serializers.DatabaseSerializer
 
+class EventViewSet(viewsets.ModelViewSet):
+    queryset = Event.objects.all().order_by('-name')
+    serializer_class = serializers.EventSerializer
+
+class FormationViewSet(viewsets.ModelViewSet):
+    queryset = Formation.objects.all().order_by('-name')
+    serializer_class = serializers.FormationSerializer
+
+class Training_materialViewSet(viewsets.ModelViewSet):
+    queryset = Training_material.objects.all().order_by('-name')
+    serializer_class = serializers.Training_materialSerializer
+
+class PlatformViewSet(viewsets.ModelViewSet):
+    queryset = Platform.objects.all().order_by('-name')
+    serializer_class = serializers.PlatformSerializer
