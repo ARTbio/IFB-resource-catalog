@@ -21,7 +21,7 @@ class Command(BaseCommand):
                     pf_name = data_object[0]
                     pf_infrastructure_type = data_object[1]
                     pf_useful_storage_capacity = data_object[2]
-                    pf_cpu_number = data_object[3]
+                    pf_cpu_number = data_object[3].split(" ")[0] or 0
                     pf_data_collection = data_object[4]
                     pf_cpu_hour_per_year = data_object[5]
                     pf_informatics_tools = data_object[6]
@@ -33,7 +33,6 @@ class Command(BaseCommand):
                     pf_accompanied_project = data_object[12]
                     pf_hosted_projects = data_object[13]
                     pf_publications = data_object[14]
-
                     platform = ""
                     try:
                         if platform.objects.get(platform=pf_name).exists():
@@ -54,9 +53,9 @@ class Command(BaseCommand):
                                 publications = pf_publications,
                             )
 
-                            platform.save()
-                            display_format = "\ninfrastructure, {}, has been saved."
-                            print(display_format.format(platform))
+                        platform.save()
+                        display_format = "\ninfrastructure, {}, has been saved."
+                        print(display_format.format(platform))
 
                     except Exception as ex:
                         print(str(ex))
