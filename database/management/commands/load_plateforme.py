@@ -128,7 +128,7 @@ class Command(BaseCommand):
                             for lead_technique in lead_technic_list:
                                 platform.technical_leader.add(lead_technique)
                             for platform_certif in platform_certificats_list:
-                                platform.certificats.add(platform_certif)
+                                platform.certificate.add(platform_certif)
                             for platform_team in platform_team_list:
                                 platform.team.add(platform_team)
 
