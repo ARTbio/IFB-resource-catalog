@@ -112,7 +112,7 @@ class Command(BaseCommand):
                         platform, created = Platform.objects.get_or_create(
                             name=platform_name,
                             logo=platform_logo,
-                            adress=platform_adress,
+                            address=platform_adress,
                             affiliation = platform_affiliation,
                             website = platform_website,
                             structure = platform_structure,
