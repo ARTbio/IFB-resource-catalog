@@ -3,6 +3,8 @@ from django.shortcuts import render
 from django.views.generic.list import ListView
 from rest_framework import viewsets
 from rest_framework.parsers import JSONParser
+from rest_framework import generics
+import django_filters.rest_framework
 
 from database import serializers
 from .filters import ServiceFilter
@@ -14,6 +16,7 @@ from .models import Event
 from .models import Formation
 from .models import Training_material
 from .models import Platform
+from .models import Resource
 
 
 def name_service(request, id):
@@ -56,6 +59,9 @@ class ServiceViewSet(viewsets.ModelViewSet):
      """
      queryset = Service.objects.all().order_by('-name')
      serializer_class = serializers.ServiceSerializer
+     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+     filterset_fields = ['name','year_created']
+
 
 
 class ToolViewSet(viewsets.ModelViewSet):
@@ -64,23 +70,41 @@ class ToolViewSet(viewsets.ModelViewSet):
     """
     queryset = Tool.objects.all().order_by('-name')
     serializer_class = serializers.ToolSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
 
 class DatabaseViewSet(viewsets.ModelViewSet):
     queryset = Database.objects.all().order_by('-name')
     serializer_class = serializers.DatabaseSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
 
 class EventViewSet(viewsets.ModelViewSet):
     queryset = Event.objects.all().order_by('-name')
     serializer_class = serializers.EventSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
 
 class FormationViewSet(viewsets.ModelViewSet):
     queryset = Formation.objects.all().order_by('-name')
     serializer_class = serializers.FormationSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
 
 class Training_materialViewSet(viewsets.ModelViewSet):
     queryset = Training_material.objects.all().order_by('-name')
     serializer_class = serializers.Training_materialSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
 
 class PlatformViewSet(viewsets.ModelViewSet):
     queryset = Platform.objects.all().order_by('-name')
     serializer_class = serializers.PlatformSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
+
+class ResourceViewSet(viewsets.ModelViewSet):
+    queryset = Resource.objects.all().order_by('-name')
+    serializer_class = serializers.ResourceSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
