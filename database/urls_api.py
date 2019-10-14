@@ -19,6 +19,7 @@ router.register(r'event', views.EventViewSet)
 router.register(r'formation', views.FormationViewSet)
 router.register(r'training_material', views.Training_materialViewSet)
 router.register(r'platform', views.PlatformViewSet)
+router.register(r'resource', views.ResourceViewSet)
 urlpatterns = [
     url(r'^', include(router.urls)),
 ]
