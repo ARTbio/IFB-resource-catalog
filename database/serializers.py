@@ -71,6 +71,13 @@ class ToolSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('name', 'description', 'tool_type', 'keyword', 'platform')
         depth = 2
 
+class ResourceSerializer(serializers.HyperlinkedModelSerializer):
+
+    class Meta:
+        model = models.Resource
+        fields = ('name', 'description')
+        depth = 2
+
 class DatabaseSerializer(serializers.HyperlinkedModelSerializer):
     keyword = KeywordSerializer(read_only=True, many=True)
     platform = PlatformSerializer(read_only=True, many=True)
