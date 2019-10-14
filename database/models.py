@@ -136,7 +136,7 @@ TITLE_INFRA = (
 
 
 class Credit(models.Model):
-    name = models.CharField(max_length=1000)
+    name = models.CharField(max_length=1000, blank=True, null=True)
     laboratory = models.CharField(max_length=1000)
     institute = models.CharField(max_length=1000)
     adress = models.CharField(max_length=1000, null=True)
@@ -171,8 +171,11 @@ def current_year():
 def max_value_current_year(value):
     return MaxValueValidator(current_year())(value)
 
-class Service(models.Model):
-    name = models.CharField(max_length=1000)
+class Resource(models.Model):
+    name = models.CharField(max_length=1000, blank=True, null=True)
+    description = models.TextField()
+
+class Service(Resource):
     credit = models.ManyToManyField(Credit)
     scope = models.TextField()
     is_tool = models.BooleanField(default=False)
@@ -180,7 +183,6 @@ class Service(models.Model):
     is_training = models.BooleanField(default=False)
     is_compute = models.BooleanField(default=False)
     is_interoperability = models.BooleanField(default=False)
-    description = models.TextField()
     communities = models.TextField()
     elixir_communities = models.ManyToManyField(ElixirCommunities, blank=True)
     year_created = models.IntegerField(('year'), validators=[MinValueValidator(1984), max_value_current_year],null=True)
@@ -238,14 +240,13 @@ class Certificat(models.Model):
         return self.name
 
 class People(models.Model):
-    name = models.CharField(max_length=1000)
+    name = models.CharField(max_length=1000, blank=True, null=True)
     email = models.CharField(max_length=1000)
     link = models.CharField(max_length=1000)
     def __str__(self):
         return self.name
 
-class Platform(models.Model):
-    name = models.CharField(max_length=1000)
+class Platform(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
     address = models.CharField(max_length=1000, blank=True, null=True)
     affiliation = models.CharField(max_length=1000, blank=True, null=True)
@@ -254,7 +255,6 @@ class Platform(models.Model):
     technical_leader = models.ManyToManyField(People, blank=True, related_name="technical_leader_of")
     certificate = models.ManyToManyField(Certificat, blank=True)
     structure = models.CharField(max_length=1000, blank=True, null=True)
-    description_expertise = models.TextField(blank=True, null=True)
     activity_area = models.ManyToManyField(Activityarea, blank=True)
     keywords = models.ManyToManyField(Keyword, blank=True)
     infrastructure_type = models.TextField(max_length=13, choices=TITLE_INFRA, blank=True, null=True)
@@ -275,13 +275,11 @@ class Platform(models.Model):
     def __str__(self):
         return self.name
 
-class Tool(models.Model):
-    name = models.CharField(max_length=1000)
+class Tool(Resource):
     citations = models.CharField(max_length=1000, blank=True, null=True)
     logo = models.URLField(max_length=200, blank=True, null=True)
     access_condition = models.TextField( blank=True, null=True)
     contact_support = models.CharField(max_length=1000, blank=True, null=True)
-    description = models.TextField( blank=True, null=True)
     input_outils = models.CharField(max_length=1000, blank=True, null=True)
     tool_license = models.CharField(max_length=1000, blank=True, null=True)
     link = models.CharField(max_length=1000, blank=True, null=True)
@@ -298,10 +296,8 @@ class Tool(models.Model):
         return self.name
 
 
-class Database(models.Model):
-    name = models.CharField(max_length=1000, blank=True, null=True)
+class Database(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
-    description = models.TextField()
     access_conditions = models.TextField()
     citations = models.CharField(max_length=1000, blank=True, null=True)
     link_data = models.CharField(max_length=1000, blank=True, null=True)
@@ -315,11 +311,9 @@ class Database(models.Model):
         return self.name
 
 
-class Event(models.Model):
-    name = models.CharField(max_length=1000, blank=True, null=True)
+class Event(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
     event_type = models.CharField(max_length=1000, blank=True, null=True)
-    description = models.TextField()
     start_date = models.DateTimeField( blank=True, null=True)
     end_date = models.DateTimeField(blank=True, null=True)
     location = models.CharField(max_length=1000, blank=True, null=True)
@@ -330,11 +324,9 @@ class Event(models.Model):
     def __str__(self):
         return self.name
 
-class Formation(models.Model):
-    name = models.CharField(max_length=1000, blank=True, null=True)
+class Formation(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
     formation_type = models.CharField(max_length=1000, blank=True, null=True)
-    description = models.TextField()
     keywords = models.ManyToManyField(Keyword, blank=True)
     start_date = models.DateTimeField( blank=True, null=True)
     end_date = models.DateTimeField(blank=True, null=True)
@@ -358,9 +350,7 @@ class Formation(models.Model):
     def __str__(self):
         return self.name
 
-class Training_material(models.Model):
-    name = models.CharField(max_length=1000, blank=True, null=True)
-    description = models.TextField()
+class Training_material(Resource):
     file_name = models.CharField(max_length=1000, blank=True, null=True)
     keywords = models.ManyToManyField(Keyword, blank=True)
     licence = models.CharField(max_length=1000, blank=True, null=True)
@@ -371,5 +361,7 @@ class Training_material(models.Model):
 
     def __str__(self):
         return self.name
+
+
 
 
