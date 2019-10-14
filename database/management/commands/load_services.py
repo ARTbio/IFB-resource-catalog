@@ -20,12 +20,12 @@ class Command(BaseCommand):
         for data_file in os.listdir(data_folder):
             with open(os.path.join(data_folder, data_file), encoding='utf-8') as data_file:
                 data = csv.reader(data_file)
+                # skip first line as there is always a header
+                next(data)
+                #do the work
                 for data_object in data:
-                    l = data.line_num
                     if data_object == []:
-                        data_object = next(data)  # Check for empty lines
-                    if l == 1:
-                        data_object = next(data)
+                        continue  # Check for empty lines
                     credit_list=[]
                     service_name = data_object[0]
                     credit_name = data_object[1]
