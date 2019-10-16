@@ -101,7 +101,7 @@ class FormationSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = models.Formation
-        fields = ('name', 'formation_type', 'description', 'link')
+        fields = ('name', 'formation_type', 'description', 'link', 'platform', 'people', 'certificate', 'keyword')
         depth = 2
 
 class Training_materialSerializer(serializers.HyperlinkedModelSerializer):
