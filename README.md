@@ -3,7 +3,7 @@ Catalog of bioinformatics resources of the French Institute of Bioinformatics (I
 
 # How to install the IFB-resource-catalog:
 
-## git clone https://github.com/IFB-ElixirFr/IFB-resource-catalog.git
+### git clone https://github.com/IFB-ElixirFr/IFB-resource-catalog.git
 # Install prerequisite:
 ## sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
 # Setup a virtualenv 
