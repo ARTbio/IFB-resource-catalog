@@ -11,6 +11,7 @@ Catalog of bioinformatics resources of the French Institute of Bioinformatics (I
   source venv/bin/activate
 ### Install Django prerequisite:
   pip install django-filter
+  
   pip install django-rest-framework
   pip install django-widget-tweaks
   pip install psycopg2
