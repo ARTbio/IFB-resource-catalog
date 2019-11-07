@@ -42,5 +42,5 @@ Catalog of bioinformatics resources of the French Institute of Bioinformatics (I
   $ python manage.py migrate
   
   $ python manage.py makemigrations
-### Start the server
+### Start Django server
   $ python manage.py runserver
