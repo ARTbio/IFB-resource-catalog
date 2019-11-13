@@ -17,6 +17,12 @@ from .models import Formation
 from .models import Training_material
 from .models import Platform
 from .models import Resource
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from rest_framework import status
+from database.serializers import DatabaseSerializer
+from database.serializers import ToolSerializer
+
 
 
 def name_service(request, id):
@@ -73,11 +79,44 @@ class ToolViewSet(viewsets.ModelViewSet):
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ['name',]
 
+
+    def get_queryset(self):
+        name = self.request.GET.get("name", None)
+        if name:
+            querysetfilter = Tool.objects.filter(name=name)
+        else:
+            querysetfilter = Tool.objects.all().order_by('-name')
+        return querysetfilter
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        response_data = serializer.data
+        for dict_data in response_data:
+            dict_data['@type'] = 'Tool'
+            dict_data.move_to_end('@type', last=False)
+            dict_data['@context'] = 'https://schema.org'
+            dict_data.move_to_end('@context', last=False)
+
+        return Response(response_data)
+
+
+
 class DatabaseViewSet(viewsets.ModelViewSet):
     queryset = Database.objects.all().order_by('-name')
     serializer_class = serializers.DatabaseSerializer
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ['name',]
+
+    @api_view(['GET'])
+    def database_list(request):
+        response_data = {"data": []}
+        if request.database:
+            response_data["data"] = serializers.DatabaseSerializer(
+                context={'@context': 'https://schema.org',},
+                many=True
+            ).data
+            return Response(response_data)
 
 class EventViewSet(viewsets.ModelViewSet):
     queryset = Event.objects.all().order_by('-name')
@@ -108,3 +147,4 @@ class ResourceViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.ResourceSerializer
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ['name',]
+
