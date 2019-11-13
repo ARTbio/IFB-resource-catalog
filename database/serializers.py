@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from database import models
+from database.models import Database
 
 
 
@@ -46,7 +47,7 @@ class PlatformSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Platform
         fields = ('name', 'logo', 'address', 'website', 'team')
-        depth = 2
+        depth = 1
 
 class ServiceSerializer(serializers.HyperlinkedModelSerializer):
     credit = CreditSerializer(read_only=True, many=True)
@@ -62,14 +63,14 @@ class ServiceSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class ToolSerializer(serializers.HyperlinkedModelSerializer):
-    keyword = KeywordSerializer(read_only=True, many=True)
-    tool_type = ToolTypeSerializer(read_only=True, many=True)
+    keywords = KeywordSerializer(read_only=True, many=True)
+    toolType = ToolTypeSerializer(source='tool_type', read_only=True, many=True)
     platform = PlatformSerializer(read_only=True, many=True)
 
     class Meta:
         model = models.Tool
-        fields = ('name', 'description', 'tool_type', 'keyword', 'platform')
-        depth = 2
+        fields = ('name', 'description', 'toolType', 'keywords', 'platform')
+        depth = 1
 
 class ResourceSerializer(serializers.HyperlinkedModelSerializer):
 
@@ -77,6 +78,7 @@ class ResourceSerializer(serializers.HyperlinkedModelSerializer):
         model = models.Resource
         fields = ('name', 'description')
         depth = 2
+
 
 class DatabaseSerializer(serializers.HyperlinkedModelSerializer):
     keyword = KeywordSerializer(read_only=True, many=True)
@@ -86,6 +88,7 @@ class DatabaseSerializer(serializers.HyperlinkedModelSerializer):
         model = models.Database
         fields = ('name', 'logo', 'description', 'access_conditions', 'keyword', 'platform')
         depth = 2
+
 
 class EventSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
