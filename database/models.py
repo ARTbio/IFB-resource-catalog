@@ -1,5 +1,5 @@
 import datetime
-
+from django.conf import settings
 import requests
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
@@ -292,9 +292,33 @@ class Tool(Resource):
     annual_visits = models.IntegerField(blank=True, null=True)
     unique_visits = models.IntegerField(blank=True, null=True)
     platform = models.ManyToManyField(Platform, blank=True)
-    def __str__(self):
-        return self.name
-
+    def sd(self):
+        return {
+            "@context":
+                {
+                "edam": "http://edamontology.org/",
+                "schema": "http://schema.org/",
+                "dc": "http://purl.org/dc/terms/",
+                },
+            "@id": settings.VAR_URL+"api/?name="+self.name,
+            "@language": "fr",
+            "@type": "schema:WebAPI",
+            "name": "CatalogRestToolAPI",
+            "@graph":
+                [{
+                "@id": "https://www.france-bioinformatique.fr/en/services/outils/"+self.name,
+                "@type": "schema:SoftwareApplication",
+                "schema:name": self.name,
+                "schema:description": self.description,
+                "schema:laboratoryScience":
+                    {
+                        "@type": "schema:LaboratoryScience",
+                        "@id": self.platform.name,
+                        "schema:name": self.platform.name,
+                        "schema:image": self.platform.name,
+                    }
+                }]
+                }
 
 class Database(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
