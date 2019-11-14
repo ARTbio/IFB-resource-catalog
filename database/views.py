@@ -22,7 +22,12 @@ from rest_framework.decorators import api_view
 from rest_framework import status
 from database.serializers import DatabaseSerializer
 from database.serializers import ToolSerializer
+from django_json_ld.views import JsonLdContextMixin
+from django_json_ld.views import JsonLdDetailView
 
+
+class ToolDetailView(JsonLdDetailView):
+    model=Tool
 
 
 def name_service(request, id):
@@ -30,6 +35,12 @@ def name_service(request, id):
     a_list = Service.objects.filter(id=id)
     context = {'id': id, 'service_list': a_list}
     return render(request, 'database/name_service.html', context)
+
+def name_tool(request, id):
+
+    a_list = Tool.objects.filter(id=id)
+    context = {'id': id, 'tool_list': a_list}
+    return render(request, 'database/name_tool.html', context)
 
 class ServiceListView(ListView):
 
