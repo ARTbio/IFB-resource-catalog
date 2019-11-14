@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Details on service: {{ tool_list.0.name }}
+{% endblock %}
+
+{% block content %}
+    {% for tool in tool_list %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-4">{{ tool.name }}</h2>
+
+            <div class="row entete">
+                <div class="col-sm">
+                    <ul>
+                        <img class="tool-picture" src=" {{ tool.logo }} " height="60px" width="120px" ></li>
+                    </ul>
+                </div>
+                {%if tool.tool_type is database.ToolType.None %}
+                <div class="col-sm">
+                    <ul>
+                        <li class="badge badge-pill badge-info">{{ tool.tool_type }}</li>
+                    </ul>
+                </div>
+                {%endif%}
+
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row servdetail">
+                <div class="col-lg-6">
+                    <h4>Name of the Tool:</h4>
+                    <p>{{ tool.name.upper }}</p>
+                    <h4>Created By Plateform</h4>
+                    <p>
+                        {{tool.platform}}
+                    </p>
+                    <h4>Access condition:</h4> <p>{{ tool.access_condition }}</p>
+                    <h4>Link:</h4>  <p>{{ tool.link }}</p>
+                    <h4>Description:</h4>  <p>{{ tool.description }}</p>
+                    <h4>Contact_support:</h4>  <p>{{ tool.contact_support }} </p>
+                    <h4>Keywords:</h4>
+                    <p>
+                        {% for c in tool.keywords.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Input_outils:</h4> <p>{{ tool.input_outils }}</p>
+                    <h4>Tool_license: :</h4>  <p>{{ tool.tool_license }} </p>
+                    <h4>Prerequisites: </h4>  <p>{{ tool.prerequisites }} </p>
+                    <h4>Operating_system:</h4>  <p>{{ tool.operating_system }} </p>
+                    <h4>Downloads:</h4>  <p>{{ tool.downloads }} </p>
+                    <h4>Software_version:</h4>  <p>{{ tool.software_version }} </p>
+                    <h4>Citations:</h4>
+                     <p>   {{tool.citations}}
+                    </p>
+                    <h4>Annual visits:</h4>  <p>{{ tool.annual_visits }} </p>
+                    <h4>Unique visits:</h4>  <p>{{ tool.unique_visits }} </p>
+
+                </div>
+            </div>
+        </div>
+        {% load render_json_ld from json_ld %}
+        {% render_json_ld tool.sd %}
+    {% endfor %}
+{% endblock %}
