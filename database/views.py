@@ -8,6 +8,8 @@ import django_filters.rest_framework
 
 from database import serializers
 from .filters import ServiceFilter
+from .filters import DatabaseFilter
+from .filters import ToolFilter
 from .models import Service
 from .models import Tool
 from .models import ToolType
@@ -29,6 +31,9 @@ from django_json_ld.views import JsonLdDetailView
 class ToolDetailView(JsonLdDetailView):
     model=Tool
 
+class DatabaseDetailView(JsonLdDetailView):
+    model=Database
+
 
 def name_service(request, id):
 
@@ -41,6 +46,12 @@ def name_tool(request, id):
     a_list = Tool.objects.filter(id=id)
     context = {'id': id, 'tool_list': a_list}
     return render(request, 'database/name_tool.html', context)
+
+def name_database(request, id):
+
+    a_list = Database.objects.filter(id=id)
+    context = {'id': id, 'database_list': a_list}
+    return render(request, 'database/name_database.html', context)
 
 class ServiceListView(ListView):
 
@@ -61,6 +72,16 @@ def search(request):
     services_list = Service.objects.all()
     services_filter = ServiceFilter(request.GET, queryset=services_list)
     return render(request, 'database/services_list.html', {'filter': services_filter})
+
+def tools_search(request):
+    tools_list = Tool.objects.all()
+    tools_filter = ToolFilter(request.GET, queryset=tools_list)
+    return render(request, 'database/tools_list.html', {'filter': tools_filter})
+
+def databases_search(request):
+    databases_list = Database.objects.all()
+    databases_filter = DatabaseFilter(request.GET, queryset=databases_list)
+    return render(request, 'database/databases_list.html', {'filter': databases_filter})
 
 def index(request):
     return render(request, 'database/template.html')
@@ -101,15 +122,12 @@ class ToolViewSet(viewsets.ModelViewSet):
 
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
-        serializer = self.get_serializer(queryset, many=True)
-        response_data = serializer.data
-        for dict_data in response_data:
-            dict_data['@type'] = 'Tool'
-            dict_data.move_to_end('@type', last=False)
-            dict_data['@context'] = 'https://schema.org'
-            dict_data.move_to_end('@context', last=False)
+        dict_new_data = []
+        for elem in queryset:
+            dict_new_data.append(elem.sd())
 
-        return Response(response_data)
+
+        return Response(dict_new_data)
 
 
 
