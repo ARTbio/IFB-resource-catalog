@@ -173,7 +173,7 @@ def max_value_current_year(value):
 
 class Resource(models.Model):
     name = models.CharField(max_length=1000, blank=True, null=True)
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
 
 class Service(Resource):
     credit = models.ManyToManyField(Credit)
@@ -292,6 +292,7 @@ class Tool(Resource):
     annual_visits = models.IntegerField(blank=True, null=True)
     unique_visits = models.IntegerField(blank=True, null=True)
     platform = models.ManyToManyField(Platform, blank=True)
+
     def sd(self):
         return {
             "@context":
@@ -313,9 +314,7 @@ class Tool(Resource):
                 "schema:laboratoryScience":
                     {
                         "@type": "schema:LaboratoryScience",
-                        "@id": self.platform.name,
                         "schema:name": self.platform.name,
-                        "schema:image": self.platform.name,
                     }
                 }]
                 }
@@ -331,8 +330,32 @@ class Database(Resource):
     last_update = models.DateTimeField( blank=True, null=True)
     increase_last_update = models.CharField(max_length=1000, blank=True, null=True)
     platform = models.ManyToManyField(Platform)
-    def __str__(self):
-        return self.name
+
+    def sd(self):
+        return {
+            "@context":
+                {
+                "edam": "http://edamontology.org/",
+                "schema": "http://schema.org/",
+                "dc": "http://purl.org/dc/terms/",
+                },
+            "@id": settings.VAR_URL+"api/?name="+self.name,
+            "@language": "fr",
+            "@type": "schema:WebAPI",
+            "name": "CatalogRestToolAPI",
+            "@graph":
+                [{
+                "@id": "https://www.france-bioinformatique.fr/en/services/outils/"+self.name,
+                "@type": "schema:SoftwareApplication",
+                "schema:name": self.name,
+                "schema:description": self.description,
+                "schema:laboratoryScience":
+                    {
+                        "@type": "schema:LaboratoryScience",
+                        "schema:name": self.platform.name,
+                    }
+                }]
+                }
 
 
 class Event(Resource):
