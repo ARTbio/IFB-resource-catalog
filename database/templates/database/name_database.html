@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Details on service: {{ database_list.0.name }}
+{% endblock %}
+
+{% block content %}
+    {% for database in database_list %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-4">{{ database.name }}</h2>
+
+            <div class="row entete">
+                <div class="col-sm">
+                    <ul>
+                        <img class="database-picture" src=" {{ database.logo }} " height="60px" width="120px" ></li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row servdetail">
+                <div class="col-lg-6">
+                    <h4>Name of the Database:</h4>
+                    <p>{{ database.name.upper }}</p>
+                    <h4>Created By Plateform</h4>
+                    <p>
+                        {% for c in database.platform.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                    <h4>Access condition:</h4> <p>{{ database.access_conditions }}</p>
+                    <h4>Link:</h4>  <p>{{ database.link_data }}</p>
+                    <h4>Description:</h4>  <p>{{ database.description }}</p>
+                    <h4>Keywords:</h4>
+                    <p>
+                        {% for c in database.keywords.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                </div>
+                <div class="col-lg-6">
+
+                    <h4>Citations:</h4>
+                     <p>   {{database.citations}}
+                    </p>
+                    <h4>Annual visits:</h4>  <p>{{ database.annual_visits }} </p>
+                    <h4>Unique visits:</h4>  <p>{{ database.unique_visits }} </p>
+
+                </div>
+            </div>
+        </div>
+        {% load render_json_ld from json_ld %}
+        {% render_json_ld database.sd %}
+    {% endfor %}
+{% endblock %}
