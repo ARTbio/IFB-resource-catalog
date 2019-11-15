@@ -36,7 +36,9 @@
                     <p>{{ tool.name.upper }}</p>
                     <h4>Created By Plateform</h4>
                     <p>
-                        {{tool.platform}}
+                        {% for c in tool.platform.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
                     </p>
                     <h4>Access condition:</h4> <p>{{ tool.access_condition }}</p>
                     <h4>Link:</h4>  <p>{{ tool.link }}</p>
@@ -51,7 +53,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h4>Input_outils:</h4> <p>{{ tool.input_outils }}</p>
-                    <h4>Tool_license: :</h4>  <p>{{ tool.tool_license }} </p>
+                    <h4>Tool_license: </h4>  <p>{{ tool.tool_license }} </p>
                     <h4>Prerequisites: </h4>  <p>{{ tool.prerequisites }} </p>
                     <h4>Operating_system:</h4>  <p>{{ tool.operating_system }} </p>
                     <h4>Downloads:</h4>  <p>{{ tool.downloads }} </p>
