@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Details on event: {{ event_list.0.name }}
+{% endblock %}
+
+{% block content %}
+    {% for event in event_list %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-4">{{ event.name }}</h2>
+            <div class="row entete">
+                <div class="col-sm">
+                    <ul>
+                        <img class="database-picture" src=" {{ event.logo }} " height="60px" width="120px" ></li>
+                    </ul>
+
+                </div>
+
+
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row servdetail">
+                <div class="col-lg-6">
+                    <h4>Name of the Event:</h4>
+                    <p>{{ event.name.upper }}</p>
+                    <h4>Organized By</h4>
+                    <p>
+                        {{ event.organizer }}
+                    </p>
+                    <h4>Access condition:</h4> <p>{{ event.access_conditions }}</p>
+                    <h4>Link:</h4>  <p>{{ event.link }}</p>
+                    <h4>Description:</h4>  <p>{{ event.description }}</p>
+                    <h4>Location:</h4>
+                    <p>
+                        {{ event.location }}
+                    </p>
+                </div>
+                <div class="col-lg-6">
+
+                    <h4>Sponsors:</h4>
+                     <p>   {{event.sponsors}}
+                    </p>
+                    <h4>Start date:</h4>  <p>{{ event.start_date }} </p>
+                    <h4>End date:</h4>  <p>{{ event.end_date }} </p>
+
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
