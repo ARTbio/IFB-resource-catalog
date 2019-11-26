@@ -53,6 +53,18 @@ def name_database(request, id):
     context = {'id': id, 'database_list': a_list}
     return render(request, 'database/name_database.html', context)
 
+def name_event(request, id):
+
+    a_list = Event.objects.filter(id=id)
+    context = {'id': id, 'event_list': a_list}
+    return render(request, 'database/name_events.html', context)
+
+def name_platform(request, id):
+
+    a_list = Platform.objects.filter(id=id)
+    context = {'id': id, 'platform_list': a_list}
+    return render(request, 'database/name_platforms.html', context)
+
 class ServiceListView(ListView):
 
     model = Service
@@ -82,6 +94,16 @@ def databases_search(request):
     databases_list = Database.objects.all()
     databases_filter = DatabaseFilter(request.GET, queryset=databases_list)
     return render(request, 'database/databases_list.html', {'filter': databases_filter})
+
+def events_search(request):
+    events_list = Event.objects.all()
+    events_filter = DatabaseFilter(request.GET, queryset=events_list)
+    return render(request, 'database/events_list.html', {'filter': events_filter})
+
+def platforms_search(request):
+    platforms_list = Platform.objects.all()
+    platforms_filter = DatabaseFilter(request.GET, queryset=platforms_list)
+    return render(request, 'database/platforms_list.html', {'filter': platforms_filter})
 
 def index(request):
     return render(request, 'database/template.html')
