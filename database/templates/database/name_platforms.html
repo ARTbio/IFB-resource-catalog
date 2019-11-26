@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Details on platform: {{ platform_list.0.name }}
+{% endblock %}
+
+{% block content %}
+    {% for platform in platform_list %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-4">{{ platform.name }}</h2>
+            <div class="row entete">
+                <div class="col-sm">
+                    <ul>
+                        <img class="platform-picture" src=" {{ platform.logo }} " height="60px" width="120px" ></li>
+                    </ul>
+
+                </div>
+
+
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="row servdetail">
+                <div class="col-lg-6">
+                    <h4>Name of the platform:</h4>
+                    <p>{{ platform.name.upper }}</p>
+                    <h4>Description</h4>
+                    <p>
+                        {{ platform.description }}
+                    </p>
+                    <h4>Address:</h4> <p>{{ platform.address }}</p>
+                    <h4>Affiliation:</h4>  <p>{{ platform.affiliation }}</p>
+                    <h4>Website:</h4>  <p>{{ platform.website }}</p>
+                    <h4>Keywords:</h4>
+                    <p>
+                        {% for c in platform.keywords.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                    <h4>Accompanied project:</h4>  <p>{{ platform.accompanied_project }}</p>
+                    <h4>Hosted projects:</h4>  <p>{{ platform.hosted_projects }}</p>
+                </div>
+                <div class="col-lg-6">
+
+                    <h4>Structure:</h4>
+                     <p>   {{platform.structure}}
+                    </p>
+                    <h4>Scientific leader:</h4>  <p>
+                    {% for c in platform.scientific_leader.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+                    <h4>Technical leader:</h4>  <p>
+                    {% for c in platform.technical_leader.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+
+                    <h4>Team:</h4>
+                    <p>
+                        {% for c in platform.team.all %}
+                        {{c}}{%if not forloop.last%},{%endif%}
+                        {%endfor%}
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+{% endblock %}
