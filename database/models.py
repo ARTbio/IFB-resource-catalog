@@ -4,6 +4,7 @@ import requests
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.urls import reverse
+import json
 
 """
 class Dataset(models.Model):
@@ -280,44 +281,63 @@ class Tool(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
     access_condition = models.TextField( blank=True, null=True)
     contact_support = models.CharField(max_length=1000, blank=True, null=True)
-    input_outils = models.CharField(max_length=1000, blank=True, null=True)
+    input_data = models.CharField(max_length=1000, blank=True, null=True)
+    output_data = models.CharField(max_length=1000, blank=True, null=True)
     tool_license = models.CharField(max_length=1000, blank=True, null=True)
     link = models.CharField(max_length=1000, blank=True, null=True)
     keywords = models.ManyToManyField(Keyword, blank=True)
     prerequisites = models.TextField( blank=True, null=True)
     operating_system = models.CharField(max_length=1000, blank=True, null=True)
     tool_type = models.ManyToManyField(ToolType, blank=True)
+    topic = models.CharField(max_length=1000, blank=True, null=True)
+    primary = models.CharField(max_length=1000, blank=True, null=True)
     downloads = models.IntegerField(blank=True, null=True)
     software_version = models.IntegerField(blank=True, null=True)
     annual_visits = models.IntegerField(blank=True, null=True)
     unique_visits = models.IntegerField(blank=True, null=True)
+    biotoolsID = models.CharField(max_length=1000, null=True, blank=True)
+    biotoolsCURIE = models.CharField(max_length=1000, null=True, blank=True)
     platform = models.ManyToManyField(Platform, blank=True)
 
     def sd(self):
+        list_pf = []
+        qs = Tool.objects.all().filter(name=self.name)
+        for tool in qs:
+            for pf in tool.platform.all():
+                list_pf.append(str(pf))
+        test_json = json.dumps({'test': 'test2'})
+        ctx = {
+                    "@context":
+                        {
+                        "edam": "http://edamontology.org/",
+                        "schema": "http://schema.org/",
+                        "dc": "http://purl.org/dc/terms/",
+                        }}
+
         return {
-            "@context":
-                {
-                "edam": "http://edamontology.org/",
-                "schema": "http://schema.org/",
-                "dc": "http://purl.org/dc/terms/",
-                },
-            "@id": settings.VAR_URL+"api/?name="+self.name,
-            "@language": "fr",
-            "@type": "schema:WebAPI",
-            "name": "CatalogRestToolAPI",
-            "@graph":
-                [{
-                "@id": "https://www.france-bioinformatique.fr/en/services/outils/"+self.name,
-                "@type": "schema:SoftwareApplication",
-                "schema:name": self.name,
-                "schema:description": self.description,
-                "schema:laboratoryScience":
-                    {
-                        "@type": "schema:LaboratoryScience",
-                        "schema:name": self.platform.name,
-                    }
-                }]
-                }
+                    "@context":
+                        {
+                        "edam": "http://edamontology.org/",
+                        "schema": "http://schema.org/",
+                        "dc": "http://purl.org/dc/terms/",
+                        },
+                    "@id": settings.VAR_URL+"api/?name="+self.name,
+                    "@language": "fr",
+                    "@type": "schema:WebAPI",
+                    "name": "CatalogRestToolAPI",
+                    "@graph":
+                        [{
+                        "@id": "https://www.france-bioinformatique.fr/en/services/outils/"+self.name,
+                        "@type": "schema:SoftwareApplication",
+                        "schema:name": self.name,
+                        "schema:description": self.description,
+                        "schema:laboratoryScience":
+                            {
+                                "@type": "schema:LaboratoryScience",
+                                "schema:name": test_json,
+                            }
+                        }]
+                 }
 
 class Database(Resource):
     logo = models.URLField(max_length=200, blank=True, null=True)
