@@ -20,6 +20,7 @@ from .models import ToolType
 from .models import Training_material
 
 
+# Admin interface configuration
 class ViewOnSiteModelAdmin(admin.ModelAdmin):
     class Media:
         css = {
@@ -42,7 +43,7 @@ class ViewOnSiteModelAdmin(admin.ModelAdmin):
 
 
 
-
+#choose the fields to be displayed in the admin interface
 class ServiceAdmin(ViewOnSiteModelAdmin):
     filter_horizontal = (
         'credit',
@@ -74,6 +75,7 @@ class DatabaseAdmin(ViewOnSiteModelAdmin):
     list_display = ('name',)
     date_hierarchy = 'last_update'
 
+#Declare the models to be displayed in admin interface
 admin.site.register(Service, ServiceAdmin)
 admin.site.register(Credit)
 admin.site.register(ElixirCommunities)
