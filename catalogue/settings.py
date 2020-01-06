@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'catalogue.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': database_name,
-        'USER': database_user,
-        'PASSWORD': database_password,
+        'NAME': "ifb_catalog",
+        'USER': "ifb_user_2020",
+        'PASSWORD': "pass",
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
