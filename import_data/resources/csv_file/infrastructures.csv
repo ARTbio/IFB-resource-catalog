@@ -1,0 +1,442 @@
+"Nom de la plateforme","Type d'infrastructure","Capacité de stockage utile","Nombre de CPU","Collections de données","Heure de CPU / An","Outils bioinformatiques","Nombre d'utilisateurs","Conditions d'acces","Descriptions des serveurs","Titre appui a projet","Description aide à projets","Projets accompagnés","Conditions d'appui","Projets hébergés","Publications"
+"EBIO","Propriétaire","87.00 To","220 cores","7","260 400 H / an","9","50","Faire une demande de soutien sur le site web de la plate-forme
+Nécessité d'appartenir à une unité mixte avec l’université Paris-Sud","Technologie ZFS, NFS.
+Samba 2 hôtes de virtualisation KVM.
+DB : PosgreSQL, MySQL, ZODB Galaxy.
+Autres : LDAP, Salt, subvesion, trac, dhcp, FAI, tftp, ftp, zenoss, varnish.
+","3 types d'appui : service, en collaboration et accès aux ressources de calcul","La modalité « service » consiste en une prise en charge totale par la plate-forme de la réalisation de l'analyse bio-informatique. Au minimum deux rencontres sont prévues avec le demandeur, la première afin d'appréhender la question posée et les données pour lesquelles il demande une expertise, et la dernière pour un rendu du travail réalisé par la plate-forme (après remise d'un document explicatif de la démarche suivie et des résultats obtenus). Si le demandeur ne fait pas partie d'une unité mixte avec l'Université Paris-Sud, les analyses sont payées selon un forfait jour/homme.
+Les projets réalisés « en collaboration » nécessitent soit une participation active à l'analyse des données du biologiste soit la mise à disposition d'un CDD ou d'un stagiaire au sein de la plate-forme et co-encadré par le personnel de la plate-forme.
+La modalité « accès aux ressources » implique que les biologistes lancent eux-mêmes leur analyses sur le cluster de calcul, moyennant éventuellement formation et/ou accompagnements ponctuels assurés par le personnel de la plate-forme.
+Une réflexion est en cours concernant les accès moyennant finances de personnes sans rattachement à l'université Paris-Sud afin de leur proposer une offre contrainte en ressources et dans le temps.","34","Dépôt de demande de soutien sur http://ebio.u-psud.fr/eBIO_services.php","","19"
+"Institut Curie","Propriétaire","2 000.00 To","2 000 cores","","1 000 000 H / an","80","1 656","","
+
+
+
+3 web servers
+3 database servers
+60 computation servers
+
+
+
+","","","","","",""
+"bilille","Hébergée","76.00 To","144 cores","","","2","","Comptes créés sur demande pour les membres des laboratoires partenaires de bilille","Cloud acheté par la bilille, hébergé au Centre de Ressources Informatiques de l'Université Lille 1
+- 3 noeuds à 2*12 coeurs et 256 Go de ram - Dell FC630 (2015)
+- 1 noeud à 2*12 coeurs et 512 Go de ram - Dell FC630 (2015)
+- 6 noeuds à 2*4 coeurs et 96 Go de ram - Dell R610 (2011)
+- réseau 10 Gb/s (2015)
+Les cloud vient d'être mis en place. Seules 2 VM bioinfo sont proposées pour l'instant.","","","","","",""
+"ABiMS","Propriétaire","2 000.00 To","2 000 cores","","5 500 000 H / an","600","600","http://abims.sb-roscoff.fr/account","2 serveurs BDD (MysQL + PostreSQL)
+1 serveur GPU
+1 serveur R
+10 serveurs WEB
+3 serveurs Galaxy pour la production (NGS, Metabolomics et Public)
+1 serveur de développement Galaxy
+60 nœuds de calculs
+1 serveur maître
+4 serveurs NFS
+","","
+
+
+
+
+ABiMS proposes bioinformtics services :
+- infrastructure : cluster, sotrage, tools
+- training : Linux, R langage, Galaxy....
+- bio-analysis : NGS, génomic, transcriptomic, métagénomic, genome annotation...
+- development of databases and offers an infrastructure for the scientific calculation. The offer of bio-analysis is particularly developed.
+
+
+
+
+","26","","",""
+"INCa-SLC","Hébergée","400.00 To","536 cores","","20 000 H / an","10","15","","1 serveur Tomcat/MySQL (SampleTracker)","","
+
+
+
+
+Mode prestation de service (financement par le demandeur) ou collaboration scientifique (pas de financement).
+ 
+o ICGC Sein / Prostate / Carcinosarcome de l'endomètre
+Projet international de séquençage de génome complets (tumeur + normal).http://www.icgc.org et http://dcc.icgc.org
+o Basis Sein
+Projet européen de séquençage de génome complets (tumeur + normal) de  tumeurs du sein amplifiées sur HER. http://www.basisproject.eu
+o Abs4NGS
+Projet PIA de développement méthodologique bioinformatique pour le NGS. https://sites.google.com/site/abs4ngs/
+o Projet INCa NGS clinique.
+Développements de pipelines dans le cadre du NGS clinique (ciblé) en cancérologie.
+o Projets locaux dans le cadre du Lyric (http://www.cancer-­‐lyric.com/)
+et/ou du Clara (http://www.canceropole-­‐clara.com/)
+Projet Profiler (NGS clinique); HNPACT (NGS cancer head and neck)
+
+
+
+
+","10","","10",""
+"CBiB","Propriétaire","360.00 To","600 cores","","87 600 H / an","174","38","Ouverture gratuite d'un compte sur demande (formulaire à remplir).","Infrastructure de virtualisation:
+Cluster Proxmox : 3 serveurs DELL PowerEdge R640 (2 CPU Xeon 4114, 20 coeurs, 256Go, stockage dédié partagé 20To)
+Infrastructure de stockage:
+Un stockage pour la production sur IBM Spectrum Scale, ~300To utile, IBM Spectrum Scale (ex-GPFS) composé de 2 nœuds GPFS [Dell R730] + JBOD [Dell MD3460]
+Un stockage dans un site distant pour la réplication du stockage de production basé sur GlusterFS, ~400To
+Un stockage pour la sauvegarde basé sur ZFS, 50To (répliquée sur un site distant)
+Un système de stockage distribué. Projet MCIA-iRODS
+Infrastructure de calcul:
+Cluster cortex. Total de 25 nœuds de calcul, 512 cœurs, 7.2To RAM : 24 nœuds de calcul standard, Dell R630 (20 cœurs, 256 Go RAM), 1 nœud de calcul ""big memory"", Dell R630 (32 cœurs, 1To RAM), 2 nœuds de login, Dell R630 (20 cœurs, 256 Go RAM)
+Portail Galaxy, 1 serveur DELL PowerEdge R910 (32 coeurs/64 threads, 128Go RAM, 800 Go d'espace disque)
+Infrastructure réseau:
+Accès Internet ~1 Gbits/s (partagé) fournit par l’Université de Bordeaux
+LAN Intel Omni-Path (données), 100Gbit/s
+LAN Ethernet, 10 Gbits/s
+","","2  supporting system modes for projects: service provision or collaboration (R&D).","26","","4",""
+"ATGC","Propriétaire","30.00 To","744 cores","","300 000 H / an","24","12 000","Gratuit via le site web de la PF","2 serveurs web redondants derrière un proxy.
+16 noeuds de calcul.
+1 serveur de disques avec NFS.
+1 serveur de bases de données avec MySQL et PostGRESQL.
+","Appui à projet en collaboration pour les activités NGS","L'équipe Méthodes et Algorithmes pour la Bioinformatique (MAB) du LIRMM développe des logiciels et des méthodes de traitement des données de séquençages à haut débit. Ces outils sont diffusés à la communautée via ATGC. Nous fournissons un appui à l'analyse des données NGS sous la forme de collaborations.","5","","",""
+"GenAtlas","Propriétaire","","","","","","","","","","
+
+
+
+
+Conception de puces pour la recherche des maladies mitochondriales MITOMAN
+Conception de puces pour le diagnostique des retards mentaux de l’enfant.
+Projet de recherche sur les malformations cardiaques congénitales HEARTGENOMICS
+
+
+
+
+","","","",""
+"IGR","Propriétaire","420.00 To","450 cores","15","","90","25","- Serveur Galaxy : Demande de compte auprès de la plate-forme. Ouvert à toute équipe exterieure à Gustave Roussy sur demande (adresse IP).
+- Cluster de calcul : accessible exclusivement aux bioinformaticiens du site GR.","
+
+
+
+- Cluster de calcul dédié à l’analyse de données de séquencage
+- Serveur Galaxy
+- Serveur d’applications
+      - Shiny
+      - Redmine
+- Serveur dédié à l’analyse de données microarray
+
+
+
+","","
+
+
+
+
+1. Projets en routine :
+     1.1. Périmètre : Interne
+     1.2. Application : bioinformatique clinique
+     1.3. Financement : Gustave Roussy.
+ 
+2. Prestations classiques (projets courts) :
+     2.1. Périmètre : National
+     2.2. Applications : Analyses ponctuelles de données génomiques pour un projet ou une cohorte. Développement bioinformatique légers (","2","","58","10"
+"MicroScope","Propriétaire","40.00 To","370 cores","","400 000 H / an","50","984","Accès libre","
+
+
+
+1 serveur de stockage.
+1 serveurs MySQL.
+1 cluster de calcul.
+1 serveur Web.
+ 
+
+
+
+","","","8","","307","132"
+"MIGALE","Propriétaire","300.00 To","1 082 cores","90","9 478 320 H / an","250","451","Gratuit sur demande de compte","","","Les utilisateurs font une demande d’hébergement à la plate-forme et de collaboration avec l’équipe de l’unité qui assure le traitement et l’analyse des données bioinformatiques.","","","",""
+"DBC","Propriétaire","5 000.00 To","2 760 cores","76","9 671 040 H / an","5 980","577","accès restreint aux membres de l'Institut Pasteur suaf via les services web (galaxy.pasteur.fr par ex)","serveurs :
+2 noeuds (40 coeurs, 512GB RAM)
+​​52 noeuds (12 coeurs, 256GB RAM)
+163 noeuds (12 coeurs, 64GB RAM)
+1 noeud GPU-K80 (20 cores, 256 GB RAM, 4xNvidia-K80)
+2 noeuds GPU-M40 (20 cores, 256 GB RAM, 4xNvidia-M40)
+2 noeuds GPU-P100 (20 cores, 512 GB RAM, 4xNvidia-P100)
+stockage Isilon accessible via NFS
+cluster géré via Sun Grid Engine (ou descendants) puis SLURM
+programmes bioinformatiques accessible via « module » .
+Le détail des données et outils est  accessible à l'adresse suivante:  https://bioweb.pasteur.fr/","Hétérogénéité Tumorale et Ecosystème","Programme Hétérogénéité Tumorale et Ecosystème – INSERM
+Integrating the intra-tumoral microbiome to promote understanding on tumor plasticity.
+8 partenaires (4 Institut Pasteur units and 4 inserm units)
+funded by INSERM","6","","",""
+"RPBS","Propriétaire","70.00 To","960 cores","2","913 000 H / an","32","41","Accès libre via le portail Mobyle
+Accès en tant qu'utilisateur enregistré via le portail Mobyle
+Accès direct à la ressource sur demande
+Hébergement de matériel propriétaire en mode PAAS
+","Salle serveur de 40m²
+Architecture de type PAAS (Platform As A Service)
+Ferme de calcul hétérogène (noeuds 12 coeurs / 48Go de RAM, noeud 60 coeurs / 512 Go de RAM, noeud GPU en cours d'installation) sur un réseau interne 10Gb
+Espace disque de travail de 30To sous LustreFS
+Espace de stockage NFS de 2x30To
+Gestion logicielle avec SaltStack
+Encapsulation des services dans des conteneurs Docker
+Gestionnaire de tâches: Slurm
+","","Service hosting : TEF, HHalign-Kbest, InterEvDock, MIR, Yakusa, SPROUTS & SolyPep
+Hardware hosting : PAAS SDV
+","","Hébergement physique : les équipes demandeuses font une demande d’hébergement à la plate-forme qui assure l'intégration du matériel dans la ressource de calcul.
+Déploiement de services : les équipes demandeuses font une demande de déploiement à la plate-forme qui assure le déploiement du service sur la ressource de calcul et, si demandé, sur le portail Web.
+Projets scientifiques : les équipes demandeuses font une demande à la plate-forme pour une prestation ou un projet collaboratif.
+","7",""
+"MBI","Propriétaire","80.00 To","300 cores","","","","25","Compte local requis pour faire tourner les calculs lourds ou les logiciels commerciaux ; libre accès externe pour Hex, KBDOCK, Kpax","Cluster : 300 CPU cores (2.4 GHz Intel Xeon) + 8 GPU (Nvidia Tesla K40M)
+Databases : MySQL, PostgreSQL
+Tools : NAMD, Autodock, Gold, Hex, Parafit, KBDOCK, Kpax, ECDomainMiner, Coron, Knime","Principalement sur la base des comptes d'utilisateurs locaux.","","","","",""
+"BIstrO","Propriétaire","60.00 To","380 cores","","","180","","","
+
+
+
+L’infrastructure propre (financée par l’IFB à hauteur de 60 MEuros) est hébergée par la grille de calcul TIER-2 de l’IPHC: 1 cluster de calcul Linux  en accès libre pour le public avec identification.
+La plate-forme partage également une partie de l’infrastructure informatique distribuée dans les instituts partenaires de la plate-forme :
+• IBMP (Fédérative entre IBMP, GMGM, IBMC (ARN, RIDI), Herbier de Strasbourg)
+o Cluster de calcul de 72 coeurs et 576 Go RAM avec 60 To de stockage associé au calcul et 60 To de stockage capacitifs.
+o Plus de 50 outils d’analyses de séquences (Alignement, phylogénie, NGS, smallRNAs, EMBOSS, …) sont déployées sur les lames.
+• ICube : BFO, LBGI
+o Infrastructure : propre
+o Serveur web (KVM) : 24 cœurs (128 GB RAM)
+o Capacité de stockage utile totale : 7 To
+o Outils bioinformatiques et banques de données disponibles : 10
+o Serveur en accès libre
+• IGBMC : GalaxEast
+o Infrastructure : propre
+o Nombre de serveurs et type :
+• Serveurs web nginx (VM) : 2
+• Serveur posgreSQL (VM) : 1
+• Serveurs FTP (VM) : 2
+o Ferme de calcul : 16 nœuds : 256 cœurs
+o Capacité de stockage utile totale : 2,5 To
+o Nombre d’outils bioinformatiques disponibles : 119
+o Gestionnaire de file : GridEngine
+o Serveur en accès libre pour les utilisateurs de GalaxEast
+• IGBMC : NGS-QC
+o Infrastructure : propre (financé par l’équipe Gronemeyer et un projet de maturation soutenu par le SATT Conectus Alsace.
+o Nombre de serveurs: 2 servers ; 2 x 40 coeurs ; 256 GB RAM
+o Capacité de stockage utile totale : > 20 To
+o Nombre de collections de données mises à disposition : 1.
+o Nombre d’outils bioinformatiques disponibles : 1
+o Serveur en accès libre
+
+
+
+","","1. BioImage
+• Mode : BioImage partner
+• Hosting of MitoCross labex (storage infrastructure hosted /configured/maintained by the platform)
+• Support for project “Variation intra-spécifique et évolution des genomes” led by Joseph SCHACHERER (computing and data storage via the platform)
+2. Structural biology
+• Mode : Instruct project partner
+• Support for Instruct project: European Research Infrastructure in Integrative Structural Biology
+• Support for FRISBI  project : French Infrastructure For Integrated Structural Biology
+3. Proteomics
+• Participation in project: Infrastructure Nationale en Biologie et Santé (ProFI : Proteomic French Infrastructure)
+4. Participation in project: NOTOX project : Predicting long-term toxic effects using computer models based on systems characterization of organotypic cultures. 
+5. Mouse clinic (ICS)
+• Mordor “Distribution of the fluorescent mu (MOR-mcherry) and delta (DOR-eGFP) opioid receptors in the brain and spinal cord”. Development and hosting of a “zoomable” image database in support of publication (www.ncbi.nlm.nih.gov/pubmed/24623156)
+• Gencodys: Development and hosting of an intranet for progress monitoring of lines generated in the context of the GENCODYS consortium (www.gencodys.eu)
+6. NGS quality control
+•  “Systems Biology of Cell Fate Decisions” project led by MA Mendoza Parra.","","","",""
+"P3M","","","","","","","","","","","","","","",""
+"BiRD","Propriétaire","400.00 To","560 cores","8","1 293 109 H / an","23","206","Pour toute demandes de comptes (cluster ou Galaxy) contacter pf-bird@univ-nantes.fr
+La charte d'utilisation est disponible à cette adresse : http://www.pf-bird.univ-nantes.fr"," 
+cluster de calcul ouvert à la communauté (hébergé dans le datacenter de l'université de Nantes) :
+10 lames pour un total de 560 coeurs et 3.8 To de RAM
+Espace de stockage de 400To utiles (BeeGFS) associé
+
+cluster de calcul dédié à l'analyse des projets NGS et au développement des pipelines :
+6 lames pour un total de 384 coeurs et 2.1 To de RAM.
+Espace de stockage de 150To utiles associé
+
+Serveur Galaxy : http://galaxy-bird2.univ-nantes.fr (necessite la création d'un compte sur le cluster)
+d'une plateforme de CLOUD sous OpenStack intégrée dans le projet Biosphère
+160 coeurs
+50 To de stockage
+
+Trois autres serveurs (web, fichiers et développement)
+","Conduite de projet en analyse de données","o Etude du transcriptome (RNAseq, puces à ADN Affymetrix et Agilent) : QC, analyse primaire (alignement, normalisation, filtrage, détection de gènes différentiels, clustering, annotation fonctionnelle)
+o Recherche de variations génétiques issues du séquencage Haut Débit (NGS) : QC, alignement, détection de variants.
+o Génotypage (puces Axiom) : analyse primaire GWAS.","37","Tous les projets sont gérés dans le cadre d'une démarche qualité. Un projet démarre généralement par une réunion entre le porteur de projet et les membres de la plateforme, pendant laquelle la faisabilité du projet est discutée.
+Lorsqu'un projet est pris en charge, la plateforme s'engage à réaliser les analyses primaires et à fournir tous les documents associés (données brutes, données normalisées, classification hiérarchique, recherche de gènes différentiels, fichiers fastq, fichiers bam, fichiers vcf...)","1","10"
+"GenOuest ","Propriétaire","2 200.00 To","1 600 cores","8","4 000 000 H / an","350","600","Ouverture gratuite d'un compte. La demande de compte s'effectue sur https://my.genouest.org
+ 
+ ","Cluster de calcul
+Les ressources de calcul sont accessibles de manière anonyme pour certains outils ou bien de manière authentifiée (ligne de commande ou portail Galaxy https://galaxy.genouest.org/).
+Le cluster repose sur une quarantaine de serveurs proposant un ensemble de calcul basé sur les gestionnaires de tâche SGE et Slurm (passage progressif vers Slurm)
+L'ensemble de calcul est associé à deux espaces de stockage: un espace à haute performance de 300 To et un espace conventionnel NFS de 1,9 Po.
+ 
+Cloud
+L'infrastructure genocloud, basée sur Openstack, est composée de 16 serveurs offrant 400 coeurs. Cet ensemble est associé à 300 To de stockage. Plusieurs images préconfigurées et thématiquement adaptées sont mises à la disposition des utilisateurs.
+ 
+ ","","La plate-forme GenOuest propose un environnement outillé pour ses utilisateurs. Il est ainsi possible de bénéficier de comptes Linux (sur le cluster ou bien sur genocloud), de bases de données relationnelles, de serveurs web.Suivant les cas de figures, les projets pourront être simplement hébergés sur la plate-forme, les utilisateurs agissant en toute autonomie avec cependant l'accès à un support technique. Dans un autre cas, les projets pourront être menés en collaboration avec la plate-forme, principalement par affectation d'un ingénieur recruté dans le cadre du projet scientifique.","5","","21",""
+"PRABI-HCL","Hébergée","","","","","","","","","","
+
+
+
+
+Le Service de Biostatistique des Hospices Civils de Lyon / Equipe Biostatistique Santé (ESB/SB-­HCL) fournit un appui à la recherche
+-­ Lors  de  la  conception  de  l'étude : en  participant  à  l'élaboration  du  protocole (discussion du critère principal, étude de faisabilité, choix du schéma d’étude, taille d'échantillons, validation des aspects statistiques du protocole, randomisation),
+-­ Pendant la réalisation de l'étude : en réalisant des analyses intermédiaires,
+-­ Après  le  recueil  des  données : en  effectuant  des  analyses  statistiques  (statistique
+inférentielle, modélisations et simulations),
+-­ Lors de la valorisation du projet : en aidant à la rédaction d'articles, la création  de
+tableaux et de graphiques, la réalisation de présentations scientifiques.
+ 
+Deux des axes de recherche de l’équipe sont associés à l’utilisation de données de grande dimension. L’axe «Identification de biomarqueurs /Omique /Génétique » animé par le Pr Pascal Roy, et l’axe « Modèles prédictifs / Médecine personnalisée » animé par le Dr Delphine Maucort-­Boulch.
+
+
+
+
+","18","","",""
+"PRABI-AMSB","Propriétaire","215.00 To","1 032 cores","","3 800 000 H / an","30","190 000","services web et logiciels clients (e.g., raa_query, pour l’interrogation des banques de données de séquences) en libre accès.","
+
+
+
+L’infrastructure informatique de la composante PRABI-AMSB est commune avec celle de la composante PRABI-Doua. 
+un serveur NFS
+un serveur postgreSQL
+quatre serveurs pour le Web dont un pour Galaxy
+quatre serveurs de machines virtuelles.
+
+
+
+","","
+
+
+
+
+
+Prestations de services facturées en termes de mois ingénieur. La tarification est validée chaque année par le Conseil d’Administration de l’UCBL. Pour 2014, les tarifs étaient de 300 €/jour pour les académiques et 600 €/jour pour un partenaire privé
+
+
+
+
+
+","8","","3",""
+"PRABI-Lyon-Grenoble","Propriétaire","515.00 To","1 032 cores","10","3 850 000 H / an","120","150","Collaboration scientifique avec le PRABI-Doua ou le PRABI-AMSB. Dans ce cas l'accès aux cluster de calcul et aux moyens de stockage est gratuit.","L’infrastructure informatique de la composante PRABI-Doua est commune avec celle de la composante PRABI-AMSB et elle comprend:
+Un serveur NFS.
+Un serveur postgreSQL,
+Trois serveurs Web (service général, ProDom et BiBI).
+Un serveur de soumission de tâches sur le cluster.
+Cette i'infrastructure comprend également un cluster de calcul hébergé dans une salle machine séparée. Les caractéristiques de ce cluster sont les suivantes :
+26 nœuds de calcul (dont deux avec 1 To de RAM).
+96 processeurs
+1032 cœurs/threads.
+7 To RAM totale.
+215 To utile de stockage haute performance (4 tiroirs Panasas PAS11).
+300 To utiles de de stockage «froid» (baie Dell MD3060e + 1 PowerEdge R730.
+Les services proposés comprennent l'accès aux banques de données de séquences «généralistes» (GenBank, EMBL, Ensembl, RefSeq, UniProt), à des banques de données spécialisées développées localement (ProDom, HOGENOM) ainsi qu'a un très large panel de programmes utilisés en bioinformatique.","","","","Scientific collaboration with PRABI-Doua or LBBE","",""
+"PRABI-Lyon-Gerland","Propriétaire","","","","","","","","
+
+
+
+- 1 nouvelle salle machine 57 m² localisée à l’IBCP (disponible depuis 2013 dans le cadre du plan Campus) est mise à disposition pour héberger les moyens informatiques du PRABI-Gerland et assurer la sauvegarde.
+- Dernière machine intégrée sur crédits PRABI et dédiée au service SGI NUMA 144 cores, 768 GB RAM, 19,2 To 15000 rpm+ 28 To 7200 rpm (upgradée sur crédits RENABI-IFB)
+- Salle équipée 3D 3D avec vidéoprojecteur stétéroscopique utilisée pour les formations.
+
+
+
+","","","","","",""
+"PRABI-G","Propriétaire","","","","","","","","","","","","","",""
+"Genotoul-bioinfo","Hébergée","3 200.00 To","2 984 cores","","20 000 000 H / an","650","850","
+
+
+
+Accès libre et gratuit pour les académiques, payant pour les entreprises privées.
+Quotas (sauvegardé, non sauvegardé) mis en place pour le stockage et le nombre d'heures de calcul pour les académiques (respectivement 250 Go; 1To et 100 000h) et le privé (sur le calcul -­‐ 500 h -­‐ pour tester l’infrastructure).
+Pour le stockage, possibilité de « louer » de l'espace disque  à partir de 1 To pour le public.
+
+
+
+","La plate-­forme dispose d'une vingtaine de serveurs physiques complétés par soixante-quinze serveurs virtuels qui assurent les services de login, développement, entrées/sorties, bases de données relationnelles, banques de données génomiques, administration, supervision, web, virtualisation, sauvegarde, hébergement de projets, logiciels en bioinformatique. Le serveur principal, servant d'accès aux utilisateurs s'appelle ""genologin"".
+Quelques exemples (liste non exhaustive) de services web hébergés par la plateforme : ng6, galaxy, rnaspace, peroxibase, phyleasprog, multalin, FrameD, MetExplore, Iccare, blast, emboss, biomaj...
+Par ailleurs nous hébergeons (formalisation par convention) les données, sites web ou systèmes d'information d'autres plateformes ou d'autres équipes de recherche de la région : get-­‐plage, biopuce, anexplo, toxalim, hsern, sigenae : gbf, lrsv, genphyse
+● Cluster SLURM
+64 noeuds IVYBRIDGE (20c) = 1280 coeurs (2560 threads), 16 Tera Octets RAM
+48 noeuds BROADWELL (32c) = 1536 coeurs (3072 threads), 12 Tera Octets RAM
+1 noeud SMP1 = 120 coeurs, 3 Tera Octets RAM
+1 noeud SMP2 = 48 coeurs, 1.5 Tera Octets RAM
+Interconnexion Infiniband QDR (40Gbs) / FDR (56 Gbs)
+● Stockage scratch HPC
+→ 900 Tera Octets utiles
+→ 25 Giga bits / seconde
+● Stockage NAS
+→ 3 baies ISILON (au total 1.8 Peta Octets utiles)
+→ 2 baies COMPELLENT/FLUIDFS (au total 450 Tera Octets utiles)
+→ Au total 3.2 Peta Octets utiles
+● Virtualisation de serveurs
+→ ferme Vmware de 3 serveurs
+→ baie disques DELL-MD (mode SAN) 40To
+→ 75 machines virtuelles hébergées (fin 2016)","","Support for scientific projects is made in two forms:
+1) project hosting: this form of accompaniment is to make available a project a virtual machine that will be administered by the members.
+2) the accompaniment: the project support is performed preferentially in the form of collaboration. The service is also practiced. In the first case, you are asked to partners a contribution to the functioning of the platform. He also asked them to commit to join the staff of the platform that accompanied the project to various valuation results. In the case of a service, the full cost of the service (storage, computing, human ressources are assessed and charged.
+3) data storage","35","Si vous souhaitez que nous vous accompagnions, contactez nous : http://bioinfo.genotoul.fr/index.php/ask-for/project/","41",""
+"ISfinder","Propriétaire","1.20 To","","","","","14 878","1 serveur en accès libre 1 serveur avec accès par login / password","2 serveurs physiques
+3 serveurs virtuels de type LAMP (linux, apache, Mysql, php) Stockage de type iSCSI.
+","","","","","",""
+"SIGENAE","Hébergée","","","","","","","","Pas d'infrastructure propre : utilisation de genotoul","","","","","",""
+"CAZy","Propriétaire","","","","","","","
+
+
+
+Académiques et industriels
+Coût à définir pour les industriels en fonction du temps d’utilisation et de l’assistance necessaire
+
+
+
+","1 cluster de 136 cœurs, 4 calculateurs SMP à 64 cœurs, 2 calculateurs à 8 cœurs","","","","","",""
+"PACA-Bioinfo","Propriétaire","100.00 To","624 cores","","","20","212 439","L'accès n'est pas direct sur les machines composant l'infrastructure mais au travers des différents outils fournis par le laboratoire.","1 serveur public Phylogeny.fr
+1 serveur public Annotathon
+1 serveur de calcul Blast (privé)
+2 serveurs de calcul assemblage privés
+ ","Aide aux projets","Mise en place de site web et de listes de diffusions dédiés, d’espaces de stockage, de server ftp. Développement d’outils en ligne spécifiques. Accès aux données traitées.","5","","4","51"
+"IMGT","","","","","","","","","","","","","","",""
+"South Green","Propriétaire","370.00 To","1 184 cores","","3 000 000 H / an","500","300","Être partenaire d'un projet en lien avec les plantes méditerranéenes et tropicales.","Cluster de calcul Dell 24 noeuds
+2 noeuds hypermem, un Dell, un Fujitsu
+Serveurs bases de données, et serveurs web
+Lames de virtualisation
+Stockages scratch et NAS
+ ","","Appels d'offres plateforme spécifique:
+Ces appels d'offres sont à privilgéier pour financement du matériel et les demandes de contrats d'ingénieurs informaticiens ou bioinformaticiens qui participeront au support et développements de la PF. La répartition des financements entre instituts partenaires sera décidée en fonction du type de projet et du montage du projet. Le comité pilotage doit être informé avant la soumission d'un projet qui engage la visibilité de la PF anfin de recevoir un accord de principe.
+Appels d'offres de projets scientifiques (ANR ...):
+Dans le cas d'un projet nécessitant des besoins importants de stockage ou de calculs, la personne porteuse du projet doit se référer au plateau adéquat, dès le montage du projet, et les responsables du plateau informeront les membres de South Green lors des réunions mensuelles. Dans le cas d'un projet nécessitant l'évolution d'applications existantes, ou le développement de nouvelles applications ayant pour vocation à être intégré dans South Green, la personne porteuse du projet doit informer le comité de pilotage de South Green, dès le montage du projet.","4","Se référer aux modalités d'appui aux projets.","4",""
+"TAGC-BCF","Propriétaire","","","","","","","","",""," 
+ ","","","",""
+"URGI","Propriétaire","358.00 To","1 206 cores","","1 334 776 H / an","157","103","Accès public (Web) et authentifié (Cluster de calcul).
+Accès aux ressources soit  en mode collaboration dans le cadre des projets de la plateforme (ou son unité) soit via une offre de service (https://urgi.versailles.inra.fr/Platform/Service-offering).","
+
+
+
+Infrastructure hébergée au Data center INRA Ile-De-France (Bruyère-Le-Chatel)
+1 cluster de calcul (HPC)
+1 serveur NFS pour la gestion des disques
+1 serveur dédié au site Web
+1 serveur dédié à la gestion des sauvegardes
+3 serveurs dédiés aux machines virtuelles (SGBD, Système d'information, application Web)
+1 Cloud
+
+
+
+
+ ","Description des modalités d’appui aux projets","La  plateforme est partenaire ou coordinateur de projets en collaboration dans le cadre d’appels d’offre au niveau national et international (ANR, IBISA, Investissement d’avenir ou européen) ou de consortiums internationaux. Grâce au soutien de ces projets Elle réalise les développements de son Système d’Information GnpIS ainsi que ceux  liés à son serveur Galaxy afin de mettre à disposition sur son infrastructure les données et outils.
+Les données de différentes espèces de plantes (blé, vigne, mais, colza, pois, betterave…), de champignons (Botrytis  cinerea,  Leptosphaeria  maculans, …)  et  d’arbres (pin  maritime,   peuplier,   chêne…) dans le cadre de consortium internationaux dont elle fait partie (IWGSC, WheatInitiative, Vigne, Botrytis ...) ainsi que toutes les collections patrimoniales de  ressources  génétiques  Plantes  de  son département  BAP  (mission  département) sont mises à disposition dans son SI GnpIS.
+La  plateforme  développe  aussi  des  outils qu’elle met à disposition sur sa plateforme accessibles en téléchargement, sous unix ou sous son Serveur Galaxy. Elle en fournit le support et la formation.
+Elle propose en continu un appel à projets pour des  services  de  mise  à  disposition  de  ressources  de calcul et d’espace de stockage.
+ CONDITIONS D'APPUI
+Les projets que la plateforme porte ou auxquels elle collabore sont en phase avec le périmètre de ses missions, de ses services et de son expertise et lui apportent le soutien financier nécessaire à son fonctionnement et au maintient de son infrastructure (matérielle et logicielle).. En tant que plateforme stratégique CNOC INRA, elle bénéficie d’une aide financière lui assurant une partie de son fonctionnement. L’accès à ses ressources de calcul et de stockage est gratuit pour ses partenaires (de projets ou dans le cadre de son AAP). Elle réalise aussi des analyses en mode collaboration. Les membres de la  plateforme sont co-auteurs dans les publications associées.","33","","33","63"
+"Plateforme de présentation","Propriétaire","500.00 To","150 cores","130","12 000 H / an","4","78","I explain here the access conditions and provide a link when possible","This is a short description about my servers.","","","","","",""
+"Orphanet","Hébergée","","","","","","","","","","","","","",""
+"iCONICS","Propriétaire","2 020.00 To","1 460 cores","","","4","","","Infrastructure:
+Les infrastructures utilisées par la PF sont soit des ressources publiques (UMPC) soit des ressources propres (ICM), dans les deux cas en usage mutualisé avec d’autres structures utilisatrices, et qui ne sont pas à ce jour ouvertes à l’extérieur mais ont vocation à le devenir.
+ 
+Description des serveurs:
+Active Directory(3), mail(1), Intranet/Sharepoint(1), MySQL(1), Oracle(2), RemoteDesktop(1), VMware(1), environ 30 serveurs applicatifs","","Différentes modalités de soutien aux projets scientifiques et cliniques sont possibles :
+Nous pouvons héberger, selon les capacités d’accueil disponibles, des chercheurs/ingénieurs venant analyser leurs propres données tout en bénéficiant de l’environnement scientifique et technique du site. Cela est par exemple le cas lorsqu’un porteur de projet obtient le financement d’un post-doctorant en bio-informatique pour analyser ses données mais qu’il ne dispose pas en local de l’expertise pour encadrer efficacement ce post-doctorant.
+Nous nous proposons comme partenaires pour des projets collaboratifs, notamment lors de la réponse à des appels d’offres, ceci afin de fournir des garanties de faisabilité et de réalisation des projets. Une partie du financement demandé pourra alors couvrir la participation d'iCONICS au projet, en particulier pour du personnel supplémentaire dédié au projet.
+Nous proposons également un accompagnement de projet sous forme de conseil et de prestation de service. Après une première prise de contact avec le demandeur, une fiche projet synthétisant les besoins exprimés et les solutions proposées est rédigée par la PF. Après accord du demandeur, un devis de prestation lui est envoyé, selon une tarification définie.
+","49","","40","21"
+"IFB Core","","","","","","","","","","","","","","",""
+"ARTbio","","","","","","","","","","","","","","",""
+"AuBi","Hébergée","520.00 To","1 088 cores","4","4 700 000 H / an","44","143","Accès créés à la demande pour les chercheurs du site, sur projet pour les autres accès.
+Il n’y a pas de ressources spécifiquement réservées à la PF pour l’instant.
+ ","Ressources mutualisées du Mésocentre Clermont Auvergne.
+Cluster de calcul avec SLURM, stockage distribuée avec CEPH, plateforme d'hébergement de services avec VMWARE.
+Projets 2017 : calculateur haute performance à mémoire partagée, Cloud IaaS de production Openstack.
+Hébergement dans le datacenter de l'Université Clermont Auvergne.","","","","","",""
+"MMG-GBIT","","","","","","","","","","","","","","",""

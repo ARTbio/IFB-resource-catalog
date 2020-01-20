@@ -1,0 +1,522 @@
+"Nom de la plateforme","Adresse postale","Affiliation","Website","Responsable scientifique","Responsable technique","Certificat(s)","Structure","Equipe","Chemin"
+"EBIO","15 rue George Clémenceau91000 OrsayFrance","I2BC, UMR9198","EBIO","Gautheret Daniel
+","Toffano Nioche Claire
+","Label IBiSA
+","CNRS","Gautheret Daniel
+Toffano Nioche Claire
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png"
+"Institut Curie","26 rue d’Ulm75005 ParisFrance","INSERM U900","Curie ","Barillot Emmanuel
+","Hupe Philippe
+Servant Nicolas
+","Non renseigné","INSERM","Barillot Emmanuel
+Hupe Philippe
+Servant Nicolas
+Girard Elodie
+Syx Laurène
+Tessandie Aurélie
+Brito Isabel
+Gestraud Pierre
+Martignetti Loredana
+Poullet Patrick
+Liva Stéphane
+La Rosa Philippe
+Lucotte Georges
+Chanas Laetitia
+De Soyres Henri
+Kamoun Choumouss
+Romejon Julien
+Jarlier Frédéric
+Marc Deloger
+Andrianteranagna Mamy jean de dieu
+",""
+"bilille","Pôle recherche de la faculté de médecine, Université de LilleBatiment M3, Faculté des Sciences et Technologies, Université de Lille59000 LilleFrance","Université de Lille, CNRS, INSERM, Institut Pasteur de Lille, Inria, CHRU Lille","bilille","Marot Guillemette
+Touzet Hélène
+","Responsable opérationnelNon renseigné","France-Génomique
+","CNRS","Marot Guillemette
+Touzet Hélène
+Sand Olivier
+Brysbaert Guillaume
+Gallina Sophie
+Guigon Isabelle
+Couderc Loïc
+Maurier Florence
+Blanck Samuel
+Bonardi Franck
+Brunin Maxime
+Fourcot Marie
+Pericard Pierre
+Chatelain Estelle
+Meneboo Jean Pascal
+",""
+"ABiMS","Place Georges Teissier - Station Biologique de Roscoff29680 RoscoffFrance","FR2424","ABiMS","Corre Erwan
+","Corre Erwan
+","ISO  9001
+Label IBiSA
+","CNRS","Corre Erwan
+Hoebeke Mark
+Le Corguillé Gildas
+Gueguen Loraine
+Kayal Ehsan
+Aroumougom Jean Michel
+Duvignac Eric
+Dallet Romain
+Negre Delphine
+Niang Guita
+Saint Vanne Julien
+",""
+"INCa-SLC","28 rue LaënnecFondation Synergie Lyon Cancer, Bât. Cheney D69008 LyonFrance","
+Unité : 
+Non renseignée
+","synergielyoncancer.fr","Viari Alain
+","Responsable opérationnelNon renseigné","Non renseigné","Non renseignée","Viari Alain
+Thomas Emilie
+Tonon Laurie
+Ferrari Anthony
+Sertier Anne Sophie
+Kielbassa Janice
+Le Texier Vincent
+Sohier Emilie
+BAUDET Christian
+POMMIER Roxane
+URBINI Laura
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logo%20SLC%20couleur_fond%20blanc_15cm%20max.jpg"
+"CBiB","146 Rue Léo Saignat33076 BordeauxFrance","CGFB","Centre de Bioinformatique de Bordeaux","Nikolski Macha
+","Groppi Alexis
+","CNOC (INRA)
+ISO  9001
+Label IBiSA
+NF X50-900
+","Non renseignée","Nikolski Macha
+Groppi Alexis
+Benaben David
+Barré Aurélien
+Darbo Elodie
+Dartigues Benjamin
+Rudewicz Justine
+Hooks Katarzyna
+Uricaru Raluca
+Bouilhol Emmanuel
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/cbib.jpg"
+"ATGC","161 Rue AdaCC 47734090 MontpellierFrance","LIRMM UMR 5506","ATGC Bioinformatics Platform","Rivals Eric
+Guindon Stéphane
+","Lefort Vincent
+","Label IBiSA
+","CNRS","Berry Vincent
+Bréhélin Laurent
+Chateau Annie
+Chevenet François
+Chifolleau Anne Muriel
+Guindon Stéphane
+Lefort Vincent
+Mancheron Alban
+Pardi Fabio
+Rivals Eric
+Swenson Krister
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ATGC-logo-col-trp-200.png"
+"IGR","114 rue Edouard VaillantUMS INSERM 23/CNRS 3655 AMMICA94800 VillejuifFrance","AMMICA, UMS 23 / CNRS 3655","Gustave Roussy","Gautheret Daniel
+","Meurice Guillaume
+","Non renseigné","INSERM, CNRS","Meurice Guillaume
+Diop MBoyba
+Dessen Philippe
+Dayris Thibault
+Job Bastien
+Jules Clement Gérome
+Adnani Yahia
+",""
+"MicroScope","2, rue Gaston Crémieux, CP 570691057 EvryFrance","LABGeM, Génomique Métabolique, Genoscope, Institut François Jacob, CEA, CNRS, Université d’Evry, Université Paris-Saclay","MicroScope","Medigue Claudine
+Vallenet David
+","Dubois Mathieu
+","France-Génomique
+ISO  9001
+Label IBiSA
+NF X50-900
+","CEA","Rouy Zoé
+Dubois Mathieu
+Lajus Aurélie
+Roche David
+Medigue Claudine
+Vallenet David
+Fouteau Stéphanie
+Calteau Alexandra
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/MicroScope_logo.png"
+"MIGALE","Domaine de VilvertUnité MaIAGE78350 Jouy-en-JosasFrance","MaIAGE, UR 1404","http://migale.jouy.inra.fr/","Schbath Sophie
+","Loux Valentin
+","CATI / CTAI
+CNOC (INRA)
+France-Génomique
+ISO  9001
+Label IBiSA
+PF stratégique nationale INRA
+RIO
+","INRA","Schbath Sophie
+Loux Valentin
+Chiapello Hélène
+Dérozier Sandra
+Martin Veronique
+Olivier Rué
+Inizan Olivier
+Mariadassou Mahendra
+Vidal Valérie
+",""
+"DBC","25 Rue du Dr RouxINSTITUT PASTEUR75015 ParisFrance","C3BI-USR 3756","Pasteur","Gascuel Olivier
+","Malabat Christophe
+Dillies Marie Agnès
+","Non renseigné","Institut Pasteur","Gascuel Olivier
+Dillies Marie Agnès
+Ghozlane Amine
+Lemoine Frédéric
+Malabat Christophe
+Mareuil Fabien
+Ménager Hervé
+Néron Bertrand
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png"
+"RPBS","35 rue Hélène Brion75013 ParisFrance","UMR-S 973","RPBS","Tufféry Pierre
+","Rey Julien
+","Label IBiSA
+","INSERM, Université Paris-Diderot","Rey Julien
+Tufféry Pierre
+De Vries Sjoerd
+Chomilier Jacques
+Stratmann Dirk
+Yu Jinchao
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_RPBS_50x50.png"
+"MBI","615 Rue du Jardin Botanique54600 Villers-lès-NancyFrance","Inria Nancy Grand-Est","MBI: Modelling Biomolecules and their Interactions","Devignes Marie Dominique
+","Ritchie Dave
+","Non renseigné","INRIA","Devignes Marie Dominique
+Ritchie Dave
+Maigret Bernard
+Smaïl Tabbone Malika
+Coulet Adrien
+Chemardin Antoine
+Aridhi Sabeur
+Chauvot de Beauchene Isaure
+",""
+"BIstrO","300 boulevard Sébastien Brant67412 IllkirchFrance","UMR7357","BIstrO","Thompson Julie
+","Cognat Valérie
+","ISO  9001
+","CNRS","Friedrich Anne
+Jossinet Fabrice
+Carapito Christine
+Pansanel Jêrome
+Seiler Julien
+Kress Arnaud
+Cognat Valérie
+Thompson Julie
+Geoffroy Véronique
+Guterl Patrick
+Burel Alexandre
+Poidevin Laetitia
+",""
+"P3M","UFR Sciences Exactes et NaturellesMoulin de la Housse - Bat. 1851687 Reims Cedex 2France","Université de Reims","Plateau de Modélisation Moléculaire Multi-échelle","Baud Stéphanie
+","Belloy Nicolas
+","Non renseigné","Non renseignée","","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_p3m.png"
+"BiRD","IRS UN, 8 Quai Moncousu44000 NantesFrance","UMR INSERM 1087","pf-bird.univ-nantes.fr","Redon Richard
+Bourdon Jérémie
+","Bihouée Audrey
+","Label IBiSA
+","INSERM","Bihouée Audrey
+Bourdon Jérémie
+Charpentier Eric
+Gaignard Alban
+Guillaume Jean François
+Redon Richard
+Teusan Raluca
+Dumont Solenne
+Haguait Julie
+Trottier Camille
+Delage Erwan
+Vintache Damien
+Folschette Maxime
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/pf-bio-full6.png"
+"GenOuest ","Campus de Beaulieu263 avenue du Général Leclerc35000 RennesFrance","INRIA Rennes Bretagne Atlantique  IRISA UMR6074","GENOUEST","Nicolas Jacques
+","Collin Olivier
+","CNOC (INRA)
+ISO  9001
+Label IBiSA
+","INRIA","Nicolas Jacques
+Collin Olivier
+Sallou Olivier
+Legeai Fabrice
+Moreews François
+Bretaudeau Anthony
+Matéo Boudet
+Nivard Mariette
+Riou Chloé
+Robin Stéphanie
+Lemaillet Efflam
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png"
+"PRABI-HCL","165 chemin du Grand RevoyetFaculté de Médecine Lyon Sud69310 Pierre BéniteFrance","LBBE, UMR5558","","Roy Pascal
+","Roy Pascal
+","Non renseigné","Non renseignée","Roy Pascal
+Maucourt Boulch Delphine
+Bardel Claire
+Mercier Catherine
+Roucher Florence
+Dantony Emmanuelle
+Klich Amna
+Elsensohn Mad Hélénie
+",""
+"PRABI-AMSB","43 boulevard du 11 Novembre 1918Université Claude Bernard – Lyon 169622 VilleurbanneFrance"," Université Lyon 1","PRABI-AMSB","Perrière Guy
+","Navratil Vincent
+","France-Génomique
+Label IBiSA
+","CNRS","Perrière Guy
+Oger Christine
+Navratil Vincent
+Veber Philippe
+Guyot Dominique
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/PRABI_0.png"
+"PRABI-Lyon-Grenoble","Université Claude Bernard – Lyon 143 boulevard du 11 Novembre 191869622 VilleurbanneFrance","LBBE, UMR 5558","PRABI-Doua","Perrière Guy
+","Responsable opérationnelNon renseigné","Non renseigné","CNRS","Perrière Guy
+Boussau Bastien
+Brochier Armanet Céline
+Charles Hubert
+Daubin Vincent
+De Vienne Damien
+Dray Stéphane
+Duret Laurent
+Fey Jonathan
+Flandrois Jean Pierre
+Fournier Amandine
+Gouy Manolo
+Gueguen Laurent
+Jacob Laurent
+Kahn Daniel
+Lacroix Vincent
+Lartillot Nicolas
+Lerat Emmanuelle
+Marais Gabriel
+Mary Arnaud
+Miele Vincent
+Penel Simon
+Picard Franck
+Sagot Marie France
+Siberchicot Aurélie
+Sinaimeri Blerina
+Tannier Eric
+Thioulouse Jean
+Veber Philippe
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/PRABI.png"
+"PRABI-Lyon-Gerland","7 Passage du Vercors69367 LyonFrance","PRABI-Gerland, UMR 5305","PRABI-Gerland","Terreux Raphaël
+","Deleage Gilbert
+","Label IBiSA
+RIO
+","CNRS","Terreux Raphaël
+Deleage Gilbert
+Bettler Emmanuel
+Chemelle Julie Anne
+",""
+"Genotoul-bioinfo","24 Chemin de Borde Rouge31326 Castanet TolosanFrance","MIAT 0875","http://bioinfo.genotoul.fr/","Gaspin Christine
+","Klopp Christophe
+","CATI / CTAI
+CNOC (INRA)
+France-Génomique
+ISO  9001
+Label IBiSA
+NF X50-900
+PF stratégique nationale INRA
+","Non renseignée","Gaspin Christine
+Klopp Christophe
+Hoede Claire
+Laborie Didier
+Mariette Jérôme
+Noirot Céline
+Trotard Marie Stéphane
+Fourquet Joanna
+Mainguy Jean
+Terzian Paul
+Dreau Andreea
+Moisan Annick
+Lasguignes Emilien
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/bioinfo_logo-rvb.png"
+"ISfinder","118 Route de Narbonne31062 ToulouseFrance","UMR5100","ISfinder","Chandler Michael
+","Siguier Patricia
+","Non renseigné","Non renseignée","Siguier Patricia
+Chandler Michael
+Gourbeyre Edith
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ISfinder.JPG"
+"PACA-Bioinfo","163 Avenue de LuminyCase 93413009 MarseilleFrance","CNRS UMR7256","PACA Bioinfo","Claverie Jean Michel
+","Santini Sébastien
+","CATI / CTAI
+France-Génomique
+Label IBiSA
+RIO
+","CNRS","Claverie Jean Michel
+Santini Sébastien
+Poirot Olivier
+Collomb Virginie
+Legendre Matthieu
+",""
+"South Green","Agropolis34398 MontpellierFrance","
+Unité : 
+Non renseignée
+","South green","Rouard Mathieu
+Ruiz Manuel
+Tranchant Christine
+","Pitollat Bertrand
+Tando Ndomassi
+","Non renseigné","INRA, CIRAD","Cenci Alberto
+Dereeper Alexis
+Droc Gaëtan
+De Lamotte Fred
+Dufayard Jean François
+Elhassouni Nordine
+Gkanogiannis Anestis
+Guignon Valentin
+Hamelin Chantal
+Larmande Pierre
+Rouard Mathieu
+Ruiz Manuel
+Sempéré Guilhem
+Sidibe Bocs Stéphanie
+Summo Marilyne
+Sarah Gautier
+Sabot François
+Tando Ndomassi
+This Dominique
+Tranchant Christine
+Ravel Sébastien
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg"
+"TAGC-BCF","163 avenue de LuminyParc Scientifique de Luminy case 92813288 MarseilleFrance","TAGC, UMR1090","TAGC","Nguyen Catherine
+","Habermann Bianca
+","Non renseigné","INSERM","Ballester Benoit
+Bergon Aurélie
+Brun Christine
+Gonzàlez Aitor
+Lopez Fabrice
+Puthier Denis
+van Helden Jacques
+Spinelli Lionel
+Habermann Bianca
+Nano Edlira
+",""
+"URGI","RD10 Route de Saint-CyrINRA Versailles78000 VersaillesFrance","URGI - UR1164","URGI PLATFORM","Adam Blondon Anne Françoise
+","Amselem Joelle
+","CATI / CTAI
+CNOC (INRA)
+ISO  9001
+Label IBiSA
+PF stratégique nationale INRA
+","INRA","Adam Blondon Anne Françoise
+Alaux Michael
+Amselem Joelle
+Alfama Depauw Françoise
+Choisne Nathalie
+Flores Raphaël
+Jamilloux Véronique
+Kimmel Erik
+Letellier Thomas
+Michotey Célia
+Mohellibi Nacer
+Pommier Cyril
+Quesneville Hadi
+Confais Johann
+Kerjean Hervé Antoine
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/URGI.png"
+"Orphanet","96 rue Didot75014 ParisFrance","INSERM US14","Orphanet","Rath Ana
+","Hanauer Marc
+","HON Code
+IRDiRC Recommended
+Autre
+","INSERM","Arles Soler Martin
+Demarest Samuel
+Donadille Bruno
+Fort Corentin
+Giraudet Le Quintrec Janine Sophie
+Gueydan Charlotte
+Hanauer Marc
+Maiella Sylvie
+Nguengang Wakap Stéphanie
+Rodwell Charlotte
+Rousselot Céline
+Salamon Valérie
+Serriere lanneau Valérie
+Varin Marie Michèle
+Montserrat Alfano
+Florence Sauvage
+","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_orphanet_inserm.png"
+"iCONICS","47 boulevard de l'Hôpital75013 ParisFrance","Institut du Cerveau et de la Moelle épinière, UMR 7225-UMR_S 1127","iCONICS","DURRLEMAN Stanley
+","MOSZER Ivan
+","Non renseigné","INSERM","GUÉGAN Justine
+GYORGY Beata
+TENENHAUS Arthur
+SAID Safia
+ELAROUCI Nabila
+CANDELIER Séverine
+LIMANSKY Grégoire
+Gareau Thomas
+LEJEUNE François Xavier
+CAMENEN Etienne
+PELTIER Caroline
+BERTRAND Mathilde
+COUCHET Arnaud
+",""
+"IFB Core","Génoscope2 rue Gaston Crémieux91057 EvryFrance","IFB-core, UMS 3601","https://www.france-bioinformatique.fr/","Medigue Claudine
+van Helden Jacques
+","Blanchet Christophe
+","Non renseigné","CNRS, INRA, INRIA, INSERM, CEA","Blanchet Christophe
+Boucher Pierre Yves
+Laurent Bouri
+Charrière Nicole
+Dominguez Del Angel Victoria
+Laplagne Patricia
+Lorenzo Jonathan
+Medigue Claudine
+van Helden Jacques
+Chiapello Hélène
+Durand Patrick
+Thévenot Etienne
+Sand Olivier
+Milanesi Sylvain
+Bonardi Franck
+Brunin Maxime
+Fourcot Marie
+Meneboo Jean Pascal
+Pericard Pierre
+Baud Stéphanie
+Belloy Nicolas
+Dubois Mathieu
+Collomb Virginie
+Legendre Matthieu
+mahmah yousra
+Rosnet Thomas
+Saint léger Valentin
+",""
+"AuBi","INRA TheixCBRV Facultés Médecine & Pharmacie 28 Place Henri Dunant 63001 Clermont-Ferrand63122 Saint-Genes-ChampanelleFrance","UMR 454 MEDIS INRA-Université Clermont Auvergne ","AuBI - Université de Clermont Auvergne (UCA)","PEYRET Pierre
+","MAHUL Antoine
+","Non renseigné","INRA","GOUE Nadia
+CHOULET Frédéric
+GRIMBICHLER David
+BARNICH Nicolas
+BONNET Muriel
+BRASSET Emilie
+BRONNER Gisèle
+CARVALHO Frédéric
+CASSAR MALEK Isabelle
+DEBROAS Didier
+DENIZOT Jérémy
+ENAULT François
+ETIENNE MESMIN Lucie
+GABRIELLI François
+GIACOMONI Franck
+GUILHOT Nicolas
+JENSEN Silke
+LABEL Philippe
+LEROY Philippe
+MEPHU NGUIFO Engelbert
+PAILLOUX Marie
+PEYRETAILLADE Eric
+POLONAIS Valérie
+REICHSTADT Matthieu
+RENAUD Yoan
+RIMBERT Hélène
+SALSE Jérôme
+WALTZER Lucas
+",""
+"MMG-GBIT","Faculté de Médecine de la Timone, 27 Bd Jean Moulin13005 MarseilleFrance","MMG-GBIT, INSERM U1251","INSERM U1251","Béroud Christophe
+","Salgado David
+","Non renseigné","INSERM","Béroud Christophe
+Salgado David
+Desvignes Jean Pierre
+Béroud Gwenaëlle
+",""

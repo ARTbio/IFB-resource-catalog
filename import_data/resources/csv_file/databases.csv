@@ -1,0 +1,308 @@
+"","Chemin","Description","Conditions d'accès","Citations","Lien vers les données","Mots clés","Visites annuelles","Visites uniques","Date de dernière mise à jour","Accroissement lors de la dernière mise à jour","Titre"
+"Plant data discovery portal","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/URGI.png","Le Plant Data Discovery Portal permet d’effectuer des recherches dans des systèmes d’information maintenus par un réseau international de plateformes hébergeant des données sur les plantes.
+","Accès aux données via le portail : https://urgi.versailles.inra.fr/ifb/
+Le portail donne accès à des données publiques en se basant sur un moteur d’indexation simple à mettre en place (https://wheat-urgi.versailles.inra.fr/Projects/Wheat-Information-System/SolR-tool-package ). Toute plateforme voulant donner accès à ses données via le Plant Data Discovery Portal est encouragée à nous contacter.
+","","https://urgi.versailles.inra.fr/ifb/","Annotation de séquences, Cartographie, Données, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Comparaison des génomes","195 an","157 an","12-03-2018","","URGI"
+"ReMap","","ReMap est une analyse intégrative de toutes les données ChIP-seq de facteur de transcription, données publiques (GEO, ArrayExpress) et non-ENCODE. A cela, et pour complémenter notre catalogue, nous avons ajouté les données d'ENCODE.
+Nous obtenons un catalogue d'environ 9 millions de sites de fixation au travers de 234 facteurs de transcription. Toutes ces données sont disponibles sur le site ReMap.
+","Libre à partir de http://tagc.univ-mrs.fr/remap
+","25","http://tagc.univ-mrs.fr/remap/","Analyse de données de séquençage NGS, Curation de collections de données","17570 an","5246 an","","","TAGC-BCF"
+"Dog CNV database","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","DoG_CNV is the Database of Genomic Copy Number Variants in the canine genome.
+","Free access
+","","http://dogs.genouest.org/LUPA.dir/CNV.html","Analyse de données de séquençage NGS, Analyse de variants, Génomes complets, Génomique comparative, Comparaison des génomes","","","","","GenOuest "
+"MacSyDB/TXSSdb","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png","Protein secretion systems are key virulence factors of all major bacterial pathogens with an LPS-containing outer membrane. They are also involved in complex antagonistic ecological interactions between bacteria. We designed models and protein profiles to detect an unprecedented number and diversity (∼10000) of bacterial protein secretion systems (T1SS, T2SS, T3SS, T4SS, T5SS, T6SSi-iii, T9SS) and evolutionarily related appendages (T4P, Tad, Flagellum) in 1528 genomes of diderm bacteria.
+ref:
+Abby, Sophie S., Jean Cury, Julien Guglielmini, Bertrand Néron, Marie Touchon, and Eduardo PC Rocha. 
+""Identification of protein secretion systems in bacterial genomes."" Scientific reports 6 (2016).
+","freely accessible at http://macsydb.web.pasteur.fr/
+","51","http://macsydb.web.pasteur.fr/","Annotation de séquences","1757 an","441 an","29-01-2016","","DBC"
+"Listeriomics : Systems Biology of Listeria","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png","Listeriomics integrates all complete genomes, transcriptomes and proteomes published for Listeria species to date. It allows navigating among all these datasets with enriched metadata in a user-friendly format. Use Listeriomics for deciphering regulatory mechanisms of your genome element of interest.
+","freely accessible at http://listeriomics.pasteur.fr/
+","","http://listeriomics.pasteur.fr/","Génomique (DNA-seq), Analyse de génomes, Annotation structurale et fonctionnelle des génomes, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants, Biologie des systèmes, Fonctionnement des systèmes biologiques complexes, Modélisation des réseaux de régulation, Phylogénomique, Protéomique, Protéomique quantitative","","","01-12-2016","","DBC"
+"Human Splicing Finder (HSF)","","L'interprétation des données mutationnelles a longtemps résidé sur leur impact au niveau protéique. Depuis quelques années, il a été reconnu qu'un nombre significatif de mutations (surtout faux snes et synonymes) avait en fait un impact au niveau de l'ARN messager (ARNm). Le logiciel HSF a été créé afin d'identifier les signaux d'épissage que sont : i) les sites donneurs et accepteurs d'épissage, ii) les points de branchement et iii) les séquences auxiliaires d'épissage(Exonic Splicing Enhancers, Exonic Splicing Silencers), au niveau du génome humain. Outre la prédiction de ces signaux, HSF est également capable de prédire l'impact de n'importe quel type de mutation (SNP, insertion, délétions) sur ces signaux. Il intègre en un lieu unique l'ensemble des algorithmes et matrices disponibles et est aujourd'hui la référence internationale pour ce champ de la génétique.
+","L'accès aux données est libre pour les utilisateurs académiques et les activités non-commerciales. L'utilisation dans un cadre commercial nécessite une licence.
+","1030","http://www.umd.be/HSF3/","Analyse de génomes, Panels (amplicons, captures), Exomes, Génomes complets, Recherche de motifs, Intégration d'outils, Interfaces, portails web, Intégration de données, Bases de données et systèmes d’informations","1035136 an","","17-12-2018","0%","MMG-GBIT"
+"UMD-Predictor","","Avec l'émergence du séquençage à très haut débit (NGS), l'enjeu n'est plus la production mais l'analyse des données. Ainsi dans le cadre de l'analyse d'un exome, l'utilisateur doit rechercher la ou les mutations pathogènes parmi environ 1000000 variants. Dans le cadre de l'analyse d'un génome, ce chiffre es supérieur à 3 millions. Dans ce contexte, nous avons développé le système UMD-Predictor afin de prédire la pathogénéicité des substitutions exoniques du génome humain. Ce système est aujourd'hui le plus performant comme le démontrent les différentes comparaisons réalisées sur plus de 140000 variations (Salgado et al., Human Mutation 2016).
+","L'accès aux données est gratuit pour les utilisateurs académiques et pour les activités non-commerciales. L'utilisation commerciale nécessite l'acquisition d'une licence.
+","87","http://umd-predictor.eu","Analyse de génomes, Panels (amplicons, captures), Exomes, Génomes complets, Interfaces, portails web, Intégration de données, Bases de données et systèmes d’informations","897216 an","","17-12-2018","0%","MMG-GBIT"
+"Locus Specific Databases UMD","","Le génome humain contient environt 40000 gènes dont aujourd'hui 3000 environ sont impliqués dans des maladies génétiques humaines. Dans un futur proche, le séquençage du génome sera réalisé en routine afin de rechercher de nouveaux gènes ou d'identifier les muations cuasales impliquées dans les maladies génétiques et les cancers. La collecte de ces mutations jouera un rôle central, tant pour les chercheurs que les cliniciens, afin de faciliter leur interprétation et la mise en évidence de cortrélations gnéotypes/phénotypes. D'autres champs tels que celui de l'épidémiologie moléculaire bénéficieront également de ces données. Ainsi le futur ne réside plus dans de simples bases de données locus spécifiques mais surtout dans des bases de données dynamiques liées à différents systèmes informatiques permettant leur analyse. Dans ce but, nous avons développé les LSDB de type UMD (Universal Mutation Database) qui sont l'archétype des bases de données de connaissances (Kkowledge base). Le logiciel UMD a été créé sous la forme d'un système générique permettant la création de LSDBs pour virtuellement tous les gènes humains. Sa structure flexible permet de collecter les données génotypiques et phénotypiques. La disponibilité de nombreux outils d'analyse permettent d'assister les cliniciens (corrélations génotype/phénotype ..), les généticiens (distribution et fréquence des mutations ...) et les chercheurs (domaines structuraux, épidémiologie moléculaire ...). De nombreuses bases de données UMD ont été créées et sont des références internationales. Elles colligent aujourd'hui plus de 208000 mutations validées par des experts pour des gènes impliqués dans les cancers  (APC, BRCA1, BRCA2, TP53, RB1, MEN1, SUR1, VHL, WT1…) ou dans des maladies génétiques (FBN1, LDLR, DMD, VLCAD, MCAD, LMNA, EMD, FKRP, SGCG, SGCA, ATP7B…).
+","L'accès aux données est libre pour les utilisateurs académiques et les activités non-commerciales. L'utilisation dans un cadre commercial nécessite une licence. Le logiciel UMD est gratuitement disponible pour créer de nouvelles bases de données de type LSDB et une formation est proposée aux nouveaux curateurs. L'hébergement des données est assuré gratuitement sur la plateforme.
+","1847","http://www.umd.be","Curation de collections de données, Intégration de données, Bases de données et systèmes d’informations","990840 an","","17-12-2018","55%","MMG-GBIT"
+"dbWFA","","Open-access database relating the Full-length cDNA sequences from TriFLDB, the transcripts of the wheat set UniGene (builds # 55,58, 59 and 60; UniGene) and the wheat Transcription Factor DataBase (wDBTF) that have been used to design a wheat NimbleGen 40k UniGene microarray (ArrayExpress: ref. A-MEXP-1928) to Arabidopsis thaliana (TAIR10), Oryza sativa (rice plantbiology MSU) and Zea mays (MaizeGDB) databases through BLAST results. Transfert vers le CRRI.
+ 
+Publications :
+    Vincent J, Dai ZW, Ravel C, Choulet F, Mouzeyar S, Bouzidi MF, Agier M, Martre P. (2013)  dbWFA: a web-based database for functional annotation of Triticum aestivum transcripts. Databases. doi: 10.1093/database/bat014
+ 
+","Gratuit sur https://urgi.versailles.inra.fr/dbWFA/
+","2","","","","","","","AuBi"
+"ECOD","","Database which contains 15364 probe sequences that target Encephalitozoon cuniculi genome. For each CDS, 3 oligonucleotides where computed using OligoArray software and GoArrays software. It is also possible to browse Encephalitozoon cuniculi genome.
+ 
+","Gratuit sur http://g2im.u-clermont1.fr/serimour/ecod/index.html
+","","","","","","","","AuBi"
+"HuGChip","","Phylogenetic microarray designed to study the human gut microbiota at family level.  This database contains the whole probe set.
+ 
+Publications:
+     Tottey W., Denonfoux J., Jaziri F., Parisot N., Missaoui M., Hill D.R.C., Borrel G., Peyretaillade E., Alric M., Harris H.M.B., Jeffery I.B., Claesson M.J., O'Toole P.W., Peyret P., Brugère J.-F. (2013). The Human Gut Chip “HuGChip”, an Explorative Phylogenetic Microarray for Determining Gut Microbiome Diversity at Family Level. PLoS One. 8, e62544.
+ 
+","Gratuit sur http://g2im.u-clermont1.fr/HuGChip/
+","","","","","30 an","","","AuBi"
+"PhylOPDb","","Online resource for a comprehensive phylogenetic oligonucleotide probe database. PhylOPDb provides a convivial and easy-to-use web interface to browse both regular and explorative 16S rRNA-targeted probes.
+Two high-throughput probe design software, PhylGrid (Jaziri et al., 2011; Jaziri et al., 2014) and KASpOD (Parisot et al., 2012), we used to select both regular and explorative 16S rRNA gene-targeted oligonucleotide probes. Such probe set or subset could be use to globally monitor known and unknown prokaryotic communities through various techniques including DNA microarrays, Polymerase Chain Reaction (PCR), Fluorescent In Situ Hybridisation (FISH), targeted gene capture or in silico rapid sequence identification.
+ 
+Publications :
+    Jaziri, F., Parisot, N., Abid, A., Denonfoux, J., Ribière, C., Gasc, C., Boucher, D., Brugère, J.-F., Mahul, A., Hill, D.R.C., Peyretaillade, E. and Peyret, P. (2013) PhylODb: a 16S rRNA oligonucleotide probe database for prokaryotic identification, Oxford Database.
+","Gratuit sur: http://g2im.u-clermont1.fr/phylopdb/
+","3","","","","","30-01-2014","","AuBi"
+"PRIAM","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/PRABI.png","Enzyme-specific profiles for metabolic metabolic pathway prediction.
+","Accès en ligne gratuit.
+","148","http://priam.prabi.fr/","Métabolomique et fluxomique, Analyse des réseaux métaboliques","109556 an","","04-03-2015","","PRABI-Lyon-Grenoble"
+"HOGENOM","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/PRABI.png","Banque de données de familles de gènes homologues
+","Accès libre en ligne.
+","231","http://doua.prabi.fr/databases/hogenom/","Génomique comparative","11869888 an","22180 an","25-03-2013","","PRABI-Lyon-Grenoble"
+"ProDom","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/PRABI.png","Base de données de domaines protéiques construite à partir des séquences d'UniProt
+","Accès libre en ligne
+","800","http://prodom.prabi.fr","Protéomique, Data identity and mapping (database search engine, spectral library search, de novo sequencing), Protéogénomique","160000 an","","01-12-2015","","PRABI-Lyon-Grenoble"
+"Multi-Genome Genolist","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png","GenoList is an integrated environment for comparative exploration of microbial genomes. The current release integrates genome data for over 700 species (Genome Reviews). The query and navigation user interface includes specialized tools for subtractive genome analysis and dynamic synteny visualization.
+","accès libre
+","13","","","809287 an","145 an","22-01-2014","","DBC"
+"Conjdb","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png","This website allows to query a dataset of 947 conjugative systems, 646 non-conjugative T4SS and 1,180 mobilization systems retrieved from 2,269 complete genome sequences. These systems were detected with protein profiles of T4SS components, coupling proteins and relaxases. The hits were then filtered with a criterion of co-localization.
+This dataset along with the methodology is described in
+Key components of the eight classes of type IV secretion systems involved in bacterial conjugation or protein secretion
+Julien Guglielmini, Bertrand Néron, Sophie S. Abby, María Pilar Garcillán-Barcia, Fernando de la Cruz and Eduardo P. C. Rocha
+Nucleic Acids Research, 2014 1
+doi: 10.1093/nar/gku194 1
+ 
+","freely available at http://conjdb.web.pasteur.fr/
+","62","http://conjdb.web.pasteur.fr/","Analyse de séquences, Annotation de séquences","4633 an","2056 an","22-01-2014","","DBC"
+"secreton","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png"," 
+The http://secreton.web.pasteur.fr/ web site allows to query a dataset of 216 NF-T3SS retrieved from 1385 complete genome sequences. These systems were detected with proteic profiles of NF-T3SS core genes (sctC, sctN, sctJ, sctQ, sctR, sctS, sctT, sctU, sctV), and with an analysis of the genomic context of the hits obtained. This dataset along with the methodology is described in
+Abby SS, Rocha EPC (2012) The Non-Flagellar Type III Secretion System Evolved from the Bacterial Flagellum and Diversified into Host-Cell Adapted Systems. PLoS Genet 8(9): e1002983.
+","freely accessible at http://secreton.web.pasteur.fr
+","127","http://secreton.web.pasteur.fr","Génomique (DNA-seq), Analyse de génomes, Analyse de séquences, Annotation de séquences","2955 an","1835 an","22-01-2014","","DBC"
+"ppRNome Browser","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Genome Browser to display experimental data of a whole-genome mapping of 5' RNA ends in Enterococcus faecalis
+","Web server
+","10","http://bioweb.i2bc.paris-saclay.fr/gb2/gbrowse/efav583/","Transcriptomique (RNA-seq), Annotation de séquences, Bases de données et systèmes d’informations","","","30-09-2015","","EBIO"
+"eDystrophin","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","eDystrophin is a locus specific database for in-frame mutations and SNPs found in the DMD gene and the associated dystrophin variants
+","Accès libre
+http://edystrophin.genouest.org/
+","","","","","","21-01-2016","","GenOuest "
+"dbSTAR","","Base de données de référence des variations structurales humaines obtenues par données de séquençage.
+","Téléchargement libre. http://dbstar.lbgi.fr/dbstar/
+","","http://dbstar.lbgi.fr/dbstar/","Curation de collections de données","","","","","BIstrO"
+"Staphylococcal regulatory RNAs","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","The ‘Staphylococcal Regulatory RNA Database’ compiled all published data in a single interface including genetic locations, sequences and other features. SRD proposes a simplified and unified identifier for Staphylococcal regulatory RNAs (srn) based on the sRNA’s genetic location in S. aureus strain N315 which served as a reference.
+ 
+Launched in 2015.
+ 
+","Free access
+Available at http://srd.genouest.org/
+ 
+","","","","","","","","GenOuest "
+"MouseCre","","Base de données des lignées CreERT2 de l’ICS-Phenomin présentant leur caractérisation dans différents tissus et organes.
+","Accès libre Web
+","","http://mousecre.phenomin.fr/","Aucun des termes ci-dessus ne convient","","","01-11-2015","","BIstrO"
+"Orphadata","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_orphanet_inserm.png","
+
+
+Mise à disposition de datasets issus de la base de données Orphanet sous format XML ou OWL (ontologie des maladies rares).
+
+
+
+","
+
+
+Accès libre et gratuit pour les données publiques  (nomenclature des maladies rares et relations maladies-gènes), accès contrôlé faisant l’objet de Data Transfert Agreement et de rémunération sous forme de licence annuelle (gratuit pour les collaborations académiques) pour les données relatives aux activités en relation avec les maladies rares (collection des projets de recherche, essais cliniques, centres experts, associations de patients, médicaments orphelins, ainsi que les données encyclopédie, médicaments orphélins et épidemiologiques).
+
+
+
+","140","http://www.orphadata.org","Intégration de données hétérogènes, Représentation des connaissances, Outils, Interopérabilité, Données, Bases de données et systèmes d’informations","50000 an","10468 an","08-03-2018","","Orphanet"
+"Orphanet","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_orphanet_inserm.png","Orphanet est le portail de référence sur les maladies rares et les médicaments orphelins, pour tous publics. Son but est de contribuer à améliorer le diagnostic, la prise en charge et le traitement des maladies rares.
+Orphanet propose un ensemble de services gratuits et en libre accès :
+Un inventaire des maladies rares alignées avec OMIM, ICD10, MeSH et UMLS et une classification de ces maladies d’après les classifications expertes publiées. La procédure suivie par Orphanet pour attribuer le code ICD10 est disponible ici.
+Une encyclopédie des maladies rares en français et en anglais, progressivement traduite dans les autres langues du site.
+Un inventaire des médicaments orphelins à tous les stades de développement.
+Un répertoire des ressources expertes, apportant de l’information sur les centres experts, laboratoires de diagnostic, projets de recherche en cours, essais cliniques, registres, réseaux, plateformes technologiques et associations de malades, en lien avec les maladies rares dans les pays du consortium Orphanet.
+Une encyclopédie des recommandations pour la prise en charge d’urgence et l’anesthésie.
+Une lettre d'information électronique bimensuelle, OrphaNews, qui présente un aperçu des actualités scientifique et politique sur les maladies rares et les médicaments orphelins, en langue française et anglaise.
+Une collection de rapports de synthèse, les Cahiers d’Orphanet, portant sur des sujets transversaux, directement téléchargeables depuis le site.
+","Accès libre et gratuit.
+","626","http://www.orpha.net","Intégration de données hétérogènes, Représentation des connaissances, Curation de collections de données, Développements technologiques de l‘Information et de la Communication, Outils, Interopérabilité, Interfaces, portails web, Données, Intégration de données, Bases de données et systèmes d’informations","13797519 an","9387724 an","08-03-2018","","Orphanet"
+"TropGene","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg","Base de ressources génétiques et génomiques des plantes tropicales
+","Publique
+","4","","","10688 an","3118 an","","","South Green"
+"OryzaTagLine","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg","base de données de caractérisation phénotypique d'une collection de lignées d'insertion de T-DNA du riz
+","Publique et privée
+","42","","","5117 an","3347 an","","","South Green"
+"OryGenesDB","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg","Base de données pour l'exploration de la génétique inverse du riz
+","Publique
+","10","","","8106 an","2764 an","","","South Green"
+"Banana Genome Hub","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg","base de données de référence sur la génomique et génétique du bananier
+","Publique
+","6","","","14614 an","5177 an","","","South Green"
+"GreenPhyl","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/southgreen.jpg","Base de données de génomique comparative pour l'analyse des familles de gènes chez les plantes et la détection d'ortologie
+","Publique
+","30","","","14293 an","8139 an","","","South Green"
+"MoonDB","","""MoonDB"" est une base de données publique hébergée par le TAGC. Cette base de données donne accès à un ensemble de protéines humaines dites ""Moonlighting"". Ces protéines ont été soit extraites de la litterature soit prédites par les analyses au sein du TAGC (décrite dans Chapple et al., en révision à Nature Communication).
+""MoonDB"" rassemble toutes les informations extraites de base de données externes (Uniprot, Gene Ontology, OMIM, HPO) ou des analyses sys-mentionnées.
+","Accès web libre sans identification sur http://tagc.univ-mrs.fr/MoonDB
+","","","","","","","","TAGC-BCF"
+"SPROUTS","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_RPBS_50x50.png","SPROUTS has been designed to give scientists access to data related to protein folding prediction. In this scope, we processed a set of proteins on five different tools devoted to the prediction of stability changes upon point mutation. We also propose the results obtained with two methods devoted for one to the direct prediction of residues involved in the core of a protein structure and for the other, the characterization of fragments which ends are assumed to be part of the folding nucleus.
+","Service en ligne en accès libre.
+","25","http://sprouts.rpbs.univ-paris-diderot.fr/","Bioinformatique structurale, Prédictions des propriétés structurales","1791 an","1433 an","","","RPBS"
+"BactPepDB","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logo_RPBS_50x50.png","BactPepDB is a database of predicted peptides from an exhaustive survey of complete prokaryote genomes. It provides insights about candidate peptides, and provides information about their conservation, together with some of their expected biological/structural features. The BactPepDB interface allows to search for candidate peptides in the database, or to search for peptides similar to a query, according to the multiple properties predicted or related to genomic localization.
+","Service en ligne en accès libre.
+Possibilité d'analyse spécifique sur demande.
+","4","http://bactpepdb.rpbs.univ-paris-diderot.fr","Analyse de séquences, Annotation de séquences, Prédiction d'homologie/orthologie, Bioinformatique structurale, Prédictions des propriétés structurales","130 an","130 an","","","RPBS"
+"Gbrowse virus géants ","","Genomes références des principaux virus géants
+","Libre accès
+","","https://www.igs.cnrs-mrs.fr/cgi-bin/gb2/gbrowse/Mollivirus/","Analyse de données de séquençage NGS, Cartographie, Génomique comparative","8982 an","","02-01-2019","","PACA-Bioinfo"
+"ISfinder","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ISfinder.JPG","ISfinder est le centre de référencement international des séquences d’insertion bactériennes. Mise à disposition de fiches concernant les séquences.
+Janvier 2017 : 5000 séquences d'insertion disponibles sur le site.
+Mise à disposition d'informations générales sur les IS et sur les familles d'IS.
+","Gratuit
+","648","https://www-is.biotoul.fr//","Analyse de séquences, Alignement (multiple) de séquences, Annotation de séquences, Recherche de motifs, Bioinformatique structurale, Analyse des structures, recherche d'homologues et de motifs structuraux, Curation de collections de données, Génomique comparative, Comparaison des génomes","33670 an","14229 an","31-01-2017","","ISfinder"
+"MeryB","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/cbib.jpg","Base de données de profils de Résonance.
+","Accès web libre, possibilité d'avoir un espace privé.
+","23","","","1457 an","564 an","01-10-2014","","CBiB"
+"Molligen","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/cbib.jpg","Base de données de génomique comparées des mollicutes.
+","Accès web libre, possibilité d'avoir un espace privé.
+","85","http://services.cbib.u-bordeaux.fr/molligen/","Analyse de séquences, Génomique comparative","","1742 an","01-12-2015","","CBiB"
+"BLC2db","","Base de données des protéines de la famille BCL-2 et des protéines BH3-only.
+","https://bcl2db.ibcp.fr (depuis juillet 2013)
+","","https://bcl2db.ibcp.fr","Développements technologiques de l‘Information et de la Communication, Outils, Intégration d'outils, Interfaces, portails web, Données, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Environnements de calcul, Cluster, Parallélisation","1116 an","1237 an","28-12-2016","10%","PRABI-Lyon-Gerland"
+"HBVdb","","Base de connaissances du virus de l’Hépatite B.
+","https://hbvdb.ibcp.fr (depuis juillet 2012)
+","18","https://hbvdb.ibcp.fr","Développements technologiques de l‘Information et de la Communication, Outils, Intégration d'outils, Interfaces, portails web, Données, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Environnements de calcul, Cluster, Parallélisation","16292 an","1561 an","28-12-2016","","PRABI-Lyon-Gerland"
+"BYKdb","","Base de données des tyrosine kinases bactériennes.
+","https://bykdb.ibcp.fr (depuis juillet 2011)
+","14","https://bykdb.ibcp.fr","Développements technologiques de l‘Information et de la Communication, Données, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Cluster, Parallélisation","743 an","3681 an","28-12-2016","","PRABI-Lyon-Gerland"
+"euHCVdb","","Base de données européenne du virus de l’Hépatite C
+","https://euhcvdb.ibcp.fr
+(depuis mars 2005, 96445 entrées)
+","97","https://euhcvdb.ibcp.fr","Développements technologiques de l‘Information et de la Communication, Outils, Intégration d'outils, Interfaces, portails web, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Cluster, Parallélisation","54750 an","","28-12-2016","","PRABI-Lyon-Gerland"
+"Arabidopsis chloroplast database (AT_CHLORO)","","The AT_CHLORO database stores sub-plastidial (envelope, stroma, thylakoids) and sub-thylakoidal (Grana, stroma-lamellae) localization of Arabidopsis thaliana chloroplast proteins obtained from MS-based quantitative proteomics experiments as well as curated function and localization of proteins. Furthermore, the AT_CHLORO database links to other public web sites (TAIR, PPDB, AtProteome, SUBA, POGs, Aramemnon)
+","http://at-chloro.prabi.fr/at_chloro/
+","238","http://at-chloro.prabi.fr/at_chloro/","Curation de collections de données, Protéomique","2247 an","1725 an","01-01-2015","","PRABI-G"
+"UNIPATHWAY ","","UniPathway is a manually curated resource of enzyme-catalyzed and spontaneous chemical reactions. It provides a hierarchical representation of metabolic pathways and a controlled vocabulary for pathway annotation in UniProtKB. UniPathway data are cross-linked to existing metabolic resources such as ChEBI/Rhea, KEGG and MetaCyc. The Unipathway project is a joint collaboration between INRIA (Rhône-alpes) and SIB (Swiss Insitute of Bioinformatics, Geneva)
+","http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+","40","http://www.uniprot.org/database/DB-0170","Curation de collections de données, Protéomique","25920 an","36961 an","01-01-2014","","PRABI-G"
+"SampleTracker","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logo%20SLC%20couleur_fond%20blanc_15cm%20max.jpg","Base de données (+ Interfaces Web) de gestion des échantillons tumoraux (et normaux) récoltés dans le cadre des programmes ICGC Sein et Prostate (cf. § Appui).
+","Accès restreint aux membre de l'ICGC/INCa pour des raisons de confidentialité des données.
+","30","","","","500 an","","","INCa-SLC"
+"Germonline","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","The GermOnline 4.0 gateway is a cross-species microarray expression database focusing on germline development, meiosis and gametogenesis as well as the mitotic cell cycle. (created in 2009).
+","Free access
+","35","http://www.germonline.org","Génomique comparative, Génomique : Puces","","","","","GenOuest "
+"LepidoDB ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Banque de données génomique de référence pour des lépidoptères ravageurs de cultures (Spodoptera frugiperda notamment).
+","","","","","1590 an","829 an","","","GenOuest "
+"Aphidbase ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Banque de données génomique de référence pour plusieurs espèces de pucerons (Acyrthosiphon pisum, Myzus persicae)
+","","45","http://bipaa.genouest.org/is/aphidbase/","Analyse de données de séquençage NGS, Annotation de séquences, Génomique comparative","6943 an","4336 an","","","GenOuest "
+"GAG","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Genomic Annotation Gathering : base de données de références croisées. (mise en production en 2013).
+","Accès libre.
+","","","","1 an","141 an","","","GenOuest "
+"Cyanolyase ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Base de séquences et de motifs des phycobiline lyases (mise en production en 2012-13).
+","Accès libre.
+","2","","","4672 an","3484 an","","","GenOuest "
+"AnnotQTL","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Outil d’annotation fonctionnelle (mise en production en 2011).
+","Accès libre.
+","5","","","2588 an","1930 an","","","GenOuest "
+"Crispi","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/logoGO-aplatCMJN_format55px.png","Base de données de séquences CRISPR. (mise en production en 2009).
+","Accès libre.
+","19","","","","","","","GenOuest "
+"KBDOCK","","3D database system that defines and spatially clusters protein binding sites for knowledge-based protein docking
+","Free service : no login or registration required.
+","36","http://kbdock2.loria.fr/","Bioinformatique structurale, Analyse des structures, recherche d'homologues et de motifs structuraux","3600 an","","18-01-2017","40%","MBI"
+"ICS Mouse Zoo","","Database des lignées de souris génétiquement modifiées générées par l’ICS. Base de données standardisées des modèles souris compatibles avec les standards internationaux comprenant aussi des paramètres phénotypiques et des metadata. Ces données sont échangées avec les centres de références dans le domaine et nous développons des analyses statistiques en adéquation avec la capture de nos données.
+","Accès libre Web :
+www.ics-mci.fr/en/resources-and-technologies/eucomm-lines/
+www.ics-mci.fr/en/resources-and-technologies/nuclear-receptor-zoo
+www.ics-mci.fr/en/resources-and-technologies/phenomin-lines
+","","http://www.ics-mci.fr/en/resources-and-technologies/","Aucun des termes ci-dessus ne convient","10000 an","8000 an","","","BIstrO"
+"MousePat","","Analyse de l’expression des récepteurs nucléaires dans le cerveau de la souris adulte. Collection de résultats de qPCR et d’hybridation in situ. Gofflot et al. Cell, 2007 131, 405-41.
+","Accès libre Web
+","","http://mousepat.ics-mci.fr/","Curation de collections de données","","","","","BIstrO"
+"GxDB","","Base de données rassemblant des données transcriptomiques, avec des traitements standardisés et automatisés. Poidevin et al. 2014 Manuscript in preparation.
+","Accès libre après identification.
+","","","","","","01-06-2013","","BIstrO"
+"BAliBASE","","Base de données d’alignement multiple de séquences, utilisé comme jeu de références pour l’évaluation comparative des algorithmes Prosdocimi et al. PLoS One. 2011 6(3):e18093. (538)
+","Accès libre web ou téléchargement.
+","78","http://www.lbgi.fr/balibase/","Curation de collections de données","","","01-12-2011","","BIstrO"
+"EvoluCode ","","Codes- barres évolutionnaires, représentant des histoires évolutives pour le protéome humain complet à l'échelle de vertébrés Linard et al. Evol Bioinform Online. 2012 8:61-77 .
+","Accès libre web
+","1","http://lbgi.igbmc.fr/barcodes/","Analyse de séquences","","","01-02-2012","","BIstrO"
+"Orthoinspector ","","Base de données décrivant les relations de orthologie/inparalogie et une suite d'outils pour exploiter ces données Linard et al. BMC Bioinformatics. 2011 12:11 .
+","Accès libre Web ou téléchargement.
+","22","http://lbgi.igbmc.fr/orthoinspector/","Analyse de séquences","","","01-02-2014","","BIstrO"
+"CYPedia ","","Base de données sur les cytochromes P450 de plantes Ehlting J, et al. BMC Plant Biol. 2008 8:47; Ehlting J, et al. Biochem Soc Trans 2006, 34:1192-1198
+","Accès libre web.
+","7","http://www-ibmp.u-strasbg.fr/~CYPedia/","Analyse de séquences, Génomique comparative, Génomique : Puces","","","01-07-2006","","BIstrO"
+"PlantRNA","","Base de données de séquences annotées de tRNA de plantes Cognat et al, Nucleic Acids Res. 2013 41: D273-D279.
+","Accès libre web.
+","1","http://plantrna.ibmp.cnrs.fr/","Curation de collections de données","10200 an","1800 an","","","BIstrO"
+"Norine","","Norine is a public computational resource with a web interface and REST access to a knowledge-base of
+nonribosomal peptides. It also contains dedicated tools : 2D graph viewer and editor, comparison of NRPs,
+MyNorine, a tool allowing anybody to easly submit new nonribosomal peptides, Smiles2monomers (s2m), a
+tool that deciphers the monomeric structure of polymers from their chemical structure.
+","Accès libre et gratuit depuis le site web de la resource Norine.
+","247","http://bioinfo.lifl.fr/norine/","Bioinformatique structurale","36000 an","3600 an","03-12-2018","","bilille"
+"Wheat@URGI","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/URGI.png","Portail d’accès sur les ressources blé disponibles à l’URGI avec un point d’accès aux données blé du système d’information GnpIS, ainsi que les données de séquences du consortium international IWGSC (International Wheat Genome Sequencing Consortium).
+Le portail est également un point d’accès à des outils d’analyse dédiés à la communauté blé ainsi que les banques de données associées.
+","https://wheat-urgi.versailles.inra.fr/
+","","http://wheat-urgi.versailles.inra.fr","Analyse de données de séquençage NGS, Analyse de séquences","20498 an","3122 an","12-03-2018","","URGI"
+"GnplS","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/URGI.png","GnpIS est un système  d’information  modulaire  interopérable, multi-espèces  (plantes  et  champignons), permettant le stockage et la mise à disposition de données de génomique et de génétique : annotations de génome, cartographie physiques et génétiques (marqueurs, QTL), polymorphismes de séquence issues de reséquençage et de génotypage, génétique  d’association  entre  marqueurs  et  caractères  phénotypiques  (GWAS), phénotypage  lié  à  l’environnement  (GxE), ressources  génétiques (données patrimoniales  INRA venant pour certaines d’entre elles des  centres  de  ressources biologiques).
+ 
+Steinbach D, Alaux M, Amselem J, Choisne N, Durand S, Flores R, Keliet AO, Kimmel E, Lapalu N, Luyten I et al: GnpIS: an information system to integrate genetic and genomic data from plants and fungi. Database : the journal of biological databases and curation 2013, DOI: 10.1093/database/bat058
+","Accès aux données
+- via le portail : https://urgi.versailles.inra.fr/gnpis
+- par catégorie https://urgi.versailles.inra.fr/Data
+ 
+Données en accès authentifié dans  le  cadre  de  projets  en  collaboration  avec  la  plateforme avant publication.
+","11","https://urgi.versailles.inra.fr/gnpis","Analyse de données de séquençage NGS, Analyse de séquences, Cartographie, Génomique comparative","138180 an","31510 an","12-03-2018","","URGI"
+"Genolist servers","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/Logos_LogoIP-CNRS-C3BI-NBV2.png","There are 17 Genolist servers, each server is dedicated to a particular organism. The Genolist servers integrate informations about genome from different origins.
+These servers allow to browse genomes against several criteria, and visualized the information in its genetic context.
+The Genolist servers are followings :
+ 
+SubtiList : Bacillus subtilis strain 168 GenoList browser
+Colibri : Escherichia coli strain K12 GenoList browser
+TubercuList : Mycobacterium tuberculosis strain H37Rv GenoList browser
+Leproma : Mycobacterium leprae strain TN GenoList browser
+BoviList : Mycobacterium bovis strain AF2122/97 GenoList browser
+BuruList : Mycobacterium ulcerans strain Agy99 GenoList browser
+ListiList : Listeria monocytogenes strain EGD-e and Listeria innocua strain CLIP 11262 Multi-GenoList browser
+LegioList : Legionella pneumophila Paris strain and Legionella pneumophila Lens strain Multi-GenoList browser
+PyloriGene : Helicobacter pylori strains 26694 and J99 Multi-GenoList browser
+MypuList : Mycoplasma pulmonis strain UAB CTIP GenoList browser
+CyanoList : Synechocystis PCC6803 and Anabaena PCC7120 Multi-GenoList browser
+AureoList : Staphylococcus aureus strains N315 and Mu50 Multi-GenoList browser
+StreptoPneumoList : Streptococcus pneumoniae strains R6 and Tigr4 Multi-GenoList browser
+SagaList : Streptococcus agalactiae strain NEM316 GenoList browser
+PhotoList : Photorhabdus luminescens strain TT01 GenoList browser
+CandidaDB : Candida albicans strain SC5314 GenoList browser
+","Accès libre
+","4","","","831013 an","95031 an","07-01-2015","","DBC"
+"Insyght ","","Insyght est un browser qui permet de naviguer entre des données d’homologie, de synténie et d’annotation des protéines de 407 génomes complets de bactéries. La ressource a été publiée en décembre 2014 : Lacroix T, Loux V, Gendrault A, Hoebeke M, Gibrat J-F: Insyght: navigating amongst abundant homologues, syntenies and gene functional annotations in bacteria, it's that symbol! Nucleic Acids Res 2014.
+","Accès gratuit à http://genome.jouy.inra.fr/Insyght/
+","","","","","350 an","","","MIGALE"
+"MOSAIC","","MOSAIC est une base de données relationnelle qui permet de comparer des génomes bactériens d'une même espèce au niveau nucléique et de définir le squelette et les boucles.
+Chiapello H, Gendrault A, Caron C, Blum J, Petit MA, Karoui El M: MOSAIC: an online database dedicated to the comparative genomics of bacterial strains at the intra-species level. BMC Bioinformatics 2008, 9:498.
+","Accès gratuit à http://genome.jouy.inra.fr/mosaic
+","51","","","","2174 an","","","MIGALE"
+"ORENZA","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","List of Enzyme Activities for which no sequences are available in the main sequence protein databases
+","Web server
+","30","http://www.orenza.u-psud.fr/","Annotation de séquences, Prédiction d'homologie/orthologie, Comparaison des génomes, Inférence de protéine et validation","","","16-04-2014","","EBIO"
+"Napp","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Prediction of functional non-coding RNA in Bacteria and Archaea
+","Web server
+","8","http://rssf.i2bc.paris-saclay.fr/NAPP/index.php","Annotation de séquences, Recherche de motifs, Bases de données et systèmes d’informations, Gènes et génomes, Comparaison des génomes","415 an","288 an","","","EBIO"
+"Bacterial Genotyping ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Resources for bacterial micro-evolution studies using MLVA or CRISPR typing.
+","Web server
+","97","http://microbesgenotyping.i2bc.paris-saclay.fr/","Annotation de séquences, Recherche de motifs, Bases de données et systèmes d’informations, Comparaison des génomes","","","23-01-2015","","EBIO"
+"Podospora ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Podospora anserina Genome Project.
+","Web server
+","210","http://podospora.i2bc.paris-saclay.fr/","Annotation de séquences, Curation de collections de données, Bases de données et systèmes d’informations","","","24-06-2016","","EBIO"
+"tandemRepeat","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Database of tandem repeats from publicly available baterial genomes.
+","Web server
+","404","http://minisatellites-rec.igmors.u-psud.fr/GPMS/","Annotation de séquences, Recherche de motifs, Bases de données et systèmes d’informations, Comparaison des génomes","","","23-01-2015","","EBIO"
+"CRISPRdb ","https://www.france-bioinformatique.fr/sites/default/files/plateforme-logo/ebio.png","Resources for clustered regularly interspaced short palindromic repeats (CRISPRs) found in prokaryote genomes. FR
+","Web server
+","485","http://crispr.i2bc.paris-saclay.fr/","Annotation de séquences, Recherche de motifs, Cartographie génétique, Bases de données et systèmes d’informations, Comparaison des génomes","64441 an","30019 an","04-11-2016","","EBIO"
+"Donnée de bases","","Description
+","Conditions
+","0","","","0 an","0 an","16-07-2015","",""

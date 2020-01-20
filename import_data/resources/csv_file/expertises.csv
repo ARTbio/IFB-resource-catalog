@@ -1,0 +1,1348 @@
+"Nom de la plateforme","Domaines d'activité","Description des expertises","Mots clés"
+"EBIO","Biologie
+Biomédical
+Agro-alimentaire
+Environnement
+","La plateforme Bioinformatique eBio (http://ebio.u-psud.fr/), créée en décembre 2009, est au centre du dispositif de bioinformatique de l’Université Paris-Sud. Elle est associée aux services de bioinformatiques de l’INRA Moulon, de l’hôpital Paul Brousse et de Gustave Roussy. eBio est labellisée par IBISA/Reseau National des Plateformes Bioinformatiques (RENABI) et membre de l’Alliance des Plateformes Bioinformatiques d’Ile de France (APLIBIO).  Le site principal de eBio est localisé au bat 400 de l'Université Paris–Sud et intégré à l'I2BC (UMR9198, Gif sur Yvette).
+Les missions d’eBio comprennent : (1) le soutien bioinformatique aux projets de recherche, (2) la mise à disposition de moyens de calcul et stockage, (3) le développement et la maintenance de serveurs web de bioinformatique et bases de données de génomique. La plateforme a accompagné ou hébergé plus de 50 projets de recherche depuis début 2010.
+Les principaux domaines d’expertise de la plateforme sont les suivants :
+-    L’analyse de données RNA-seq, notamment la detection de transcrits non codants, transcrits alternatifs, l’analyse d’expression différentielle, le ribosome profiling
+-    L’analyse des structures d’ARN (alignement, structure secondaire)
+-    L’intégration de logiciels et de workflows d’analyse sous Galaxy
+-    L’assemblage des génomes de bactéries/champignons, la détection de variants
+-    La phylogénie moléculaire et l’analyse fonctionnelle par profil phylogénétique
+-    L’annotation des génomes de bactéries, archées et champignons (séquences CRISPR, terminateurs de transcription, ARN régulateurs, minisatellites)
+-    Le calcul distribué et sur cloud (déploiement de services d’analyse sur cluster et cloud académique)","Méthodologie
+Assemblage de génomes et transcriptomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Petits et longs ARN non-codants
+Métagénomique, métatranscriptomique
+Annotation de séquences
+Recherche de motifs
+Intégration d'outils
+Développement de workflows
+Bases de données et systèmes d’informations
+Cluster
+Cloud
+"
+"Institut Curie","Biomédical
+Biologie
+Biotechnologie
+","The expertise of the platform is versatile on many aspects of high-throughput data management, processing, integration and statistical and functional analysis in biology and in clinics.
+Many data types are treated:
+Microarrays: expression, copy number, SNP, ChIP
+NanoString
+NGS: Exome-seq, targeted-seq, WGS, RNA-seq, smallRNA-seq, 5C, HiC, ChIP-seq …
+RPPA,
+Mass spectometry, classical and SILAC, SWATH
+low-throughput biological data.
+The expertise covers fundamental, translational and clinical research, including clinical trials.
+In all these domain, the platform also develop appropriate methods, implement tools and automatic pipelines, and package and release them publicly or grant on-line access to the community.
+Software optimisation for high-performance computing is also part of our know-how.
+Finally the platform has developed an experience in training biologists, clinicians and bioinformaticians in all above-mentionned fields","Analyse de données de séquençage NGS
+Biostatistiques
+Développements technologiques de l‘Information et de la Communication
+Génomique : Puces
+"
+"bilille","Informatique
+Biologie
+Biomédical
+Environnement
+","","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Petits et longs ARN non-codants
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Bioinformatique structurale
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Evolution et phylogénie
+Evolution moléculaire
+Gènes et génomes
+Génomique comparative
+Comparaison des génomes
+Génomique : Puces
+Biopuces ADN
+CGH
+Biopuces ARN
+Expression
+Immunogénétique
+Analyse de répertoires immunitaires
+Immunoinformatique
+Protéomique
+Analyse différentielle statistique
+"
+"ABiMS","Environnement
+Biologie
+Agro-alimentaire
+","ABiMS works with research team within the framework of scientific collaboration formalised as project.
+ABiMS provide differents services :
+A scientific computing environment (Infrastructure As A Service - IAAS)
+Advice and expertise in 'omic data analysis
+Software engineering (information system, databases, ...)
+User support and training
+","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Analyse de la régulation de l’expression des gènes
+Métagénomique, métatranscriptomique
+Curation de collections de données
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Bases de données et systèmes d’informations
+Environnements de calcul
+Cluster
+GPU
+Evolution moléculaire
+Gènes et génomes
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+Génomique : Puces
+Biopuces ADN
+Fonctionelles
+Biopuces ARN
+Expression
+Métabolomique et fluxomique
+"
+"INCa-SLC","Biomédical
+Biologie
+","Cette structure a été créée à l'initiative de l'INCa dans le cadre de sa participation à l'""International  Cancer Genome Consortium"" (ICGC).
+ 
+Elle a trois missions :
+1 collecter ou préparer puis valider les acides nucléiques (ADN normal, ADN tumoral, ARN tumoral,...)  qui   seront   examinés   avec   les   techniques   de  la  génomique:   puce   de  génotypage,   puce d'expression, RNA-­seq, DNA-­‐eq en génomes complets et en éxomes),
+2 assurer la liaison avec les centres de génomique (académiques  ou privés) réalisant le séquençage haut-­‐débit,
+3 effectuer l'analyse des données de séquence transmises par ces centres de manière à en extraire l'information  (variants  somatiques  et  structuraux,  nombre  de  copie,  niveaux  d'expression  en RNA-­‐seq) utile aux équipes biomédicales.
+ 
+Pour  remplir  sa  mission,  la  plateforme  a  développé  une  application  Internet  permettant  d'assurer  la gestion  de grands  projets  multicentriques  en toute  transparence  pour  les collaborateurs.  Elle  a mis en place  des  procédures  de  contrôle  qualité  des  échantillons  à  analyser.  Elle  dessine  et  automatise  des pipelines d'analyse pour les données de génomique qu'elle reçoit.","Analyse de données de séquençage NGS
+Méthodologie
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Profils de méthylation
+Biostatistiques
+Génomique : Puces
+Biopuces ADN
+Génotypage
+CGH
+Biopuces ARN
+Expression
+"
+"CBiB","Biomédical
+Agro-alimentaire
+Environnement
+Biologie
+","
+
+
+
+L'objectif du Centre de Bioinformatique de Bordeaux (CBiB) est de concevoir, mettre en œuvre et fournir l’accès aux services d’analyse de données biologiques adaptés à une production à haut débit (ex., génomique, protéomique, métabolomique, etc.). Cette exigence d’analyser les données de grande volumétrie de façon rapide et fiable, amène le CBiB à développer les méthodes de type « Big Data ». Pour ce faire, le CBiB réunit les compétences nécessaires en bioinformatique et en informatique ; le centre est équipé de moyens de calculs et stockage adaptés, en cohérence avec les équipements régionaux (le Mésocentre de Calcul Aquitain - MCIA) et l’infrastructure nationale de Bioinformatique (Investissement d’Avenir, Institut Français de Bioinformatique - IFB).
+ 
+Le CBiB structure ses activités autour de trois axes stratégiques:
+ 
+1. NGS : Activité de service pour le traitement de données issues des Nouvelles Technologies de Séquençage. Cet axe est réalisé en collaboration avec la Plate-forme Génome-Transcriptome de Bordeaux, productrice des données et avec GenoToul Bioinformatique à Toulouse dans le cadre du rapprochement initié ReNaBi/IBiSA (échanges de compétences techniques, mutualisation des formations aux biologistes, missions de service et thématique R&D).
+2. Génomique Comparative : activité de recherche et de service pour le stockage, l'analyse et la comparaison à grande échelle de génomes bactériens au travers de la plateforme MolliGen.
+3. Métabolomique : En collaboration avec la Plate-forme Métabolomique de Bordeaux, (PMB) productrice des données, le CBiB est impliqué dans des projets de gestion de données en métabolomique avec l’extension récente de ces travaux aux données éco-physiologique. Par ailleurs, le CBiB est très fortement impliqué dans les activités de standardisation de données métabolomiques au niveau Européen (projet Européen COSMOS).
+ 
+Le Centre de bioinformatique de Bordeaux (CBiB) fournit un accès à des ressources de calcul de haute performance, assure l'analyse des données et dispose d'une expertise en programmation. Ces ressources sont au service des scientifiques académiques et des entreprises privées pour leur permettre de répondre à leurs besoins en bioinformatique de manière efficace et rentable.
+
+
+
+","Analyse de données de séquençage NGS
+Analyse de séquences
+Apprentissage automatique
+Biologie des systèmes
+Curation de collections de données
+Ecologie
+Génomique comparative
+Immunogénétique
+Métabolomique et fluxomique
+Protéomique
+"
+"ATGC","Biotechnologie
+Biomédical
+Biologie
+Agro-alimentaire
+Environnement
+","Algorithmique du texte et des arbres, combinatoire, optimisation, modélisation probabiliste et statistique, classification, phylogénie, séquençage haut débit, génomes, transcriptomes, protéomes, cancer, paludisme, VIH.","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Algorithmique des séquences
+Recherche de motifs
+Apprentissage automatique
+Extraction de connaissances
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Environnements de calcul
+Cluster
+Evolution et phylogénie
+Evolution moléculaire
+Gènes et génomes
+Datation des spéciations
+Phylogénomique
+Arbre de la vie
+Super-arbres et réconciliations
+"
+"GenAtlas","Biomédical
+Biologie
+","
+
+
+
+GENATLAS, http//:www.genatlas.org       
+                                                                        
+GENATLAS est une base de données sur les gènes et les maladies, créée en 1986 et depuis  constamment mise à jour ; elle met à disposition de la communauté scientifique et médicale internationale des informations concernant la structure, l’expression et la fonction des gènes,  leurs mutations  et leurs conséquences  phénotypiques.
+GENATLAS repose sur une architecture informatique originale  et permet une interrogation facile de trois bases de données intriquées : « gene database », « phenotype database » et une base de références bibliographiques. Les données  reposent sur une annotation des articles scientifiques qui est assurée par une veille bibliographique quotidienne (collections et bibliothèques  des Université Paris Descartes, CNRS, INSERM). GENATLAS est hébergée à l’Université Paris Descartes.
+L’annotation des liens gènes- maladies mais également l’annotation des réarrangements chromosomiques et de leurs phénotypes associés donnent à GENATLAS sa spécificité et lui confère sa qualité de véritable compilation des maladies génétiques. GENATLAS s’attache aussi à développer des outils utiles aux chercheurs et aux médecins prenant en compte les  nouveaux concepts : outils pour rechercher un gène dans un intervalle donné, prédiction d’ARN messager, utilisation de thésaurus commun élaborés conjointement avec plusieurs bases de données ayant  pour intérêt commun les maladies génétiques (ORPHANET , CEMARA, GENATLAS) .
+Enfin des liens réciproques sont établis avec différentes  bases données  internationales comme Swissprot, HGMD, IGMT, Genew, Genecards, et Orphanet confirmant une reconnaissance internationale   (plus de 250 000 visites sur www.genatlas.org sont enregistrées chaque année).
+ 
+
+
+ 
+MiRiFixTM, http://www.mirifix.com
+MiRiFixTM est un outil bioinformatique voué à la recherche et à la clinique visant à (1) promouvoir la découverte de gènes de microARNs potentiellement causals dans les maladies génétiques, et (2) identifier les microARNs qui pourraient interférer avec une condition donnée en tant que gènes modificateurs. Ce logiciel est référencé à l’Agence pour la Protection des Programmes.
+ 
+MiRiFixTM est dédié à la communauté des généticiens, scientifiques et cliniciens, qui souhaitent faire face à la révolution de l’ARN non codant. Son positionnement unique lui confère le rôle de base de données intégrative, avec ses propres développements et un portail dynamique ouvert aux outils les plus fiables et reconnus du domaine. Par une interface facile d’utilisation, il est possible d’explorer en un-clic la localisation des microARNs par rapport aux annotations sur les gènes codant pour des protéines et le ciblage prédit d’un ARNm au niveau : (1) de SNPs, (2) du 3’UTR et (3) des exons. De plus, l’interface permet d’accéder aux méthodologies adaptées permettant de tester spécifiquement le ciblage microARN-ARNm avec une séquence normale ou mutée.
+ 
+MiRiFixTM est distinct des autres ressources en tant qu’outil :
+- dédié à la génétique humaine,
+- permettant une requête directe via la localisation, le gène ou la maladie,
+- fournissant une dualité d’information concernant le microARN en tant que gène candidat d’une part et gène modificateur d’autre part,
+- comprenant une base de données globale de littérature annotée manuellement avec une cartographie éprouvée des maladies génétiques,
+- aggrégeant 18 outils computationnels dédiés aux microARNs avec une ontologie commune facilitant un flux continu entre différents algorithmes,
+- portail de liens intégrés pour évaluer les ciblages microARN-ARNm et leur validité computationnelle.
+
+
+
+",""
+"IGR","Biomédical
+Biologie
+","
+
+
+
+● Bioanalyses
+Conception, définition de design expérimentaux en génomique (microarrays, NGS). Analyse de données génomiques (microarray et NGS)
+- Microarray :
+- Gene Expression (Agilent, Affymetrix)
+- CGH array
+- microRNA array
+- NGS (DNA-seq):
+- Détection de SNP (WES, WGS, TS)
+- Détection de variants structuraux (LOH, CNV)
+- ChipSeq
+- NGS (RNA-seq) :
+- Analyse différentielle
+- recherche de transcrit de fusion
+- recherche de splicing alternatif
+- detection de SNP par RNA-seq
+ 
+● Conseil / Support
+Elaboration de cahier des charges pour des projets de recherche à composante ""bioinformatique"" : définition du projet bioinformatique, définition des compétences requises, rédaction de fiche de poste, recrutement de bioinformaticien, estimation du coût global. La plateforme peut se positionner en partenaire du projet ou en prestataire de service.
+ 
+● Formations
+Organisation de formations généraliste en interne. Organisation de formations spécifiques, sur demande, dans les locaux des demandeurs (utilisation d’un logiciel, explication de méthodologie bioinformatique, statistiques)
+ 
+● R&D
+Développement /Maintenance de pipelines d’analyse.
+Développement à facon d’outils d’annotation / de visualisation de données NGS Développement de DB de données génomiques
+Participation au developpement de DB en médecine personnalisée
+
+
+
+","Analyse de données de séquençage NGS
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Profils de méthylation
+Métagénomique, métatranscriptomique
+Génomique : Puces
+Biopuces ADN
+CGH
+Fonctionelles
+Biopuces ARN
+Expression
+"
+"MicroScope","Biomédical
+Agro-alimentaire
+Environnement
+Biotechnologie
+","Développement de méthodes et d’outils destinés à l’annotation, à la génomique et au métabolisme comparatifs de génomes bactériens.
+Organisation et gestion de données génomiques et métaboliques dans des structures de bases de données.
+Prédiction et analyse de réseaux et modèles métaboliques de génomes bactériens.
+Analyse de données NGS : projets d’évolution (polymorphismes) et de transcriptomique (RNA-seq).
+Développement d’interfaces Web conviviales pour l’utilisation des outils d’analyses et l’annotation experte (composant MaGe, Magnifying Genomes).
+Service pour l’analyse de données génomiques ouvert à la communauté internationale des microbiologistes.
+Formations à l’annotation, à l’analyse comparative génomique et métabolique et à l’analyse de données de transcriptomique avec l’interface graphique MaGe.
+","Analyse de données de séquençage NGS
+Méthodologie
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Génomes complets
+Métagénomique, métatranscriptomique
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Apprentissage automatique
+Extraction de connaissances
+Intégration de données hétérogènes
+Représentation des connaissances
+Biologie des systèmes
+Modélisation des réseaux métaboliques
+Modélisation des systèmes
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Génomique comparative
+Comparaison des génomes
+Comparaison des voies fonctionnelles et régulatrices
+"
+"MIGALE","Agro-alimentaire
+Environnement
+Biologie
+","
+
+
+
+La plate-forme MIGALE a une interaction privilégiée avec l’équipe StatInfOmics de l ‘unité MaIAGE à qui elle fournit un support logistique important. Les compétences de cette équipe sont les statistiques appliquées à l’analyse des données « omiques », et la bioinformatique au sens large, concernant en particulier :
+ 
+la structure des génomes :
+traitement et analyse des données NGS
+l’annotation structurale et fonctionnelle de génomes complets,
+la recherche de motifs dans les séquences ou les réseaux
+la transcriptomique :
+l’annotation structurale des ANR messagers
+l’analyse des régulations
+la structure et fonction des protéines :
+classification et analyse des structures 3D des protéines
+modélisation de la structure 3D des protéines
+analyse des relations structure 3D – fonction des protéines
+la génomique évolutive
+comparaison de génomes microbiens
+étude des processus évolutifs
+Les autres équipes de l’unité ont des compétences :
+en biologie des systèmes
+biologie des systèmes pour les procaryotes (B. subtilis)
+modélisation et analyse de réseaux de régulation biologique
+en extraction de connaissances à partir de textes scientifiques appliquée
+à la modélisation des réseaux de régulation génique et du métabolisme,
+à la relation génotype-phénotype,
+aux phénotypes multi-espèce et à l’adaptation à l’environnement.
+
+
+
+","Analyse de données de séquençage NGS
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Analyse différentielle de l’expression des gènes
+Analyse de variants
+Génomes complets
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Outils
+Intégration d'outils
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Cluster
+Ecologie microbienne
+Génomique comparative
+Protéomique
+Analyse de second niveau
+"
+"DBC","Biomédical
+Biologie
+","","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Petits et longs ARN non-codants
+Profils de méthylation
+Accessibilité de la chromatine
+Analyse de la conformation des chromosomes
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Apprentissage automatique
+Bioimagerie
+Analyse d’images
+Extraction d’informations
+Quantification
+Visualisation
+Bioinformatique structurale
+Biologie des systèmes
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Inférence et analyse des réseaux biologiques
+Statistique génétique
+Cartographie
+Localisation de QTL
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Environnements de calcul
+Cluster
+GPU
+Parallélisation
+E-learning
+Evolution et phylogénie
+Evolution moléculaire
+Phylogénomique
+Super-arbres et réconciliations
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+Comparaison des voies fonctionnelles et régulatrices
+Génomique : Puces
+Biopuces ADN
+Biopuces ARN
+Expression
+Tiling
+Analyse des réseaux métaboliques
+Protéomique
+Protéomique quantitative
+Analyse différentielle statistique
+"
+"RPBS","Biologie
+Informatique
+Biomédical
+","Bioinformatique Structurale : analyse et modélisation de la structure et de la fonction des protéines, des peptides. Complexes protéiques, peptide-protéine. Criblage in silico.
+Modélisation comparative de la structure des protéines
+Recherche de similitudes structurales
+Modélisation de la structure de complexes protéiques
+Modélisation de novo de la structure des peptides
+Criblage in silico (structure-based)
+Impact structural de mutations ponctuelles
+","Bioinformatique structurale
+Analyse des structures, recherche d'homologues et de motifs structuraux
+Prédictions des propriétés structurales
+Modélisation comparative et de novo de structures
+Modélisation des interactions protéines/protéines, protéines/peptides et protéines/acides nucléiques
+Analyse des propriétés dynamiques et thermodynamiques des structures
+Criblage virtuel
+Librairies de petits composés chimiques, 2D/3D, ADME/tox
+Criblage basé sur la structure
+"
+"MBI","Biomédical
+Biologie
+","
+
+
+
+Plateforme expérimentale de recherche dépendant de Inria Nancy Grand-Est, la plateforme MBI s’est constituée autour de deux domaines principaux d’expertise.
+1. La modélisation 3D des protéines et de leurs interactions, avec en particulier la simulation de dynamiques moléculaires (logiciel NAMD), et la mise à disposition de programmes ultra-rapides de docking rigide et de comparaison de formes, exécutés sur des clusters mixtes (CPU et GPU).
+2. L’extraction de connaissances à partir de données biologiques ou biomédicales, avec en particulier la mise en œuvre de méthodes de fouille de données symboliques et/ou relationnelles, en utilisant une suite logicielle construite dans l’équipe Orpailleur autour de la recherche de motifs fréquents et de l’analyse formelle de concept (suite CORON), ainsi que des workflows d’apprentissage (à partir de la plateforme KNIME).
+
+
+
+","Bioinformatique structurale
+Modélisation des interactions protéines/protéines, protéines/peptides et protéines/acides nucléiques
+"
+"BIstrO","Biomédical
+Agro-alimentaire
+Environnement
+Biotechnologie
+Biologie
+","
+
+
+
+• Biologie Végétale Intégrative (silencing, épigénétique, intéractions hôtes pathogènes, cycle cellulaire, …)
+• Maladies génétiques rares (ciliopathies, rétinopathies, myopathies, …)
+• Génomique structurale, fonctionnelle, comparative
+• Protéomique haut-débit et Protéomique structurale
+• Développement de méthodes quantitatives basées sur la spectrométrie de masse et leur application à des systèmes biologiques
+• ARN non-codantes : architecture, mécanismes d'évolution, et rôles dans la pathogénicité
+• L'étude des micro-organismes adaptés à des conditions environnementales extrêmes
+• Recherche transdisciplinaire à l'interface de la biologie, la biochimie, la physique et la médecine
+ 
+La plateforme BISTRO regroupe plusieurs plateformes/services bioinformatiques dans différents Instituts de recherche à Strasbourg :
+ 
+Génétique Moléculaire, Génomique Microbiologie (GMGM)
+L'étude des micro-organismes adaptés à des conditions environnementales extrêmes peuvent révéler des capacités microbiennes insoupçonnées. Leur compréhension, y compris les fonctions métaboliques et la formation de biofilm impliqués dans l'adaptation à des conditions particulières est un objectif majeur de la microbiologie environnementale. Nous étudions ces mécanismes d'adaptation microbienne dans les écosystèmes contaminés par des éléments toxiques à 3 niveaux : (i) l'isolement de nouvelles souches et la caractérisation de leurs propriétés métaboliques, (ii) l'étude de la réponse adaptative aux métaux toxiques dans des conditions de laboratoire, (iii) l'étude d'environnements contaminés pour comprendre le fonctionnement des communautés microbiennes in situ.
+ 
+Institut de Biologie Moléculaire et Cellulaire (IBMC)
+L’équipe « évolution des ARN non-codants chez les levures » s'intéresse au rôle et à l'évolution des ARNnc dans les mécanismes biologiques. De tels ARN étaient connus depuis longtemps, mais on pensait alors qu’ils n’étaient que des ""composants infrastructuraux"" de la machinerie traductionnelle, des reliquats d’un monde ancestral ""tout ARN"" : les ARN ribosomiques, les ARN de transferts, les introns ainsi que les petits ARN nucléolaires. Au moyen d'approches bioinformatiques et expérimentales, nous nous intéressons particulièrement : (i) à l'étude des relations structure-fonction dans certaines familles d'ARNnc (ribosomes, riboswitches,...), (ii) à l'identification et à l'étude de nouveaux ARNnc impliqués dans les mécanismes de pathogénicité chez certaines espèces de levures.
+ 
+Institut de Biologie Moléculaire des Plantes (IBMP)
+L’activité de recherche est dédiée à l’étude des mécanismes fondamentaux de la vie des plantes dont les applications trouvent notamment leur place dans les domaines des biotechnologies ou de la recherche médicale. Les domaines étudiés sont très variés : (i) la biosynthèse de molécules bioactives (impliquées dans l’élaboration de matériaux, de cosmétiques, d’arômes ou de médicaments) et de leur régulation, (ii) virus végétaux, (iii) des grandes voies de régulation permettant le développement et la reproduction des plantes ainsi que l’adaptation à leur environnement, (iv) la biogenèse des organites, chloroplastes et mitochondries, indispensables à la production d’énergie des cellules et dont les dysfonctionnements peuvent engendrer des effets fortement délétères quant à la vie cellulaire. http://ibmp.u-strasbg.fr/
+ 
+Laboratoire des sciences de l'ingénieur, de l'informatique et de l'imagerie (ICube)
+L'équipe Complex systems and Translational Bioinformatics (CSTB) couvre un large spectre de recherches en informatique : la bioinformatique et génomique intégratives, la bioinformatique théorique, la fouille de données, l'ingénierie des connaissances et l'optimisation stochastique. Dans le domaine de la bioinformatique, nous nous focalisons essentiellement sur le domaine de la santé et plus particulièrement à l’étude des maladies génétiques rares et à la compréhension des mécanismes physiopathologiques impliqués dans ces maladies. Ces mécanismes ont souvent un intérêt potentiel pour la compréhension des processus biologiques altérés dans des maladies plus communes, telles que l’obésité, les diabètes ou les cancers.
+ 
+Institut de génétique et de biologie moléculaire et cellulaire (IGBMC)
+L'objectif de l'institut est de développer la recherche transdisciplinaire à l'interface de la biologie, la biochimie, la physique et la médecine. Nous explorons des thématiques très diverses, alliant recherche fondamentale et appliquée dans le domaine de la santé. Les travaux concernent des sujets très variés, allant de l'analyse structurale des protéines à la génétique humaine, en passant par les cellules souches, la biophysique ou l'épigénétique. Les résultats scientifiques ont déjà permis d'importantes avancées, notamment pour la compréhension de nombreuses pathologies humaines comme certains cancers ou maladies génétiques rares.
+ 
+Institut clinique de la souris (ICS - IGBMC)
+Le service informatique ICS possède une expertise informatique forte dans la mise en place de la chaine de traitement des données issues des souris génétiquement modifiés : développement d’outils de capture des données de phénotypage, des traitements statistiques appropriés, des procédures d’interfaçage avec des ressources externes. Il développe également l’analyse intégrative de ces données en les croisant avec les ressources publiques disponibles (MGI, EMMA…).
+ 
+Institut Pluridisciplinaire Hubert Curien (IPHC)
+Le Laboratoire de Spectrométrie de Masse BioOrganique (LSMBO) de l’IPHC se concentre sur le développement de méthodes analytiques pour la détermination structurale de macromolécules, principalement des protéines, sans aucune ambiguïté structurale, jusqu’au dernier atome. Des méthodes d’analyse protéomique à haut débit sont développées pour la quantification de protéomes complexes ou la découverte de biomarqueurs de pathologies. Nous développons également la MS supramoléculaire pour décrire des complexes non-covalents, des approches de protéomique structurale, de protéogénomique et de complexomique. L’équipe de bioinformatique du laboratoire développe les outils logiciels nécessaires à l’interprétation de l’ensemble des données générées, outils qui sont accessibles sur MSDA (Mass Spectrometry Data Analysis, https://msda.unistra.fr/)
+ 
+Laboratoire de Génétique Médicale (LGM)
+Le leitmotiv du LGM est d’avoir comme point de départ l’observation clinique de patients atteints de maladies rares d’origine génétique; d’identifier les causes génétique(s) de leur affection(s) et d’en étudier les mécanismes physiopathogéniques au niveau cellulaire et au niveau d’organismes modèles pour aboutir à des hypothèses thérapeutiques ouvrant la voie vers des projets de thérapies précliniques pour in fine retourner vers le patient. La motivation profonde, qui anime l’équipe constituée aussi bien de médecins que de scientifiques, est basée sur sa volonté de développer une recherche véritablement translationnelle. La recherche sur les maladies rares génétiques sont à l’origine de découverte de nouvelles voies biologiques et peuvent avoir un impact fort sur les maladies communes. Ce laboratoire a permis de développer de nouveaux axes de recherché très compétitifs dans le domaine de la génétique humaine et de la physiopathologie intégrée de divers processus pathologiques à l’origine de maladies génétiques et/ou communes. http://www.u1112.inserm.fr/
+
+
+
+","Analyse de données de séquençage NGS
+Analyse de séquences
+Apprentissage automatique
+Curation de collections de données
+Génomique : Puces
+Protéomique
+"
+"P3M","","","Visualisation
+"
+"BiRD","Biomédical
+Biologie
+Informatique
+","
+La plateforme BiRD conseille, propose et développe des services en bioinformatique : analyse de données de séquençage et génotypage à haut débit pour la détection de variants, étude du transcriptome (RNA-Seq et puces à ADN). Pour cela elle travaille aux cotés de la plateforme Génomique qui prend en charge les projets de préparations de librairies et séquençage. Ensemble les 2 plateformes forme l'infrastructure GenoBiRD.
+Pour toutes ces applications, BiRD possède une expertise dans l'analyse de données à grande échelle et a développé des pipelines d’analyse bioinformatiques dédiés permettant de standardiser l’analyse depuis les données brutes jusqu’à l’interprétation biologique.
+Ces services sont supportés par une infrastructure de calcul et de stockage dédiée directement connectée aux séquenceurs, accessible à distance à travers plusieurs services et ouverte à la communauté scientifique quelque soit sa tutelle.
+La plateforme assure :
+un accompagnement des projets d'analyse de données en génomique, depuis la définition du projet jusqu'à l'obtention de données filtrées et de bonne qualité.
+la mise à disposition de la communauté scientifique une infrastructure à haute performance et des ressources bioinformatiques adaptées (cluster calcul, stockage et CLOUD OpenStack) pour le traitement et l'analyse de données 'omics'. Basée sur cette infrastructure, une instance Galaxy  permet aux biologistes un accès facilité aux outils d'analyse de données.
+des formations dans le domaine de la Bioinformatique, comme une formation à l'analyse de données de transcriptome ou une initiation à l'utilisation du langage R.
+
+ 
+Implantée au sein de la SFR Santé François Bonamy, la plateforme s'appuie sur les équipes de recherche en génétique et génomique humaine de l'UMR U1087, à laquelle elle est adossée. L'un des objectifs scientifiques de ces équipes est d'élucider les mécanismes moléculaires de pathologies cardiovasculaires (mort subite, arythmies, valvulopathies, anévrismes cérébraux, etc.). Les stratégies d'analyse mises en oeuvre s'appuient sur les technologies de criblage génomique à haut-débit couplées au développement de nouveaux outils bioinformatiques dédiés, dans le but d'identifier de nouveaux marqueurs de risque dans ces pathologies.
+La plateforme est également co-dirigée scientiquement par le LS2N (Laboratoire des Sciences Numériques Nantes). Les travaux de recherche et développements de la plateforme BiRD sont menés en collaboration avec l’équipe ComBi dont les thématiques de recherche principales se concentrent autour de la génomique comparative et de la biologie des systèmes. Ensemble, ces deux laboratoires définissent les orientations stratégiques et scientifiques de BiRD, et coordonnent les ressources humaines et matérielles.
+
+ 
+","Analyse de données de séquençage NGS
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Métagénomique, métatranscriptomique
+Apprentissage automatique
+Extraction de connaissances
+Intégration de données hétérogènes
+Représentation des connaissances
+Ontologies
+Web sémantique
+Biologie des systèmes
+Fonctionnement des systèmes biologiques complexes
+Génie métabolique
+Analyse et modélisation multi-échelle
+Modélisation des réseaux métaboliques
+Modélisation des réseaux de régulation
+Modélisation des systèmes
+Systèmes dynamiques
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Inférence et analyse des réseaux biologiques
+Statistique génétique
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Environnements de calcul
+Cluster
+Cloud
+Ecologie
+Biodiversité
+Ecologie microbienne
+Modélisation en écologie
+Génomique : Puces
+Biopuces ADN
+Génotypage
+CGH
+Biopuces ARN
+Expression
+"
+"GenOuest ","Biomédical
+Agro-alimentaire
+Environnement
+Biotechnologie
+Biologie
+","La plate-forme GenOuest plusieurs catégories de prestations : 1) une infrastructure bio-informatique : il s’agit de proposer un environnement bio-informatique complet au sein duquel les utilisateurs pourront évoluer en autonomie complète ou bien en recourant au support proposé par les personnels de la plate-forme. 2) le développement d’applications bioinformatiques : pour certains projets le nécessitant, des environnements spécifiques, des interfaces ou des bases de données sont développés
+par les ingénieurs de la plate-forme. 3) une expertise et une consultance : pour certains projets les scientifiques font appel à la plate-forme GenOuest pour bénéficier d’une expertise en bio-informatique pour l’analyse de leurs données ou bien pour élaborer des stratégies d’analyse bioinformatiques. 4) Du transfert technologique : du fait de son implantation au sein d’un institut de recherche en informatique et bio-informatique, la plate-forme est en mesure de réaliser un transfert technologique des nouveaux outils directement issus de la recherche. 5) Des formations : un ensemble de formation est proposé par la plate-forme GenOuest 6) De l’hébergement scientifique : en partenariat avec les ingénieurs de la plate-forme les utilisateurs peuvent mettre en place de nouvelles ressources et/ou valoriser leurs travaux scientifiques grâce à la mise en place de sites ou applications web.
+D’autre part, GenOuest réalise des recherches et développements autour de plusieurs axes principaux :
+Les développements axés principalement sur l’analyse de séquences biologiques (Logol, DrMotifs), l'intégration des données biologiques (BioMAJ, SeqCrawler, Danaïdes), mais aussi sur l'utilisation de méta-données en biologie (EMME).
+Les développements technologiques sur des outils ou environnements facilitant l'administration et l'exploitation des applications de bioinformatique (BioMAJ, MobyleNet, Galaxy) ou explorer nouveau paradigme de calcul pour la bioinformatique (genocloud, Grisbi).
+Les deux axes précédents sont fédérés dans le projet e-biogenouest qui, centré sur les environnements virtuels de recherche, va exploiter les diverses avancées réalisées précédemment (gestion de données biologiques, portails, etc.)
+La plate-forme est en interaction étroite avec les deux équipes de bioinformatique locales, Dyliss et GenScale, qui elles même collaborent et organisent des séminaires communs.
+L’équipe Dyliss se spécialise sur l'analyse de séquences et la biologie des systèmes en utilisant des systèmes formels pour caractériser les facteurs génétiques qui contrôlent les réponses phénotypiques en fonction de l’environnement. L’équipe GenScale se concentre sur l'analyse des données génomiques à grande échelle en développant des algorithmes optimisés (CPU et mémoire), et qui peuvent également être exécutés dans des environnements parallèles.
+Les domaines d’expertise de ces deux équipes contribuent à renforcer l’expertise de la plate-forme GenOuest et permettent de proposer des outils innovants.
+La plate-forme GenOuest est également associée de manière très étroite avec la plate-forme INRA Bipaa qui propose des ressources bioinformatiques pour la génomique et la post-génomique des insectes.
+D’un point de vue thématique les outils et méthodes développés au sein de ce groupe d’une cinquantaine de personnes trouvent leur application dans les domaines traditionnels de Biogenouest : Mer, Agronomie, Santé, Environnement.","Analyse de données de séquençage NGS
+Analyse de séquences
+Algorithmique des séquences
+Recherche de motifs
+Apprentissage automatique
+Intégration de données hétérogènes
+Représentation des connaissances
+Ontologies
+Web sémantique
+Biologie des systèmes
+Modélisation des réseaux métaboliques
+Modélisation des réseaux de régulation
+Modélisation des systèmes
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Environnements de calcul
+Cluster
+Cloud
+"
+"PRABI-HCL","Biologie
+Biomédical
+Biotechnologie
+","","Aucun des termes ci-dessus ne convient
+"
+"PRABI-AMSB","Environnement
+Biologie
+","Les domaines de compétences du PRABI-AMSB comprennent la phylogénie moléculaire, les statistiques, l’écologie, la virologie et la microbiologie ainsi que l’analyse de données biomédicales. Par ailleurs les méthodologies utilisées sont celles de la génomique, la transcriptomique, la métagénomique/métatranscriptomique, ainsi que la biologie des systèmes.","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Génomique (DNA-seq)
+Analyse de génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Biologie des systèmes
+Modélisation des réseaux de régulation
+Modélisation des systèmes
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Interfaces, portails web
+Développement de workflows
+Données
+Bases de données et systèmes d’informations
+Cluster
+Cloud
+Parallélisation
+Ecologie
+Biodiversité
+Ecologie microbienne
+Modélisation en écologie
+Evolution et phylogénie
+Evolution moléculaire
+Gènes et génomes
+Phylogénomique
+Arbre de la vie
+Super-arbres et réconciliations
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+Génomique : Puces
+Métabolomique et fluxomique
+"
+"PRABI-Lyon-Grenoble","Biomédical
+Agro-alimentaire
+Environnement
+Biologie
+","Les thématiques de recherche du PRABI-Doua s’organisent autour d’un point de vue méthodologique, qui affirme l’importance de la modélisation tant mathématique qu’informatique et d’une perspective évolutive qui organise les recherches indépendamment du niveau d’organisation biologique. C’est dans la synergie entre des problématiques biologiques propres et des développements méthodologiques que naît la plus grande part des résultats scientifiques de cette composante. Parmi les thématiques abordées figurent en particulier:
+Phylogénie et évolution moléculaire.
+Génomique comparative (organismes eucaryotes et procaryotes).
+Eléments transposables.
+Intreractions hôtes-parasites.
+Statistiques appliquées à l'écologie et l'évolution.
+Analyse statistique de données en grandes dimensions pour la génomique.
+","Analyse de séquences
+Algorithmique des séquences
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Inférence et analyse des réseaux biologiques
+Développements technologiques de l‘Information et de la Communication
+Outils
+Interfaces, portails web
+Développement de workflows
+Données
+Bases de données et systèmes d’informations
+Environnements de calcul
+Cluster
+Cloud
+Ecologie
+Génétique des populations
+Biodiversité
+Ecologie microbienne
+Modélisation en écologie
+Evolution moléculaire
+Gènes et génomes
+Datation des spéciations
+Phylogénomique
+Arbre de la vie
+Super-arbres et réconciliations
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+"
+"PRABI-Lyon-Gerland","Biomédical
+Biotechnologie
+Biologie
+","
+
+
+
+Le PRABI-Gerland https://prabi.ibcp.fr localisé à l'IBCP développe les bases de données dans le domaine infectieux, les méthodes de prédiction et d'optimisation des structures 3D de protéines ainsi que les outils et services s'y rapportant. Dans le domaine des services la spécificité de la PF est la bioinformatique structurale (Modélisation moléculaire, prédiction de structure) introduite sur Lyon dès 1986 (il y a 25 ans avant même que le mot n'existe...). Dans ce domaine, l’activité proposée par le PRABI-Gerland s’appuie sur les expertises suivantes:
+ Prédiction de structure de protéines [G. Deléage]
+ Modélisation moléculaire [E. Bettler, G. Deléage, R. Terreux]
+ Intégration de méthodes et serveurs Web [C. Combet, G Deléage]
+ Serveur Web 3D [E. Bettler, G. Deléage]
+ Drug design et QSAR (R. Terreux, J.A. Chemelle)
+ 
+Mots clefs: Bioinformatique structurale, Prédiction de structure, Base de données structurales, Analyse de séquences, Modélisation moléculaire, docking moléculaire.
+ 
+Principaux sites web: https://prabi.ibcp.fr (site en cours de refonte)
+ https://geno3d-prabi.ibcp.fr/
+ https://npsa-prabi.ibcp.fr/
+ http://sumo-pbil.ibcp.fr
+ http://espript.ibcp.fr
+ http://endscript.ibcp.fr
+Méthodes de prédiction des structures secondaires de protéines.
+Plusieurs méthodes originales ont été développées, Self Optimized Prediction Method (SOPM), génère automatiquement à partir de cette base de donnée, une ""sous-base"" rassemblant les 60 à 80 protéines les plus homologues ou appartenant à la même classe structurale que la protéine
+étudiée. En effet, des protéines homologues ont généralement une structure assez proche (30% d'identité indique une architecture semblable). Après une phase d'apprentissage automatique sur cette ""sous-base"", en particulier d'optimisation des paramètres, la prédiction de la structure de la protéine est réalisée. La version SOPMA tire bénéfice des alignements multiples. La méthode MLRC combine les réseaux de neurones avec la méthode SOPMA.
+ [SOPMA] Self optimised Prediction Method (1995)
+ [SOPM] Self optimised Prediction Method (1994)
+ [DPM] Double prediction Method (1987)
+ [MLRC] Multivariate Linear Regression Combination (1999)
+ [AMPHIPASEEK] Prediction of membrane anchor helical peptides (2006)
+ 
+Intégration de methodes- WebicielsServeur NPS@
+Le PRABI Gerland a développé le premier serveur de mail Français pour la prédiction de structures secondaires de protéines (80 000 prédictions en tout). Ensuite ces méthodes ont été intégrées dans [NPS@ 2000]. Le serveur est actuellement dans sa version 3. Dans le cadre de RENABI-IFB, ce serveur généraliste de séquences couplé aux prédictions de structures sera mis à jour en termes d’ergonomie, d’interface et de conception. Mise à disposition d’outils et de services en ligne correspondant aux domaines d’expertise du laboratoire d’accueil de la PF.
+ 
+Serveur Web ESPript/ENDscript
+A partir d’une protéine de structure connue (code ou fichier PDB), le serveur ENDscript produit, en quelques secondes et de manière automatisée, plusieurs illustrations téléchargeables dans des formats usuels (PostScript, PDF, PNG et TIFF) :
+1/ Une première figure, générée par le logiciel ESPript, présente la séquence de la protéine d’intérêt agrémentée de ses éléments de structure secondaire, de l’accessibilité au solvant et de l’hydropathie par résidu. Si disponibles, sont aussi représentés les contacts cristallographiques et non-cristallographiques protéine/protéine et/ou protéine/ligand ainsi que les résidus impliqués dans des ponts disulfures.
+2/ Une seconde figure ESPript montre, en plus des informations précédentes, un alignement multiple de séquences des protéines homologues coloré en fonction de la conservation des résidus et agrémenté des éléments de structure secondaire de ces dernières si leurs structures sont connues. 
+3/ Deux représentations 3D interactives visualisables par le logiciel PyMOL : a) une représentation en ruban, colorée en fonction de la conservation de séquence. b) une représentation en tube dont le diamètre est proportionnel à la déviation structurale (rmsd) entre la protéine d’intérêt et les protéines homologues de structure connue. De plus, si disponible, peuvent être affichés : l’assemblage de l’unité biologique, les modèles RMN multiples, les ligands et les résidus en contact avec ces derniers.
+Le serveur ESPript permet, en complément d’ENDscript ou de manière autonome, de représenter des alignements multiples de séquences avec la possibilité d’ajouter des marqueurs définis par l’utilisateur de manière à produire des figures facilitant l’analyse ou dédiées aux communications scientifiques.
+ 
+Modélisation moléculaire
+Un serveur Web de modélisation moléculaire automatique de structure 3D de protéines appelé geno3D est disponible depsuis 2002 qui permet aux biologistes et biochimistes d'obtenir un modèle 3D de qualité si la séquence ""query"" présente plus de 35% d'identité avec une protéine de structure 3D connue. Le principe de cette modélisation consiste à appliquer les techniques de modélisation sous contraintes à la protéine à modéliser (de type RMN) à partir d'un jeu de contraintes calculées sur l'empreinte structurale. Plusieurs empreintes sont utilisables, le ligand (si présent) est replacé dans les modèles, 10 modèles sont générés. Les résultats sont proposés sous la forme d’une archive récupérable et les résultats sont conservés 8 jours sur le serveur. Ce serveur génère 100 modèles/mois. Un système intégré de modélisation moléculaire (MAGOS ) à grande échelle de protéomes entiers a été utilisé pour des protéomes de virus (modeome3D) et de plantes (arabidome3D).
+ 
+Docking et sites 3D- chemo-informatique
+Une méthode bioinformatique SUMO a été développée permettant de détecter des sites 3D fonctionnels communs à plusieurs protéines. L’approche a fait l’objet d’un brevet déposé par le CNRS et d'un serveur Web pour rendre utilisable la méthode par la communauté académique.
+Dans un travail récent, nous avons réévalué les paramètres et avons montré que la qualité de comparaison était améliorée tout comme la rapidité du calcul. Cette méthode a été appliquée pour établir une classification des antibiotiques à noyau ß lactame.
+
+
+
+","Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Bioinformatique structurale
+Analyse des structures, recherche d'homologues et de motifs structuraux
+Prédictions des propriétés structurales
+Modélisation comparative et de novo de structures
+Modifications post-traductionnelles
+"
+"PRABI-G","Biomédical
+Environnement
+Biotechnologie
+Biologie
+","Computational biology for MS-based proteomics (basic science and biomedical research) and metagenomics (environment, ecology and evolution)","Analyse de données de séquençage NGS
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Curation de collections de données
+Ecologie
+Génétique des populations
+Biodiversité
+Protéomique
+"
+"Genotoul-bioinfo","Biomédical
+Agro-alimentaire
+Environnement
+Biotechnologie
+Biologie
+","Les domaines d’expertise de la plateforme GenoToul bioinfo sont :
+le traitement des données issues du séquençage haut débit : assemblage, annotation, analyse d’expression (RNAseq, RNAseq de novo, sRNAseq), métagénomique, analyse de variants, méthylSeq.
+l’analyse bioinformatique des ARNnc : annotation, prédiction, recherche de cibles, chez les archae, les bactéries, les plantes et les animaux.
+","Analyse de données de séquençage NGS
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Exomes
+Génomes complets
+Petits et longs ARN non-codants
+Profils de méthylation
+Métagénomique, métatranscriptomique
+Analyse de séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Cluster
+Evolution et phylogénie
+Evolution moléculaire
+Phylogénomique
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+"
+"ISfinder","Biologie
+","ISfinder est le Centre International de Référence des Séquences d'Insertion (IS) Procaryotes, en co-tutelle entre le LMGM et l’Unité de Microbiologie Appliquée (Université Catholique de Louvain, Belgique). Les IS sont des éléments génétiques mobiles (EGM) de petite taille qui codent essentiellement pour les fonctions nécessaires à leur transposition. Les transposases (enzymes qui assurent la transposition des IS) sont de loin les protéines les plus représentées dans les génomes. ISfinder est une plateforme d’annotation des IS bactériennes, développée dans un souhait de contribuer à la compréhension de la diversité des éléments génétiques mobiles et de leur impact sur leurs génomes hôtes. ISfinder joue de nombreux rôles parmi lesquels : répertorier les IS dans les banques de données publiques (et dans certains cas, privées) ; analyser les génomes bactériens pour leur contenu en IS ; maintenir une nomenclature cohérente et distribuer les noms officiels pour la communauté ; établir une phylogénie au fur et au mesure de l’identification de nouvelles séquences ; et, fournir des informations sur les IS. La base assure aussi une classification des différents IS en famille en fonction de la nature de leur transposase, de leur organisation génétique, de leurs extrémités et de leur spécificité d’insertion. En fournissant une vue globale et détaillée des différents types d’IS, ISfinder alimente également les études de nouveaux groupes d’EGM. Outre une base de données (www-is.biotoul.fr), le site met à disposition de la communauté scientifique deux outils spécifiques : ISbrowser, qui permet de visualiser la distribution des IS complets et partiels dans des génomes procaryotes annotés de façon experte par nos soins et ISsaga, qui est un outil d’annotation semi-automatique des IS dans les génomes procaryotes. Nous sommes parmi les experts mondiaux reconnus dans le domaine des éléments transposables procaryotes. Nous possédons une double spécificité : une compréhension de la diversité de structure et d’organisation des TE (y compris les IS) ainsi qu’une connaissance de la mécanistique des différents processus de la transposition. Nous avons apporté des contributions capitales dans les deux domaines. Ces deux spécificités sont très complémentaires et s’avèrent essentielles pour la maintenance et le développement du site ISfinder.","Analyse de séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Bioinformatique structurale
+Analyse des structures, recherche d'homologues et de motifs structuraux
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Interfaces, portails web
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Comparaison des génomes
+"
+"SIGENAE","Agro-alimentaire
+Environnement
+Biologie
+","Analyse de données issues des technologies à haut débit : séqueçage et génotypage.
+Développement de logiciel.
+Bases de données",""
+"CAZy","Biologie
+Biomédical
+Biotechnologie
+Agro-alimentaire
+Environnement
+","Recherche, identification, classement en familles/sous-familles, des enzymes d'assemblage et déconstruction des sucres complexes dans les données génomiques et métagénomique et interprétation des résultats (relations séquence:structure:fonction). Applications dans le domaine médical (microbiote intestinal), agroalimentaire (rumen, enzymes pour la modification des polysaccharides alimentaires), environnemental (échantillons provenant de sols, de milieux marins, etc), biotechnologique (enzymes pour biocarburants) et biologique (évolution des génomes et adaptation à l'environnement)","Aucun des termes ci-dessus ne convient
+"
+"PACA-Bioinfo","Biomédical
+Biotechnologie
+Environnement
+","Génomique procaryote et virale. Transcriptomique. Métagénomique. Protéomique. Biologie Structurale (EM and X-ray crystallography)","Analyse de données de séquençage NGS
+Analyse de séquences
+Bioinformatique structurale
+Biostatistiques
+Cartographie
+Evolution et phylogénie
+Génomique comparative
+Protéomique
+Aucun des termes ci-dessus ne convient
+"
+"IMGT","","",""
+"South Green","Biotechnologie
+Biologie
+","The South Green platform is a local network of scientists gathering Bioinformatics skills based on the Agropolis campus that hosts research institutes such as CIRAD, IRD, INRA, SupAgro, Bioversity international as well as the CGIAR consortium.
+Based on this strong local community in the field of agriculture, food, biodiversity and environment, this network of national and international scope, develops bioinformatics applications and resources dedicated to genetics and genomics of tropical and Mediterranean plants. South Green relies on the computer technical platforms of its partner institutes.
+The objectives of South Green are:
+Promote the original tools from methods developed within the network,
+Propose a single web portal for access to the tools developed by the network,
+Promote exchange and collaborative developments within the network,
+Promote interoperability developed within the network applications,
+Provide training for biologists and bioinformaticians,
+Ensure the maintenance and development, infrastructure and software applications via requests for funding in partnership,
+Promote high quality process within the network (e.g. certifications),
+Promote South Green visibility at the national and international level.
+","Analyse de données de séquençage NGS
+Analyse de séquences
+Bioinformatique structurale
+Evolution et phylogénie
+Génomique comparative
+"
+"TAGC-BCF","Biomédical
+Biologie
+","The expertise of the TAGC-BCF s'articulent autour de la génomique et la bioinformatique appliquées à l'étude des pathologies. Notre approche est multidisciplinaire et s'appuie sur la biologie des systèmes.
+Nos domaines d'expertise sont notamment:
+l'analyse de données de séquencage haut débit:
+recherche et analyse de régions régulatrices
+recherche de variants génétiques et régulateurs
+analyse du transcriptome
+épigénétique
+
+analyse et modélisation de réseaux d'intéractions
+analyse statistique de données génomiques
+intégration de données publiques
+fouille de données
+génétique humaine
+génétique des organismes modèles eucaryotes
+","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Génomique (DNA-seq)
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Petits et longs ARN non-codants
+Profils de méthylation
+Accessibilité de la chromatine
+Analyse de séquences
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Apprentissage automatique
+Intégration de données hétérogènes
+Ontologies
+Bioinformatique structurale
+Analyse des structures, recherche d'homologues et de motifs structuraux
+Prédictions des propriétés structurales
+Modélisation comparative et de novo de structures
+Modifications post-traductionnelles
+Modélisation des interactions protéines/protéines, protéines/peptides et protéines/acides nucléiques
+Biologie des systèmes
+Fonctionnement des systèmes biologiques complexes
+Analyse et modélisation multi-échelle
+Modélisation des réseaux métaboliques
+Modélisation des réseaux de régulation
+Systèmes dynamiques
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Inférence et analyse des réseaux biologiques
+Statistique génétique
+Cartographie
+Clonage positionnel
+Localisation de QTL
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Intégration d'outils
+Interopérabilité
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Environnements de calcul
+Cluster
+Cloud
+GPU
+Parallélisation
+Ecologie
+Génétique des populations
+E-learning
+Evolution moléculaire
+Gènes et génomes
+Datation des spéciations
+Détection de sélection
+Génomique comparative
+Comparaison des génomes
+Comparaison des voies fonctionnelles et régulatrices
+Génomique : Puces
+Biopuces ADN
+Génotypage
+Biopuces ARN
+Expression
+Métabolomique et fluxomique
+Analyse des réseaux métaboliques
+Protéomique
+Data identity and mapping (database search engine, spectral library search, de novo sequencing)
+Analyse différentielle statistique
+Analyse de second niveau
+"
+"URGI","Environnement
+Biologie
+Agro-alimentaire
+Informatique
+","L’activité de recherche de l’URGI (intégration de données, annotation des répétitions, structure et dynamique des génomes) est étroitement liée aux 2 composantes de la plateforme (Système d’Information et analyse des génomes). D’une part, la plateforme bénéficie de l’expertise acquise coté recherche (analyse et développement d’outils), d’autre part elle offre un support solide à notre activité de recherche grâce aux ressources et aux compétences de son personnel (principalement des Ingénieurs).
+ 
+Les domaines de compétence et d’expertise des agents de la plateforme sont axé principalement sur :
+Le développement d’interface (Java J2EE)
+Le développement de pipelines d’analyses (Python)
+Les bases de données (PostgreSQL, MySQL)
+Les technologies NoSQL (ElasticSearch, SolR)
+L'intégration de données (ETL Talend) dans des domaines aussi variés que la génomique et la génétique (génome annotation, RNA-Seq, polymorphisme, génétique d’association, phénotype, ressources génétiques)
+L'analyse des génomes (structure et dynamique)
+    Analyse du polymorphisme (SNP, variants structuraux)
+    RNA-Seq
+    Annotation de gènes (structurale et fonctionnelle)
+    Annotation des répétitions (spécifiquement les éléments transposables)
+
+","Analyse de données de séquençage NGS
+Analyse de séquences
+Cartographie
+Evolution et phylogénie
+Génomique comparative
+"
+"Plateforme de présentation","","",""
+"Orphanet","Biomédical
+","Le domaine d’expertise d’Orphanet est celui des maladies rares dans leurs aspects médicaux (histoire naturelle, diagnostic et prise en charge), épidémiologiques (prévalence, incidence, prévalence à la naissance, distribution géographique et par âge d’apparition et de décès), génétiques (déterminants génétiques de causalité, de susceptibilité), phénotypiques (fréquence d’occurrence des présentations phénotypiques des maladies), nosologiques (classification multi-dimensionnelle), terminologiques (interopérabilité sémantique). La couverture du domaine est aussi géographique, car représentant également l’expertise, l’offre de diagnostic et des soins et l’état d’avancement de la recherche dans 41 pays.
+Orphanet se définit comme une offre de données et de services à forte valeur ajoutée, cette valeur provenant du fait que ces données sont intégrées, qualifiées, expertisées et contrôlées du point de vue de la qualité.","Apprentissage automatique
+Intégration de données hétérogènes
+Représentation des connaissances
+Ontologies
+Web sémantique
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Interopérabilité
+Interfaces, portails web
+Données
+Intégration de données
+Bases de données et systèmes d’informations
+"
+"iCONICS","Biomédical
+Biotechnologie
+Biologie
+Informatique
+","L'Institut du Cerveau et de la Moelle épinière (ICM), situé sur le site de l’Hôpital de la Pitié-Salpêtrière, constitue un pôle majeur de recherche fondamentale et clinique sur le système nerveux, où 650 chercheurs, ingénieurs et médecins couvrent l’ensemble des disciplines de la neurologie dans le but d’accélérer les découvertes sur le fonctionnement du cerveau, et les développements de traitements pour des maladies comme Alzheimer, Parkinson, la sclérose en plaques, ou l'épilepsie.
+La plate-forme iCONICS développe et met en œuvre une expertise, des méthodes et des outils afin de répondre aux besoins de la recherche biomédicale en neurosciences : de l'annotation sémantique et la structuration informatique des informations, à la mise à disposition d’outils facilitant l’analyse et la visualisation des données à haut-débit, jusqu’à l’analyse statistique et intégrative de ces données.
+L’expertise de la plate-forme iCONICS couvre ainsi les volets suivants :
+standardisation, contrôle, annotation et référencement de données (« data management »)
+développement et déploiement de bases de données et applicatifs pour la gestion et l’exploitation de données cliniques, omiques et imagerie
+analyses de puces à ADN (génotypage, transcriptomique, méthylation)
+analyses de données de séquençage à haut-débit (NGS) : variants (panels de gènes – capture, amplicons –, « whole-exome »), expression (ARN codants ou non codants – RNA-seq, single-cell, miR-seq), épigénomique (ouverture de la chromatine – ATAC-seq –, interactions protéines-ADN – ChIP-seq –, marques de méthylation – Bisulfite-seq)
+analyses biostatistiques : support généraliste (tests, modèles, croisements de données), intégration de données hétérogènes et de grandes dimensions (typiquement données génétiques, omiques, cliniques et neuro-imagerie)
+développement et mise à disposition de logiciels spécialisés avec interfaces graphiques (e.g. filtrage de données d’exomes, visualisation de données transcriptomiques, analyse intégrative de données multimodales)
+Au-delà des maladies et modèles relatifs au système nerveux central, iCONICS propose son soutien à tout projet de recherche biomédicale visant à mieux comprendre les mécanismes biologiques sous-jacents aux pathologies humaines, depuis le dessin des études jusqu’au traitement, la visualisation et l’interprétation des résultats.
+ ","Analyse de données de séquençage NGS
+Alignements de lectures sur des génomes
+Transcriptomique (RNA-seq)
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Analyse de variants
+Panels (amplicons, captures)
+Exomes
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Petits et longs ARN non-codants
+Profils de méthylation
+Accessibilité de la chromatine
+Apprentissage automatique
+Extraction de connaissances
+Intégration de données hétérogènes
+Ontologies
+Web sémantique
+Bioimagerie
+Microscopie
+Imagerie médicale
+Analyse et modélisation multi-échelle
+Biostatistiques
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Développements technologiques de l‘Information et de la Communication
+Outils
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Génomique : Puces
+Biopuces ADN
+Phylogénétiques
+Génotypage
+Biopuces ARN
+Expression
+"
+"IFB Core","","","Analyse de données de séquençage NGS
+"
+"ARTbio","","",""
+"AuBi","Biologie
+Agro-alimentaire
+Environnement
+Biotechnologie
+Biomédical
+","La plateforme fait apparaître une forte expertise en génomique, épigénomique et métagénomique. Les modèles biologiques sont variés (micro-organismes, plantes, animaux) donnant un caractère généraliste à de nombreux outils.
+Cette plate-forme fait suite à une structuration des laboratoires de l'Université Clermont Auvergne faisant de la recherche dans ce domaine :
+GDEC (http://www6.clermont.inra.fr/umr1095/) UMR 1095 INRA, Université Clermont Auvergne ;
+GReD (https://www.gred-clermont.fr/) UMR 6293 CNRS, U1103 INSERM, Université Clermont Auvergne ;  
+LIMOS (http://limos.isima.fr/) UMR 6158 CNRS, Université Clermont Auvergne ;
+LMGE (http://www.lmge.univ-bpclermont.fr/) UMR 6023 CNRS, Université Clermont Auvergne ;  
+M2ISH (http://www.uca.fr/laboratoires-/collegium-sciences-de-la-vie-sante-envir...) UMR 1071, Université Clermont Auvergne ;
+MEDIS (http://www.uca.fr/laboratoires-/collegium-sciences-de-la-vie-sante-envir...) UMR 454 INRA, Université Clermont Auvergne ;  
+NeuroDOL (http://neurodol.uca.fr/) UMR1107 Inserm, Université Clermont Auvergne ;
+PIAF (http://www6.clermont.inra.fr/piaf) UMR A547 INRA, Université Clermont Auvergne ;
+UMRH (http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH) UMR1213 INRA, VetAgroSup ;
+UNH (https://www6.clermont.inra.fr/unh/) UMR INRA, Université Clermont Auvergne ;
+","Analyse de données de séquençage NGS
+Méthodologie
+Assemblage de génomes et transcriptomes
+Alignements de lectures sur des génomes
+Analyse de génomes
+Annotation structurale et fonctionnelle des génomes
+Analyse différentielle de l’expression des gènes
+Analyses de transcrits et transcrits variants
+Panels (amplicons, captures)
+Génomes complets
+Analyse de la régulation de l’expression des gènes
+Chip-seq
+Petits et longs ARN non-codants
+Profils de méthylation
+Accessibilité de la chromatine
+Analyse de la conformation des chromosomes
+Métagénomique, métatranscriptomique
+Algorithmique des séquences
+Alignement (multiple) de séquences
+Annotation de séquences
+Recherche de motifs
+Prédiction d'homologie/orthologie
+Apprentissage automatique
+Extraction de connaissances
+Intégration de données hétérogènes
+Représentation des connaissances
+Ontologies
+Web sémantique
+Bioimagerie
+Microscopie
+Imagerie médicale
+Analyse d’images
+Bioinformatique structurale
+Analyse des structures, recherche d'homologues et de motifs structuraux
+Prédictions des propriétés structurales
+Modélisation comparative et de novo de structures
+Modélisation des interactions protéines/protéines, protéines/peptides et protéines/acides nucléiques
+Biologie des systèmes
+Génie métabolique
+Modélisation des réseaux métaboliques
+Modélisation des réseaux de régulation
+Statistique descriptive
+Tests statistiques
+Régression
+Analyses multivariées
+Réduction de dimension
+Statistique génétique
+Cartographie génétique
+Cartographie génétique et d'hybrides irradiés
+Cartographie physique
+Clonage positionnel
+Localisation de QTL
+Curation de collections de données
+Outils
+Intégration d'outils
+Interfaces, portails web
+Développement de workflows
+Données
+Intégration de données
+Gestion et transfert de données
+Bases de données et systèmes d’informations
+Cluster
+Cloud
+GPU
+Parallélisation
+Ecologie
+Génétique des populations
+Biodiversité
+Ecologie microbienne
+Gènes et génomes
+Paléogénomique et génomes ancestraux
+Comparaison des génomes
+Comparaison des voies fonctionnelles et régulatrices
+Phylogénétiques
+Génotypage
+CGH
+Fonctionelles
+Expression
+Tiling
+Traitement du signal
+Statistiques exploratoires
+Statistiques inférentielles
+Analyse des réseaux métaboliques
+Identification des métabolites
+Data identity and mapping (database search engine, spectral library search, de novo sequencing)
+Inférence de protéine et validation
+Protéomique quantitative
+Analyse différentielle statistique
+Protéogénomique
+Démultiplexage de spectres
+Analyse de second niveau
+Analyse des modifications post-traductionnelles
+"
+"MMG-GBIT","Biotechnologie
+Biomédical
+Biologie
+","Expertise dans le domaine des maladies rares de la recherche au traitement :
+Design et analyse des expériences de séquençage (WES, WGS, RNAseq, CHIPseq)
+Recherche de nouveaux gènes par analyses familiales
+Analyse des données
+Création et hébergement de bases de données de patients et de mutations
+Expertise dans le domaine des biotechnologies
+Toutes les technologies principales de biologie moléculaire
+Développement d'outils spécifiques : validation d'hypothèses thérapeutiques
+Développement d'outils d'analyse des données issues des technologies à haut débit (Array CGH, NGS, Génotypage à haut débit ...)
+ ","Analyse de données de séquençage NGS
+Analyse de séquences
+Curation de collections de données
+Développements technologiques de l‘Information et de la Communication
+Outils
+Données
+Cluster
+Cloud
+Parallélisation
+"

@@ -1,0 +1,1422 @@
+"Nom de la formation","Chemin","Type de formation","Cours résumé","Description","Mots clés","Date de la session","Date de la session","Conditions d'accès à la formation","Lien vers la formation","Lieu de la formation","Organisateurs","Sponsors","Nombre de personnes formées","Nombre de participants académiques","Nombre de participants non-académiques","Nombre de jours","Participation","Niveau de formation (formations universitaires uniquements)","Opérateur de la formation","Nombre de sessions","Reccurance","Taux de satisfaction des apprenants","Temps de formation","Thème (formations professionnelles uniquement)"
+"Formation de base",""," Formation universitaire","","None
+","","","","None
+","","","","","0/ an","","","","","","","","","","0 jours / an",""
+"Ateliers NGS, Master BIBS U-Psud",""," Formation universitaire","NGS - Génomique appliquée fonctionnelle","Aucune
+","Analyse de données de séquençage NGS, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants, Algorithmique des séquences","","","Inscription Université Paris-Sud
+","http://www.bibs.u-psud.fr/m2_ami2b.php","U-Psud university, Orsay","","","10/ an","","","","","Master","","1","Oui","","4 jours / an","Analyse des données NGS, Analyse des données RNAseq, Linux"
+"R Biostats Network",""," Formation professionnelle","","The program provides an introduction to biostatistical approaches. The principles, methodologies, uses, and applications of statistical methods in biological and clinical research will be presented. Practical trainings on computer with the R software are planned. The bases of the R programming language will be introduced and statistical approaches presented in the theoretical session will be applied.
+","","","","Aucun
+","","","","","25/ an","","","","","","","5","","","","Langages de Programmation & Computer Sciences"
+"Introduction to data analysis with R",""," Formation professionnelle","","The program includes an introduction:
+Approaches in biostatistics and research, explaining to participants the principles, methodologies, use of statistical methods and applications in biology and clinical research.
+Courses on software R will be delivered in the form of additional exercises. The basis of the programming language R will be discussed and statistical approaches presented in the theoretical part will be implemented.
+Application of skills acquired over a personal dataset
+","","","","Aucune
+","","","","","12/ an","","","","","","","5","","","","Langages de Programmation & Computer Sciences, Langage R"
+"Partek Workshop",""," Formation professionnelle","","Introduction to Partek® software and the principles of RNA-seq data analysis DNA-Seq analysis and annotations with Partek® Genomics Suite® Hands on analysis in Partek® Flow® including: Data import and sample annotation, Pre and post alignment quality control, Gene and transcript quantification, Detection of differential expression using powerful gene specific modeling
+","","","","Aucune
+","","","","","15/ an","","","","","","","3","","","","Bioinformatique & Biomédicale"
+"Ingenuiy Pathways Analysis Workshop",""," Formation professionnelle","","The User Group Meeting will consist of talks, customer case studies and interactive feedback sessions where new and existing users of QIAGEN’s Ingenuity products can learn about product updates, usability tips & tricks and best practices. Take advantage of this opportunity to engage with other users from the scientific community.
+","","","","Aucune
+","","","","","30/ an","","","","","","","2","","","","Bioinformatique & Biomédicale"
+"InSilicoDb Analysis Training",""," Formation professionnelle","","Interrogating public and private gene expression datasets for bio-medical researchers. This workshop will you  teach about two subjects: 1- Genomics data management for the lab (efficiently store and make accessible microarray and NGS data), 2- Interrogation of your expression data and comparison and combination of your data with public data.
+","","","","Aucune
+","","","","","10/ an","","","","","","","10","","","","Bioinformatique & Biomédicale"
+"DU ""séquençage haut débit et maladies génétiques""",""," Formation universitaire","","Acquérir une formation en séquençage nouvelle génération appliqué aux maladies génétiques mendéliennes,des technologies de séquençage et approches expérimentales possibles aux outils bio-informatiques utilisés pour le traitement des données brutes, l'identification de variations génétiques et l'interprétation des résultats. Se familiariser avec le système Unix/Linux, la ligne de commande et la gestion et l'analyse de données sur un serveur à distance. Connaître et savoir utiliser les principaux logiciels dédiés à l'analyse de données de séquençage nouvelle génération, de l'alignement des séquences brutes à l'annotation de variations génétiques. Maîtriser les principaux navigateurs, bases de données et outils de prédiction couramment utilisés en génétique humaine et médicale. Connaître les différentes applications possibles du séquençage nouvelle génération pour le diagnostic de maladies génétiques, les principales règles à suivre et paramètres à considérer pour assurer la qualité des données produites dans un contexte de laboratoire médical, et les considérations éthiques que soulève le séquençage nouvelle génération pour l'interprétation et le rendu des résultats.
+","","","","Aucune
+","","","","","300/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","25","","","",""
+"Formation Professionnelles",""," Formation professionnelle","","Séminaires et conférences invitées : 6 par an en moyenne
+DIU Oncogénétique
+DESC Cytogénétique
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","","","","","","","Bioinformatique & Biomédicale"
+"Formations Universitaire",""," Formation universitaire","","
+Organisatrice et responsable du module « cellule épithéliale et cancer » de l’option B2PCR du M2 BCPP (Biologie Cellulaire, Physiologie et Pathologies : Université Paris 5, 11 et 12 (depuis 2010).
+Cours et jury M1 et M2R Magistère Européen de Génétique – UE Génétique Moléculaire des Maladies Génétiques (depuis 2011).
+
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","Master","","","","","",""
+"Bioinformatique, NGS et Cancer",""," Formation professionnelle","","Co-organisation Atelier Cancéropole Ile de France « Bioinformatique, NGS et Cancer» (avril 2014 et Nov 2014)
+","","","","http://www.canceropole-idf.fr/fr/ngs
+","","","","","120/ an","","","","","","","20","","","","Analyse des données NGS"
+"Ecole NGS Aviesan Roscoff",""," Formation professionnelle","","(nov 2013, oct 2014): responsabilité de l’atelier RNA-seq (Marc Deloger), intervention atelier CNV (Bastien Job).
+","","","","","","","","","","","","","","","","","","","","Analyse des données NGS"
+"Formation interne pipeline DEVA detection de variants par NGS",""," Formation professionnelle","","","","","","","","","","","","","","","","","","","","","","Analyse des données NGS"
+"Formation interne pipeline RNASeq",""," Formation professionnelle","","","","","","","","","","","","","","","","","","","","","","Analyse des données NGS, Analyse des données RNAseq"
+"IFSBM",""," Formation universitaire","","
+UFR médecine Paris-Sud (mai 2015). Big data en médecine. Acquisition et analyse des données de haut débit dans le but de détecter des variants génomiques (CGH, exome, génome), étudier les profils d’expression ou le statut épigénétique des cellules (expression array, RNA-seq, ChiP-seq, medip-seq).
+ 
+UFR médecine Paris-Sud (janvier 2015) Méthodologie en biologie moléculaire et cellulaire et analyse d’article
+
+","","","","","","","","","20/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","5","","","",""
+"Formations à la plate-forme Microscope",""," Formation professionnelle","Formations dédiées à l'analyse de génomes bactériens via l'utilisation de la plate-forme MicroScope.","L'équipe LABGeM du Genoscope organise régulièrement des formations dédiées à l'analyse de génomes bactériens via l'utilisation de la plate-forme MicroScope.
+La prochaine formation ""Annotation and analysis of prokaryotic genomes using the MicroScope platform"" aura lieu sur 4,5 jours à Evry, du lundi 25 Septembre 2017 au Vendredi 29 Septembre 2017.
+Les objectifs de cette formation sont de permettre aux participants de :
+   • acquérir les connaissances théoriques et pratiques des outils d’annotation de génomes (annotation structurale et fonctionnelle, annotation de réseaux métaboliques)
+   • savoir interpréter les résultats des outils d’annotation fonctionnelle
+   • savoir faire des analyses comparatives variées : analyses de synténies conservées, pan-génomes, profils phylogénétiques et métaboliques.
+   • apprendre à interpréter les résultats des outils de prédiction de réseaux métaboliques et à rechercher des gènes candidats pour des activités enzymatiques.
+   • appliquer les outils enseignés à l’analyse de génomes d’intérêt pour les participants
+Chaque session est composée pour moitié de théorie et pour moitié de travaux pratiques. Durant la formation, les participants ont la possibilité de travailler sur leurs propres données pendant les travaux pratiques.
+Cette formation s'adresse plus particulièrement aux doctorants, ingénieurs, chercheurs, techniciens expérimentés de laboratoire biologiques ou médicaux.
+Elle concerne aussi bien les personnes ayant déjà un projet d'annotation sur cette plate-forme et souhaitant approfondir son utilisation, qu'à celles souhaitant s'initier à la génomique microbienne.
+En complément, si vous êtes utilisateur de la plate-forme MicroScope et que vous avez déjà suivi la formation 
+""Annotation and analysis of prokaryotic genomes using the MicroScope platform"" il y a quelques années nous mettons en place une nouvelle formation,
+la formation ""Plate-forme MicroScope - cours avancé"".
+En effet, La plate-forme MicroScope étant en constante évolution, nous vous proposons de mettre à jour vos connaissances sur ses dernières évolutions et 
+d'approfondir certaines de ses fonctionnalités majeures.
+Cette formation permettra donc de consolider votre utilisation de la plate-forme mais également d'aller plus loin :
+   • Présentation des évolutions de la plate-forme MicroScope
+   • Présentation des nouvelles fonctionnalités phares de la plate-forme MicroScope 
+   • Présentation des outils pour les analyses RNA-seq
+   • Approfondissement des fonctionnalités permettant l’exploration du métabolisme bactérien
+Elle aura lieu sur 2 jours à Evry du Lundi 4 Décembre 2017 au Mardi 5 Décembre 2017.
+ 
+
+ 
+
+","Analyse de données de séquençage NGS, Méthodologie, Alignements de lectures sur des génomes, Génomique (DNA-seq), Analyse de génomes, Annotation structurale et fonctionnelle des génomes, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyse de variants, Génomes complets, Biologie des systèmes, Modélisation des réseaux métaboliques, Curation de collections de données, Développements technologiques de l‘Information et de la Communication, Outils, Intégration d'outils, Interopérabilité, Interfaces, portails web, Intégration de données, Gestion et transfert de données, Bases de données et systèmes d’informations, Génomique comparative, Comparaison des génomes, Comparaison des voies fonctionnelles et régulatrices, Métabolomique et fluxomique, Analyse des réseaux métaboliques","","25-09-2017 to 29-09-2017","Pour plus d'information et pour s'inscrire :https://www.genoscope.cns.fr/agc/microscope/training
+Nos collaborateurs de l'Université d'Evry-Val d'Essonne en charge de l'organisation de la formation prendront ensuite contact avec vous afin de vous transmettre le devis, ainsi que la convention de formation.
+","https://www.genoscope.cns.fr/agc/microscope/training","Evry","","","30/ an","","","","","","","3","Oui","","10 jours / an","Metagénomique"
+"Formation universitaire",""," Formation universitaire","","analyses in silico de Genomes Procaryotes (master GENIOME Evry/Orsay/Versailles).
+ingénierie Métabolique 'reconstruction des réseaux Métaboliques' (master MSSB Evry).
+module de Génomique du master M2BI (Paris 7)
+","","","","","","","","","50/ an","","","","","Master","","","Oui","","",""
+"Linux",""," Formation professionnelle","","Formation Linux
+","Développements technologiques de l‘Information et de la Communication","","","","http://migale.jouy.inra.fr/?q=fr/Formations-2016","-","","","6/ an","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Linux"
+"Analyse primaire de données issues de  séquenceurs nouvelle génération sous Galaxy",""," Formation professionnelle","Connaître les concepts et méthodes bioinformatiques utilisés pour l’analyse primaire de données issues de  NGS.","
+Objectifs
+
+Connaître les concepts et méthodes bioinformatiques utilisés pour l’analyse primaire de données issues de NGS. Application aux outils de mapping et d’assemblage.
+Programme
+Théorie 
+•Présentation des différents types de séquenceurs
+•Les grandes familles d’algorithmes de mapping de lectures courtes d’assemblage et les outils associés
+Pratique
+Analyse des données de séquençage d’un génome bactérien
+•Contrôle qualité
+•Assemblage de-novo
+oNettoyage des données
+oAssemblage
+oVisualisation et statistiques sur l’assemblage
+•Comparaison à un génome de référence :
+oMapping des lectures sur un génome proche
+oVisualisation du mapping 
+","Analyse de données de séquençage NGS","","14-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","Jouy en Josas","","","10/ an","","","","","","","1","Oui","","1 jours / an","Analyse des données NGS, Framework Galaxy"
+"Traitement des données NGS sous Galaxy",""," Formation professionnelle","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","","20/ an","","","","","","","1","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy"
+"Annotation de génomes microbiens",""," Formation professionnelle","","Modules en prépartion....
+","Génomique (DNA-seq), Analyse de génomes, Annotation structurale et fonctionnelle des génomes","","15-05-2017 to 18-05-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","Jouy en Josas","","","7/ an","","","","","","","1","Oui","","3 jours / an","Metagénomique"
+"Comparaisons de séquences protéiques",""," Formation professionnelle","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","","","","","","","","","","Non","","","Autre"
+"Ensembl Biomart",""," Formation professionnelle","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","","","","","","","","","","Non","","","Autre"
+"Initiation à la phylogénie",""," Formation professionnelle","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","","","","","","5/ an","","","","","","","1","Non","","2 jours / an","Phylogénie"
+"Modélisation 3D des protéines",""," Formation professionnelle","Analyse  in silico de structures 3D de  protéines. Modélisation par homologie de protéines  homologues, sauvage et mutées...","
+Objectifs
+
+Connaître les bases de la modélisation moléculaire : modélisation par homologie, arrimage (docking) de ligands, mutations in silico. Une demi-journée dédiée à la modélisation de vos protéines d'intérêts.
+
+Programme
+
+- Visualiser : Connaître les bases de la visualisation des protéines en 3D avec PYmol.
+- Comprendre : Analyse des structures 3D de protéines (RX ou RMN). Recherche d'homologues avec HHpred, I-Tasser, etc... Modélisation par homologie avec Modeller, Phyre2. Principes et applications.
+- Prédire : Docking de ligands avec Autodock. Prédiction des mutations in silico. Principes et applications.
+L'accent sera mis sur les points forts et les limites des différents outils et la pratique avec de nombreux ""hand- on tutorials""
+Plus une session dédiée : «bring your own protein».
+","Modélisation des interactions protéines/protéines, protéines/peptides et protéines/acides nucléiques","","23-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","Jouy en josas","","","7/ an","","","","","","","1","Oui","","2 jours / an","Autre"
+"Initiation à Perl",""," Formation professionnelle","nitiation  à P erl","
+Objectifs
+
+Initiation à la programmation.
+Identifier les possibilités offertes par l’écriture de quelques lignes de code.
+Réalisation de tâches simples d’extraction et de reformatage d’informations issues de fichiers texte.
+ 
+
+ 
+Programme
+
+- Présentation de PERL
+- Variables PERL
+- Structures de contrôle
+- Gestion de fichiers
+- Réalisation de programmes simples
+ 
+Illustration avec des exercices de manipulation de fichiers de séquences et de fichiers de résultats d’outils bioinformatiques. 
+ 
+","Aucun des termes ci-dessus ne convient","","09-05-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","jouy en josas","","","","","","","","","","","Oui","","","Langages de Programmation & Computer Sciences, Langage Perl"
+"Perl avancé",""," Formation professionnelle","Perl avancé","
+Objectifs
+
+Aller plus loin avec Perl afin d’être autonome pour des manipulations complexes visant à extraire et reformater des données issues de fichiers texte.
+
+ 
+ 
+ 
+ 
+Programme
+
+- Expressions régulières
+- Fonctions
+- Prise en main de Bioperl
+ 
+ 
+Illustration avec des exercices de manipulation de fichiers de séquences et de fichiers de résultats d’outils bionformatiques.
+ 
+","Aucun des termes ci-dessus ne convient","","11-05-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","jouy en josas","","","","","","","","","","","Oui","","","Langages de Programmation & Computer Sciences, Langage Perl"
+"Initiation à R",""," Formation professionnelle","Initiation à R","
+Objectifs
+
+- Présenter le langage de programmation R et ses principes.
+- Utiliser les principales fonctionnalités de ce langage pour effectuer des calculs mathématiques, statistiques ou des représentations graphiques.
+- Attention : ce module n'est ni un module de statistique, ni un module d'analyse statistique des données.
+
+Programme
+
+- Structures et manipulation de données.
+- Principaux éléments du langage de programmation (boucle, fonctions…).
+- Différentes représentations graphiques de données/résultats (plot, histogramme, boxplot).
+","Aucun des termes ci-dessus ne convient","","07-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","Jouy en Josas","","","6/ an","","","","","","","1","Oui","","2 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Initiation à Python",""," Formation professionnelle","Initiation à Python","
+Objectifs
+
+Initiation à la programmation.
+Réalisation de tâches simples d'extractions d'informations.
+Identifier les possibilités offertes par l'écriture de quelques lignes de codes.
+ 
+
+ 
+ 
+ 
+ 
+Programme
+
+• Présentation de Python
+• Variables Python
+• Structures de contrôle
+• Réalisation de programmes simples
+• Gestion de fichiers
+• Fonctions
+Illustration avec des exercices de manipulation de fichiers de séquences
+","Aucun des termes ci-dessus ne convient","","08-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","Jouy en josas","","","8/ an","","","","","","","1","Oui","","2 jours / an","Langages de Programmation & Computer Sciences, Langage Python"
+"Python avancé",""," Formation professionnelle","Python avancé","
+Objectifs
+
+Etre autonome pour des manipulations simples visant à extraire, reformater des données issues de fichiers texte.
+ 
+
+ 
+ 
+ 
+ 
+Programme
+
+- Expressions régulières
+- Gestion des erreurs
+- Biopython
+- Réalisation de programmes simples
+","Aucun des termes ci-dessus ne convient","","10-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","jouy en josas","","","8/ an","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Langage Python"
+"Fouille de texte",""," Formation professionnelle","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","http://migale.jouy.inra.fr/?q=fr/formations
+","","","","","","","","","","","","","Non","","","Autre"
+"Traitements bioinfo RNA-seq ",""," Formation professionnelle","Traitement bioinformatique des données RNA-Seq","
+Objectifs
+
+Connaitre les concepts et méthodes bioinformatiques utilisées pour l’analyse de données RNA-Seq eucaryote et procaryote.
+
+ 
+Programme
+
+Théorie
+Bases biologiques des études d’expression
+Séquençage NGS et RNA-Seq, présentation des différents types de séquenceurs
+Méthodes d’alignements spécifiques au RNA-Seq
+Reconstruction de transcrits
+Assemblage de novo de transcriptomes
+Quantification
+ 
+Pratique
+TP sur des données de type euraryote
+Contrôle qualité
+Nettoyage des données
+Alignement sur un génome de référence et épissage
+Visualisation de l’alignement
+Découverte de nouveaux transcrits
+Obtention d’un tableau de comptage
+ 
+Lien avec d'autres modules 
+L'analyse statistique des résultats du type d’analyses bioinformatiques effectuées dans ce module est traitée dans le module 16 [Stats & RNA-seq.
+","Aucun des termes ci-dessus ne convient","","03-05-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","jouy en josas","","","","","","","","","","","Oui","","","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Analyse statistique RNA-seq sous Galaxy",""," Formation professionnelle","Analyse statistique de données RNA-Seq -Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy) - ","
+Objectifs
+
+Se sensibiliser aux concepts et méthodes statistiques pour l'analyse de données transcriptomiques de type RNA-Seq.
+Comprendre le matériel et méthodes (normalisation et tests statistiques) d'un article
+du domaine.
+Comprendre les particularités liées à la nature des données.
+
+ 
+ 
+Programme
+
+Planification expérimentale des expériences RNA-Seq (identification des biais, répétitions, biais contrôlables).
+Normalisation et analyse différentielle : recherche de ""régions d'intérêt"" différentiellement exprimées (modèle linéaire généralisé).
+Prise en compte de la multiplicité des tests.
+Le cours sera illustré par différents exemples et un jeu de données sera traité à l'aide du package R SARTools (basé sur les packages R DESeq2 et edgeR) dans les environnements Galaxy et RStudio.
+","Aucun des termes ci-dessus ne convient","","16-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","jouy en josas","","","9/ an","","","","","","","1","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Training to the GnpIS information system",""," Formation professionnelle","","Présentation détaillée de son Système d’informations GnpIS:
+Utilisation des différents formulaires de requêtes (recherche globale ou spécifique de chaque module) Navigation dans le système au travers de cas d’utilisation mettant en évidence l’interopérabilité entre les différents modules.
+","","","","Inscriptions  et renseignements : urgi-­contact@versailles.inra.fr
+","","","","","20/ an","","","","","","","2","","","","Bioinformatique & Génomique végétale"
+"REPET: detection and annotation of repeats",""," Formation professionnelle","","Formation sur site à l'URGI sur jeu de données réelles de la personne formée
+Utilisation des 2 pipelines principaux (TEdenovo et TEannot) + post analyse des résultats  sous forme de tutorat individualisé.
+","","","","Inscriptions  et renseignements : urgi-­contact@versailles.inra.fr
+","","","","","2/ an","","","","","","","2","","","","Bioinformatique & Génomique végétale"
+"Cluster job submission training",""," Formation professionnelle","","Formation sur site à l'URGI sur jeu de données réelles de la personne formée
+Utilisation des 2 pipelines principaux (TEdenovo et TEannot) + post analyse des résultats  sous forme de tutorat individualisé.
+","","","","Inscriptions  et renseignements : urgi-­contact@versailles.inra.fr
+","","","","","6/ an","","","","","","","3","","","","Langages de Programmation & Computer Sciences, Autres langages"
+"Clinique de la souris",""," Formation professionnelle","","Formation professionnelle CNRS : participation à une session générale de formation sur le modèle souris sous forme de 2 modules d’une heure : Les banques de données et outils actuels en phénotypage ; Aspects d’analyses statistiques de phénotypage.
+","","","","","","","","","","","","","","","","","","","","Autre"
+"Workshop, introduction to JalView editor",""," Formation professionnelle","","en collaboration avec le développer de Jalview
+","","","","Accès ouvert avec inscription
+","","","","","","","","","","","","","","","","Autre"
+"Introduction to bioinformatics for 1st year Master in integrative Plant Biology, Strasbourg University",""," Formation universitaire","","Introduction à la bioinformatique pour les M1 du Master de Biologie Végétale intégrative à l’Université de Strasbourg
+","","","","","","","","","40/ an","","","","","Master (M1 uniquement)","","","Oui","","",""
+"Formation ABiMS",""," Formation professionnelle","","L'offre de formation repose sur des modules de formation d'initiation aux environnements (Linux, Cluster, etc.), d'utilisation des outils (Galaxy, etc.) et langages (PERL, R, etc.), et de compréhension des méthodes (RNA-seq, Analyses statistiques, etc.). ABiMS est également en mesure de proposer des formations à façon pour des communautés (e.g. Métabolomique) ou des projets (École thématique).
+Universitaires.
+ 
+Galaxy pour l'analyse de données métabolomique (1 jour)
+Cluster (1 jour)
+Linux Initiation (1 jour)
+Linux avancé (1 jour)
+Linux scripting (1 jour)
+Galaxy initiation (1 jour)
+Galaxy RNAseq de novo/avec référence & cleaning (2 jours)
+Galaxy : initiation à la phylogénie (2 jours)
+R initiation (1 jour)
+R avancé (1 jour)
+","","","","Ouvert à tous avec facturation
+","","","","","261/ an","","","","","","","20","","","","Autre"
+"RNASeq data analysis with Galaxy",""," Formation professionnelle","","
+Objectifs :
+•    Comprendre les principales étapes d’analyse des données RNASeq pour une étude d’expression différentielle
+•    Savoir réaliser une analyse à l’aide du portail Galaxy
+•    Evaluer la qualité des données brutes
+•    Aligner un jeu de données sur un génome de référence
+•    Identifier les gènes différentiellement exprimés
+Alternance entre parties théoriques et parties pratiques sur Galaxy (30% - 70%).
+Pre-requis : Avoir déjà utilisé le portail Galaxy ou Avoir suivi la demi-journée de présentation Galaxy qui précéde la formation RNASeq.
+
+","Génomique : Puces, Biopuces ARN, Expression","","","Cette formation est accessible par la formation continue de l'INSERM.
+","http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766","Inserm","DR Inserm Nantes","","10/ an","10","","2.50","Gratuite","","Formation Inserm","1","","","3 jours / an","Framework Galaxy, Autre"
+"Initiation to the R language",""," Formation professionnelle","","OBJECTIFS :
+* Acquérir les bases d’utilisation du langage R
+* Expérimenter les principales fonctionnalités de R
+* Etre autonome dans la manipulation de données
+* Réaliser des analyses statistiques simples, construire des graphiques
+* Apprendre à créer des fonctions
+ 
+Pour plus d'informations...
+","Aucun des termes ci-dessus ne convient","","06-06-2019","Cette formation est ouverte à tous (public et privé) sans restriction de tutelle.
+","http://www.pf-bird.univ-nantes.fr/66223960/0/fiche___pagelibre/&RH=1353428537611","Université de Nantes","Université de Nantes","","20/ an","21","","1.00","Payante","","Formation continue de l'Université de Nantes","2","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Bioinformatique : maîtrise des environnements et des langages informatiques",""," Formation professionnelle","","Dans le cadre de la formation permanente des formations sont proposées aux personnels des divers instituts. Les formations couvrent divers aspects allant de la méthodologie bioinformatique à la maîtrise des environnements et des langages informatiques.
+Les formations dispensées sont les suivantes :
+- Introduction bioinformatique
+- Introduction au système Linux et à SGE
+- Développement : Perl, Python
+- Galaxy:  utilisation, intégration d'outils, workflows, analyse RADseq
+- Environnement ISAtools
+- Environnement HubZero
+ 
+","","","","","","","","","100/ an","","","","","","","","","","15 jours / an","Langages de Programmation & Computer Sciences"
+"Introduction Unix pour les biologistes",""," Formation professionnelle","","https://www.biosciencesco.fr/formations/bio-informatique/introduction-unix-pour-les-biologistes/
+","","","","Inscription auprès de la société FC3-­‐Bio, aucun prérequis
+","","Lyon","","","","","","2.00","Payante","","Biosciences&Co","","","","","Autre"
+"Introduction à l'analyse de séquences nucléiques Du séquençage à l'annotation : aspects théoriques et pratiques",""," Formation universitaire","","https://www.biosciencesco.fr/formations/bio-informatique/introduction-a-lanalyse-de-sequences-nucleiques-du-sequencage-a-lannotation-aspects-theoriques-et-pratiques/
+","","","","","","Lyon","","","20/ an","","","3.00","","","Biosciences&Co","","","","",""
+"Introduction au logiciel R",""," Formation professionnelle","","
+
+Objectifs de la formation
+Acquérir les compétences nécessaires à l’utilisation du logiciel R
+Connaître les principales analyses statistiques nécessaires en biologie et les utiliser sous R
+Réaliser des graphiques sous R
+Connaitre les bibliothèques R utiles en Biologie
+
+
+","Biostatistiques, Statistique descriptive, Tests statistiques, Régression","","18-10-2017 to 20-10-2017","Informations et inscriptions:
+http://www.biosciencesco.fr/formation-continue/bio-informatique/formation-au-logiciel-r/
+ 
+","http://www.biosciencesco.fr/formation-continue/bio-informatique/formation-au-log...","","","","10/ an","","","","","","","","Oui","","3 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Analyse de données RNA-seq sous l’environnement Galaxy ",""," Formation professionnelle","","
+
+Objectifs de la formation
+Acquérir les connaissances générales sur les méthodes de séquençage à haut-débit.
+Connaître les caractéristiques des données obtenues dans le cadre de l’analyse du transcriptome (RNA-seq).
+Savoir planifier une expérience simple de type RNA-seq en fonction de ses objectifs scientifiques et des caractéristiques et contraintes expérimentales.
+Connaître les principales méthodes et outils d’analyse des données RNA-seq . Pouvoir les mettre en oeuvre dans un cas simple via un serveur web Galaxy.
+Pouvoir visualiser les résultats dans un navigateur de génome.
+Durée de la formation : 2,5 jours
+
+
+","Analyse de données de séquençage NGS, Méthodologie, Assemblage de génomes et transcriptomes, Alignements de lectures sur des génomes, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants, Biostatistiques, Tests statistiques","","15-11-2017 to 17-11-2017","Informations et inscriptions:
+http://www.biosciencesco.fr/formation-continue/bio-informatique/analyse-...
+","http://www.biosciencesco.fr/formation-continue/bio-informatique/analyse-des-donn...","PRABI (Campus scientifique de la Doua, LYON-VILLEURBANNE)","","","12/ an","","","","","","","1","Oui","","","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Analyses bioinformatique et statistiques de données ChIP-seq sous Unix",""," Formation professionnelle","","","","","","Formations payantes
+","","","","","10/ an","","","","","","","","","","","Analyse des données NGS"
+"Introduction to molecular phylogeny",""," Formation professionnelle","","Training organized by CNRS Entreprises
+","Evolution et phylogénie, Evolution moléculaire, Gènes et génomes, Phylogénomique, Arbre de la vie","","","Some knowledge in mathematics and statistics.
+","https://cnrsformation.cnrs.fr/stage-17008-Phylogenie-moleculaire-%28Lyon%29.html...","","","","8/ an","","","","","","","1","Oui","","4 jours / an","Phylogénie"
+"Fc3-Bio",""," Formation professionnelle","","1 à 4 séances de deux jours par an
+","Analyse de séquences, Algorithmique des séquences, Alignement (multiple) de séquences, Annotation de séquences, Recherche de motifs, Prédiction d'homologie/orthologie, Bioinformatique structurale, Analyse des structures, recherche d'homologues et de motifs structuraux, Prédictions des propriétés structurales, Modélisation comparative et de novo de structures, Modifications post-traductionnelles, Analyse des propriétés dynamiques et thermodynamiques des structures, Criblage virtuel, Librairies de petits composés chimiques, 2D/3D, ADME/tox, Criblage basé sur la structure, Criblage basé sur le ligand (QSAR)","","","","http://www.fc3bio.fr/","","","","36/ an","","","","","","","","","","2 jours / an","Analyse des données NGS"
+"TP de Modélisation moléculaire (QSAR, DOCKING)",""," Formation universitaire","","Faculté de pharmacie, L2
+","","","","","","","","","230/ an","","","","","Licence","","","","","",""
+"TP de bio-informatique",""," Formation universitaire","","
+Alignement multiple de séquence, utilisation de BLAST, FASTA, et Geno3D.
+Faculté de pharmacie, L3
+
+","","","","","","","","","340/ an","","","","","Licence","","","","","",""
+" Analyse de données génomiques et post-­‐génomiques",""," Formation professionnelle","","Formation annuelle  des  Hospices  Civils  de  Lyon,  organisée  par  l’EBS/SB-­HCL/PRABI sur deux jours, en partenariat avec la  plateforme de protéomique de Dijon.
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","","","","","","","Analyse des données NGS"
+" Licence Professionnelle de Biotechnologies spécialité génomique",""," Formation universitaire","","Intervention sous la responsabillté du Pr Joël Lachuer
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","Licence","","","","","",""
+"Introduction à l’analyse des données de grande dimension",""," Formation universitaire","","Cours d’introduction à l’analyse des données de grande dimension dans le cadre de l’enseignement de Biomédecine quantitative en 3ème année de médecine (responsable Pr Pascal Roy).
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","","","","",""
+"M2 « BioStatistique, BioInformatique, BioMathématique en Santé (B3S) » ",""," Formation universitaire","","DU master de Santé Publique (responsables Pr Pascal Roy, Dr Delphine Maucort-­‐Boulch)
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","Master (M2 uniquement)","","","","","",""
+"M2 « Technologies à Haut Débit en Cancérologie »",""," Formation universitaire",""," DU master de Cancérologie (Responsable Dr Claire Bardel)
+","Aucun des termes ci-dessus ne convient","","","","http://www.france-bioinformatique.fr","","","","","","","","","Master (M2 uniquement)","","","","","",""
+"Analysis of NGS data with R",""," Formation professionnelle","","https://cnrsformation.cnrs.fr/stage-19025-Analyses-NGS-avec-R.html?axe=98
+","Génomique (DNA-seq), Transcriptomique (RNA-seq), Analyse de variants, Extraction de connaissances, Tests statistiques, Statistique génétique","","23-05-2019","Formation payante au catalogue CNRS.
+","https://cnrsformation.cnrs.fr/pdf/16147.pdf","CBiB","","","20/ an","","","4.00","","","CNRS","2","Oui","","6 jours / an","Analyse des données NGS, Analyse des données RNAseq, Langage R"
+"Advanced sequence analysis",""," Formation professionnelle","","https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.h...
+","Génomique (DNA-seq), Transcriptomique (RNA-seq), Analyse de variants, Algorithmique des séquences, Alignement (multiple) de séquences, Annotation de séquences, Recherche de motifs","","14-05-2019","Formation payante au catalogue CNRS.
+","https://cnrsformation.cnrs.fr/pdf/16148.pdf","CBiB","","","20/ an","","","6.00","Payante","","CNRS","1","Oui","","6 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq, Bioinformatique & Biomédicale"
+"Algorithms for bioinformatics",""," Formation universitaire","","Cours d'initiation aux algorithmes pour la bioinformatique, dispensé aux étudiants en Master 2 Recherche à l'Université de Bordeaux.
+","","","","","","","","","27/ an","","","","","Master (M2 uniquement)","","","Oui","","10 jours / an",""
+"NGS data analysis",""," Formation universitaire","","Cours d'initiation à l'analyse de données NGS (filtrage qualité, assemblage, mapping, détection de variants) dispensé aux étudiants en Master 2 Recherche Bioinformatique à l'Université de Bordeaux.
+","","","","","","","","","16/ an","","","","","Master (M2 uniquement)","","1","Oui","","3 jours / an","Analyse des données NGS"
+"Linux/Unix","https://www.france-bioinformatique.fr/sites/default/files/bioinfo_logo-RVB_3.jpg"," Formation professionnelle","This training session has been designed to familiarize yourself with the platform resources and its organization.","Cette formation présente les points suivants : comment   accéder   à   la   plate­‐forme,   comment   utiliser   un environnement Unix, comment créer et manipuler et transférer des fichiers en ligne de commande de votre ordinateur à notre cluster et réciproquement. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Cluster","","14-10-2019","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/linux-2/","Auzeville-Tolosane","Genotoul bioinfo platform","","10/ an","10","1","1.00","Payante","","plateforme","1","Oui","100%","1 jours / an","Linux"
+"Cluster","https://www.france-bioinformatique.fr/sites/default/files/bioinfo_logo-RVB_4.jpg"," Formation professionnelle"," You will learn to deal with the platform compute cluster and data banks.","Cette formation explique comment on se sert du cluster et des banques de données installées sur la plate-forme. Vous apprendre comment   lancer   des   jobs   sur   le  cluster en parrallèle et comment suivre leur exécution. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Cluster","","15-10-2019","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé
+","http://bioinfo.genotoul.fr/index.php/events/cluster-2/","Auzeville-Tolosane","Genotoul bioinfo platform","","10/ an","12","1","1.00","Payante","","plateforme","1","Oui","100%","1 jours / an","Linux"
+"Read alignment and SNP calling",""," Formation professionnelle","","Cette  formation permet de découvrir les formats de sortie des séquenceurs nouvelle génération, les nouveaux formats d’assemblage et les biais connus de ces technologies. Au cours de cette formation, les apprenants génère un alignement sur un génome de référence, détecte le polymorphisme (avec GATK) et visualise l’alignement. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Génomique (DNA-seq), Analyse de variants","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé
+","http://bioinfo.genotoul.fr/index.php/events/alignment-and-small-size-variants-ca...","Auzeville-Tolosane","","","20/ an","","","2.00","Payante","","","2","Oui","","2 jours / an","Analyse des données NGS"
+"RNASeq alignment and transcripts assemblies with statistics",""," Formation professionnelle","RNAseq analysis with stats","Nous faisons, au cours de cette formation, un rappel sur les formats de  sortie  de  séquenceurs   nouvelle   génération   et  les  biais connus de ces technologies. Les apprenants génèrent ensuite un alignement épissé, découvre de nouveaux gènes et transcripts et en quantifie leur expression. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul, Sigenae et l'unité MIAT.
+","Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/rnaseq-alignment-transcripts-assembl...","Auzeville-Tolosane","Genotoul bioinformatics platform, in collaboration with the Genotoul Biostatistics platform, the Sigenae team and the MIAT unit","","20/ an","6","0","3.50","Payante","","","2","Oui","100%","2 jours / an","Analyse des données NGS, Analyse des données RNAseq"
+"sRNASeq",""," Formation professionnelle","","Lors de cette formation, après une présentation des  formats, nous abordons le nettoyage des séquences, l’alignement sur un génome de référence, la détection et l’annotation des miRNA connus et non encore répertoriés et la quantification de leur expression. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae et l'unité MIAT.
+","Petits et longs ARN non-codants","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/srnaseq/","Auzeville-Tolosane","","","10/ an","","","","","","","1","Oui","","1 jours / an","Analyse des données NGS, Analyse des données RNAseq"
+"RNAseq de novo assembly",""," Formation professionnelle","","Cette  formation  présente les méthodes et les outils d’assemblage de données RNASeq (lectures courtes) sans génome de référence. Les apprenants effectue  le  pré-­‐traitement,   utilise  un  assembleur  et   testent différentes  stratégies  d’assemblage.  Nous  présentons  ensuite différents   indicateurs   de   qualité   de   l’assemblage   afin   de pouvoir choisir le meilleur. Organisée en collaboration avec la plateforme Sigenae.
+","Transcriptomique (RNA-seq), Analyses de transcrits et transcrits variants, Annotation de séquences","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/rnaseq-de-novo-assembly-2/","Auzeville-Tolosane","","","10/ an","17","","1.00","Payante","","PF Bioinfo genotoul","1","Oui","100%","0 jours / an","Analyse des données NGS, Analyse des données RNAseq"
+"Sequences alignment and phylogeny ",""," Formation professionnelle","","Il  s’agit  d’une initiation à l’étude de l’évolution des séquences. Cette formation ne nécessite pas de connaître la ligne de commande. Les apprenants, au cours de cette journée, constituent leur set de données, effectuent l’alignement, le vérifient et le corrigent. Cette première étape conditionne l'obtention d'un arbre de bonne qualité. Organisée par le CATI Bios4Biol.
+","","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/sequences-alignment-phylogeny/","Auzeville-Tolosane","","","10/ an","","","","","","","1","Oui","","1 jours / an",""
+"Methods for phylogenetics trees construction",""," Formation professionnelle","","Au cours de cette formation, nous présentons les différents modèles d’évolution de séquences et comment choisir celui qui convient le mieux. Nous présentons aussi les différentes méthodes d’inférence phylogénétique ainsi que les tests de robustesse de l’arbre. Organisée par le CATI Bios4Biol.
+","Evolution et phylogénie, Evolution moléculaire, Gènes et génomes","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/methods-for-phylogenetic-trees-const...","Auzeville -Tolosane","","","10/ an","","","","","","","1","Oui","","1 jours / an","Phylogénie"
+"Phylogenomy and selection pressure ",""," Formation professionnelle","","
+il s’agit de deux demi-­journées  séparées.  Une  demie-‐journée   sur  les  aspects phylogénomiques   et  une  demi-­journée   sur  la   détection   de pression  de sélection.  Sur les aspects  phylogénomiques  nous traiterons des problèmes liés à  l’échantillonnage  des gènes et des espèces et nous mettrons  en oeuvre différentes méthodes d’inférence  phylogénomiques  basées  sur les séquences.  Nous discuterons des méthodes basées sur d’autres caractéristiques génomiques. Organisée par le CATI Bios4Biol.
+La  partie  consacrée  à  la  détection  de  sélection dans un alignement de séquences se fera avec le logiciel PAML4.
+
+","Evolution et phylogénie, Evolution moléculaire, Gènes et génomes, Phylogénomique, Détection de sélection","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/phylogenomics-and-selection-pressure...","Auzeville-Tolosane","","","10/ an","","","","","","","1","Oui","","1 jours / an","Phylogénie"
+"Galaxy : first step",""," Formation professionnelle","","Le programme de cette introduction à Galaxy est le suivant : présentation de Galaxy, se connecter à l’instance toulousaine, commencer à utiliser certains outils bioinformatiques standards, la gestion des fichiers dans galaxy. Découvrir les bonnes pratiques dans Galaxy. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Analyse de données de séquençage NGS, Interfaces, portails web","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/first-step-with-galaxy/","Auzeville-Tolosane","SIGENAE platform","","20/ an","","","1.50","Payante","","","2","Oui","","2 jours / an","Framework Galaxy"
+"Galaxy : Reads alignment and SNP calling",""," Formation professionnelle","formats, mapping, variants calling with Galaxy","idem formation ligne de commande mais avec galaxy. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Analyse de données de séquençage NGS, Génomique (DNA-seq), Analyse de variants","","08-10-2018 to 09-10-2018","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/reads-alignment-and-small-size-varia...","Auzeville-Tolosane","SIGENAE platform","","20/ an","","","2.00","Payante","","","2","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy"
+"Galaxy : RNASeq alignment and transcripts assemblies",""," Formation professionnelle","","idem formation ligne de commande mais avec galaxy. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Analyse de données de séquençage NGS, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/rnaseq-alignment-and-transcripts-ass...","Auzeville-Tolosane","","","20/ an","","","","","","","2","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Galaxy : sRNAseq",""," Formation professionnelle","","idem formation ligne de commandes mais avec Galaxy. Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","Petits et longs ARN non-codants","","","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/srnaseq/","","","","10/ an","","","","","","","1","Oui","","1 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Galaxy: metagenomic: sequence analysis of amplicons from MiSeq and 454 sequencing with FROGS with Galaxy first step and statistics",""," Formation professionnelle","","Cette  formation vous permettra de nettoyer les reads, les clusteriser,  de faire l'affiliation taxonomique,  ainsi que de mettre en oeuvre certaines statistiques descriptives. Organisée par le CATI Bios4Biol.
+","","","","Avoir un compte sur la plateforme Bioinfo Genotoul (demande via un formulaire web sur le site), s’inscrire (via le site web) et payer 150 euros la journée pour un académique et 500 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php?id=10","","","","10/ an","","","","","","","1","Oui","","1 jours / an","Framework Galaxy"
+"Master Bioinfo Toulouse ",""," Formation universitaire","","Cette formation est issue d'une collaboration entre les plateformes Bioinfo Genotoul et Sigenae.
+","","","","","","","","","12/ an","","","","","Master","","1","Oui","","6 jours / an",""
+"Formation de chercheurs",""," Formation professionnelle",""," lors de Workshop (organisation de séances de travaux pratiques)
+ pour des formations individuelles
+","","","","Gratuit
+","","","","","","","","","","","","","","","","Metagénomique"
+"Formation des post-doctorants",""," Formation professionnelle","","Pour la recherche et l’annotation des IS.
+","","","","Gratuit
+","","","","","","","","","","","","","","","","Metagénomique"
+"Phylogénie moléculaire",""," Formation professionnelle","La plateforme ATGC organise une formation en phylogenie moleculaire a Montpellier sur 5 jours","
+Les objectifs sont :
+1. Acquérir des connaissances théoriques et pratiques en phylogénie moléculaire.
+2. Être autonome dans la conduite d'une analyse phylogénétique.
+3. Maîtriser le choix, le paramétrage et l'exploitation des résultats des programmes de phylogénie.
+Les inscriptions se font sur le site web de la formation ou aupres de CNRS Formation. Lors de votre inscription, vous recevrez un questionnaire qui nous permettra d'evaluer votre niveau. Merci de nous le retourner directement (lefort@lirmm.fr).
+Pour toute information complementaire (public vise, niveau, cout, ...), merci de contacter Vincent Lefort (lefort@lirmm.fr).
+
+","Evolution et phylogénie, Evolution moléculaire, Gènes et génomes, Datation des spéciations, Phylogénomique, Super-arbres et réconciliations, Détection de sélection","","07-10-2019 to 11-10-2019","S'acquitter des frais d'inscription, être familiarisé avec les banques de données de séquences, avoir déjà utilisé les logiciels de base en bioinformatique, connaître les notions de base en statistiques (tests, lois probabilistes usuelles, méthodes simples d'estimation de paramètres), avoir des notions de programmation.
+","http://cnrsformation.cnrs.fr/stage-17007-Phylogenie-moleculaire-%28Montpellier%2...","Montpellier","","","12/ an","","","","","","","1","Oui","","5 jours / an","Phylogénie"
+"Bioinformatique pour le traitement de données de séquençage (NGS)",""," Formation professionnelle","Bioinformatics for NGS data analysis","
+Les objectifs sont :
+- Comprendre les principes des méthodes d'analyse de données de séquençage à haut débit
+- Comprendre les résultats obtenus, les paramètres et leur impact sur les analyses
+- Savoir choisir et utiliser les principaux outils d'analyse
+- Etre autonome pour utiliser un pipeline d'analyse
+- Savoir manipuler les fichiers de séquences : préparation et filtration
+- Savoir évaluer la qualité des données
+- Savoir analyser les résultats avec ou sans génome de référence
+
+","Analyse de données de séquençage NGS, Méthodologie, Assemblage de génomes et transcriptomes, Alignements de lectures sur des génomes, Génomique (DNA-seq), Transcriptomique (RNA-seq), Analyse de variants, Génomes complets","","25-03-2019 to 29-03-2019","S'acquitter des frais d'inscription, notions de base en informatique : fichiers, répertoire..., notions du système linux et des lignes de commandes, niveau master
+","http://cnrsformation.cnrs.fr/stage-17010-Bioinformatique-pour-le-traitement-de-d...","Montpellier","","","12/ an","","","","","","","","Oui","","4 jours / an","Analyse des données NGS, Analyse des données RNAseq"
+"Master Sciences & Numérique pour la Santé",""," Formation universitaire","","La spécialité BCD a pour objectif de former les étudiants issus des Sciences du vivant (agronomie, biologie moléculaire, cellulaire, physiologie animale et végétale, biochimie), des sciences médicales, de l'informatique ou des mathématiques aux besoins spécifiques de la bioinformatique, des systèmes d'informations, de l'extraction de connaissances et de la modélisation du vivant tout en renforçant les compétences de leur profil initial.
+","","","","M1 : licence math, info, physique, EEA, biologie, STAPS + équiv. L3 de la formation pharma/médecine (ou tout équiv. 180 ECTS acquis) - M2 : master 1 ou équiv. (formation continue, VAE, ...)
+","","","","","13/ an","","","","","Master","","","Oui","","",""
+"Master Biostatistiques",""," Formation universitaire","","Deux objectifs sont visés par la formation. Le premier est de former des chercheurs ou enseignants-chercheurs dans le domaine de la statistique théorique ou appliquée. Le deuxième objectif est de former des statisticiens de haut niveau pour des organismes de recherche ou des entreprises.
+","","","","","","","","","10/ an","","","","","Master","","","Oui","","",""
+"Projet AMIDEX ""spongex""",""," Formation professionnelle","","","","","","Accès en local aux différents clusters
+","","","","","3/ an","","","","","","","","","","","Autre"
+"Master STIC pour la Santé",""," Formation universitaire","","","","","","Accès en local aux différents clusters
+","","","","","2/ an","","","","","Master","","","","","",""
+"Python avancé",""," Formation professionnelle","","","","","","","","","","","15/ an","","","","","","","1","","","1 jours / an","Langages de Programmation & Computer Sciences, Langage Python"
+"Criblage de petits composés",""," Formation universitaire","","","","","","","","","","","15/ an","","","","","Master","","1","","","1 jours / an","Autre"
+"Introduction au portail MOBYLE",""," Formation professionnelle","","","","","","","http://www.univ-paris-diderot.fr/formation/DocFormation/Formation_Qualifiante_BI...","","","","15/ an","","","","","","","1","","","1 jours / an","Autre"
+"Master ISDD",""," Formation universitaire","","","","","","","http://isddteach.sdv.univ-paris-diderot.fr/static/documents/plaquette_isdd_frenc...","","","","","","","","","Master","","","","","",""
+"Licence en siences de la vie, Aix-Marseille (AMU)",""," Formation universitaire","","Licence 2 bioinformatique appliquée (Van Helden J)
+","","","","","","","","","","","","","","Licence","","","","","",""
+"Master de Bioinformatique, Biochimie Structurale et Génomique",""," Formation universitaire","","Analyse statistique des données génomiques.
+Méthodes bioinformatiques pour la cis-régulation.
+Méthodes bioinformatiques pour la génomique et la protéomique.
+Projet informatique lié à la biologie
+Ecole doctorale des sciences de la vie et de la santé, AMU
+","","","","","","","","","","","","","","Master","","","","","",""
+"Ecole d'ingénieurs polytech, filière génie biologique-biotechnologique, AMU",""," Formation universitaire","","Bioinformatique: bases de données et programmation
+","","","","","","","","","","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","","","","",""
+"Training courses in bioinformatics applied to Musa Genome",""," Formation professionnelle","","18-22 Novembre 2013
+","","","","","","","","","","","","","","","","","Non","","","Analyse des données NGS"
+"Formation galaxy",""," Formation professionnelle","","Octobre 2013
+Juin 2012
+","","","","","","","","","","","","","","","","","Non","","","Framework Galaxy"
+"Formation bioinformatique LMI LAPSE Dakar",""," Formation professionnelle","","Novembre 2013
+","","","","","","","","","","","","","","","","","Non","","","Analyse des données NGS"
+"Formation bioinformatique IRD Montpellier",""," Formation professionnelle","","Septembre 2013 (25 personnes) et Octobre 2012 (32 personnes)
+","","","","","","","","","","","","","","","","","Non","","","Analyse des données NGS"
+"Formation introduction à la bioinformatique, Dassa",""," Formation professionnelle","","Juillet 2013
+","","","","","","","","","","","","","","","","","Non","","","Analyse des données NGS"
+"Bioinformatics School, Sao Paulo",""," Formation professionnelle","","21-26 novembre 2011
+","","","","","","","","","","","","","","","","","Non","","","Bioinformatique & Génomique végétale"
+"Bioinformatique appliquée à l'analyse de séquences biologiques, Montpellier",""," Formation professionnelle","","06-10 juin 2011
+","","","","","","","","","","","","","","","","","Non","","","Bioinformatique & Génomique végétale"
+"Formation ARCAD SP1-SP4, Analyse de données de polymorphisme, Montpellier",""," Formation professionnelle","","09-13 Mai 2011
+","","","","","","","","","","","","","","","","","Non","","","Bioinformatique & Génomique végétale"
+"Bioinformatique appliquée, Analyse de séquences, Montpellier",""," Formation professionnelle","","21-25 février 2011
+","","","","","","","","","","","","","","","","","","","","Bioinformatique & Génomique végétale"
+"Encontro França-Brasil de BIoinformatica, Universidad Estadual de Santa Cruz (UESC)",""," Formation professionnelle","","08-12 novembre 2010
+","","","","","","","","","","","","","","","","","Non","","","Bioinformatique & Génomique végétale"
+"SUPAGRO",""," Formation universitaire","","Février 2012, 2013 et 2014
+","","","","","","","","","","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","","","","",""
+"Biostatistique avec R",""," Formation professionnelle","","Apprendre à se servir du logiciel R dans le contexte de l’analyse de données biologiques tout en consolidant ses connaissances de base en biostatistique
+","","","","Personnel IHU-A-ICM, gratuit
+","","","","","18/ an","","","","","","","1","Oui","","3 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Initiation à la programmation en R",""," Formation professionnelle","","Se familiariser avec R dans le but d’utiliser ce logiciel pour faire des modèles linéaires
+","","","","Personnel IHU-A-ICM, gratuit
+","","","","","10/ an","","","","","","","1","Oui","","3 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Galaxy : packages and workflow deploiement.",""," Formation professionnelle","","","","","","","","","","","15/ an","","","","","","","1","Non","","1 jours / an","Framework Galaxy"
+"Infrastructure informatique distribuée de France Grilles: Grilles et Cloud",""," Formation professionnelle","","","","","","","","","","","8/ an","","","","","","","1","Non","","1 jours / an","Langages de Programmation & Computer Sciences"
+"Analyse de gènes différentiellement à partir de données RNAseq et sous l'environnement Galaxy",""," Formation professionnelle","","La formation s’adresse à un public de biologistes et de bio-informaticiens désireux de faire leur premiers pas sous Galaxy et de maîtriser l’analyse d’expression différentielle de gènes à partir de données RNAseq.
+L'analyse d’expression différentielle des gènes entre deux conditions expérimentales est réalisée avec la suite d’outils DESeq que nous avons interfacé pour l’environnement Galaxy.  Cette formation alterne des présentations des méthodes, concepts et outils du RNAseq avec des tutoriels pratiques durant lesquels vous utiliserez les outils bio-informatiques du serveur Galaxy de la plate-forme eBio.
+","","","","étudiants et chercheurs de l'I2BC qui accueille la plate-forme eBio.
+","","","","","25/ an","","","","","","","2","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Participation à l'atelier de Bioinformatique de Roscoff",""," Formation professionnelle","Initiation au traitement des données de génomique obtenues par séquençage à haut débit","Session RNAseq de la formation
+Tutorat de 3 participants
+","Analyse différentielle de l’expression des gènes","","","","http://www.france-bioinformatique.fr/en/evenements/EBA2016","Roscoff","","","30/ an","","","","","","","1","Oui","","5 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Analyse de données métagénomiques 16S",""," Formation professionnelle","Analyse de données métagénomiques 16S","
+
+
+
+
+
+
+
+Objectifs
+Cette formation est dédiée à l'analyse de données de type ""métagénomique amplicon"" issues des technolo-gies de séquençage 454 et Illumina. La formation couvre les grandes étapes d'un pipeline d'analyse bioinformatique sous Galaxy (FROGS) pour transformer les séquences en tables d'abondances puis présente des outils statistiques sous R (phyloseq) qui permettent de décrire et comparer les échantillons à partir de ces tables.
+
+ 
+Programme
+
+Jours 1 et 2 : Analyses Bioinformatiques sous Galaxy
+Introduction générale
+Brefs rappels sur l'environnement Galaxy
+Présentation des données issues des différentes technologies de séquençage
+Prétraitement des données
+Clustering des séquences, construction des OTUs
+Détection de chimères
+Annotation taxonomique
+Filtrage des données de comptages
+Outils de visualisation
+Construction de workflow et configuration de FROGS
+Limite des données et des méthodes 
+Jour 3 et 4 :  Analyses Statistiques sous Rstudio
+Introduction générale
+Import, manipulation et visualisation des données
+Mesure de diversités : Unifrac, Bray-Curtis, etc.
+Ordination et réduction de dimension : MDS
+Clustering et Heatmap
+Comparaison d'échantillons : PERMANOVA, adonis
+▫ Introduction générale
+▫ Brefs rappels sur l'environnement Galaxy
+▫ Présentation des données issues des différentes technologies de séquençage ▫ Prétraitement des données
+▫ Clustering des séquences, construction des OTUs
+▫ Détection de chimères
+▫ Annotation taxonomique
+▫ Filtrage des données de comptages
+▫ Outils de visualisation
+▫ Construction de workflow et configuration de FROGS
+▫ Limite des données et des méthodes
+
+
+
+
+
+Jour 3 : Analyses Statistiques sous Rstudio
+
+	▫  Introduction générale
+	
+
+	▫  Import et manipulation des données
+	
+
+	▫  Mesure de diversités : Unifrac, Bray-Curtis, etc.
+	
+
+	▫  Ordination et réduction de dimension : MDS
+	
+
+	▫  Clustering et Heatmap
+	
+
+	▫  Comparaison d'échantillons : PERMANOVA, adonis 
+	
+
+
+
+
+
+
+
+
+","Aucun des termes ci-dessus ne convient","","27-03-2017","Ce cycle est ouvert à l'ensemble des agents de l'INRA et aux extérieurs.
+","http://migale.jouy.inra.fr/?q=fr/formations","","","","22/ an","","","","","","","1","Oui","","3 jours / an","Analyse des données NGS, Framework Galaxy, Metagénomique"
+"Galaxy : first step",""," Formation professionnelle",""," 
+
+Le programme de cette introduction à Galaxy est le suivant : présentation de Galaxy, se connecter à l’instance toulousaine, commencer à utiliser certains outils bioinformatiques standards, la gestion des fichiers dans galaxy. Découvrir les bonnes pratiques dans Galaxy. Organisée en collaboration avec la plateforme Bioinfo Genotoul.
+
+
+","","","","Avoir un compte sur la plateforme Bioinfo Genotoul (demande via un formulaire web sur notre site), s’inscrire (via notre site web) et payer 150 euros la journée pour un académique et 500 euros la journée pour un privé.
+","","","","","20/ an","","","","","","","2","Oui","","1 jours / an","Framework Galaxy"
+"Spectrométrie de masse, analyse protéomique et interprétation des données",""," Formation professionnelle","","","","","","","","","","","10/ an","","","","","","","","Oui","","5 jours / an","Autre"
+"Analyse protéomique à haut débit, interprétation des données, ESBS / TPS, Strasbourg Illkirch",""," Formation universitaire","","","","","","","","","","","65/ an","","","","","Master","","","Oui","","2 jours / an",""
+"Formation continue INRA",""," Formation professionnelle","","Bioanalyse, analyse de séquences (alignement, blast), bases de données, analyse de NGS via galaxy (Chi-Seq, RNA-seq).
+Fouille de texte et de données pour l'analyse de promoteurs et la construction de réseaux biologiques (réseau RULBI). Forme une dizaine de personnes par session.
+ 
+","","","","","","","","","","","","","","","","","","","","Analyse des données NGS, Autre"
+"Initiation à la plateforme web GALAXY : L’analyse de données biologiques pour tous !",""," Formation professionnelle","","Présentation
+L’analyse des données biologiques nécessite de plus en plus l’utilisation de ressources et d’environnements informatiques difficiles à maîtriser pour le biologiste.
+Cette formation présente et décompose l’utilisation de l’environnement Galaxy.
+En se basant sur une plateforme web, comme c’est la cas avec Mobyle, cet environnement propose une nouvelle approche pour rendre l’analyse biologique plus aisée pour les non- informaticiens.
+Objectifs 
+Prise en main de l’environnement Galaxy et des différentes fonctionnalités proposées.
+Organisation pédagogique 
+La formation comprendra un exposé théorique avec démonstrations pratiques complété par une rapide application sur la manipulation de données de régions génomiques.
+Public visé
+Chercheurs et ingénieurs, biologistes et bio-informaticiens possédant des compétences en développement bio-informatique souhaitant intégrer des outils dans le portail web Galaxy.
+Pré-requis
+Aucun.
+","","","","Pas de pré-requis.
+","","","","","45/ an","","","","","","","5","Oui","","1 jours / an","Framework Galaxy"
+"Analyse de données RNAseq sous Galaxy",""," Formation professionnelle","","L’analyse des données biologiques nécessite de plus en plus l’utilisation de ressources et d’environnements informatiques difficiles à maîtriser pour le biologiste.
+Cette formation présente et décompose l’utilisation de l’environnement Galaxy.
+En se basant sur une plateforme web, comme c’est la cas avec Mobyle, cet environnement propose une nouvelle approche pour rendre l’analyse biologique plus aisée pour les non- informaticiens.
+Objectifs 
+Prise en main de l’environnement Galaxy et des différentes fonctionnalités proposées.
+Organisation pédagogique 
+La formation est exclusivement orientée pratique! Il s’agir d’utiliser des données de RNAseq fournies par l’UMR 0598 Agrocampus-Ouest / INRA pour utiliser les outils classiques d’analyse de données RNAseq (Tophat, flagstat, Cufflinks, Cuffcompare, Cuffdiff, ou htseq-count, Deseq…)
+Public visé
+Chercheurs et ingénieurs, biologistes souhaitant s’initier à l’analyse de données RNAseq.
+","","","","Pas de pré-requis.
+","","","","","13/ an","","","","","","","2","Oui","","1 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Initiation à l’analyse de données de type RAD par le pipeline Stacks sous la plateforme web d’analyse de données Galaxy",""," Formation professionnelle","","Cette formation initie l’utilisation de Stacks dans l’environnement Galaxy.
+En se basant sur une plateforme web, comme c’est la cas avec Mobyle, nous proposons une nouvelle utilisation de Stacks pour rendre l’analyse biologique plus aisée pour les non- informaticiens.
+Objectifs 
+Principe de l’analyse de données RAD-seq via Stacks.
+Organisation pédagogique 
+La formation comprendra un exposé théorique avec démonstrations pratiques.
+Le programme :
+1/ Présentation théorique du fonctionnement global de Stacks. Compter 1h
+2/ Analyse de données RAD avec Stacks sous Galaxy. 3h
+a) cartographie génétique
+b) génomique des populations
+c) assemblage de données pairées
+Public visé
+Chercheurs et ingénieurs, biologistes et bio-informaticiens souhaitant analyser des données de type RAD-seq dans le portail web Galaxy.
+","","",""," 
+","","","","","20/ an","","","","","","","1","Non","","1 jours / an","Framework Galaxy"
+"HUBzero : Plateforme web open-source de collaboration scientifique",""," Formation professionnelle","","Les projets de recherche sont de plus en plus multi-disciplinaires et multi-site. Afin de faciliter la gestion de groupe, la gestion de projet et le partage de ressources, de nombreux outils généraux ou dédiés entreprise existent. HUBzero représente la meilleure solution open-source et dédiée science. Nous proposons de vous présenter son fonctionnement global à travers une démonstration interactive.
+Objectifs 
+Prise en main de l’environnement HUBzero et des différentes fonctionnalités proposées.
+Organisation pédagogique 
+La formation est exclusivement orientée démonstration!
+Public visé
+Chercheurs et ingénieurs, biologistes souhaitant s’initier à l’utilisation d’HUBzero pour la gestion de groupes et de projets et le partage de ressources.
+","","","","","","","","","6/ an","","","","","","","1","Non","","1 jours / an","Autre"
+"Formation continue CNRS",""," Formation professionnelle","","Phylogénie moléculaire, introduction aux notions d'évolution moléculaire et de phylogénie.
+Modèles d'évolution des séquences, méthodes de reconstruction phylogénétiques.
+Recherche de séquences homologues (BLAST), alignement multiples et reconstructions phylogénétiques.
+Evaluation de la pertinence des arbres (bootstrap).
+ 
+","","","","","","","","","","","","","","","","","","","","Phylogénie"
+"Modules Biologie École Doctorale SVSAE",""," Formation universitaire","","Les UE de bioinformatique de la spécialité AMD sont ouvertes aux doctorants de l'école doctorale SVSAE dans le cadre de leur formation doctorale. 3 UE sont particulièrement suivies : UE « Programmation en perl », UE « Bioistatistiques et programmation sous R » et UE « Génomique et bioinformatique ». Les formations continues proposées dans le domaine de la bioinformatique sont également ouvertes aux étudiants de l'Ecole Doctorale, et permettent de valider un module de biologie. Forme 2 à 3 doctorants par an.
+ 
+","","","","","","","","","3/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","","","","",""
+"DUT Bioinformatique",""," Formation universitaire","","A la convergence de la biologie, de l’informatique, cette formation pluridisciplinaire vise à former des techniciens supérieurs possédant une double compétence biologie/informatique capables de produire et de traiter des données biologiques de masse. La formation assurée en 2 ans vise à donner un socle solide de compétences transversales en biologie (génomique, transcriptomique, protéomique…), informatique (programmation, algorithmie, bioinformatiques structurale et intégrative ...) et statistiques, complétée par un travail en groupe ainsi qu’un stage de fin d’année en milieu professionnel. Axée sur les technologies « omiques », cette option propose une professionnalisation rapide pour un domaine en pleine croissance et donne des compétences solides pour  continuer vers un master ou un doctorat.
+ 
+","","","","Accessible en formation continue pour des bacheliers des séries S, STL et en formation continue. Accessible directement en 2ème année pour des étudiants ayant validé une année dans le supérieur et ayant des compétences en biologie et des bases en programmation
+ 
+","","","","","45/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","","","","",""
+"Licence 3 Science de la Vie",""," Formation universitaire","","2 UE fondamentales avec un enseignement de biostatistiques (statistiques descriptives, lois, tests, régression linéaire, analyse de variance) et bioinformatique (prédiction de gène, prédiction de fonction, bases de données bioinformatiques, alignement de séquences, phylogénie) en L2 et L3. Une UE optionnelle de programmation et bases de données relationnelles en L3.
+ 
+","","","","","","","","","180/ an","","","","","Licence","","","Oui","","",""
+"Licence 2 Science de la Vie",""," Formation universitaire","","2 UE fondamentales avec un enseignement de biostatistiques (statistiques descriptives, lois, tests, régression linéaire, analyse de variance) et bioinformatique (prédiction de gène, prédiction de fonction, bases de données bioinformatiques, alignement de séquences, phylogénie) en L2 et L3. Une UE optionnelle de programmation et bases de données relationnelles en L3.
+ 
+","","","","","","","","","250/ an","","","","","Licence","","","Oui","","",""
+"Master Bio-informatique",""," Formation universitaire","","Forme au traitement et à l'analyse des données « à haut débit » (génomique, transcriptomique, protéomique, métabolomique). Cette formation inclus l’acquisition des connaissances fondamentales et des compétences opérationnelles liées à l’interprétation de ce type de données, à travers des enseignements de biologie, bioinformatique, informatique et statistiques appliquées à la Biologie. Elle se caractérise par une formation orientée vers le développement de web services et l’usage de ressources de calcul distribuées.
+ 
+","","","","Licence de biologie / lic. Pro sur dossier
+","","Campus des Cézeaux, Aubière / site Dunant","","","15/ an","","","","Payante","Master","Université Clermont Auvergne","","Oui","","",""
+"Intégration d’outils dans la plateforme web GALAXY ",""," Formation professionnelle","","","","","","","","","","","10/ an","","","","","","","2","Non","","1 jours / an","Framework Galaxy"
+"Cluster  ",""," Formation professionnelle","","","","","","","","","","","","","","","","","","2","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Autres langages"
+"Linux initiation",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Linux"
+"Linux avancé",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Linux"
+"R initiation",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"R avancé",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","1 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"Galaxy initiation",""," Formation professionnelle","","","","","","","","","","","","","","","","","","2","Oui","","1 jours / an","Framework Galaxy"
+"Galaxy : RNAseq de novo/avec référence & cleaning",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","2 jours / an","Analyse des données NGS, Framework Galaxy, Analyse des données RNAseq"
+"Galaxy : Initiation à la phylogénie",""," Formation professionnelle","","","","","","","","","","","","","","","","","","1","Oui","","2 jours / an","Framework Galaxy"
+"Introduction à la phylogénie moléculaire",""," Formation professionnelle","","Le C3BI propose des cours pour acquérir les notions théoriques de phylogénie et maitriser les outils et logiciels.
+Les cours d'”Introduction à la phylogénie moléculaire” sont ouverts EN ACCES LIBRE  à tous les Pasteuriens et dispensés en langue française .
+l'après midi les travaux pratiques sont limités à 15 personnes (sur inscription)
+** Mardi 29 septembre
+– 9h30-11h : Méthodes de distance (A. Criscuolo)
+– 14h-15h30 : Méthodes de Maximum de Parcimonie (O. Gascuel)
+** Mercredi 30 septembre
+– 9h30-11h : Modèles d’évolution (O. Gascuel)
+– 14h-15h30 : Méthodes de Maximum de Vraisemblance (O. Gascuel)
+** Jeudi 1er octobre
+– 9h30-11h : Méthodes Bayesiennes (G. Perriere)
+– 14h-15h30 : Inférences des forces sélectives (G. Perriere)
+","Evolution et phylogénie, Evolution moléculaire, Gènes et génomes, Datation des spéciations, Détection de sélection","","18-02-2019 to 22-02-2019","réservé aux membres de l'Institut Pasteur
+","http://c3bi.pasteur.fr","","","INCEPTION","15/ an","","","","","","","1","Oui","","3 jours / an","Phylogénie"
+"Initiation à l'analyse de données avec R",""," Formation professionnelle","","Le cours s’adresse à des personnes qui veulent apprendre ou ré-apprendre à utiliser les statistiques à bon escient pour leurs propres projets. L’objectif est de présenter et expliquer les principales notions de statistiques utiles pour décrire un jeu de données, en explorer les propriétés afin d’en tirer des conclusions robustes, utiliser à bon escient les méthodes les plus courantes (tests d’hypothèse, ACP, …) et savoir lire, interpréter (et éventuellement aborder d’un œil critique) les résultats présentés dans les publications. Nous utiliserons le moins possible le formalisme mathématique mais insisterons sur les propriétés des méthodes, leurs pré-requis, l’interprétation des résultats. Nous aborderons les notions d’analyse exploratoire, ACP, clustering, estimation, échantillonnage, régression, tests d’hypothèse, planification d’expérience
+Ce cours est une initiation à l’analyse de données. Il est préférable d’avoir une connaissance minimale de R. Dans le cas contraire, un tutoriel d’initiation est disponible sur la page web du cours et les notions de base de R seront rappelées pendant la pratique. Pour les personnes n’ayant jamais utilisé R, il peut être utile d’avoir des connaissances de base en programmation, quel que soit le langage.
+Les cours seront donnés en Français et alterneront théorie et pratique avec RStudio. Il est demandé à chaque participant de venir avec un ordinateur portable chargé sur lequel il aura préalablement installé les éléments nécessaires (R, Rstudio et les fichiers de données sur lesquels nous travaillerons). La liste complète des fichiers et logiciels nécessaires sera disponible sur la page web du cours une dizaine de jours avant le début de la session.
+ 
+ 
+","Biostatistiques, Statistique descriptive, Tests statistiques","","","ouvert à tous, sur inscription.
+","https://c3bi.pasteur.fr","Institut Pasteur","","","30/ an","","","","","","","1","Oui","","3 jours / an","Langages de Programmation & Computer Sciences, Langage R"
+"hands-on NGS course",""," Formation professionnelle","","The aim of this course is to provide students with theory and practical
+tools to analyze Next Generation Sequencing (NGS) data.  The course is
+composed of a theory and practice lessons . In the first week theory
+sessions will cover the main kind of HTS analyses (re-sequencing and
+variant analysis, de-novo sequencing, transcriptomics, ChIP-Seq,
+metagenomics), in addition to some general bioinformatics tools and
+Biostatistics. The second week is dedicated to practice, in which the
+students work with their own data in small groups with a mentor that
+guides them. The practice week is designed so the course is of immediate
+use to each student. We expect the students to go back to their countries
+with the necessary knowledge to continue working on their own data.
+","Analyse de données de séquençage NGS, Méthodologie, Génomique (DNA-seq), Transcriptomique (RNA-seq), Analyse de variants, Analyse de la régulation de l’expression des gènes, Chip-seq, Métagénomique, métatranscriptomique","","","belonging to the Institut Pasteur International Network (RIIP) and the University of Sao Paulo.
+","http://c3bi.pasteur.fr","","","","50/ an","","","","","","","2","Oui","","20 jours / an","Analyse des données NGS"
+"LeiSHield training course on Next Generation Sequencing",""," Formation professionnelle","","The primary aim of this course was to provide a basic understanding of the Leishmania genome, NGS technology and analysis tools, and to develop a basic pipeline for the students to start working on their data. This first pipeline will help to standardize all analysis done in the consortium and should facilitate a posterior paper publication. This pipeline will evolve
+in the context of a collaboration between the Leishield partners and the C3BI, taking into account the difficulties to analyze and interpret the sequence data generated, and the specific needs of each Consortium node. A future Workshop will be organized in June 2016 to tackle all these questions, and to have a follow-up on the analysis.
+","","","","belonging to the Leishield consortium.
+","","","","","12/ an","","","","","","","1","Non","","10 jours / an","Analyse des données NGS"
+"Cours Pasteur Analyse des Génomes",""," Formation universitaire","","Chaque année, ce cours théorique et pratique d’une durée de sept semaines fait le tour
+des concepts, techniques et outils nécessaires à l'étude des génomes, des étapes expérimentales à l’analyse des résultats. Il illustre les différents aspects de la génomique et de ses applications en se basant sur les résultats les plus récents de la recherche - voir plus
+","Analyse de données de séquençage NGS, Analyse de séquences, Biostatistiques, Génomique comparative","","05-11-2018 to 21-11-2018","","http://www.pasteur.fr/fr/enseignement/cours-pasteur/pole-mecanismes-du-vivant/an...","","","","20/ an","","","","","Master","","1","Oui","","30 jours / an",""
+"Rôles multiples de l’ARN",""," Formation universitaire","","Ce cours théorique et pratique de deux semaines est orienté sur les méthodes pour étudier la synthèse, maturation et la dégradation d’une large variété de molécules d’ARN dans les cellules eucaryotes - voir plus
+","Analyse de données de séquençage NGS, Transcriptomique (RNA-seq)","","11-02-2019 to 22-02-2019","Les candidats doivent avoir de bonnes connaissances en génétique, biologie moléculaire et biochimie du niveau de la fin de première année de Master, ainsi qu’un niveau minimum (B1) en français ET en anglais. Les candidatures sont sélectionnées et évaluées par le Comité du cours.
+","https://www.pasteur.fr/fr/enseignement/programmes-doctoraux-et-cours/cours-paste...","institut Pasteur","","","15/ an","","","","","Master","","1","Oui","","10 jours / an","Analyse des données RNAseq"
+"Programmation et scripting ",""," Formation professionnelle",""," Ce cours s'adresse à toute personne de l'institut Pasteur ou appartenant au réseau international (RIIP) souhaitant acquérir des bases de la programmation et du scripting utiles à la bioinformatique et ayant du mal à trouver du temps pour se former tout le long de l'année. 
+Initiation unix 3 jours
+Programmation Python 6 jours
+Utilisation d'un cluster de calcul 1 jour
+Biopython 2 jours
+ 
+","","","","Membre de l'institut Pasteur ou au réseau international de l'Institut  Pasteur (RIIP)
+","","","","","20/ an","","","","","","","1","Oui","","11 jours / an","Langages de Programmation & Computer Sciences, Autres langages"
+"Bioinformatique et Analyses Mutationnelles",""," Formation universitaire","","Module de formation à la bioinformatique appliquée à l'analyse des données génétiques dans le cadre des maladies génétiques humaines. Cet enseignement fait partie du Master 2 de Pathologie Humaine dispensé à la faculté de Médecine de la Timone à Marseille.
+ 
+","Analyse de données de séquençage NGS, Analyse de séquences","","14-11-2016 to 18-11-2016","Inscription au Master 2 de Pathologie Humaine
+","http://formations.univ-amu.fr/ME5APH-ENAPHCU41.html","","","","20/ an","","","","","Master (M2 uniquement)","","1","Oui","","5 jours / an","Analyse des données NGS, Bioinformatique & Biomédicale"
+"Biotechnologies et bioinformatique appliquées aux maladies rares",""," Formation universitaire","","Module optionnel du DIU Maladies rares : de la recherche au traitement.
+","Analyse de données de séquençage NGS, Analyse de séquences","","06-02-2017 to 10-02-2017","Inscription au DIU Maladies rares : de la recherche au traitement
+","http://fondation-maladiesrares.org/actualite/diu-maladies-rares-de-la-recherche-...","","","","10/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","1","Oui","","5 jours / an","Analyse des données NGS, Bioinformatique & Biomédicale"
+"Intégration d'outils dans Galaxy",""," Formation universitaire","Workshop organisé sur les bonnes pratiques d'intégration, dans Galaxy, des outils disponibles dans le toolshed.","Galaxy (https://galaxyproject.org/) est une plateforme permettant d’intégrer et d’exécuter via une interface graphique des outils bioinformatiques, normalement utilisables en ligne de commande. Galaxy permet ainsi de faciliter l’utilisation de ces outils par tous, dans un environnement contrôlé,mais aussi de favoriser la reproductibilité des analyses (workflows, …).
+Actuellement, > 3 750 outils (disponibles sur https://toolshed.g2.bx.psu.edu/) peuvent être intégrés à Galaxy. Mais tous les outils bioinformatiques dont vous pouvez avoir besoin ne sont pas intégrés dans 
+l’environnement Galaxy. Et vous devez ainsi parfois renoncer à utiliser Galaxy et ses avantages pour traiter vos données.
+
+Un workshop est organisé à Clermont-Ferrand le Mercredi 25 Mai 2016. 
+N’hésitez pas à faire circuler cette information aux personnes potentiellement intéressées.
+Merci par avance.
+Bérénice BATUT
+
+","","","25-05-2016","","https://brnice.typeform.com/to/vCq4AV","Clermont-Ferrand - Université d'Auvergne","","","20/ an","","","","","Autre (Diplôme universitaire, école d'ingénieur ...)","","1","Non","","1 jours / an","Framework Galaxy"
+"Training on annotation of transposable elements",""," Formation professionnelle","Detection and annotation of transposable elements in eukaryote genome","The objectives of this training are: 
+To acquire knowledge on transposable elements
+To achieve annotation of transposable elements in the genome using REPET pipelines
+To be autonomous on your own data.
+Program
+Opening presentations on transposable elements and their annotation
+Strategies of repeat annotation
+REPET pipelines overview and practices 
+Post-analyze tools overview and practices
+ 
+","Analyse de séquences","","11-06-2018 to 13-06-2018","This training is dedicated to biologists and/or bioinformaticians (10 pers. max)
+Cost : 150€
+Registration and information by mail to: urgi-contact@inra.fr
+","https://urgi.versailles.inra.fr/Platform/Training/Training-on-annotation-of-tran...","INRA-URGI, Centre de Versailles","INRA - URGI plateforme","","10/ an","","","3.00","Payante","","","1","Oui","","3 jours / an","Bioinformatique & Génomique végétale"
+"FROGS formation : tools for bioinformatics and statistics analyses with amplicon metagenomics data","https://www.france-bioinformatique.fr/sites/default/files/FROGS_logo_0.png"," Formation professionnelle","metagenomics from amplicons with FROGS","The Toulouse Genopole bioinformatics platform, Sigenae and NED (GenPhySE) organize a series of training courses to familiarize yourself with the various resources it provides. These resources are currently: the hardware infrastructure, biological data banks and widely used bioinformatics softwares. This training session, organized by Bioinfo Genotoul, Sigenae and NED (GenPhySE), is designed to help you to deal with NGS data of 16S, 18S … DNA produced with MiSeq from Illumina and Roche 454 technologies in the Galaxy workbench. You will discover how to use our Galaxy instance, clean reads, clusterize them, do the taxonomic affiliation and perform statistics to interpret your results with the FROGS pipeline (http://frogs.toulouse.inra.fr/).
+ 
+","Métagénomique, métatranscriptomique","","01-07-2019 to 04-07-2019","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with...","Auzeville-Tolosane","NED (GenPhYSE)","","20/ an","28","0","12.00","Payante","","","2","Oui","","8 jours / an","Analyse des données NGS, Framework Galaxy, Metagénomique"
+"IBI - 2","https://www.france-bioinformatique.fr/sites/default/files/cloudIFB_3.png"," Formation professionnelle","Formation à l'utilisation avancée du cloud IFB","","","","01-07-2019 to 03-07-2019","","http://www.france-bioinformatique.fr/en/evenements/IFB-IBI","Gif sur Yvette, France","","","","","","","","","","","Oui","","",""
+"Introduction à la Phylogénie Moléculaire : CONCEPTS, METHODES ET OUTILS",""," Formation professionnelle","L'Institut Pasteur propose des cours pour acquérir les notions théoriques de phylogénie et maitriser les outils et logiciels.","Le C3BI propose des cours pour acquérir les notions théoriques de phylogénie et maitriser les outils et logiciels.
+Les cours d’”Introduction à la phylogénie moléculaire” sont ouverts à tous (inscription obligatoire pour les cours et travaux pratiques dans la limite des places disponibles).
+Il est possible de ne s’inscrire que pour la partie théorique. Ces cours sont dispensés en langue française.
+Lundi 14 Novembre (9h30-12h30): Présentation des principales banques de données et BLAST
+Mardi 15 Novembre (9h30-11h00): Alignements Multiples
+Mercredi 16 Novembre (9h30-11h00): Introduction à la Phylogénie
+Jeudi 17 Novembre (9h30-11h00): Modèles d’évolution
+Vendredi 18 Novembre (9h30-11h00): Approches par Maximum de Parcimonie
+Lundi 21 Novembre (9h30-11h00): Méthodes de Distance
+Mardi 22 Novembre (9h30-11h00): Méthodes de Vraisemblance
+Mercredi 23 Novembre (13h30-15h00): Reconstruction Phylogénétique & Approches Bayésiennes
+Jeudi 24 Novembre (9h30-11h00): Inférence des Forces Sélectives
+Vendredi 25 Novembre (9h30-11h00): Choix des Méthodes et Interprétation
+programme complet 
+inscription par mail à formation@pasteur.fr (avec le sujet “Phylogénie Moléculaire”) + formulaire 
+","","","14-11-2016 to 25-11-2016","ouvert à tous (chercheur,ingénieur, étudiant) mais inscription obligatoire par mail à formation@pasteur.fr (avec le sujet “Phylogénie Moléculaire”) + formulaire 
+","https://c3bi.pasteur.fr/training-introduction-a-la-phylogenie-moleculaire-concep...","Institut Pasteur 25-28 rue du Dr Roux 75015 Paris","","","12/ an","","","","","","","1","","","5 jours / an","Phylogénie"
+"Linux et script pour la bioinformatique",""," Formation professionnelle","","Pour la plupart des tâches communes, le système Linux (libre et gratuit) peut avantageusement remplacer les systèmes d'exploitation propriétaires tels que Windows ou MacOS. Les énormes avantages de Linux sont sa gratuité, son évolution constante et l'inexistence des virus. Ce stage est une initiation à l'utilisation du système d'exploitation Linux et des lignes de commande pour les non informaticiens, ainsi qu'une initiation à l'écriture et l'emploi de scripts (petits programmes) pour faciliter l'analyse de données. Il s'agit pour des débutants ou quasi débutants Linux d'utiliser le système et d'acquérir l'autonomie nécessaire pour résoudre les besoins communs simples d'analyse par la combinaison des méthodes à travers des scripts.
+ 
+","Aucun des termes ci-dessus ne convient","","05-11-2019 to 07-11-2019","S'acquitter des frais d'inscription, notions de base en informatique : fichiers, répertoires, etc.
+","http://cnrsformation.cnrs.fr/stage-17285-Linux-et-script-pour-la-bioinformatique...","Montpellier","","","12/ an","","","","","","","1","Oui","","2 jours / an","Linux"
+"Cycle « Analyse de données de séquençage à haut-débit » - Module 3/5 : Analyses RNA-seq - partie 1 (bioinformatique)","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_1.png"," Formation professionnelle","Formation ""Analyses RNA-seq - partie 1""","bilille propose chaque année un cycle de formation d'introduction à l'analyse des données de séquençage à haut débit.
+Ce cycle est composé de 5 modules, à la carte : 
+- Module 1: Analyses ADN
+- Module 2: Analyses de variants
+- Module 3: Analyses RNA-seq, bioinformatique
+- Module 4: Analyses RNA-seq, biostatistique
+- Module 5: Métagénomique
+Les fiches descriptives sont accessibles sur le site de bilille. Chaque module comprend des présentations générales et des séances pratiques sur ordinateur, avec Galaxy.
+Les objectifs du module 3 sont :
+- Savoir réaliser une analyse transcriptomique par RNA-seq avec ou sans (de novo) génome de référence à l’aide du portail Galaxy
+- Avoir un regard critique sur la qualité des lectures obtenues par le séquenceur
+- Connaître et savoir paramétrer les outils nécessaires à l’analyse
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de données de séquençage NGS, Transcriptomique (RNA-seq), Analyse différentielle de l’expression des gènes, Analyses de transcrits et transcrits variants","","13-06-2019 to 14-06-2019","Etre familier avec la plate-forme web Galaxy (idéalement avoir suivi la formation bilille « Initiation à Galaxy »)
+Avoir suivi le module 1/5 « Analyses ADN » de ce cycle ou toute autre formation permettant de justifier de connaissances sur les données de séquençage haut débit et leur alignement.
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","","100%","2 jours / an","Analyse des données NGS, Analyse des données RNAseq"
+"Cycle « Analyse de données de séquençage à haut-débit » - Module 1/5 : Analyses ADN","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_3.png"," Formation professionnelle","Formation ""Analyses ADN""","bilille propose chaque année un cycle de formation d'introduction à l'analyse des données de séquençage à haut débit.
+Ce cycle est composé de 5 modules, à la carte : 
+- Module 1: Analyses ADN
+- Module 2: Analyses de variants
+- Module 3: Analyses RNA-seq, bioinformatique
+- Module 4: Analyses RNA-seq, biostatistique
+- Module 5: Métagénomique
+Les fiches descriptives sont accessibles sur le site de bilille. Chaque module comprend des présentations générales et des séances pratiques sur ordinateur, avec Galaxy.
+Les objectifs du module 1 sont :
+- Apprendre à manipuler des données de séquençage d’ADN
+- Réaliser des contrôles de qualité et du nettoyage des lectures
+- Présenter les méthodes et outils d'alignement
+- Réaliser des contrôles de qualité et des alignements sur une référence
+- Introduction à l’assemblage des lectures sans référence
+- Utiliser la plateforme Galaxy pour ces analyses
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de données de séquençage NGS, Assemblage de génomes et transcriptomes, Alignements de lectures sur des génomes","","07-03-2019 to 08-03-2019","Etre familier avec la plate-forme web Galaxy (idéalement avoir suivi la formation bilille « Initiation à Galaxy »)
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","","100%","2 jours / an","Analyse des données NGS"
+"Cycle « Analyse de données de séquençage à haut-débit » - Module 4/5 : Analyses RNA-seq - partie 2 (biostatistique)","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_4.png"," Formation professionnelle","Formation ""Analyses RNA-seq -partie 2""","bilille propose chaque année un cycle de formation d'introduction à l'analyse des données de séquençage à haut débit.
+Ce cycle est composé de 5 modules, à la carte : 
+- Module 1: Analyses ADN
+- Module 2: Analyses de variants
+- Module 3: Analyses RNA-seq, bioinformatique
+- Module 4: Analyses RNA-seq, biostatistique
+- Module 5: Métagénomique
+Les fiches descriptives sont accessibles sur le site de bilille. Chaque module comprend des présentations générales et des séances pratiques sur ordinateur, avec Galaxy.
+Les objectifs du module 4 sont :
+- Savoir réaliser une analyse différentielle de données RNA-seq à partir d’une table de comptage (quantifiant les lectures alignées) à l’aide du portail Galaxy
+- Avoir un regard critique sur les résultats d’une analyse différentielle
+- Comprendre différentes méthodes de normalisation et les contextes d’utilisation correspondants
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de données de séquençage NGS, Transcriptomique (RNA-seq)","","16-09-2019 to 17-09-2019","- Etre familier avec la plate-forme web Galaxy (idéalement avoir suivi la formation bilille « Initiation à Galaxy »)
+- Avoir suivi le module 2/5 «Analyses RNA-seq–partie 1 (bioinformatique)» de ce cycle ou toute autre formation permettant de justifier de connaissances sur les données de séquençage haut débit et la façon d’obtenir une table de comptage
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","","100%","2 jours / an","Analyse des données NGS"
+"Cycle « Analyse de données de séquençage à haut-débit » - Module 2/5 : Analyses de variants","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_5.png"," Formation professionnelle","Formation ""Analyses de variants""","bilille propose chaque année un cycle de formation d'introduction à l'analyse des données de séquençage à haut débit.
+Ce cycle est composé de 5 modules, à la carte : 
+- Module 1: Analyses ADN
+- Module 2: Analyses de variants
+- Module 3: Analyses RNA-seq, bioinformatique
+- Module 4: Analyses RNA-seq, biostatistique
+- Module 5: Métagénomique
+Les fiches descriptives sont accessibles sur le site de bilille. Chaque module comprend des présentations générales et des séances pratiques sur ordinateur, avec Galaxy.
+Les objectifs du module 2 sont :
+- Comprendre les grands principes de la détection de variants
+- Réaliser les différentes étapes du post-traitement des données d’alignement à la détection de variants
+- Adapter l’analyse en fonction du type de données NGS générées
+- Comprendre la structure des données de variants
+- Savoir annoter des variants
+- Etre capable d’interpréter une liste de variants grâce aux outils libres disponibles
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de données de séquençage NGS, Génomique (DNA-seq), Analyse de variants, Panels (amplicons, captures), Exomes","","01-04-2019 to 03-04-2019","- Etre familier avec la plate-forme web Galaxy (idéalement avoir suivi la formation bilille « Initiation à Galaxy »)
+- Avoir suivi le module 1/5 « Analyses ADN » de ce cycle ou toute autre formation permettant de justifier de connaissances sur les données de séquençage haut débit et leur alignement
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","3.00","","","","1","","100%","3 jours / an","Analyse des données NGS"
+"Cycle « Analyse de données de séquençage à haut-débit » - Module 5/5 : Métagénomique","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_6.png"," Formation professionnelle","Formation ""Métagénomique""","bilille propose chaque année un cycle de formation d'introduction à l'analyse des données de séquençage à haut débit.
+Ce cycle est composé de 5 modules, à la carte : 
+- Module 1: Analyses ADN
+- Module 2: Analyses de variants
+- Module 3: Analyses RNA-seq, bioinformatique
+- Module 4: Analyses RNA-seq, biostatistique
+- Module 5: Métagénomique
+Les fiches descriptives sont accessibles sur le site de bilille. Chaque module comprend des présentations générales et des séances pratiques sur ordinateur, avec Galaxy.
+Les objectifs du module 5 sont :
+- Connaître les différentes méthodes de séquençage à haut débit pour la métagénomique, avec leurs avantages et leurs limites : métagénomique ciblée, métagénomique génomes entiers, métatranscriptomique
+- Comprendre les différentes étapes analytiques du traitement bioinformatique des données et savoir les mettre en œuvre
+- Savoir conduire une analyse statistique pour l’estimation de la richesse de la biodiversité
+- Aller jusqu’aux conclusions biologiques
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de données de séquençage NGS, Assemblage de génomes et transcriptomes, Alignements de lectures sur des génomes, Métagénomique, métatranscriptomique","","20-11-2019 to 22-11-2019","- Etre familier avec la plate-forme web Galaxy (idéalement avoir suivi la formation bilille « Initiation à Galaxy »)
+- Avoir suivi le module 1/5 « Analyses ADN » de ce cycle ou toute autre formation permettant de justifier de connaissances sur les données de séquençage haut débit et leur alignement. Etre familier avec le vocabulaire et les étapes de base de l’analyse de données de séquençage : nettoyage, assemblage, mapping
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","3.00","","","","1","","100%","3 jours / an","Analyse des données NGS, Metagénomique"
+"Cycle « Initiation à la bioinformatique » - Module 1/4 : Banques de données et Blast","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120.png"," Formation professionnelle","Formation ""Banques de données et BLAST""","bilille propose un cycle de découverte de la bioinformatique à destination des chercheurs, enseignants-chercheurs, ingénieurs, techniciens et doctorants en biologie. Aucun pré-requis en informatique n'est attendu.
+Le cycle est constitué de quatre modules de deux jours:
+- Banques de données et BLAST
+- Alignement de séquences
+- Prédiction de gènes et annotation de protéines
+- Initiation à la reconstruction phylogénétique en biologie moléculaire
+Ces modules peuvent être suivis indépendamment, mais ont une cohérence. Suivre chaque module peut aider à une meilleure compréhension des modules suivants.
+Les fiches descriptives des différents modules sont accessibles sur le site web de bilille.
+Les objectifs du module 1 sont :
+- Découvrir différentes banques de données de séquences généralistes
+- Savoir interroger les banques de données et réaliser des requêtes pertinentes
+- Comprendre la structure des données
+- Savoir utiliser de manière optimale le logiciel Blast en fonction de l'application visée (ex : recherche d’homologie, prédiction de gènes…)
+- Etre capable d'analyser un résultat avec un regard critique
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de séquences, Alignement (multiple) de séquences, Bases de données et systèmes d’informations","","","Savoir utiliser un ordinateur (Windows...) : naviguer sur internet (Internet Explorer ou Firefox), utiliser un traitement de texte (Word ou OpenOffice).
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","","100%","2 jours / an","Autre"
+"Cycle « Initiation à la bioinformatique » - Module 2/4 : Alignement de séquences","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_2.png"," Formation professionnelle","Formation ""Alignement de séquences""","bilille propose un cycle de découverte de la bioinformatique à destination des chercheurs, enseignants-chercheurs, ingénieurs, techniciens et doctorants en biologie. Aucun pré-requis en informatique n'est attendu.
+Le cycle est constitué de quatre modules de deux jours:
+- Banques de données et BLAST
+- Alignement de séquences
+- Prédiction de gènes et annotation de protéines
+- Initiation à la reconstruction phylogénétique en biologie moléculaire
+Ces modules peuvent être suivis indépendamment, mais ont une cohérence. Suivre chaque module peut aider à une meilleure compréhension des modules suivants.
+Les fiches descriptives des différents modules sont accessibles sur le site web de bilille.
+Les objectifs du module 2 sont :
+- Découvrir les différents types d'alignement pour les séquences protéiques et nucléiques
+- Savoir choisir le logiciel et les paramètres adaptés à une problématique (alignement local, global, multiple...)
+- Comprendre les méthodes algorithmiques pour l'alignement de séquences
+- Comprendre les paramètres des logiciels
+- Etre capable d'analyser un résultat d'alignement avec un regard critique
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de séquences, Algorithmique des séquences, Alignement (multiple) de séquences, Recherche de motifs","","","- Savoir utiliser un ordinateur (Windows…) : naviguer sur internet (Internet Explorer ou Firefox), utiliser un traitement de texte (Word ou OpenOffice).
+- Etre familier avec les banques de données, Blast et formats de séquences (idéalement avoir suivi le module 1/4 « Banques de données et Blast » du cycle d'initiation à la bioinformatique).
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","","100%","2 jours / an","Autre"
+"Cycle « Initiation à la bioinformatique » - Module 3/4 : Prédiction de gènes et annotation de protéines","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_7.png"," Formation professionnelle","Formation ""Prédiction de gènes et annotation de protéines""","bilille propose un cycle de découverte de la bioinformatique à destination des chercheurs, enseignants-chercheurs, ingénieurs, techniciens et doctorants en biologie. Aucun pré-requis en informatique n'est attendu.
+Le cycle est constitué de quatre modules de deux jours:
+- Banques de données et BLAST
+- Alignement de séquences
+- Prédiction de gènes et annotation de protéines
+- Initiation à la reconstruction phylogénétique en biologie moléculaire
+Ces modules peuvent être suivis indépendamment, mais ont une cohérence. Suivre chaque module peut aider à une meilleure compréhension des modules suivants.
+Les fiches descriptives des différents modules sont accessibles sur le site web de bilille.
+Les objectifs du module 3 sont :
+- découvrir les logiciels liés à la prédiction de gènes et à l'annotation de protéines
+- acquérir la méthodologie pour prédire les gènes présents sur un génome qu'il soit bactérien ou eucaryote
+- acquérir la méthodologie pour analyser la séquence protéique prédite et en déduire la fonction possible de la protéine, avoir une idée de sa localisation cellulaire et de sa structure
+- être capable d'analyser les résultats obtenus par les logiciels avec un regard critique
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de séquences, Annotation de séquences, Recherche de motifs, Protéomique, Inférence de protéine et validation","","","- Savoir utiliser un ordinateur (Windows...) : naviguer sur internet (Internet Explorer ou Firefox), utiliser un traitement de texte (Word ou OpenOffice).
+- Être familié avec les banques de données, Blast, formats de séquences et alignements de séquences (idéalement avoir suivi le module 1/4 « Banques de données et Blast » et le module 2/4 « Alignements de séquences » du cycle d'initiation à la bioinformatique).
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","Oui","100%","2 jours / an","Autre"
+"Python for biology",""," Formation professionnelle","","","Analyse de séquences, Algorithmique des séquences","","","Formation payante dans le catalogue CNRS.
+","https://cnrsformation.cnrs.fr/stage-17266-Python-pour-la-biologie.html?axe=65","CBiB","","","20/ an","","","8.00","Payante","","CNRS","2","Oui","","6 jours / an","Langage Python"
+"Cycle « Initiation à la bioinformatique » - Module 4/4 : Initiation à la reconstruction phylogénétique en biologie moléculaire","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_8.png"," Formation professionnelle","Formation ""Initiation à la reconstruction phylogénétique en biologie moléculaire""","bilille propose un cycle de découverte de la bioinformatique à destination des chercheurs, enseignants-chercheurs, ingénieurs, techniciens et doctorants en biologie. Aucun pré-requis en informatique n'est attendu.
+Le cycle est constitué de quatre modules de deux jours:
+- Banques de données et BLAST
+- Alignement de séquences
+- Prédiction de gènes et annotation de protéines
+- Initiation à la reconstruction phylogénétique en biologie moléculaire
+Ces modules peuvent être suivis indépendamment, mais ont une cohérence. Suivre chaque module peut aider à une meilleure compréhension des modules suivants.
+Les fiches descriptives des différents modules sont accessibles sur le site web de bilille.
+Les objectifs du module 4 sont :
+- Comprendre les grands principes de l’évolution moléculaire et de la reconstruction phylogénétique
+- Savoir construire des alignements informatifs pour une analyse phylogénétique
+- Comprendre les modèles phylogénétiques probabilistes, les méthodes d'inférence et savoir les appliquer
+- Savoir reconstruire des arbres phylogénétiques en Maximum de vraisemblance (ML) et par Inférence Bayésienne (BI)
+- Etre capable d’analyser avec un regard critique les résultats obtenus
+Contacts: Guillaume Brysbaert, Ségolène Caboche, Sylvain Legrand (mails)
+","Analyse de séquences, Alignement (multiple) de séquences, Evolution et phylogénie, Evolution moléculaire, Datation des spéciations, Arbre de la vie","","","- Il est conseillé mais non nécessaire d’avoir suivi le module 1/4 « Banques de données et Blast » et le module 2/4 « Alignements de séquences » du cycle d'initiation à la bioinformatique.
+","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","2.00","","","","1","Oui","100%","2 jours / an","Phylogénie"
+"Initiation à Galaxy","https://www.france-bioinformatique.fr/sites/default/files/logo_bilille_complet_120_120_9.png"," Formation professionnelle","Formation ""Initiation à Galaxy""","bilille organise une formation d'initiation à Galaxy, destinée aux biologistes ou médecins désirant découvrir le traitement bioinformatique de données via une interface conviviale. Galaxy est très répandu pour l’analyse de données omiques, telles que données de séquençage ou données de puces à ADN. Cette initiation à Galaxy est une formation interne à bilille.
+ 
+","Interfaces, portails web, Développement de workflows","","","","https://wikis.univ-lille.fr/bilille/formation","Université de Lille","","","12/ an","","","","","","","5","Oui","100%","1 jours / an","Framework Galaxy"
+"Analyse de données metabarcoding","https://www.france-bioinformatique.fr/sites/default/files/Pre%CC%81sentation1.jpg"," Formation professionnelle","introduire les concepts clés liés aux analyses de metabarcoding et les illustrer au moyen de cas concrets d’analyse","Nous avons le plaisir de vous annoncer la tenue d'une formation sur l'analyse de données metabarcoding en mai 2018.
+Celle-ci vous proposera : 
+- une formation complète à l'outil FROGS sous Galaxy
+- l'intervention de plusieurs experts du domaine avec exposés thématiques et tutoriaux 
+- le tout sur 5j, du 14 au 18 mai prochain
+Cette semaine thématique est co-organisée entre la cellule bioinformatique de l’ifremer à Brest, la plateforme MIGALE de Jouy et  la plate-forme ABiMS de Roscoff qui accueillera la formation.
+Retrouver les détails du programme ici : 
+http://tiny.ifremer.fr/formation-metabarcoding-2018
+Si cette formation vous intéresse, merci de bien vouloir compléter le formulaire d'inscription (disponible dans le  lien ci-dessus).
+----------------------------------------
+We are pleased to announce a training on metabarcoding data analysis in May 2018.
+This one will propose to you:
+- complete training in the FROGS tool under Galaxy
+- the intervention of several experts in the field with thematic presentations and tutorials
+- all on  5days , from May 14 to 18
+This theme week is co-organized with the IFREMER bioinformatic team (Brest) , the Migale bioinformatic platform(Jouy en Josas)  and  the ABiMS (Roscoff) bioinformatic platform and would take place in Roscoff..
+Find the details of the program here:
+http://tiny.ifremer.fr/formation-metabarcoding-2018
+If you are interested in this training, please complete the registration form (see link above).
+Trainning will be in French with slides in English.
+","Analyse de données de séquençage NGS, Ecologie, Biodiversité, Ecologie microbienne","","14-05-2018 to 18-05-2018","Dates et lieu
+Du 14 au 18 mai 2018
+Station Biologique de Roscoff
+Public visé
+Doctorants, ITA, chercheurs, enseignants et ingénieurs impliqués dans des projets concrets d’analyse de données de metabarcoding.
+Pré-requis
+Avoir une connaissance de l'environnement Galaxy et un projet d'analyse de données de metabarcoding.
+Nombre de participants attendus
+18 participants.
+Etant donné le nombre limité de places pour cette formation, une sélection des participants sera réalisée dans le cas où nous aurions reçu plus de 18 candidatures.
+Frais d'inscription
+600€ HT (tarif unique)
+Ces frais d'inscription comprennent les déjeuners et diners qui seront pris au restaurant Gulf Stream à Roscoff.
+","http://tiny.ifremer.fr/formation-metabarcoding-2018","ROSCOFF","","","18/ an","","","","","","","1","Non","","4 jours / an","Analyse des données NGS, Metagénomique"
+"Cluster","","","","","","01-03-2018","07-03-2017","","","Salle de formation Inra","","","","9","0","1.00","Payante","","plateforme","","","","",""
+"Unix","","","","","","01-03-2018","06-03-2017","","","Salle de formation Inra","","","","7","0","1.00","Payante","","plateforme","","","","",""
+"Metagenomic amplicon analysis/Frogs","","","","","","01-03-2018","20-02-2017 to 23-02-2017","","","Salle de formation Inra","","","","10","0","4.00","Payante","","plateforme","","","","",""
+"Read alignment and small size variants calling","","","","","","01-03-2018","08-03-2017 to 09-03-2017","","","Salle de formation Inra","","","","8","0","2.00","Payante","","plateforme","","","","",""
+"Phylogénie","","","","","","01-03-2018","24-02-2017","","","LISBP","","","","10","0","1.00","Payante","","plateforme","","","","",""
+"RNAseq alignment and transcript assemblies with statistics","","","","","","01-03-2018","16-05-2017 to 19-05-2017","","","Salle de formation Inra","","","","6","6","5.00","Gratuite","","plateforme","","","","",""
+"Metagenomic amplicon analysis with stats","","","","","","01-03-2018","03-07-2017 to 06-07-2017","","","Salle de formation Inra","","","","10","0","4.00","Payante","","plateforme","","","","",""
+"Metagenomic amplicon analysis with stats","","","","","","01-03-2018","06-11-2017 to 09-11-2017","","","Salle de formation Inra","","","","7","1","4.00","Payante","","plateforme","","","","",""
+"Analyse RNA-seq sous Galaxy","","","","","","06-03-2018","06-03-2018","","","Rennes","","","","6","0","1.00","Gratuite","","plate-forme GenOuest ","","","90%","",""
+"Introduction à R","","","","","","07-03-2018","18-10-2017 to 20-10-2017","","","Villeurbanne","","","","3","3","3.00","Payante","","Biosciences & Co","","","85%","",""
+"Analyse de données NGS sous Galaxy","","","","","","08-03-2018","15-11-2017 to 17-11-2017","","","Villeurbanne","","","","8","4","2.50","Payante","","Biosciences & Co","","","64%","",""
+"Introduction à Unix/Linux pour les biologistes","","","","","","08-03-2018","03-09-2017 to 15-10-2017","","","Lyon","","","","12","0","3.00","Gratuite","","Formation permanente CNRS","","","90%","",""
+"Analyse RNA-seq de novo","","","","","","08-03-2018","22-11-2017 to 24-11-2017","","","Villeurbanne","","","","13","0","3.00","Gratuite","","Formation permanente UCBL","","","78%","",""
+"Formation CeSGO","","","","","","08-03-2018","03-07-2017","","","Rennes","","","","4","","0.50","Gratuite","","plate-forme GenOuest","","","100%","",""
+"Formation CeSGO","","","","","","08-03-2018","21-09-2017","","","Rennes","","","","6","0","0.50","Gratuite","","plate-forme GenOuest","","","100%","",""
+"Initiation au cloud computing","","","","","","08-03-2018","02-11-2017","","","Rennes","","","","6","0","0.50","Gratuite","","plate-forme GenOuest","","","100%","",""
+"Annotation and Analysis of Procaryotic genomes using the MicroScope platform","","","","","","08-03-2018","13-03-2017 to 17-03-2017","","","Faculté d'Evry Val d'Essonne","","","","12","0","4.50","Payante","","Université d'Evry","","","100%","",""
+"Initiation à GO-Docker","","","","","","08-03-2018","18-04-2017","","","Rennes","","","","15","0","1.00","Gratuite","","plate-forme GenOuest","","","100%","",""
+"Formation BioMAJ ","","","","","","08-03-2018","18-12-2017 to 19-12-2017","","","Vitry","","","","0","2","2.00","Payante","","plate-forme GenOuest","","","100%","",""
+"Infrastructure de calcul et analyses en bio-informatique","","","","","","08-03-2018","23-10-2017 to 27-10-2017","","","Agrocampus Rennes","","","","33","0","5.00","Gratuite","","Agrocampus","","","100%","",""
+"Développement d'outils galaxy pour l'imagerie","","","","","","08-03-2018","16-05-2017 to 17-05-2017","","","Nantes","","","","15","0","2.00","Gratuite","","INRA","","","100%","",""
+"Galaxy - Initiation","","","","","","08-03-2018","15-03-2018","","","ROSCOFF","","","","9","","1.00","Gratuite","","ABiMS","","","","",""
+"RNASeq with Galaxy","","","","","","08-03-2018","23-05-2017 to 24-05-2017","","","Roscoff","","","","11","","2.00","Payante","","formation permanente  Sorbonne Université","","","100%","",""
+"R - Initiation","","","","","","08-03-2018","04-04-2017","","","ROSCOFF","","","","15","","1.00","Gratuite","","","","","100%","",""
+"R - Advanced","","","","","","08-03-2018","05-04-2017","","","Roscoff","","","","16","","1.00","Gratuite","","","","","100%","",""
+"Linux - Initiation","","","","","","08-03-2018","16-05-2017","","","Roscoff","","","","13","","1.00","Gratuite","","","","","100%","",""
+"Linux advanced","","","","","","08-03-2018","17-05-2017","","","Roscoff","","","","14","","1.00","Gratuite","","","","","100%","",""
+"Cluster - Usage ","","","","","","08-03-2018","18-05-2017","","","Roscoff","","","","13","","1.00","Gratuite","","","","","100%","",""
+"Linux Initiation","","","","","","08-03-2018","28-11-2017","","","Roscoff","","","","12","","1.00","Gratuite","","","","","100%","",""
+"Linux advanced","","","","","","08-03-2018","29-11-2017","","","Roscoff","","","","7","","1.00","Gratuite","","","","","100%","",""
+"Cluster usage","","","","","","08-03-2018","04-12-2017","","","Roscoff","","","","8","","1.00","Gratuite","","","","","100%","",""
+"Ecole AVIESAN ITMO EBA 2017","","","","","","08-03-2018","13-11-2017 to 17-11-2017","","","Roscoff","","","","40","","5.00","Payante","","AVISAN","","","100%","",""
+"European Galaxy Developer Workshop","","","","","","08-03-2018","16-01-2017 to 19-01-2017","","","Strasbourg","","","","","","4.00","Gratuite","","IFB","","","","",""
+"Workflow4Experimenters  ","","","","","","08-03-2018","29-05-2017 to 02-06-2017","","","Paris Pasteur","","","","25","","5.00","Gratuite","","","","","","",""
+"Annotation and Analysis of Procaryotic genomes using the MicroScope platform","","","","","","08-03-2018","25-09-2017 to 29-09-2017","","","Université d'Evry Val d'Essonne","","","","8","0","4.50","Payante","","Université d'Evry","","","100%","",""
+"MicroScope: formation avancée","","","","","","08-03-2018","04-12-2017 to 05-12-2017","","","Université d'Evry Val d'Essonne","","","","7","0","2.00","Payante","","Université d'Evry","","","100%","",""
+"Initiation à l’Analyse des données RNAseq sous l’environnement Galaxy","","","","","","12-03-2018","08-11-2017 to 10-11-2017","","","Nantes","","","","10","0","2.50","Gratuite","","formation permanente INSERM","","","100%","",""
+"6ème école de bioinformatique AVIESAN-IFB","","","","","","14-03-2018","12-11-2017","","","Roscoff","","","","","","5.00","Gratuite","","","","","","",""
+"NGS et Cancer (Canceropôle) : Analyse DNASeq","","","","","","14-03-2018","14-03-2018","","","","","","","","","","Gratuite","","","","","","",""
+"NGS et Cancer (Canceropôle) : Analyse A-RNASeq","","","","","","14-03-2018","14-03-2018","","","","","","","","","","Gratuite","","","","","","",""
+"NGS et Cancer (Canceropôle) : Analyse épigénomique","","","","","","14-03-2018","14-03-2018","","","","","","","","","","Gratuite","","","","","","",""
+"IFSBM (UFR medecine paris sud) : Big Data","","","","","","14-03-2018","14-03-2018","","","","","","","","","5.00","Gratuite","","","","","","",""
+"Formation librairie GATB","","","","","","15-03-2018","16-06-2017","","","Montpellier","","","","18","2","1.00","Gratuite","","IBC - ATGC","","","100%","",""
+"Bioinformatique pour le traitement de données de séquençage (NGS) ","","","","","","15-03-2018","27-03-2017 to 31-03-2017","","","Montpellier","","","","8","4","5.00","Payante","","CNRS Formation Entreprises","","","100%","",""
+"Linux et script pour la bioinformatique ","","","","","","15-03-2018","07-11-2017 to 08-11-2017","","","Montpellier","","","","9","2","2.00","Payante","","CNRS Formation Entreprises","","","100%","",""
+"How to use South Green HPC (IRD cluster)?","","","","","","15-03-2018","29-05-2017","","","IRD, Montpellier","","","","7","","0.50","Gratuite","","IRD","","","80%","",""
+"How to use South Green HPC (IRD cluster)?","","","","","","15-03-2018","08-02-2017","","","Centre IRD Montpellier","","","","7","","0.50","Gratuite","","IRD","","","80%","",""
+"How to use South Green HPC (IRD cluster)?","","","","","","15-03-2018","13-11-2017","","","Centre IRD Montpellier","","","","8","","0.50","Gratuite","","IRD","","","80%","",""
+"Guide de survie à Perl pour la bioinformatique","","","","This course provides an introduction to programming using Perl and at the end of the training, participants could write simple Perl programs to handle biological data and to undertstand more complex Perl programs written by others.
+			 
+ 
+ 
+ 
+","","15-03-2018","02-10-2017 to 06-10-2017","","","ISRA, Dakar (Sénégal)","","","","20","","5.00","Gratuite","","Formation permanente IRD","","","80%","",""
+"Administration système d'un cluster de calcul bioinformatique","","","","","","15-03-2018","02-10-2017 to 04-10-2017","","","ISRA, Dakar (Sénégal)","","","","4","","3.00","Gratuite","","Formation permanente IRD","","","80%","",""
+"How to use a  bioinformatic HPC? ","","","","","","15-03-2018","06-10-2017","","","ISRA, Dakar (Sénégal)","","","","15","","1.00","Gratuite","","Formation permanente IRD","","","80%","",""
+"Phylogénie moléculaire","","","","","","16-03-2018","09-10-2017 to 13-10-2017","","","Montpellier","","","","6","3","5.00","Payante","","CNRS Formation Entreprises","","","100%","",""
+"Rendre ses outils disponibles sur un cloud OpenStack","","","","","","16-03-2018","20-06-2017","","","IBMP - Strasbourg","","","","10","","0.50","Gratuite","","Plateforme Bistro (IFB) + IBMP","","","100%","",""
+"Utilisation des outils d'interprétation des données de protéomique MSDA et Proline","","","","","","16-03-2018","07-11-2017","","","IPHC - Strasbourg","","","","3","0","1.00","Gratuite","","Plateforme de Protéomique Strasbourg - Grand Est","","","100%","",""
+"Initiation à R","","","","","","18-03-2018","05-03-2017 to 06-03-2017","","","Jouy en Josas","","","","10","0","2.00","Payante","","Plateforme Migale","","","100%","",""
+"Initiation à Python","","","","","","18-03-2018","08-03-2017 to 09-03-2017","","","Jouy en Josas","","","","9","1","2.00","Payante","","Plateforme Migale","","","78%","",""
+"Python avance","","","","","","18-03-2018","01-03-2017","","","Jouy en Josas","","","","5","1","1.00","Payante","","Plateforme Migale","","","67%","",""
+"Initiation à Galaxy","","","","","","18-03-2018","13-03-2017","","","Jouy en Josas","","","","11","0","1.00","Payante","","Plateforme Migale","","","91%","",""
+"NGS sous Galaxy","","","","","","18-03-2018","14-03-2017","","","Jouy en Josas","","","","8","1","1.00","Payante","","Plateforme Migale","","","95%","",""
+"Analyse bioinformatique de données RNA-Seq sous Galaxy","","","","","","18-03-2018","15-03-2017","","","Jouy en Josas","","","","6","1","1.00","Gratuite","","Plateforme Migale","","","79%","",""
+"Analyse statistique de données RNA-Seq - Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy)","","","","","","18-03-2018","16-03-2017 to 17-03-2017","","","Jouy en Josas","","","","11","0","2.00","Payante","","Plateforme Migale","","","91%","",""
+": Analyse in silico de structures 3D de protéines. Modélisation par homologie de protéines homologues, sauvage et mutées, arrimage de ligands.","","","","","","18-03-2018","23-03-2017 to 24-03-2017","","","Jouy en Josas","","","","7","2","2.00","Payante","","Plateforme Migale","","","92%","",""
+"Analyse de données métagénomiques 16S","","","","","","18-03-2018","27-03-2017 to 30-03-2017","","","Jouy en Josas","","","","11","0","4.00","Payante","","Plateforme Migale","","","87%","",""
+" Traitement bioinformatique des données RNA-Seq","","","","","","18-03-2018","03-05-2017 to 04-05-2017","","","Jouy en Josas","","","","7","1","2.00","Payante","","Plateforme Migale","","","88%","",""
+"Initiation à Perl","","","","","","18-03-2018","09-05-2017 to 10-05-2017","","","Jouy en Josas","","","","6","0","2.00","Payante","","Plateforme Migale","","","100%","",""
+"Perl avancé","","","","","","18-03-2018","11-05-2017","","","Jouy en Josas","","","","5","0","1.00","Payante","","Plateforme Migale","","","75%","",""
+"Annotation formelle pour la fouille de texte","","","","","","18-03-2018","02-05-2017","","","Jouy en Josas","","","","8","0","1.00","Payante","","Plateforme Migale","","","75%","",""
+"Analyse de données métagénomiques 16S","","","","","","18-03-2018","20-06-2017 to 23-06-2017","","","Jouy en Josas","","","","9","2","4.00","Payante","","Plateforme Migale","","","78%","",""
+"Data collection and registration of Patient organisations for Orphanet information scientists","","","","","","19-03-2018","19-09-2017","","","Paris (à distance","","","","","","0.50","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Data collection and registration of Expert Centres for Orphanet information scientists","","","","","","19-03-2018","15-09-2017","","","Paris (à distance)","","","","","","0.50","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Data collection and registration of Research Projects for Orphanet information scientists","","","","","","19-03-2018","22-09-2017","","","Paris (à distance)","","","","","","0.50","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Data collection and registration of Clinical Trials for Orphanet information scientists","","","","","","19-03-2018","25-09-2017","","","Paris (à distance)","","","","","","0.50","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Data collection and registration of Diagnostic tests for Orphanet information scientists","","","","","","19-03-2018","29-09-2017","","","Paris (à distance)","","","","","","0.50","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Training for Orphanet Junior Information Scientists","","","","","","19-03-2018","11-10-2017 to 13-10-2017","","","Paris, France","","","","","","2.00","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Training for Orphanet Senior Information Scientists","","","","","","19-03-2018","11-10-2017 to 13-10-2017","","","Paris, France","","","","","","2.00","Gratuite","","Orphanet Coordinating Team","","","","",""
+"Workshop Web Viewers","","","","","","19-03-2018","28-06-2017","","","Laboratoire MTi, Paris","","","","10","0","1.00","Gratuite","","plateforme RPBS","","","","",""
+"Assemblage de génome","","","","","","19-03-2018","06-11-2017","","","Université Montpellier 1","","","","30","","1.00","Gratuite","","Université Montpellier 1","","","","",""
+"Détection  de  variants à partir de données NGS","","","","","","19-03-2018","19-03-2018","","","Université Montpellier 1","","","","30","","1.00","Gratuite","","","","","","",""
+"Training on GnpIS for BreedWheat data","","","","","","19-03-2018","30-05-2017","","","Webinar","","","","11","4","0.50","Gratuite","","Plateforme URGI","","","100%","",""
+"Training on annotation of transposable elements","","","","","","19-03-2018","06-06-2017 to 09-06-2017","","","INRA-URGI-Versailles","","","","14","0","4.00","Gratuite","","Plateforme URGI","","","100%","",""
+"Training: Synteny data visualization into GnpIS","","","","","","19-03-2018","10-10-2017","","","Webinar","","","","7","0","0.50","Gratuite","","Plateforme URGI","","","100%","",""
+"Standardizing phenotyping experimental data","","","","","","19-03-2018","18-10-2017","","","Webinar","","","","8","0","0.50","Gratuite","","Plateforme URGI","","","100%","",""
+"Annotation of transposable elements (in the frame of Genome assembly and annotation course","","","","","","19-03-2018","22-06-2017","","","Ljubjana (Slovenie)","","","","30","0","0.50","Gratuite","","Elixir-Excelerate WP10.3","","","88%","",""
+"Annotation of transposable elements (in the frame of Genome assembly and annotation course","","","","","","19-03-2018","26-10-2017","","","Lisbonne (Portugal)","","","","24","0","0.50","Gratuite","","Elixir-Excelerate WP10.3","","","92%","",""
+"Module 2 : RNAseq bioinformatic from sequence to expression level smallRNA & isoform (eukaryote)","","","","","","19-03-2018","30-06-2017","","","Gif sur Yvette","","","","140","0","1.00","Gratuite","","Labex SPS","","","100%","",""
+"Aterlier de Bioinformatique (participation à)","","","","","","19-03-2018","25-11-2018 to 29-11-2018","","","Roscoff","","","","40","1","5.00","Payante","","AVIESAN - IFB","","","","",""
+"Rrr - Rapide IntRoduction à R (R pour la génomique)","","","","","","19-03-2018","06-03-2017 to 17-03-2017","","","ICM","","","","17","0","1.50","Gratuite","","PF","","","83%","",""
+"Rrr - Rapide IntRoduction à R (R pour la génomique)","","","","","","19-03-2018","31-05-2017 to 02-06-2017","","","ICM","","","","6","0","1.50","Gratuite","","PF","","","90%","",""
+"Analyse avancée de séquences","","","","","","20-03-2018","23-10-2017 to 25-10-2017","","","CBiB","","","","9","5","3.00","Payante","","formation permanente CNRS","","","70%","",""
+"Fouille de données et analyse de données NGS avec R","","","","","","20-03-2018","20-11-2017 to 23-11-2017","","","CBiB","","","","5","3","4.00","Payante","","formation permanente CNRS","","","50%","",""
+"Analyse avancée de séquences sur mesure","","","","","","20-03-2018","26-06-2017 to 27-06-2017","","","BIOMNIS, Lyon","","","","","4","2.00","Payante","","","","","75%","",""
+"Introduction à la Phylogénie Moléculaire : Concepts, méthodes et interprétation","",""," Le C3BI propose des cours pour acquérir les notions théoriques de phylogénie et maitriser les outils et logiciels.","","","20-03-2018","18-12-2017 to 22-12-2017","","","Institut Pasteur","","","","20","","5.00","Gratuite","","","","","87%","",""
+"Scientific Programming in Python","","","This course is intended for PhD students, engineers and research scientists willing to acquire knowledge in scientific programming","","","20-03-2018","20-03-2017 to 31-03-2017","","","Institut Pasteur","","","","10","0","10.00","Gratuite","","Institut Pasteur","","","95%","",""
+"Formation au logiciel R","https://www.france-bioinformatique.fr/sites/default/files/PRABI.png","","Formation à  l'utilisation de R appliqué à la bioinformatique","","","09-07-2018","09-10-2018 to 11-10-2018","","https://www.biosciencesco.fr/formations/bio-informatique/formation-au-logiciel-r...","Lyon","","","","","","3.00","Payante","","Prabi Lyon-Sud","","","","",""
+"Analyse des données RNA-Seq sous l'environnement Galaxy","https://www.france-bioinformatique.fr/sites/default/files/PRABI_0.png","","Analyse des données RNA-Seq sous l'environnement Galaxy","","","09-07-2018","14-11-2018 to 16-11-2018","","https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna...","Lyon","","","","","","2.50","Payante","","Prabi Lyon-Sud","","","","",""
+"RNASeq alignment and transcripts assemblies","","","RNAseq analysis","The Toulouse Genotoul bioinformatics platform, in collaboration with the MIAT unit organize a training that focuses on (protein coding) gene expression analysis using reads produced by ‘RNA-Seq’. This training session is designed to introduce sequences from ‘NGS’ (Next Generation Sequencing), particularly Illumina platforms (HiSeq). You will discover the standards file formats, learn about the usual biases of this type of data and run different kinds of analyses, such as spliced alignment on a reference genome, novel gene and transcript discovery, expression quantification of coding genes and transcripts. The biostatistics part (differential expression analysis) is NOT included.
+","","14-11-2018","17-10-2019 to 18-10-2019","S’inscrire (via le site web) et payer 165 euros la journée pour un académique et 550 euros la journée pour un privé.
+","http://bioinfo.genotoul.fr/index.php/events/rnaseq-alignment-and-transcripts-ass...","Auzeville-Tolosane","The Toulouse Genotoul bioinformatics platform, in collaboration with the MIAT unit","","10/ an","","","1.50","Gratuite","","","1","","","1 jours / an","Analyse des données RNAseq"
+"Manual curation of Transposable element annotation","https://www.france-bioinformatique.fr/sites/default/files/Capture%20d%E2%80%99e%CC%81cran%202018-12-05%20a%CC%80%2009.40.29_0.png","","URGI organizes a BYOD-­style (Bring Your Own Data) training course on manual curation of transposable elements reference sequences","URGI organizes a BYOD-­style (Bring Your Own Data) training course on manual curation of transposable elements reference sequences obtained with REPET pipelines.
+","","05-12-2018","04-02-2019 to 06-02-2019","","https://urgi.versailles.inra.fr/Platform/Training/Manual-curation-of-Transposabl...","URGI ­ INRA,  Bat 18 ­ Route de Saint­Cyr ­ RD10, 78026 Versailles Cedex","","","","","","3.00","Payante","","URGI platform","","","","",""
+"RNaseq with Galaxy ","","","","","","17-12-2018","20-05-2019 to 21-05-2019","","","Roscoff","","","","","18","2.00","Payante","","formation permanente sorbonne université","","","","",""
+"Linux For Dummies",""," Formation professionnelle"," This course  offers a general introduction to work with Linux using the HPC South green clusters."," 
+This course offers an introduction to work with Linux. We will describe the Linux environment, the first linux commands so participants can start to utilize command-line tools and feel comfortable using bioinformatics softwares through a linux terminal.
+Prerequisites
+No experience required
+
+Program
+Connecting to a distant HPC
+Navigating through a Unix file system
+Creating and deleting files
+Manipuling and filtering file text
+Basics searching for text within a file
+
+
+Learning objectives
+After this course, participants should be able to:
+Connect to a Unix / Linux system
+Manipulate files and directories within the Linux system
+Work with text files
+Run programs from the command-line
+
+
+Instructors
+Christine Tranchant - christine.tranchant@ird.fr
+Ndomassi Tando - ndomassi.tando@ird.fr
+Bruno Granouillac - bruno.granouillac@ird.fr
+François Sabot - francois.sabot@ird.fr
+Gautier Sarah  - gautier.sarah@cirad.fr
+
+","","17-12-2018","12-03-2018","","https://southgreenplatform.github.io/trainings//linux/","Centre IRD, Montpellier","South Green Platform","","","20","","1.00","Gratuite","","South Green platform","","Oui","85%","",""
+" Linux For Jedi",""," Formation professionnelle","This course offers to develop and enhance advanced Linux shell command line and scripting skills for the analysis of NGS data.","This course offers to develop and enhance advanced Linux shell command line and scripting skills for the processing and analysis of NGS data. We will work on a HPC server and use linux powerful commands to allow to analyze big amount of biological data.
+ 
+Prerequisites
+Basic knowledge of Linux (Linux for dummies required)
+
+Program
+Connecting to a distant HPC
+Manipuling text files
+Complex searching for text in a file
+Combining several commands
+Writing simple shell scripts
+
+
+Learning objectives
+After this course, participants should be able to:
+Manipulate and search within text files
+Chain and combine commands
+Perform the same actions on many files
+Write a simple shell script
+
+
+ 
+
+
+Instructors
+Christine Tranchant (CT) - christine.tranchant@ird.fr
+Ndomassi Tando (NT) - ndomassi.tando@ird.fr
+Bruno Granouillac (BG) - bruno.granouillac@ird.fr​
+François Sabot (SB) - francois.sabot@ird.fr
+Gautier Sarah (GS) - gautier.sarah@cirad.fr
+
+","","17-12-2018","13-03-2018","","https://southgreenplatform.github.io/trainings/linuxJedi/","Centre IRD, Montpellier","South Green Platform","","","24","","1.00","Gratuite","","South Green Platform","","Oui","85%","",""
+"Survival Guide for Perl applied to Bioinformatics",""," Formation professionnelle","This course provides an introduction to programming using Perl."," 
+
+			This course provides an introduction to programming using Perl and at the end of the training, participants could write simple Perl programs to handle biological data and to undertstand more complex Perl programs written by others.
+			
+Prerequisites
+Basic knowledge of Linux (Linux for dummies required)
+
+Program
+Perl data structures (scalar,arrays, hashes)
+Structure control ( loops)
+Basic functions, and operators.
+Writing and running your own program
+Passing options and files to his own script.
+Regular expressions
+
+
+Learning objectives
+Writing simple Perl programs to analyze data files
+Understanding Perl programs written by others
+Using Perl basic syntax and modules in their own script
+Run programs from their script, parsing and extracting data from data files
+
+
+Instructors
+
+
+Christine Tranchant  - christine.tranchant@ird.fr
+François Sabot - francois.sabot@ird.fr
+Ndomassi tando - ndomassi.tando@ird.fr
+
+","","17-12-2018","02-10-2017 to 06-10-2017","","https://southgreenplatform.github.io/trainings//perl/","ISRA, Bel Air, Dakar (Sénégal)","Formation permanente IRD, LMI LAPSE","","","20","","5.00","Gratuite","","Formation permanente IRD, LMI LAPSE","","Oui","80%","",""
+"Introduction to High-performance computing","",""," This course provides a general introduction to High Performance Computing (HPC) using the HPC South green clusters.","This course offers an introduction on how to work with HPC Southgreen clusters. It is intended for new users, with the goals of improving user productivity and minimizing the obstacles. The HPC Southgreen cluster are presented, together with the tools to be able to use it. Module load notion, interactive usage and batch jobs submittions will be developped.
+Prerequisites
+Linux Basics
+
+Program
+Introduction to HPCs architecture
+Discover Sun grid Engine (SGE)
+Data Management on clusters
+Interactive Usage
+Submit batch jobs
+
+
+Learning objectives
+After this course, participants should be able to:
+Use the HPC resources interactively
+Manage data copies
+Use module load
+submit batch jobs
+
+
+Instructors
+
+
+Ndomassi Tando (NT) - ndomassi.tando@ird.fr
+Bertrand Pitollat(BP) - bertrand.pitollat@cirad.fr
+Alexis Dereeper (AD) - alexis.dereeper@ird.fr​
+
+","","17-12-2018","15-03-2018","","https://southgreenplatform.github.io/trainings//HPC/","Centre IRD, Montpellier","South Green Platform","","","21","","0.50","Gratuite","","South Green Platform","","","85%","",""
+"Installing and Managing a High-Performance Computing (HPC) Cluster ",""," Formation professionnelle","This course ran for 5 days covering all the concepts necessary to  install and manage a high-performance computing (HPC) cluster. ","This course ran for 5 days covering all the concepts necessary to  install and manage a high-performance computing (HPC) cluster. During this course,  a HPC cluster were installed at CERAAS (Thiès, Sénégal)  by the participants, IT managers from western africa (IRD, ISRA, CERAAS).
+","","17-12-2018","01-10-2018 to 05-10-2018","","https://southgreenplatform.github.io/trainings//ngsTrainings/","CERAAS, Thiès (Sénégal)","Formation permanente IRD, LMI LAPSE, DP IAVAO","","","8","","5.00","Gratuite","","Formation permanente IRD, LMI LAPSE, DP IAVAO","","Non","90%","",""
+"Analyse de données NGS dédiée à la génomique végétale en Afrique de l'Ouest",""," Formation professionnelle","Cette formation présente les technologies de séquençages et les différentes analyses possibles pour exploiter ces données.","Les avancées spectaculaires des technologies de séquençage de 2ème et 3ème génération sont une véritable révolution pour la recherche en science de la vie. Ces techniques permettent le séquençage en quelques semaines de génomes entiers d’organismes complexes, générant une explosion du volume de données génomiques. 
+			Toutefois l’analyse de telles masses d’informations nécessite des compétences en linux, en bioinformatique ainsi qu’une bonne connaissance et maîtrise de nombreux algorithmes et logiciels. La réalisation de ces analyses nécessite également l’accès à des ressources de calcul telles que des clusters de calcul. 
+			Le DP IAVAO et le LMI LAPSE en collaboration avec la plateforme bioinformatique South Green organisent, du 4 au 12 Octobre 2018, une formation en bioinformatique dédié à l’analyse de données de séquençage dont les objectifs sont de présenter les technologies de séquençage et les différentes analyses bioinformatiques pour exploiter au mieux cette masse de données afin de pouvoir réaliser des projets génomiques à grande échelle sur leurs modèles (plantes et pathogènes).
+Prérequis
+Aucun
+
+Programme
+Linux et lignes de commandes 
+Initiation à l’utilisation du cluster du CERAAS 
+Présentation des technologies de séquençages 
+Appel de SNP sur des données WGS 
+Post analyse de données de SNPs
+Outils Genome Harvest 
+
+
+Objectifs
+Après la formation, les participants seront capables de :
+se connecter à un cluster Linux
+lancer des programmes/analyses bioinformatiques
+définir les étapes pour analyser des données de séquençage
+analyser des données de séquençage
+utiliser des gestionnaires de workflow tel que Galaxy ou TOGGLe
+
+
+Instructors
+Christine Tranchant (CT) - christine.tranchant@ird.fr
+Ndomassi Tando (NT) - ndomassi.tando@ird.fr
+Bertrand Pitollat (BP) - bertrand.pitollat@cirad.fr
+François Sabot (SB) - francois.sabot@ird.fr
+Manuel Ruiz (MR) - manuel.ruiz@cirad.fr
+Gautier Sarah (GS) - gautier.sarah@cirad.fr
+
+","","17-12-2018","04-10-2018 to 12-10-2018","","https://southgreenplatform.github.io/trainings//ngsTrainings/","CERAAS, Thiès (Sénégal)","South Green Platform, LMI LAPSE, DP IAVAO","","","20","","5.00","Gratuite","","Formation permanente IRD, LMI LAPSE, DP IAVAO, Platform South Green","","Non","85%","",""
+"Initiation to NGS Workflow Managers developed within the South Green Platform: Galaxy and TOGGLe","","","This course provides introduction to workfow managers to quickly develop and run their own pipelines.","This course introduces the 2 commonly used workflow managers in the South Green Bioformatics platform, both in a theoretical and practical way, with hands-on practice sessions. It will help you to quickly develop and run your own pipelines using these tools through an graphical user or command-line interface.
+ 
+Prerequisites
+Prior knowledge of workflow managers not necessary Basic knowledge of Linux (Linux for dummies required) - TOGGLe practical
+
+Program
+Why using a workflow manager to analyse data ?
+How to perform an analysis ?
+How to create your own workflow ?
+How to execute it?
+Use case
+
+
+Learning objectives
+Explaining what Workflow Managers are,
+	in which way they differ from each other.
+How you can use them in your research.
+Creating your own workflow
+Analysing your NGS data with Galaxy and TOGGLe
+
+
+Instructors
+Alexis Dereeper (AD) - alexis.dereeper@ird.fr
+Sebastien Ravel (SR) - sebastien.ravel@cirad.fr
+Christine Tranchant (CT) - christine.tranchant@ird.fr
+
+","","17-12-2018","23-03-2018","","https://southgreenplatform.github.io/trainings//galaxyToggle/","Centre IRD, Montpellier","South Green Platform","","","15","","1.00","Gratuite","","South Green Platform","","","85%","",""
+"RNASeq analyses (using Galaxy and TOGGLe)","","","This course offers an introduction to RNASeq analyses using two different workflow management systems: Galaxy and TOGGLe","This course offers an introduction to RNASeq analyses using two different workflow management systems: Galaxy and TOGGLe. This includes reference-based mapping, estimates of transcript levels, differential expression (DE) analyses, visualization of statistics results.
+Prerequisites
+Workflow management system (Galaxy, TOGGLe)
+
+Program
+Mapping of RNASeq against a transcriptome reference with kallisto (Galaxy)
+Mapping of RNASeq against an annotated genome reference with TopHat (TOGGLe)
+Differential expression analysis using EdgeR and DESeq2
+Plots, clustering, co-expression network: degust, WGCNA
+
+
+Learning objectives
+Manipulate packages/tools available for searching DE genes
+Think about different normalisation methods
+Detect differentially expressed genes
+Compare results between two approaches
+
+
+Instructors
+Alexis Dereeper - alexis.dereeper@ird.fr
+Sebastien Cunnac - sebastien.cunnac@ird.fr
+Sebastien Ravel - sebastien.ravel@cirad.fr
+Christine Tranchant  - christine.tranchant@ird.fr
+
+","","17-12-2018","16-03-2018","","https://southgreenplatform.github.io/trainings//rnaseq/","Centre IRD, Montpellier","South Green Platform","","","10","","1.00","Gratuite","","South Green Platform","","","80%","",""
+"Metabarcoding analyses (using FROGS in Galaxy and Phyloseq)",""," Formation professionnelle","This course offers an introduction to metabarcoding analyses at two different levels (FROGS pipeline, PhyloSeq R package).","This course offers an introduction to metabarcoding analyses at two different levels/steps: bioinformatics with FROGS pipeline in the Galaxy environment, biostatistics with PhyloSeq R package. This includes preprocessing, clustering and OTU picking, taxonomic assignation, estimation of diversity, visualization of statistics results.
+Prerequisites
+Galaxy, R knowledge
+
+Program
+Introduction to metagenomics and metabarcoding
+Pre-processing, Clustering, taxonomic affiliation (FROGS)
+Handling and visualizing OTU table using PhyloSeq R package (PhyloSeq)
+
+
+Learning objectives
+Manipulate tools available for metabarcoding analysis
+Study sample diversity by using NGS and post-NGS analysis tools
+Visualize diversity metrics in metabarcoding approach​
+
+
+Instructors
+Julie Orjuela - julie.orjuela@ird.fr
+Florentin Constancias - florentin.constancias@cirad.fr
+Alexis Dereeper - alexis.dereeper@ird.fr
+
+ 
+","","18-12-2018","23-04-2018","","https://southgreenplatform.github.io/trainings//metabarcoding/","Centre IRD, Montpellier","South Green Platform","","","10","","1.00","Gratuite","","South green Platform","","Oui","85%","",""
+"Introduction to R Language","","","","https://cnrsformation.cnrs.fr/stage-19024-Langage-R--introduction.html?a...
+","Biostatistiques","18-12-2018","21-05-2019","Formation payante dans le catalogue CNRS.
+","","CBiB","","","","","","4.00","Payante","","CNRS","","","","",""
+"INTRODUCTION À L'ANALYSE DE DONNÉES",""," Formation universitaire","","
+L'utilisation de plus en plus répandue de techniques d’imagerie et de séquençage à haut-débit en biologie est en train de révolutionner les sciences du vivant et de modifier en profondeur leurs pratiques. Dans ce contexte, des outils statistiques sont développés pour permettre d’analyser ces données de hautes dimensions, et la maîtrise de ces outils devient de plus en plus nécessaire pour produire des résultats de bonne qualité. Ce cours de 4 semaines couvrira les étapes nécessaires pour mettre en place un processus d’analyse de données, depuis la planification de l’expérience jusqu’à la fouille des données en passant par l’échantillonnage, les test d’hypothèses, la modélisation statistique etc.
+Ce cours s’adresse en priorité aux étudiants de première année de thèse de l’Institut Pasteur. Tout étudiant en thèse sera automatiquement inscrit à ce cours, mais les élèves de 2e année, de 3e année ou les post-doctorants peuvent également s’inscrire, dans la limite des places disponibles. Il est à noter que le cours est obligatoire pour les étudiants de 1ère année. Des dispenses partielles ou totales sont possibles pour les étudiants qui ont déjà des connaissances en statistique, en mathématique ou en physique. Le cours déroulera sur 4 semaines, 4 jours par semaine, trois heures par jour. Chaque séance de trois heures alternera cours magistral et mise en pratique. Il y aura deux sessions : la première commencera le 22 octobre 2018 et la deuxième le 14 janvier 2019.
+Chacune de ces deux sessions sera précédée d’une séance d’introduction à l’informatique. Cette séance proposera des notions d’architecture de l’ordinateur, de système d’organisation des fichiers et de format de fichiers. Chaque session sera également suivie d’un cours optionnel sur l’analyse et le traitement des images.
+Pour plus d’information, ainsi que pour les inscriptions au module optionnel et les demandes d’exemption, rendez-vous sur la page du cours : https://c3bi.pasteur.fr/introduction-to-data-analysis-2018-19/
+Thèmes abordés
+Le module d’analyse de données couvrira un large champ de notions nécessaires aux étudiants pour planifier leurs expériences, analyser et explorer leurs données, interpréter les résultats et générer des figures à des fins de publication. Il abordera des notions de base en statistique, dont les analyses uni- et multivariées, les analyses descriptives, les distributions statistiques usuelles utilisées en biologie, ainsi que les tests d’hypothèses. Les exercices et travaux pratiques seront réalisés avec R et RStudio. Plusieurs séances seront consacrées à une introduction à l’utilisation du langage de programmation R avant d’aborder les notions de statistiques et d’analyse de données.
+Le module d’analyse d’images introduira les principes de base de l’analyse d’image, et portera plus particulièrement sur l’extraction d’information quantitative d’images de microscopie. Ce cours est destiné aux personnes ayant peu ou pas d’expérience en analyse d’image. Il sera très orienté sur la pratique : des cours magistraux de courte durée seront immédiatement suivis de sessions pratiques. Il aidera à la fois les microscopistes débutants et experts qui n’ont jamais eu de formation concrète en analyse d’image.
+ 
+
+","Analyse d’images, Biostatistiques, Statistique descriptive, Tests statistiques, Régression, Analyses multivariées, Réduction de dimension","21-12-2018","14-01-2019 to 08-02-2019","
+
+ 
+
+
+","https://www.pasteur.fr/fr/introduction-data-analysis","Institut Pasteur","","INCEPTION","","","30","20.00","Gratuite","Master (M2 uniquement)","","","Oui","","",""
+"Data analysis",""," Formation universitaire","","Biological data are often complex and challenging to analyse due to non-normal distributions, nonlinear relationships, spatial/temporal structures and high dimensionality. This course will introduce the students to key concepts and statistical tools for the experimental design and analysis of biological data. After a brief refresher on basic elements of statistics, the students will be made familiar with hypothesis testing, univariate statistical tests (e.g. ANOVA), linear models, descriptive multivariate analyses such as Principal Component Analysis (PCA) and clustering. The course will alternate theoretical aspects and computer exercises on small datasets with the R Studio software. The students will be assigned a small project involving the different concepts and tools covered by the course.
+","Biostatistiques, Statistique descriptive, Tests statistiques, Régression, Analyses multivariées, Réduction de dimension","21-12-2018","08-10-2018 to 12-10-2018","","https://www.enseignement.biologie.ens.fr/spip.php?article91","Ecole Normale Supérieure","","","","","20","5.00","Gratuite","","","","Oui","","",""
+"COURS PROGRAMMATION SCIENTIFIQUE EN PYTHON",""," Formation professionnelle","","The ever growing usage of high throughput technologies in Biology is revolutionizing the life sciences and profoundly changing its practices. Scripting languages are used on a daily basis in life science labs in order to mine huge data sets produced by high-throughput devices. This two-week course will give participants basic knowledge in python and state-of-the-art machine learning methods to analyze their own data sets.
+Description:
+This course is intended for PhD students, engineers and research scientists willing to acquire knowledge in scientific programming. Throughout the course, we will use Python language to lead participants from the basics of computer programming to more advanced techniques such as practical machine learning techniques.
+","Développements technologiques de l‘Information et de la Communication, Outils, Intégration d'outils, Développement de workflows, Parallélisation","21-12-2018","27-03-2017 to 31-03-2017","","https://www.pasteur.fr/fr/programmation-scientifique-python","Institut Pasteur","","INCEPTION","","","30","5.00","Gratuite","","","","Non","","",""
+"Bioinformatics of protein--protein interactions for wet lab scientists",""," Formation professionnelle","","Understanding physical and functional interactions between molecules in living systems is crucial in many biological processes. Several powerful methods and techniques have been developed to generate molecular interaction data, focusing mainly on protein­-protein interactions (PPIs). In particular, PPIs involving partially or completely unstructured regions are building blocks of regulatory and signalling networks that control cell response to external and internal cues. Exploring these interactions may help understanding a protein’s function and behavior, predicting biological processes that a protein of unknown function is involved in, and characterising protein complexes that can be used to modulate or perturb known biological processes and pathways.
+","","21-12-2018","03-04-2017 to 07-04-2017","","https://c3bi.pasteur.fr/training-bioinformatics-of-protein%C2%ADprotein-interact...","Institut Pasteur","","INCEPTION","","","24","5.00","Gratuite","","","","Non","","",""
+"« STATIMAGE», Statistiques pour l’imagerie de microscopie",""," Formation professionnelle","","
+
+
+L’objectif de cette formation est de donner aux ingénieurs des plates-formes d’imagerie cellulaire et aux personnes qui utilisent ces technologies, des outils statistiques adaptés aux problématiques du domaine. Dans le but de traiter les grandes séries d’images acquises selon les diverses modalités, il est proposé de renforcer la maîtrise des outils statistiques pour une analyse pertinente mais aussi pour une optimisation des acquisitions.
+La formation se déroulera du lundi midi au mercredi après-midi pour 2 demi-journées de cours (rappel des notions de bases, modélisation, plans d’expériences) et 3 demi-journées de travaux pratiques/dirigés.
+
+
+
+","Analyse d’images, Extraction d’informations, Biostatistiques, Statistique descriptive, Analyses multivariées","21-12-2018","19-06-2017 to 21-06-2017","","https://france-bioimaging.org/fr/events/statimage-statistiques-pour-limagerie-de...","CIEP, Sèvres","","","","","15","3.00","Gratuite","","","","Non","","",""
+"Linking gene and function, comparative genomics tools for biologists",""," Formation professionnelle","","More than twenty years after the first bacterial genome has been sequenced, microbiologists are faced with an avalanche of genomic data. However the quality of the functional annotations of the sequenced proteome is very poor with more than half of the sequenced proteins remaining of unknown function. After taking this course, students should master an array of web-based tools to help to predict gene function. This will allow them to generate in silico based functional predictions and produce illustration for manuscripts that use comparative genomic methods. For background read (https://www.ncbi.nlm.nih.gov/pubmed/20001958)
+","Bases de données et systèmes d’informations, Génomique comparative, Comparaison des génomes, Comparaison des voies fonctionnelles et régulatrices","21-12-2018","24-10-2017 to 26-10-2017","","https://c3bi.pasteur.fr/training-linking-gene-and-function-comparative-genomics-...","Institut Pasteur","","","","","20","3.00","Gratuite","","","","Non","","",""
+"WAVES Training","","","","Workshop to train users to WAVES : a Web Application for Versatile Enhanced Bioinformatic Services
+","","21-12-2018","18-12-2018","La formation s'adresse à toute personne souhaitant installer/administer un serveur WAVES
+","http://www.atgc-montpellier.fr/waves/trainings.php","Institut Pasteur (Paris)","Plateforme ATGC","IFB","","","","1.00","Gratuite","","Plateforme ATGC","","Oui","","",""
+"Analyse de séquences",""," Formation professionnelle","","
+
+
+Les biologistes sont régulièrement confrontés à des gènes (ou des protéines) de fonctions inconnues ou mal annotés. Dans ce contexte, maîtriser quelques techniques basiques d’analyse de séquences peut se révéler d’une aide précieuse. 
+L’objectif de cette formation est de présenter, au travers de l’utilisation de sites web spécialisés, quelques grands principes sur l’analyse de séquence. L’ensemble de la formation combine exposés théoriques (fondements méthodologiques des programmes) et applications pratiques (mise en relation des notions théoriques avec les paramètres des programmes et les résultats obtenus) pour permettre une utilisation autonome et critique de quelques logiciels d’analyse des séquences biologiques.
+
+
+
+","Analyse de séquences, Génomique comparative","21-12-2018","19-03-2018 to 23-03-2018","","https://c3bi.pasteur.fr/training-analyse-de-sequences/","Institut Pasteur","","","","","","5.00","Gratuite","","","","Oui","","",""
+"WAVES Training 2019","","","","Workshop to train users to WAVES : a Web Application for Versatile Enhanced Bioinformatic Services
+","","31-01-2019","11-03-2019","","","Lille","Plateforme ATGC, Plateforme bilille","IFB","","","","1.00","Gratuite","","Plateforme ATGC","","","","",""
+"8ème école de bioinformatique AVIESAN-IFB","https://www.france-bioinformatique.fr/sites/default/files/EBA2016_0_1_1_0.jpg"," Formation professionnelle","Initiation au traitement des données de génomique obtenues par séquençage à haut débit","La formation s’adresse à des biologistes directement impliqués dans des projets “Next Generation Sequencing” (NGS). Cette édition de l’école aborde les nouveaux enjeux technologiques: elle s’articulera autour de trois ateliers en session parallèle (RNA-seq, ChIP-seq, variants DNA-seq), et inclura une introduction à l’intégration des données,  ouverture aux approches “single-cell” ainsi qu’aux technologies lectures longues (Nanopore, PacBio).
+L’école vise à introduire les concepts et à manipuler les outils informatiques et à en interpréter les résultats. Elle est basée sur une alternance de courtes sessions théoriques et d’ateliers pratiques. Les participants bénéficieront d’un tutorat personnalisé pour élaborer leur plan d’analyse, et effectuer les premières étapes de traitement de leurs propres données ou de celles de leur plateforme.
+","Analyse de données de séquençage NGS, Analyse de séquences, Biostatistiques","08-03-2019","","La formation s’adresse à des biologistes directement impliqués dans des projets “Next Generation Sequencing” (NGS). 
+Aucune connaissance préalable des environnements Linux ou R n’est requise, mais il sera demandé aux participants de suivre une autoformation en ligne en amont, pour faciliter la prise en main de ces langages. La formation approfondira progressivement l’usage de ces environnements au fil des sessions thématiques.
+","","Station biologique de Roscoff","Matthias Zytnicki, Erwan Corre et Jacques van Helden","Aviesan + IFB + Inserm","","","","","Payante","","Formation Aviesan ITMO GGB + formation IFB","","Oui","","",""
+"Diplôme Universitaire en Bioinformatique Intégrative : DU-Bii 2020","","","","La bioinformatique est devenue une compétence incontournable pour l'analyse de données de nature diverse : génomes, transcriptomes, protéomes, métabolomes, structures macromoléculaires, réseaux d'interactions. L'appropriation par les biologistes des méthodes et outils de biostatistique et bioinformatique intégrative est un enjeu majeur pour la montée en compétence des équipes de recherche et des plateformes de service. L'université Paris Diderot propose en partenariat avec l'Institut Français de Bioinformatique (IFB) la deuxième édition du Diplôme Universitaire en Bioinformatique intégrative (DU-Bii). Cette formation s’adresse en priorité à des biologistes en demande d'évolution ou de reconversion professionnelle ayant déjà acquis des compétences (formation courte, autoapprentissage, expérience de terrain) en informatique ou bioinformatique/biostatistique (environnement Unix, Python ou R ou autre langage de programmation). Les prérequis sont décrits sur le portail “DU” de l’université Paris Diderot, qui présente le DU-Bii et le DU complémentaire ""Création, Analyse et Valorisation de données omiques"" (DUO) : voir la page dédiée. Le DU-Bii fournira une formation théorique et pratique, complétée par une période d'immersion sur l'une des plateformes régionales de l'IFB, qui mobilisera, dans le cadre d'un projet tutoré, l'ensemble des méthodes et outils appris durant les cours pour réaliser un projet personnel de bioinformatique intégrative. Ce projet combinera des données propres à chaque participant produites dans son laboratoire (principe BYOD : “Bring Your Own Data”) ou collectées à partir de bases de données publiques. Cette formation se déroulera pendant 8 semaines réparties entre : Les cours : 4 semaines à raison de 4 jours/semaine en présentiel (96h) du 2 mars au 2 avril 2020 avec 1 semaine de césure la semaine 12). Le projet tutoré : 20 jours sur l'une des plateformes bioinformatique de l'IFB, à répartir entre le 6 avril et le 19 juin 2020.
+Renseignements et candidatures : fcsdv@univ-paris-diderot.fr
+Inscriptions : voir la page page du DU-Bii de l'Université Paris Diderot
+Contacts Paris-Diderot : Bertrand.Cosson@univ-paris-diderot.fr 
+Contacts IFB : Helene.Chiapello@inra.fr, Jacques.van-Helden@univ-amu.fr 
+","","","02-03-2020 to 19-06-2020","","","Université Paris Diderot","Helene.Chiapello@inra.fr, Jacques.van-Helden@univ-amu.fr ","","","15","","40.00","Payante","","Partenariat IFB / Université Paris Diderot","","","","",""

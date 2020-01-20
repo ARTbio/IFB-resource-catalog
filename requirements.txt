@@ -5,3 +5,4 @@ django-widget-tweaks
 psycopg2
 requests
 django_extensions
+tqdm
