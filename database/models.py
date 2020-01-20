@@ -143,6 +143,7 @@ class Credit(models.Model):
     adress = models.CharField(max_length=1000, null=True)
     email = models.CharField(max_length=100)
 
+
     def __str__(self):
         return self.name
 
@@ -173,6 +174,7 @@ def max_value_current_year(value):
     return MaxValueValidator(current_year())(value)
 
 class Resource(models.Model):
+    # name = models.CharField(max_length=1000, blank=True, null=True, unique=True)
     name = models.CharField(max_length=1000, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
 
@@ -428,7 +430,3 @@ class Training_material(Resource):
 
     def __str__(self):
         return self.name
-
-
-
-

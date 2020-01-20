@@ -20,6 +20,8 @@ router.register(r'formation', views.FormationViewSet)
 router.register(r'training_material', views.Training_materialViewSet)
 router.register(r'platform', views.PlatformViewSet)
 router.register(r'resource', views.ResourceViewSet)
+router.register(r'biotools', views.BiotoolsViewSet)
 urlpatterns = [
     url(r'^', include(router.urls)),
+    # url(r'^myview', views.MyOwnView.as_view()),
 ]

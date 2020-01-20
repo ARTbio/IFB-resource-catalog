@@ -4,6 +4,7 @@ from django.views.generic.list import ListView
 from rest_framework import viewsets
 from rest_framework.parsers import JSONParser
 from rest_framework import generics
+from rest_framework.views import APIView
 import django_filters.rest_framework
 
 from database import serializers
@@ -199,3 +200,12 @@ class ResourceViewSet(viewsets.ModelViewSet):
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ['name',]
 
+class BiotoolsViewSet(viewsets.ModelViewSet):
+    queryset = Tool.objects.all().order_by('-name')
+    serializer_class = serializers.BioToolsSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['name',]
+
+# class MyOwnView(APIView):
+#     def get(self, request):
+#         return Response({'some': 'data'})
