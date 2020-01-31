@@ -8,7 +8,7 @@ class Command(BaseCommand):
     def import_catalog(self):
         call_command('load_platforms')
         call_command('load_databases')
-        call_command('load_tools')
+        # call_command('load_tools')
         call_command('load_services')
         call_command('load_expertises')
         call_command('load_persons')

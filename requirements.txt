@@ -6,3 +6,4 @@ psycopg2
 requests
 django_extensions
 tqdm
+django-database-view

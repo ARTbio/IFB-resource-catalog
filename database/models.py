@@ -4,6 +4,15 @@ import requests
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.urls import reverse
+
+from database.model.language import Language
+from database.model.topic import Topic
+from database.model.publication import *
+from database.model.collection import Collection
+from database.model.accessibility import Accessibility
+
+# from database.model.operatingSystem import OperatingSystem
+
 import json
 
 """
@@ -130,10 +139,24 @@ TITLE_MATURITY = (
 )
 
 
-TITLE_INFRA = (
-    ('PROPRIETAIRE', 'Propriétaire'),
-    ('HEBERGEE', 'Hébergée'),
-)
+class ElixirPlatform(models.Model):
+    name = models.CharField(max_length=100, blank=False, null=True)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''
+
+
+class ElixirNode(models.Model):
+    name = models.CharField(max_length=100, blank=False, null=True)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''
 
 
 class Credit(models.Model):
@@ -155,14 +178,40 @@ class ElixirCommunities(models.Model):
     def __str__(self):
         return self.name
 
-class Publication(models.Model):
-    doi = models.CharField(max_length=100)
+class OperatingSystem(models.Model):
+	name = models.CharField(max_length=100, blank=True, null=True)
 
-    def __str__(self):
-        return self.doi
+	# metadata
+	additionDate = models.DateTimeField(auto_now_add=True)
+
+	def __unicode__(self):
+		return unicode(self.name) or u''
+
+
 
 class ToolType(models.Model):
-    name = models.CharField(max_length=10000)
+    TOOLTYPE_CHOICES = (
+            ("Bioinformatics portal", "Bioinformatics portal"),
+            ("Command-line tool", "Command-line tool"),
+            ("Database portal", "Database portal"),
+            ("Desktop application", "Desktop application"),
+            ("Library", "Library"),
+            ("Ontology", "Ontology"),
+            ("Plug-in", "Plug-in"),
+            ("Script", "Script"),
+            ("SPARQL endpoint", "SPARQL endpoint"),
+            ("Suite", "Suite"),
+            ("Web application", "Web application"),
+            ("Web API", "Web API"),
+            ("Web service", "Web service"),
+            ("Workbench", "Workbench"),
+            ("Workflow", "Workflow")
+    )
+    # name = models.CharField(max_length=10000, choices=TOOLTYPE_CHOICES)
+    name = models.CharField(blank=True, null=True, max_length=100, choices=TOOLTYPE_CHOICES)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name
@@ -179,6 +228,12 @@ class Resource(models.Model):
     description = models.TextField(blank=True, null=True)
 
 class Service(Resource):
+    MATURITY_CHOICES = (
+        ('EMERGING', 'Emerging'),
+        ('MATURE', 'Mature'),
+        ('LEGACY', 'Legacy'),
+    )
+
     credit = models.ManyToManyField(Credit)
     scope = models.TextField()
     is_tool = models.BooleanField(default=False)
@@ -189,7 +244,7 @@ class Service(Resource):
     communities = models.TextField()
     elixir_communities = models.ManyToManyField(ElixirCommunities, blank=True)
     year_created = models.IntegerField(('year'), validators=[MinValueValidator(1984), max_value_current_year],null=True)
-    maturity = models.TextField(max_length=8, choices=TITLE_MATURITY)
+    maturity = models.TextField(max_length=8, choices=MATURITY_CHOICES)
     access = models.TextField()
     quality = models.TextField()
     usage = models.TextField()
@@ -250,6 +305,11 @@ class People(models.Model):
         return self.name
 
 class Platform(Resource):
+    INFRA_CHOICES = (
+        ('PROPRIETAIRE', 'Propriétaire'),
+        ('HEBERGEE', 'Hébergée'),
+    )
+
     logo = models.URLField(max_length=200, blank=True, null=True)
     address = models.CharField(max_length=1000, blank=True, null=True)
     affiliation = models.CharField(max_length=1000, blank=True, null=True)
@@ -260,7 +320,7 @@ class Platform(Resource):
     structure = models.CharField(max_length=1000, blank=True, null=True)
     activity_area = models.ManyToManyField(Activityarea, blank=True)
     keywords = models.ManyToManyField(Keyword, blank=True)
-    infrastructure_type = models.TextField(max_length=13, choices=TITLE_INFRA, blank=True, null=True)
+    infrastructure_type = models.TextField(max_length=13, choices=INFRA_CHOICES, blank=True, null=True)
     useful_storage_capacity = models.CharField(max_length=1000, blank=True, null=True)
     cpu_number = models.IntegerField( blank=True, null=True)
     data_collection = models.CharField(max_length=1000, blank=True, null=True)
@@ -279,27 +339,71 @@ class Platform(Resource):
         return self.name
 
 class Tool(Resource):
+    OPERATING_SYSTEM_CHOICES = (
+        ('LINUX', 'Linux'),
+        ('WINDOWS', 'Windows'),
+        ('MAC', 'Mac')
+    )
+
+    # tool_type = models.ForeignKey(ToolType, null=True, blank=True, related_name='toolType', on_delete=models.CASCADE)
+
+    biotoolsID = models.CharField(blank=False, null=False, max_length=100)
+    biotoolsCURIE = models.CharField(blank=False, null=False, max_length=109) #because of biotools: prefix
+
+    # software_version = models.CharField(max_length=200, blank=True, null=True)
+
     citations = models.CharField(max_length=1000, blank=True, null=True)
     logo = models.URLField(max_length=200, blank=True, null=True)
     access_condition = models.TextField( blank=True, null=True)
     contact_support = models.CharField(max_length=1000, blank=True, null=True)
-    input_data = models.CharField(max_length=1000, blank=True, null=True)
-    output_data = models.CharField(max_length=1000, blank=True, null=True)
+
     tool_license = models.CharField(max_length=1000, blank=True, null=True)
-    link = models.CharField(max_length=1000, blank=True, null=True)
+    # link = models.CharField(max_length=1000, blank=True, null=True)
     keywords = models.ManyToManyField(Keyword, blank=True)
     prerequisites = models.TextField( blank=True, null=True)
-    operating_system = models.CharField(max_length=1000, blank=True, null=True)
-    tool_type = models.ManyToManyField(ToolType, blank=True)
-    topic = models.CharField(max_length=1000, blank=True, null=True)
-    primary = models.CharField(max_length=1000, blank=True, null=True)
-    downloads = models.IntegerField(blank=True, null=True)
-    software_version = models.IntegerField(blank=True, null=True)
+    # operating_system = models.CharField(max_length=50, blank=True, null=True, choices=OPERATING_SYSTEM_CHOICES)
+    # topic = models.CharField(max_length=1000, blank=True, null=True)
+    # downloads = models.CharField(max_length=1000, blank=True, null=True)
+
     annual_visits = models.IntegerField(blank=True, null=True)
     unique_visits = models.IntegerField(blank=True, null=True)
-    biotoolsID = models.CharField(max_length=1000, null=True, blank=True)
-    biotoolsCURIE = models.CharField(max_length=1000, null=True, blank=True)
+
+    # many_to_many
     platform = models.ManyToManyField(Platform, blank=True)
+    tool_type = models.ManyToManyField(ToolType, blank=True)
+    language = models.ManyToManyField(Language, blank=True)
+    topic = models.ManyToManyField(Topic, blank=True)
+    publication = models.ManyToManyField(Publication, blank=True)
+    collection = models.ManyToManyField(Collection, blank=True)
+    elixir_platform = models.ManyToManyField(ElixirPlatform, blank=True)
+    elixir_node = models.ManyToManyField(ElixirNode, blank=True)
+    accessibility = models.ManyToManyField(Accessibility, blank=True)
+    operatingSystem = models.ManyToManyField(OperatingSystem, blank=True)
+
+    # link = models.ManyToManyField(Link, blank=True)
+
+    # added fields
+    # language = models.CharField(max_length=1000, null=True, blank=True)
+    # otherID = models.CharField(max_length=1000, null=True, blank=True)
+    maturity = models.CharField(max_length=1000, null=True, blank=True)
+    homepage = models.CharField(max_length=1000, null=True, blank=True)
+    # collectionID = models.CharField(max_length=1000, null=True, blank=True)
+    credit = models.TextField(null=True, blank=True)
+    # elixirNode = models.CharField(max_length=1000, null=True, blank=True)
+    # elixirPlatform = models.CharField(max_length=1000, null=True, blank=True)
+    cost = models.CharField(max_length=1000, null=True, blank=True)
+    # accessibility = models.CharField(max_length=1000, null=True, blank=True)
+    function = models.TextField(null=True, blank=True)
+    # relation = models.CharField(max_length=1000, null=True, blank=True)
+
+    # to remove ?
+    input_data = models.CharField(max_length=1000, blank=True, null=True)
+    output_data = models.CharField(max_length=1000, blank=True, null=True)
+    primary = models.CharField(max_length=1000, blank=True, null=True)
+
+    # metadata
+    additionDate = models.DateTimeField(blank=True, null=True)
+    lastUpdate = models.DateTimeField(auto_now=True)
 
     def sd(self):
         list_pf = []
@@ -430,3 +534,65 @@ class Training_material(Resource):
 
     def __str__(self):
         return self.name
+
+
+
+class Link(models.Model):
+	# name = models.CharField(max_length=100, blank=True, null=True)
+    url = models.CharField(max_length=200, blank=True, null=True)
+    type = models.CharField(max_length=100, blank=True, null=True)
+    note = models.CharField(max_length=1000, blank=True, null=True)
+    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='link', on_delete=models.CASCADE)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''
+
+class Download(models.Model):
+	# name = models.CharField(max_length=100, blank=True, null=True)
+    url = models.CharField(max_length=200, blank=True, null=True)
+    type = models.CharField(max_length=100, blank=True, null=True)
+    note = models.CharField(max_length=1000, blank=True, null=True)
+    version = models.CharField(max_length=100, blank=True, null=True)
+    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='download', on_delete=models.CASCADE)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''
+
+class Relation(models.Model):
+    biotoolsID = models.CharField(max_length=100, blank=False, null=False)
+    type = models.CharField(max_length=100, blank=False, null=False)
+    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='relation', on_delete=models.CASCADE)
+
+     # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''
+
+class OtherID(models.Model):
+    value = models.CharField(blank=False, null=False, max_length=1000, unique=False)
+    type = models.TextField(blank=True, null=True)
+    version = models.TextField(blank=True, null=True)
+    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='otherID', on_delete=models.CASCADE)
+
+    # metadata
+    additionDate = models.DateTimeField(auto_now_add=True, null=True)
+
+    def __unicode__(self):
+        return unicode(self.value) or u''
+
+class Version(models.Model):
+    version = models.CharField(max_length=100, blank=True, null=True)
+    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='version', on_delete=models.CASCADE)
+
+     # metadata
+    additionDate = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return unicode(self.name) or u''

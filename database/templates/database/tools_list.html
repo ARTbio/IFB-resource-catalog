@@ -27,12 +27,19 @@
         <thead class="thead-dark">
           <tr>
             <th>Name</th>
+            <th>biotoolsID</th>
+            <th>homepage</th>
+            <th>maturity</th>
+
           </tr>
         </thead>
         <tbody>
           {% for obj in filter.qs %}
             <tr>
               <td><a href="/tools/{{ obj.id }}">{{ obj.name }}</a></td>
+              <td>{{ obj.biotoolsID }}</td>
+              <td>{{ obj.homepage }}</td>
+              <td>{{ obj.maturity }}</td>
             </tr>
           {% empty %}
             <tr>

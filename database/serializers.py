@@ -23,10 +23,10 @@ class PublicationSerializer(serializers.HyperlinkedModelSerializer):
 
 class ToolTypeSerializer(serializers.HyperlinkedModelSerializer):
 
-    # name = serializers.SerializerMethodField()
-    #
-    # def get_name(self, obj):
-    #     return obj.name
+    name = serializers.SerializerMethodField()
+
+    def get_name(self, obj):
+        return obj.name
 
     class Meta:
         model = models.ToolType
@@ -121,17 +121,38 @@ class Training_materialSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('name', 'description', 'file_name')
         depth = 2
 
+class LanguageSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Language
+        fields = ('name',)
+
+class TopicSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Topic
+        fields = ('term', 'uri')
+
 class BioToolsSerializer(serializers.HyperlinkedModelSerializer):
     keywords = KeywordSerializer(read_only=True, many=True)
-    toolType = ToolTypeSerializer(source='tool_type', read_only=True, many=True)
+    tool_type = ToolTypeSerializer(read_only=True, many=True)
     platform = PlatformSerializer(read_only=True, many=True)
-    name = serializers.CharField(help_text="Help name")
+    language = LanguageSerializer(read_only=True, many=True)
+    topic = TopicSerializer(read_only=True, many=True)
+    # name = serializers.CharField(help_text="Help name")
 
 
 
     class Meta:
         model = models.Tool
-        fields = ('name', 'description', 'access_condition', 'toolType', 'keywords', 'platform')
+        fields = (
+            'name',
+            'description',
+            'access_condition',
+            'tool_type',
+            'keywords',
+            'platform',
+            'language',
+            'topic',
+        )
         depth = 1
 
     def to_representation(self, instance):
@@ -154,9 +175,9 @@ class BioToolsSerializer(serializers.HyperlinkedModelSerializer):
             "biotoolsCURIE": instance.biotoolsCURIE,
             "version": instance.software_version,
             "otherID": "TBD",
-            "toolType": self.toolType(instance.tool_type),
+            "tool_type": self.toolType(instance.tool_type),
             "topic": self.topic(instance.topic),
-            "operatingSystem": instance.operating_system,
+            # "operatingSystem": instance.operating_system,
             "language": "TBD",
             "license": instance.tool_license,
             "collectionID": "TBD",
@@ -187,11 +208,4 @@ class BioToolsSerializer(serializers.HyperlinkedModelSerializer):
         tooltype_list = []
         for elem in tooltype.values_list('name', flat=True):
             tooltype_list.append(elem)
-        # qs_json = d_serializers.serialize('json', list(instance.tool_type.all()))
-        # qs_json2 = json.dumps(list(instance.tool_type.all()))
-        # print(qs_json)
-        # structured_tooltype = str(list(tooltype))
-        # # structured_tooltype = structured_tooltype.replace("<", "").
-        # structured_tooltype = ''.join(c for c in structured_tooltype if c not in '<>')
-        #
         return tooltype_list
