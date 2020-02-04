@@ -30,7 +30,7 @@ SECRET_KEY = 'nwes=u27i1bhz@lnc_vib9b=k82713tsa@w$^enms7p(nc_$5a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -85,12 +85,20 @@ WSGI_APPLICATION = 'catalogue.wsgi.application'
 
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': "ifb_catalog",
+    #     'USER': "ifb_user_2020",
+    #     'PASSWORD': "pass",
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '5432',
+    # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': "ifb_catalog",
-        'USER': "ifb_user_2020",
+        'USER': "ifb_user",
         'PASSWORD': "pass",
-        'HOST': '127.0.0.1',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }

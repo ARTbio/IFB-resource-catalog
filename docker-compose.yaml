@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  # nginx:
+  #   image: nginx:latest
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./src:/src
+  #     - ./config/nginx:/etc/nginx/conf.d
+  #   depends_on:
+  #     - web
+  db:
+    build:
+      context: ./
+      dockerfile: postgres.dockerfile
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: "ifb_user"
+      POSTGRES_PASSWORD: "pass"
+      POSTGRES_DB: "ifb_catalog"
+      PGDATA: /var/lib/postgresql/data/pgdata
+
+  web:
+    build: .
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+  # The Database manager (adminer)
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8081:8080"
+volumes:
+  db_data:

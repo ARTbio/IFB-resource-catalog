@@ -16,6 +16,7 @@ from database.models import Version
 from database.models import ElixirPlatform
 from database.models import ElixirNode
 from database.models import Accessibility
+from database.models import ToolCredit
 
 
 from catalogue.settings import BASE_DIR
@@ -45,6 +46,7 @@ class Command(BaseCommand):
         ElixirPlatform.objects.all().delete()
         ElixirNode.objects.all().delete()
         Accessibility.objects.all().delete()
+        ToolCredit.objects.all().delete()
 
 
         http = urllib3.PoolManager()
@@ -69,7 +71,7 @@ class Command(BaseCommand):
                 # print("Processing page "+str(i)+ " hasNext="+str(hasNextPage
                 for tool in entry['list']:
                     # if 'FR' in tool['collectionID']:
-                    if 'elixir-fr-sdp-2019' in tool['collectionID']:
+                    # if 'elixir-fr-sdp-2019' in tool['collectionID']:
 
                         # print(tool['name'])
                         # print(tool['link'])
@@ -161,6 +163,21 @@ class Command(BaseCommand):
                             publication_entry.save()
                             tool_entry.publication.add(publication_entry.id)
 
+                        # entry for toolCredit
+                        for credit in tool['credit']:
+                            toolCredit_entry, created = ToolCredit.objects.get_or_create(
+                                name = credit['name'],
+                                email = credit['email'],
+                                url = credit['url'],
+                                orcidid = credit['orcidid'],
+                                gridid = credit['gridid'],
+                                typeEntity = credit['typeEntity'],
+                                typeRole = credit['typeRole'],
+                                note = credit['note']
+                            )
+                            toolCredit_entry.save()
+                            tool_entry.toolCredit.add(toolCredit_entry.id)
+
                         # entry for link
                         for link in tool['link']:
                             Link.objects.create(
@@ -205,6 +222,8 @@ class Command(BaseCommand):
                             )
 
 
+
+
                         nbTools += 1
                         progress = nbTools * 100 / count
                         if (nbTools % 500 == 0) :
@@ -227,10 +246,13 @@ class Command(BaseCommand):
 
 
     def add_arguments(self, parser):
+        """
+        Arguments for the command line load_biotools
+        """
         parser.add_argument(
             '-l',
             '--limit',
-            help='Delete poll instead of closing it',
+            help='Number of tools to import (-1 to retrieve all)',
             type=int,
             default=-1
         )
