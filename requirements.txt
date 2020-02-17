@@ -2,6 +2,7 @@ django>=2.1<2.2
 django-filter
 django-rest-framework
 django-widget-tweaks
+gunicorn==19.9.0
 psycopg2
 requests
 django_extensions

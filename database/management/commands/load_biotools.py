@@ -1,22 +1,25 @@
 from django.core.management import BaseCommand
 from django.core.management import call_command
 
-from database.models import Tool
-from database.models import ToolType
-from database.models import Language
-from database.models import Topic
-from database.models import OperatingSystem
-from database.models import Publication
-from database.models import Link
+from database.model.tool_model.tool import *
+# from database.models import ToolType
+# from database.models import Language
+# from database.models import Topic
+# from database.models import OperatingSystem
+from database.model.tool_model.publication import *
+from database.model.tool_model.link import *
+from database.model.tool_model.toolCredit import *
+from database.model.tool_model.function import *
+
 from database.models import Download
 from database.models import Relation
-from database.models import Collection
+# from database.models import Collection
 from database.models import OtherID
 from database.models import Version
-from database.models import ElixirPlatform
-from database.models import ElixirNode
-from database.models import Accessibility
-from database.models import ToolCredit
+# from database.models import ElixirPlatform
+# from database.models import ElixirNode
+# from database.models import Accessibility
+# from database.models import ToolCredit
 
 
 from catalogue.settings import BASE_DIR
@@ -47,6 +50,13 @@ class Command(BaseCommand):
         ElixirNode.objects.all().delete()
         Accessibility.objects.all().delete()
         ToolCredit.objects.all().delete()
+        TypeRole.objects.all().delete()
+        Function.objects.all().delete()
+        Operation.objects.all().delete()
+        Input.objects.all().delete()
+        Output.objects.all().delete()
+        Data.objects.all().delete()
+        Format.objects.all().delete()
 
 
         http = urllib3.PoolManager()
@@ -95,12 +105,12 @@ class Command(BaseCommand):
                             maturity = tool['maturity'],
                             homepage = tool['homepage'],
                             # collectionID = tool['collectionID'],
-                            credit = tool['credit'],
+                            # credit = tool['credit'],
                             # elixirPlatform = tool['elixirPlatform'],
                             # elixirNode = tool['elixirNode'],
                             cost = tool['cost'],
                             # accessibility = tool['accessibility'],
-                            function = tool['function'],
+                            # function = tool['function'],
                             # relation = tool['relation'],
 
                         )
@@ -152,16 +162,17 @@ class Command(BaseCommand):
 
                         # entry for publications
                         for publication in tool['publication']:
-                            publication_entry, created = Publication.objects.get_or_create(
+                            Publication.objects.create(
                                 doi = publication['doi'],
                                 pmid = publication['pmid'],
                                 pmcid = publication['pmcid'],
                                 note = publication['note'],
                                 version = publication['version'],
                                 type = publication['type'],
+                                tool = tool_entry
                             )
-                            publication_entry.save()
-                            tool_entry.publication.add(publication_entry.id)
+                            # publication_entry.save()
+                            # tool_entry.publication.add(publication_entry.id)
 
                         # entry for toolCredit
                         for credit in tool['credit']:
@@ -172,11 +183,18 @@ class Command(BaseCommand):
                                 orcidid = credit['orcidid'],
                                 gridid = credit['gridid'],
                                 typeEntity = credit['typeEntity'],
-                                typeRole = credit['typeRole'],
                                 note = credit['note']
                             )
                             toolCredit_entry.save()
                             tool_entry.toolCredit.add(toolCredit_entry.id)
+
+                            # add typerole entry
+                            for type_role in credit['typeRole']:
+                                typeRole_entry, created = TypeRole.objects.get_or_create(
+                                    name = type_role
+                                )
+                                typeRole_entry.save()
+                                toolCredit_entry.typeRole.add(typeRole_entry.id)
 
                         # entry for link
                         for link in tool['link']:
@@ -221,8 +239,75 @@ class Command(BaseCommand):
                                 tool = tool_entry
                             )
 
+                        # entry for function
+                        for function in tool['function']:
+                            function_entry, created = Function.objects.get_or_create(
+                                cmd = function['cmd'],
+                                note = function['note'],
+                                tool = tool_entry
+                            )
+
+                            # entry for operation (ntn)
+                            for operation in function['operation']:
+                                operation_entry, created = Operation.objects.get_or_create(
+                                    term = operation['term'],
+                                    uri = operation['uri'],
+                                )
+                                operation_entry.save()
+                                function_entry.operation.add(operation_entry.id)
 
 
+                            #entry for input
+                            for input in function['input']:
+
+                                # entry for data
+                                data_entry, created = Data.objects.get_or_create(
+                                    term = input['data']['term'],
+                                    uri = input['data']['uri'],
+                                )
+                                data_entry.save()
+
+                                input_entry, created = Input.objects.get_or_create(
+                                    function = function_entry,
+                                    data = data_entry
+                                )
+
+                                # entry for format
+                                for format in input['format']:
+                                    format_entry, created = Format.objects.get_or_create(
+                                        term = format['term'],
+                                        uri = format['uri'],
+                                        # input = input_entry
+                                    )
+                                    format_entry.save()
+                                    input_entry.format.add(format_entry.id)
+                                # print(input['data'])
+
+
+                            #entry for input
+                            for output in function['output']:
+
+                                # entry for data
+                                data_entry, created = Data.objects.get_or_create(
+                                    term = output['data']['term'],
+                                    uri = output['data']['uri'],
+                                )
+                                data_entry.save()
+
+                                output_entry, created = Output.objects.get_or_create(
+                                    function = function_entry,
+                                    data = data_entry
+                                )
+
+                                # entry for format
+                                for format in output['format']:
+                                    format_entry, created = Format.objects.get_or_create(
+                                        term = format['term'],
+                                        uri = format['uri'],
+                                        # output = output_entry
+                                    )
+                                    format_entry.save()
+                                    output_entry.format.add(format_entry.id)
 
                         nbTools += 1
                         progress = nbTools * 100 / count
