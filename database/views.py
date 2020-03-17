@@ -20,6 +20,13 @@ from .models import Formation
 from .models import Training_material
 from .models import Platform
 from .models import Resource
+
+from .model.tool_model.operatingSystem import *
+from .model.tool_model.topic import *
+from .model.tool_model.publication import *
+from .model.tool_model.function import *
+from .model.tool_model.documentation import *
+
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
@@ -27,6 +34,11 @@ from database.serializers import DatabaseSerializer
 from database.serializers import ToolSerializer
 from django_json_ld.views import JsonLdContextMixin
 from django_json_ld.views import JsonLdDetailView
+
+import json
+from rdflib import ConjunctiveGraph
+import logging
+
 
 
 class ToolDetailView(JsonLdDetailView):
@@ -43,9 +55,143 @@ def name_service(request, id):
     return render(request, 'database/name_service.html', context)
 
 def name_tool(request, id):
-
+    logger = logging.getLogger(__name__)
     a_list = Tool.objects.filter(id=id)
-    context = {'id': id, 'tool_list': a_list}
+
+
+
+    logger.info('something here')
+    ctx = {
+        "@context": {
+            "@base": "https://bio.tools/",
+            "biotools": "https://bio.tools/ontology/",
+            "edam": "http://edamontology.org/",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "sc": "http://schema.org/",
+            "bsc": "http://bioschemas.org/",
+
+            "description": 'sc:description',
+            "name": "sc:name",
+            "homepage": "sc:url",
+            "toolType": 'sc:additionalType',
+
+
+            "primaryContact": 'biotools:primaryContact',
+            "author": 'sc:author',
+            "provider": 'sc:provider',
+            "contributor": 'sc:contributor',
+            "funder": 'sc:funder',
+            "hasPublication": "sc:citation",
+
+            "hasTopic": 'sc:applicationSubCategory',
+            "hasOperation": "sc:featureList",
+            "hasInputData": "edam:has_input",
+            "hasOutputData": "edam:has_output",
+
+            "license": "sc:license",
+            "version": "sc:version",
+            "isAccessibleForFree" : "sc:isAccessibleForFree",
+            "operatingSystem": "sc:operatingSystem",
+            "hasDoc": "sc:softwareHelp",
+            "hasTermsOfUse": "sc:termsOfService",
+        }
+    }
+
+    entry = a_list
+    print(a_list.values())
+    jld = json.loads("{}")
+    jld.update(ctx)
+
+    jld['@id'] = entry.values_list('biotoolsID', flat=True).get()
+    #entry['@type'] = ['bsc:Tool','sc:SoftwareApplication']
+    jld['@type'] = ['sc:SoftwareApplication']
+    jld['applicationCategory'] = 'Computational science tool'
+    jld['name'] = entry.values_list('name', flat=True).get()
+    jld['description'] = entry.values_list('description', flat=True).get()
+    jld['homepage'] = entry.values_list('homepage', flat=True).get()
+    jld['isAccessibleForFree'] = entry.values_list('cost', flat=True).get()
+    jld['license'] = entry.values_list('tool_license', flat=True).get()
+
+    # Getting OS
+    operatingSystem = OperatingSystem.objects.filter(tool__id=id)
+    if operatingSystem.values_list('name', flat=True):
+        jld['operatingSystem'] = []
+        for os in operatingSystem.values_list('name', flat=True):
+            jld['operatingSystem'].append(os)
+
+    # Getting toolType
+    toolTypes = ToolType.objects.filter(tool__id=id)
+    if toolTypes.values_list('name', flat=True):
+        jld['toolType'] = []
+        for toolType in toolTypes.values_list('name', flat=True):
+            jld['toolType'].append(toolType)
+
+    # Getting topic
+    topics = Topic.objects.filter(tool__id=id)
+    if topics.values_list('term', flat=True):
+        jld['hasTopic'] = []
+        for topic in topics.values_list('term', flat=True):
+            jld['hasTopic'].append(topic)
+
+    # Getting publication
+    publications = Publication.objects.filter(tool__id=id)
+    if publications.values_list('doi', flat=True):
+        jld['hasPublication'] = []
+        for publication in publications.values_list('doi', flat=True):
+            jld['hasPublication'].append(publication)
+
+    # Getting documentation
+    documentations = Documentation.objects.filter(tool__id=id)
+    if documentations.values_list('url', flat=True):
+        jld['hasDoc'] = []
+        for documentation in documentations.values_list('url', flat=True):
+            jld['hasDoc'].append(documentation)
+
+    # Getting operation
+    functions = Function.objects.filter(tool__id=id)
+    function_id = list(functions.values_list('id', flat=True))
+    for id in function_id:
+        operations = Operation.objects.filter(function__id=id)
+        if operations.values_list('term', flat=True):
+            jld['hasOperation'] = []
+            for operation in operations.values_list('term', flat=True):
+                jld['hasOperation'].append(operation)
+
+    # Getting input
+    for id in function_id:
+        inputs = Input.objects.filter(function__id=id)
+        inputs_id = inputs.values_list('data_id', flat=True)
+        if inputs_id:
+            for id in inputs_id:
+                data = Data.objects.filter(input__id=id)
+                jld['hasInputData'] = []
+                for input_data in data.values_list('term', flat=True):
+                    jld['hasInputData'].append(input_data)
+
+    # Getting output
+    for id in function_id:
+        outputs = Output.objects.filter(function__id=id)
+        outputs_id = outputs.values_list('data_id', flat=True)
+        if outputs_id:
+            for id in outputs_id:
+                data = Data.objects.filter(output__id=id)
+                jld['hasOutputData'] = []
+                for output_data in data.values_list('term', flat=True):
+                    jld['hasOutputData'].append(output_data)
+
+    jld['primaryContact'] = []
+    jld['author'] = []
+    jld['contributor'] = []
+    jld['provider'] = []
+    jld['funder'] = []
+
+    raw_jld = json.dumps(jld, indent=4, sort_keys=True)
+
+    g = ConjunctiveGraph()
+    g.parse(data=raw_jld, format='json-ld')
+    print(len(g))
+
+    context = {'id': id, 'tool_list': a_list, 'jld': raw_jld}
     return render(request, 'database/name_tool.html', context)
 
 def name_database(request, id):
