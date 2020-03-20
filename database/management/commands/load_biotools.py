@@ -10,6 +10,7 @@ from database.model.tool_model.publication import *
 from database.model.tool_model.link import *
 from database.model.tool_model.toolCredit import *
 from database.model.tool_model.function import *
+from database.model.tool_model.documentation import *
 
 from database.models import Download
 from database.models import Relation
@@ -39,7 +40,10 @@ class Command(BaseCommand):
         Language.objects.all().delete()
         Topic.objects.all().delete()
         OperatingSystem.objects.all().delete()
+        Documentation.objects.all().delete()
         Publication.objects.all().delete()
+        PublicationMetadata.objects.all().delete()
+        PublicationAuthor.objects.all().delete()
         Link.objects.all().delete()
         Download.objects.all().delete()
         Relation.objects.all().delete()
@@ -159,9 +163,14 @@ class Command(BaseCommand):
                         #         name = os,
                         #         tool = tool_entry
                         #     )
-
                         # entry for publications
                         for publication in tool['publication']:
+                            # print(json.dumps(publication['metadata']))
+                            if publication['metadata']:
+                                # print(publication['metadata'].keys())
+                                if "updated" in publication['metadata'].keys():
+                                    print("test")
+                                    print(json.dumps(publication['metadata']['updated']))
                             Publication.objects.create(
                                 doi = publication['doi'],
                                 pmid = publication['pmid'],
@@ -171,6 +180,21 @@ class Command(BaseCommand):
                                 type = publication['type'],
                                 tool = tool_entry
                             )
+                            if publication['metadata']:
+                                publicationMetadata_entry, created = PublicationMetadata.objects.get_or_create(
+                                    date = publication['metadata']['date'] ,
+                                    title = publication['metadata']['title'],
+                                    journal = publication['metadata']['journal'],
+                                    abstract = publication['metadata']['abstract'],
+                                    citationCount = publication['metadata']['citationCount'],
+                                )
+
+                                if publication['metadata']['authors']:
+                                    for author in publication['metadata']['authors']:
+                                        publicationAuthor_entry, created = PublicationAuthor.objects.get_or_create(
+                                            name = author['name'],
+                                        )
+                                        publicationMetadata_entry.publicationAuthor.add(publicationAuthor_entry.id)
                             # publication_entry.save()
                             # tool_entry.publication.add(publication_entry.id)
 
@@ -236,6 +260,15 @@ class Command(BaseCommand):
                         for version in tool['version']:
                             Version.objects.create(
                                 version = version,
+                                tool = tool_entry
+                            )
+
+                        # entry for Documentation
+                        for documentation in tool['documentation']:
+                            Documentation.objects.create(
+                                url = documentation['url'],
+                                type = documentation['type'],
+                                note = documentation['note'],
                                 tool = tool_entry
                             )
 

@@ -1,14 +1,14 @@
 import datetime
 from django.conf import settings
 import requests
-from django.core.validators import MaxValueValidator, MinValueValidator
+
 from django.db import models
 from django.urls import reverse
 
 
 from database.model.tool_model.accessibility import *
 from database.model.tool_model.collection import *
-from database.model.keyword import *
+
 from database.model.tool_model.language import *
 from database.model.tool_model.link import *
 from database.model.tool_model.function import *
@@ -16,8 +16,15 @@ from database.model.tool_model.operatingSystem import *
 from database.model.tool_model.publication import *
 from database.model.tool_model.tool import *
 from database.model.tool_model.topic import *
+from database.model.tool_model.download import *
+from database.model.tool_model.documentation import *
 
 from database.model.resource import *
+from database.model.keyword import *
+
+from database.model.service_model.service import *
+# from database.model.service_model.credit import *
+# from database.model.service_model.elixirCommunities import *
 
 # from database.model.operatingSystem import OperatingSystem
 
@@ -150,90 +157,11 @@ TITLE_MATURITY = (
 
 
 
-class Credit(models.Model):
-    name = models.CharField(max_length=1000, blank=True, null=True)
-    laboratory = models.CharField(max_length=1000)
-    institute = models.CharField(max_length=1000)
-    adress = models.CharField(max_length=1000, null=True)
-    email = models.CharField(max_length=100)
-
-
-    def __str__(self):
-        return self.name
-
-class ElixirCommunities(models.Model):
-    name = models.CharField(max_length=10000)
-    class Meta:
-        verbose_name_plural = "Elixir Communities"
-
-    def __str__(self):
-        return self.name
-
-
-
-def current_year():
-    return datetime.date.today().year
-
-def max_value_current_year(value):
-    return MaxValueValidator(current_year())(value)
 
 
 
 
-class Service(Resource):
-    MATURITY_CHOICES = (
-        ('EMERGING', 'Emerging'),
-        ('MATURE', 'Mature'),
-        ('LEGACY', 'Legacy'),
-    )
 
-    credit = models.ManyToManyField(Credit)
-    scope = models.TextField()
-    is_tool = models.BooleanField(default=False)
-    is_data = models.BooleanField(default=False)
-    is_training = models.BooleanField(default=False)
-    is_compute = models.BooleanField(default=False)
-    is_interoperability = models.BooleanField(default=False)
-    communities = models.TextField()
-    elixir_communities = models.ManyToManyField(ElixirCommunities, blank=True)
-    year_created = models.IntegerField(('year'), validators=[MinValueValidator(1984), max_value_current_year],null=True)
-    maturity = models.TextField(max_length=8, choices=MATURITY_CHOICES)
-    access = models.TextField()
-    quality = models.TextField()
-    usage = models.TextField()
-    publication_citations_nb = models.IntegerField()
-    publication_coauthor_nb = models.IntegerField()
-    key_pub = models.ManyToManyField(Publication, blank=True)
-    sab_user_comittee = models.TextField()
-    term_of_use = models.TextField()
-    ethics_policy = models.TextField()
-    funding = models.TextField()
-    motivation_catalog = models.BooleanField(default=False)
-    motivation_sdp = models.BooleanField(default=False)
-    motivation_support_ifb_it = models.BooleanField(default=False)
-    motivation_support_ifb_curation = models.BooleanField(default=False)
-    motivation_support_ifb_core_resource = models.BooleanField(default=False)
-    biotoolsID = models.CharField(max_length=1000, null=True, blank=True)
-    toolType = models.ManyToManyField(ToolType)
-
-    def topics(self):
-        topics=[]
-        i=0
-        if self.biotoolsID:
-            get_data = requests.get("https://bio.tools/api/"+self.biotoolsID+"?format=json")
-            response_data = get_data.json()
-            while i < len(response_data["topic"]):
-                topics.append(response_data["topic"][i]["term"])
-                i=i+1
-                continue
-            return topics
-
-
-    def __str__(self):
-        return self.name
-
-    def get_absolute_url(self):
-        return reverse('database:service-detail' ,args=[self.pk])
 
 
 
@@ -352,19 +280,7 @@ class Training_material(Resource):
 #     def __unicode__(self):
 #         return unicode(self.name) or u''
 
-class Download(models.Model):
-	# name = models.CharField(max_length=100, blank=True, null=True)
-    url = models.CharField(max_length=200, blank=True, null=True)
-    type = models.CharField(max_length=100, blank=True, null=True)
-    note = models.CharField(max_length=1000, blank=True, null=True)
-    version = models.CharField(max_length=100, blank=True, null=True)
-    tool = models.ForeignKey(Tool, null=True, blank=True, related_name='download', on_delete=models.CASCADE)
 
-    # metadata
-    additionDate = models.DateTimeField(auto_now_add=True)
-
-    def __unicode__(self):
-        return unicode(self.name) or u''
 
 class Relation(models.Model):
     biotoolsID = models.CharField(max_length=100, blank=False, null=False)
